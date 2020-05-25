@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "La commande touch",
-        "text": "step1.md"
+        "text": "step1.md",
+        "verify": "/usr/bin/exo1.sh"
       },
       {
         "title": "Step 2",
