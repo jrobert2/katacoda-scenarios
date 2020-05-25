@@ -1,1 +1,1 @@
-test $(ls | wc -l) -gt 1
+test $(ls | wc -l) -gt 1 && echo "done"
