@@ -1,1 +1,1 @@
-test $(pwd) -eq "/root/toto" && echo "done"
+test $(pwd) == eq "/root/toto" && echo "done"
