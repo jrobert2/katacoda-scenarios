@@ -6,8 +6,9 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "La commande touch",
         "text": "step1.md"
+        "verify": "test $(ls | wc -l) -gt 1"
       },
       {
         "title": "Step 2",
@@ -31,10 +32,19 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "docker-compose.yml",
+                "target": "~/"
+            }
+        ]
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !"
   },
   "backend": {
     "imageid": "bash"
