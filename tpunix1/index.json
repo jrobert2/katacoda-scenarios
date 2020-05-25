@@ -33,14 +33,15 @@
       "text": "finish.md"
     },
     "assets": {
-        "client": [
+        "host01": [
             {
                 "file": "*",
                 "target": "/usr/bin/"
             },
             {
                 "file": "exo1.sh",
-                "target": "/opt/exo1.sh"
+                "target": "/opt/exo1.sh",
+                "chmod": "+x"
             }
         ]
     }
