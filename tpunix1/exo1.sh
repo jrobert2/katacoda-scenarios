@@ -1,1 +1,1 @@
-test $(ls | wc -l) -gt 1 && echo "done"
+test $(pwd) -eq "/root/toto" && echo "done"
