@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "La commande touch",
+        "title": "Merci Céline de tester !",
         "text": "step1.md",
         "verify": "exo1.sh"
       },

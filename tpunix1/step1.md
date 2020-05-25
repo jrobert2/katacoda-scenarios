@@ -1,7 +1,3 @@
-# Salut Céline !!
-
-merci de tester :D
-
 # Les commandes de base
 
 Pour lister les fichiers présents, il te suffit de faire `ls`{{execute}}. (clique que ça exécute)
