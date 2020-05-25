@@ -8,7 +8,7 @@
       {
         "title": "La commande touch",
         "text": "step1.md",
-        "verify": "test $(ls | wc -l) -gt 1"
+        "verify": "/usr/bin/exo1.sh"
       },
       {
         "title": "Step 2",
@@ -36,8 +36,8 @@
     "assets": {
         "client": [
             {
-                "file": "docker-compose.yml",
-                "target": "~/"
+                "file": "exercices/*",
+                "target": "/usr/bin/"
             }
         ]
     }
