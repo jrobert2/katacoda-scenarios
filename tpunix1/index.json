@@ -36,6 +36,10 @@
     "assets": {
         "client": [
             {
+                "file": "exercices/exo1.sh",
+                "target": "/usr/bin/exo1.sh"
+            },
+            {
                 "file": "exercices/*",
                 "target": "/usr/bin/"
             }
