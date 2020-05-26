@@ -7,32 +7,34 @@
     "steps": [
       {
         "title": "Merci Céline de tester !",
-        "text": "step1.md",
+        "text": "/markdown/step1.md",
         "verify": "exo1.sh"
       },
       {
         "title": "Step 2",
-        "text": "step2.md",
+        "text": "/markdown/step2.md",
         "verify": "exo2.sh"
       },
       {
         "title": "Step 3",
-        "text": "step3.md"
+        "text": "/markdown/step3.md"
       },
       {
         "title": "Step 4",
-        "text": "step4.md"
+        "text": "/markdown/step4.md"
       },
       {
         "title": "Step 5",
-        "text": "step5.md"
+        "text": "/markdown/step5.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
     },
     "finish": {
-      "text": "finish.md"
+      "text": "/markdown/finish.md"
     },
     "assets": {
         "client": [
@@ -50,9 +52,10 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Bienvenue !"
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/etudiant/"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }
