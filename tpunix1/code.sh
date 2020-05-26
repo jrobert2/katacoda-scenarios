@@ -1,2 +1,6 @@
-sleep 2
+while ! id etudiant
+do
+    sleep 1
+done
 su - etudiant
+clear
