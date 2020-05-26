@@ -1,1 +1,1 @@
-echo done
+test -e "/root/toto" && echo "done"

@@ -1,6 +1,6 @@
 for i in $(seq 0 99)
 do
-    if [ ! -e fichier$i ]
+    if [ ! -e /root/toto/fichier$i ]
     then
         exit 0
     fi
