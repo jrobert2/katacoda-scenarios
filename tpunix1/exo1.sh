@@ -1,1 +1,1 @@
-test -e "/root/toto" && echo "done"
+test "$(grep ^PWD= /tmp/.env_etudiant | cut -d = -f 2)" == "root/toto" && echo "done"
