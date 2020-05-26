@@ -39,8 +39,8 @@
     "assets": {
         "client": [
             {
-                "file": "*",
-                "target": "/usr/bin/"
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
             },
             {
                 "file": "exo1.sh",

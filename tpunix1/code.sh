@@ -1,1 +1,1 @@
-echo Le script code.sh
+su etudiant
