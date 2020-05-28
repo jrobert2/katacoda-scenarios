@@ -1,3 +1,9 @@
-Quel génie. Tu es dans un répertoire toto, et c'est super. 
-Maintenant ce qui serait bien c'est que tu crée 100 fichiers : 
-fichier0, fichier1, ..., fichier99
+Génial, tu es maintenant dans le dossier toto!
+
+Ici il n'y a rien, tu peux faire `ls`{{execute}} pour le vérifier.
+
+# La commande touch
+
+La commande touch permet de créer un fichier, tu peux essayer : ``touch truc``{{execute}} permet par exemple de créer un fichier `truc`.
+
+Pour passer à l'étape suivante, crées un fichier `machin` !

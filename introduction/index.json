@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Merci Céline de tester !",
+        "title": "Bienvenue !",
         "text": "/markdown/step1.md",
         "verify": "/verify/exo1.sh"
       },
@@ -17,7 +17,8 @@
       },
       {
         "title": "Step 3",
-        "text": "/markdown/step3.md"
+        "text": "/markdown/step3.md",
+        "verify": "/verify/exo2.sh"
       },
       {
         "title": "Step 4",

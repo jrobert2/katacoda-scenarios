@@ -1,18 +1,23 @@
 Super, bravo !
-Désolé, mais j'ai pas mis d'autres questions..
-Tu peux quand même te tester avec ce QCM : 
 
->>Q1: Quelle commande permet de savoir quels sont les fichiers présents ?<<
-=== ls
+# for loop
 
->> Comment ferais tu pour créer un répertoire ?<<
-=~= mkdir
+Tu sais, en bash on peut aussi faire des boucles for. La syntaxe, c'est quelque chose comme ça :
 
->>Q3: Quelle commande existe en bash ? <<
-[*] cd
-[*] mkdir
-[ ] deplace
+```bash
+ for i in {1..10}
+do
+echo $i
+done
+```
 
->>Q4: Quelle commande liste les fichiers ? <<
-(*) ls
-( ) cd
+Et si tu veux, tu peux aussi regarder cette vidéo explicative :
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=v269EgmS5ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+# A toi !
+
+Maintenant pour passer à l'étape suivante, tu dois créer 100 fichiers :
+fichier0, fichier1, ..., fichier99

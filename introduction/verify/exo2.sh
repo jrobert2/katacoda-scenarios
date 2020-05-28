@@ -1,8 +1,4 @@
-for i in $(seq 0 99)
-do
-    if [ ! -e /home/etudiant/toto/fichier$i ]
-    then
-        exit 0
-    fi
-done
-echo done
+if [ ! -e /home/etudiant/toto/machin ]
+then
+        echo done
+fi
