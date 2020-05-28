@@ -5,9 +5,9 @@ Super, bravo !
 Tu sais, en bash on peut aussi faire des boucles for. La syntaxe, c'est quelque chose comme ça :
 
 ```bash
- for i in {1..10}
+for i in {1..10}
 do
-echo $i
+  echo $i
 done
 ```
 
