@@ -18,7 +18,7 @@
       {
         "title": "Step 3",
         "text": "/markdown/step3.md",
-        "verify": "/verify/exo2.sh"
+        "verify": "/verify/exo3.sh"
       },
       {
         "title": "Step 4",
