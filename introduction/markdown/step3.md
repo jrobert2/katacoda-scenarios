@@ -13,9 +13,7 @@ done
 
 Et si tu veux, tu peux aussi regarder cette vidéo explicative :
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=v269EgmS5ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<iframe width="853" height="480" src="https://www.youtube.com/embed/v269EgmS5ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # A toi !
 
