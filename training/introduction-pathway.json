@@ -1,0 +1,13 @@
+{
+  "title": "introduction",
+  "description": "Introduction à bash",
+  "courses": [
+    {
+      "pathway_id": "jrobert",
+      "title": "TP unix IUTO",
+      "id": "introduction",
+      "course_id": "introduction",
+      "description": "TP d'initiation à l'utilisation de bash"
+    }
+  ]
+}

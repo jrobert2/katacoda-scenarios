@@ -1,19 +1,19 @@
 {
-  "title": "TP unix IUTO",
-  "description": "TP d'initiation à l'utilisation de bash",
+  "title": "Introduction à Bash",
+  "description": "Découverte du terminal",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
         "title": "Merci Céline de tester !",
         "text": "/markdown/step1.md",
-        "verify": "exo1.sh"
+        "verify": "/verify/exo1.sh"
       },
       {
         "title": "Step 2",
         "text": "/markdown/step2.md",
-        "verify": "exo2.sh"
+        "verify": "/verify/exo2.sh"
       },
       {
         "title": "Step 3",
