@@ -1,0 +1,61 @@
+{
+  "title": "Introduction à Bash",
+  "description": "Découverte du terminal",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "text": "/markdown/step1.md",
+        "verify": "/verify/exo1.sh"
+      },
+      {
+        "title": "Se déplacer et se repérer",
+        "text": "/markdown/step2.md",
+        "verify": "/verify/exo2.sh"
+      },
+      {
+        "title": "Exercices",
+        "text": "/markdown/step3.md",
+        "verify": "/verify/exo3.sh"
+      },
+      {
+        "title": "Step 4",
+        "text": "/markdown/step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "/markdown/step5.md"
+      }
+    ],
+    "intro": {
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            },
+            {
+                "file": "home/*",
+                "target": "/home/",
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/etudiant/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
