@@ -45,7 +45,7 @@
             },
             {
                 "file": "home/*",
-                "target": "/home/",
+                "target": "/home/"
             }
         ]
     }
