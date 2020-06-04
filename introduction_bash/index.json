@@ -44,8 +44,8 @@
                 "target": "/etc/profile.d/"
             },
             {
-                "file": "home/*",
-                "target": "/home/"
+                "file": "home/etudiant/*",
+                "target": "/home/etudiant/"
             }
         ]
     }
