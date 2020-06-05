@@ -1,15 +1,15 @@
 Tu as remarqué que l'argument qu'il faut donner à cd dépend de l'endroit où tu te trouves ?
 
-Par exemple, pour aller dans le répertoire `/home/etudiant/Exo1`
+Par exemple:
 
->> Quel argument faut il donner dans le cas où tu es dans   `/home/etudiant/`  ?
+>> Pour aller dans le répertoire /home/etudiant/Exo1/ quel argument faut il donner dans le cas où tu es dans   `/home/etudiant/`  ? <<
 
 (*) cd Exo1/
 ( ) cd ../Exo1/
 ( ) cd etudiant/Exo1/
 
 
->> Quel argument faut il donner dans le cas où tu es dans `/home/`  ?
+>> Pour aller dans le répertoire /home/etudiant/Exo1/, quel argument faut il donner dans le cas où tu es dans `/home/`  ? <<
 
 ( ) cd Exo1/
 ( ) cd ../Exo1/
@@ -17,7 +17,7 @@ Par exemple, pour aller dans le répertoire `/home/etudiant/Exo1`
 
 
 
->> Quel argument faut il donner dans le cas où tu es dans `/home/etudiant/Documents/`  ?
+>> Pour aller dans le répertoire /home/etudiant/Exo1/, quel argument faut il donner dans le cas où tu es dans `/home/etudiant/Documents/` ? <<
 
 ( ) cd Exo1/
 (*) cd ../Exo1/
