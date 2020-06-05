@@ -5,9 +5,16 @@
     {
       "pathway_id": "jrobert",
       "title": "TP unix IUTO",
-      "id": "introduction",
-      "course_id": "introduction",
+      "id": "introduction_bash",
+      "course_id": "introduction_bash",
       "description": "TP d'initiation à l'utilisation de bash"
+    },
+    {
+      "pathway_id": "jrobert",
+      "title": "TP unix IUTO",
+      "id": "manipulation_fichiers",
+      "course_id": "manipulation_fichiers",
+      "description": "Manipuler les fichiers avec bash"
     }
   ]
 }
