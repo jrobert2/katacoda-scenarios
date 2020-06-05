@@ -22,8 +22,8 @@
     "assets": {
         "client": [
             {
-                "file": "catacombes/*",
-                "target": "/home/etudiant/catacombes/"
+                "file": "*",
+                "target": "/root/"
             }
         ]
     }
@@ -31,7 +31,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "Bienvenue !",
-    "uieditorpath": "/home/etudiant/"
+    "uieditorpath": "/root/"
   },
   "backend": {
     "imageid": "ubuntu"
