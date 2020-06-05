@@ -16,17 +16,21 @@
         "verify": "/verify/exo2.sh"
       },
       {
-        "title": "Exercices",
+        "title": "cat",
         "text": "/markdown/step3.md",
         "verify": "/verify/exo3.sh"
       },
       {
-        "title": "Step 4",
+        "title": "Chemin relatif",
         "text": "/markdown/step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Chemin absolu",
         "text": "/markdown/step5.md"
+      },
+      {
+        "title": "Résumé",
+        "text": "/markdown/step6.md"
       }
     ],
     "intro": {

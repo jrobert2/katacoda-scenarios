@@ -22,7 +22,7 @@ Dans le terminal, sur la ligne du haut, on voit un "prompt" :
 `etudiant@host01:/home/etudiant$ `
 
 La partie verte, etudiant@host01, signifie que l'utilisateur s'appelle "etudiant" et qu'il est actuellement sur la machine qui s'appelle "host01"
-La partie bleue, /home/etudiant/ est l'endroit où tu te trouves : dans le dossier etudiant qui est dans le dossier home.
+La partie bleue, /home/etudiant/, est l'endroit où tu te trouves : dans le dossier etudiant qui est dans le dossier home.
 Le `$` de la fin signifie juste que c'est la fin du "prompt", et juste après ce $, tu peux taper du texte.
 
 Si tu tapes quelque chose, ça s'écrit dans le prompt.
