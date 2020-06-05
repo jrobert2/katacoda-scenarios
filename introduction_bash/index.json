@@ -44,7 +44,7 @@
                 "target": "/etc/profile.d/"
             },
             {
-                "file": "home.zip",
+                "file": "home.tar.bz2",
                 "target": "/tmp"
             }
         ]
