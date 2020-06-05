@@ -1,9 +1,10 @@
 
 
 Il fait très noir dans ces catacombes.
-Tu connais un sortilège pour lister tous les éléments dans une pièces.
 
+Heureusement, tu connais un sortilège pour lister tous les éléments dans une pièces.
 Pour voir dans le noir, tape:   ls
+
 Pour te déplacer dans un autre endroit, tape:  cd <directory>
 
 Essaie de regarder autour de toi dans cette pièce.
@@ -12,6 +13,6 @@ Ensuite, déplace toi dans une des pièces voisines.
 Par exemple:
 
 $ ls
-$ cd cellar
+$ cd cave
 
 Pense à invoquer ``ls` lorsque tu sera dans la prochaine pièce !
