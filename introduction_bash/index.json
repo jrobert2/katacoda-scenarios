@@ -44,8 +44,8 @@
                 "target": "/etc/profile.d/"
             },
             {
-                "file": "home/etudiant/Exo1/*",
-                "target": "/home/etudiant/Exo1"
+                "file": "home.zip",
+                "target": "/tmp/home.zip"
             }
         ]
     }
