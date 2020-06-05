@@ -22,8 +22,8 @@
     "assets": {
         "host01": [
             {
-                "file": "*",
-                "target": "/root"
+                "file": "root.tar.bz2",
+                "target": "/tmp"
             }
         ]
     }
