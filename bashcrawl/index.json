@@ -20,7 +20,7 @@
       "text": "/markdown/finish.md"
     },
     "assets": {
-        "client": [
+        "host01": [
             {
                 "file": "*",
                 "target": "/root"
