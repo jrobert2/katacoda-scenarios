@@ -1,0 +1,325 @@
+#!/bin/bash
+#
+# Si tu lis ceci, c'est que tu t'es aventuré en dehors des limites,
+# et es en train de lire le code de ce jeu.
+#
+#                    Félicitations!
+#
+# C'est ta curiosité qui te permettra d'apprendre Linux. Lis ce code
+# et essaie de voir si tu peux le comprendre.
+#
+# Lorsque tu sera prêt à reprendre le jeux, alors, concentre toi sur
+# les parchemins.
+#
+echo "You have found a potion bottle of swirling"
+echo "green liquid. Do you want to drink it?"
+printf "\n"
+read RESP
+
+if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
+   echo "The taste of a rustic green plant fills your mouth."
+   echo "It warms and strengthens you."
+   printf "\n"
+   echo "Create a variable for your health points (HP)."
+   echo "You have 15 HP:"
+   echo "$ export HP=15"
+   printf "\n"
+else
+   echo "You weren't born yestermorn;"
+   echo "this potion is probably poison."
+   printf "\n"
+   echo "Create a variable for your health points (HP)."
+   echo "You have 10 HP:"
+   echo "$ export HP=10"
+   printf "\n"
+fi
+
+echo "You can check your health at any time:"
+printf "\n"
+echo "echo \$HP"
+printf "\n"
+mv ../../.chapel ../../chapel 2>/dev/null
+mv ../../.vault ../../vault 2>/dev/null
+mv ../../.scrap ../../scrap 2>/dev/null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Hmm, that didn't work.
+# Remember, when files end in a *
+# it means they are applications.
+# Try this:
+#
+# ./potion

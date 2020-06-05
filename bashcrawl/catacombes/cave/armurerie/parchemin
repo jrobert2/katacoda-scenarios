@@ -1,0 +1,18 @@
+
+# Tu peux intéragir avec les objets de la pièce (ils terminent par une *)
+# en les exécutant comme un programme.
+#
+# Par exemple, pour récupérer le contenu d'un trésor: 
+#
+# ./tresor
+# 
+# Le . signifie *ne bouge pas*, et le nom du script fait s'exécuter le code.
+# 
+# Tu as laissé un trésor dans la pièce précédente.
+# Retourne en arrière avec deux points, ce qui signifie
+# *faire un pas en arrière*.
+#
+# EXEMPLE:
+#
+# cd ..
+

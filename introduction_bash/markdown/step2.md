@@ -8,8 +8,8 @@
 ( ) Non
 
 
-# La commande touch
+# Voir le contenu d'un fichier
 
-La commande touch permet de créer un fichier, tu peux essayer : ``touch truc``{{execute}} permet par exemple de créer un fichier `truc`.
+La commande `cat` permet d'afficher le contenu d'un fichier texte. Par exemple, pour afficher le contenu d'un fichier nommé 'truc', on fera `cat truc` .
 
-Pour passer à l'étape suivante, crées un fichier `machin` !
+Pour passer à l'étape suivante, consulte le contenu du fichier README pour savoir ce qu'il faut que tu fasses.

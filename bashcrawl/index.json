@@ -9,24 +9,6 @@
         "title": "Bienvenue !",
         "text": "/markdown/step1.md",
         "verify": "/verify/exo1.sh"
-      },
-      {
-        "title": "Se déplacer et se repérer",
-        "text": "/markdown/step2.md",
-        "verify": "/verify/exo2.sh"
-      },
-      {
-        "title": "Exercices",
-        "text": "/markdown/step3.md",
-        "verify": "/verify/exo3.sh"
-      },
-      {
-        "title": "Step 4",
-        "text": "/markdown/step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "/markdown/step5.md"
       }
     ],
     "intro": {
@@ -40,12 +22,8 @@
     "assets": {
         "client": [
             {
-                "file": "tpunixauto.sh",
-                "target": "/etc/profile.d/"
-            },
-            {
-                "file": "home/etudiant/Exo1/*",
-                "target": "/home/etudiant/Exo1"
+                "file": "catacombes/*",
+                "target": "/home/etudiant/catacombes/"
             }
         ]
     }

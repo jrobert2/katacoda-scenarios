@@ -1,0 +1,14 @@
+
+# Les illusions sont fortes ici.
+# Il est difficile de discerner les passages vers les autres pièces des objets.
+#
+# Le sort que tu utilise pour regarder autour de toi peut être amélioré.
+#
+# A partir de maintenant, invoque ton sort de la manière suivante:
+# 
+# ls -F
+# 
+# Les pièces de ces catacombes (répertoires) terminent par le symbole / .
+# 
+# Les objets (programmes) terminent par le symbole *.
+

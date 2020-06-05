@@ -1,0 +1,516 @@
+#!/bin/bash
+#
+# Si tu lis ceci, c'est que tu t'es aventuré en dehors des limites,
+# et es en train de lire le code de ce jeu.
+#
+#                    Félicitations!
+#
+# C'est ta curiosité qui te permettra d'apprendre Linux. Lis ce code
+# et essaie de voir si tu peux le comprendre.
+#
+# Lorsque tu sera prêt à reprendre le jeux, alors, concentre toi sur
+# les parchemins.
+#
+gameover () {
+    echo "You see the corpse of a slain adventurer on the floor of the dungeon." > corpse
+    echo "You find the following items on the corpse:  " >> corpse
+    echo >> corpse
+    echo $I >> corpse
+    curr=`basename $PWD`
+    while [ "$curr" != "entrance" ]; do
+        pushd .. &> /dev/null
+        dirs -c
+        curr=`basename $PWD`
+    done
+    unset I
+    unset HP
+    $SHELL
+}
+roll() {
+    echo "Enter a number."
+    read NUM
+    ALPHA=$RANDOM
+    OMEGA=$RANDOM
+    A=`echo $ALPHA | cut -b 1-2`
+    O=`echo $OMEGA | cut -b 1-2`
+    let "NUM=$ALPHA % $OMEGA"
+    MONSTER=$RANDOM
+    MONSTER=`echo $MONSTER | cut -b 1-2`
+    NUM=`echo $NUM | cut -b 1-2`
+    echo "The monster rolled " $MONSTER
+    echo "You rolled " $NUM
+    resolve
+}
+
+resolve() {
+    if ! grep  --only-matching 'sword' <<< $I &> /dev/null; then
+        echo "You do not have a sword!"
+        echo
+        echo "Your attacks will be less effective."
+        let NUM=NUM-10
+    fi
+    if [[ $MONSTER -eq $NUM ]]; then
+	echo "You each parry one another's attacks."
+	echo "Roll again..."
+	roll
+    fi
+
+    if [[ $MONSTER -lt $NUM ]]; then
+       echo "A hit! A palpable hit!"
+       echo "You have slain the beast."
+       echo '#!/bin/bash
+             if ! grep  --only-matching crown <<< $I &> /dev/null; then
+                 echo "You have found a *crown*!"
+                 echo "Add it to your inventory."
+             else
+                 echo "This treasure has already been taken."
+            fi' > treasure
+       chmod +x treasure
+       mv monster carcass
+    else
+	echo "Your attack is deflected off the monster's leathery flesh."
+	echo "You take 5 points damage. Deduct this from your HP."
+	echo 'let "HP=HP-5"'
+    let HP=HP-5
+    export HP
+    if [ "$HP" -le 0 ]; then
+        echo "You have been slain by the monster."
+        echo
+        echo "GAME OVER!"
+        gameover
+        exit 1
+    fi
+	printf "\n"
+	roll
+    fi
+}
+
+if [ "$0" = "./carcass" ]; then
+    echo "You find the carcass of a foul beast."
+    echo
+    echo "Nothing of interest lies within its remains."
+    exit 0
+fi
+
+echo "A hulking three-legged beast, with a mouth full of fangs"
+echo "and a barbed tail and 8 arms, lumbers toward you."
+printf "\n"
+echo "If you have a sword, you can attack."
+echo "Otherwise, you should run."
+echo "Do you want to attack? y/n"
+read RESP
+
+if [ "$RESP" = "y" -o "$RESP" = "Y" ];then
+    roll
+else
+    echo "You wisely turn and flee."
+    echo "Quickly cd to the previous directory."
+fi
+printf "\n"
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+##
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+#
+# Well that didn't work!

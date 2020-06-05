@@ -1,5 +1,5 @@
 source /tmp/.env_etudiant
-if [ "$PWD" == "$HOME/Exo1/Dir42" ]
+if [ "$PWD" == "$HOME/toto" ]
 then
     echo done
 fi

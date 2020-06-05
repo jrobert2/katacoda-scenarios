@@ -1,8 +1,5 @@
-for i in $(seq 0 99)
-do
-    if [ ! -e /home/etudiant/toto/fichier$i ]
-    then
-        exit 0
-    fi
-done
-echo done
+source /tmp/.env_etudiant
+if [ "$PWD" == "$HOME/Exo1/Dir42" ]
+then
+    echo done
+fi

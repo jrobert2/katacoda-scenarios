@@ -1,0 +1,325 @@
+#!/bin/bash
+#
+# Si tu lis ceci, c'est que tu t'es aventuré en dehors des limites,
+# et es en train de lire le code de ce jeu.
+#
+#                    Félicitations!
+#
+# C'est ta curiosité qui te permettra d'apprendre Linux. Lis ce code
+# et essaie de voir si tu peux le comprendre.
+#
+# Lorsque tu sera prêt à reprendre le jeux, alors, concentre toi sur
+# les parchemins.
+#
+if [[ -e orb1 && -e orb2 && -e orb3 ]]; then
+    echo "You have freed the goblet's material form."
+    echo "Add 'goblet' to your inventory."
+    exit
+else
+    echo "You try to grasp the faintly glowing goblet,"
+    echo "but it passes through your fingers."
+fi
+
+printf "\n"
+echo "Are you stuck? Do you need a hint? y/n"
+read RESP
+
+if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
+ echo "Try searching opensource.com for"
+ echo "hints on how to copy files."
+ printf "\n"
+ echo "Still stuck? Do you need the answer? y/n"
+ read RESP
+
+ if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
+     echo "The cp command copies one file to another."
+     echo "Run this command:"
+     echo "$ cp orb1 orb2"
+     echo "$ cp orb1 orb3"
+     printf "\n"
+     echo "And then run this goblet script again"
+     echo "for confirmation."
+ fi
+fi
+
+printf "\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Hmm, that didn't work.
+# Remember, when files end in a *
+# it means they are applications.
+# Try this:
+#
+# ./goblet
