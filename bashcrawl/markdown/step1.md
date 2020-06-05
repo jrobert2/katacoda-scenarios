@@ -1,16 +1,11 @@
 
-Bonjour, merci d'être ici et de nous aider à tester !
+Bonjour, bienvenue dans le jeu d'exploration de donjeon qui te permettra d'apprendre à utiliser bash dans la peau d'un explorateur de catacombes.
 
-Je te laisse découvrir et arriver à la fin du scénario !
+C'est dans le terminal à droite (la fenêtre noire où il est écrit root@host01:~/catacombes#) que ça se passe. Pour une expérience de jeu exceptionnelle, n'hésites pas à le mettre en plein écran (c'est une des symboles en haut à droite du terminal) !
 
-# Les commandes de base
+Pour commencer, il faut que tu lises le parchemin en tapant : 
 
-Pour lister les fichiers présents, il te suffit de faire `ls`{{execute}}  (cliques que ça exécute).
+`cat parchemin`{{execute}}
 
-Ne t'inquiètes pas si tu ne vois rien apparaître, c'est que le dossier est vide !
 
-Pour créer un répertoire, par exemple "toto", tu peux faire `mkdir toto`{{execute}}
-
-Vas-y, maintenant, lance `ls` de nouveau pour voir ce que ça fait. Cette fois je te laisse le faire à la main dans le terminal qui est à coté !
-
-Et maintenant, pour te déplacer, il y a la commande `cd`. Désolé cette fois tu vas devoir taper tout toi même: déplace toi dans le répertoire toto avant de continuer.
+Et en avant l'aventure !

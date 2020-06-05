@@ -1,12 +1,12 @@
 {
-  "title": "Introduction à Bash",
+  "title": "Les catacombes du bash",
   "description": "Jeu de découverte de bash",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Bienvenue !",
+        "title": "Bienvenue aventurier !",
         "text": "/markdown/step1.md",
         "verify": "/verify/exo1.sh"
       }
