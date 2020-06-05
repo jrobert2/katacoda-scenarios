@@ -45,7 +45,7 @@
             },
             {
                 "file": "home.zip",
-                "target": "/tmp/home.zip"
+                "target": "/tmp"
             }
         ]
     }
