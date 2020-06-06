@@ -1,0 +1,16 @@
+{
+  "title": "M1101",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Introduction à bash",
+      "description": "Introduction  au terminal.",
+      "course_id": "introduction_bash"
+    },
+    {
+      "title": "Manipuler les fichiers",
+      "description": "Suppression, copie, déplacement de fichiers",
+      "course_id": "manipulation_fichiers"
+    }
+  ]
+}
