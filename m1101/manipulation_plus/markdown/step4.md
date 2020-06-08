@@ -1,21 +1,11 @@
+# Jocker
 
-Tu dois toujours être dans le répertoire `/home/etudiant/Exo1/Dir64/Swwdfhjoillk/`, si ce n'est pas le cas, retournes-y avec `cd /home/etudiant/Exo1/Dir64/Swwdfhjoillk/`{{execute}}
+De nombreuses commandes prennnent un nombre arbirtraire d'arguments.
 
-# mkdir
-
-
-`mkdir` est une commande qui permet de créer un répertoire (make directory).
-Par exemple, `mkdir toto`{{execute}} crée le dossier toto dans le répertoire courant.
-
-Bien sûr, comme pour toutes les autres commandes on peut donner à mkdir un chemin absolu :
-`mkdir /home/etudiant/toto`
+Par exemple, `cp fichier1.txt fichier2.txt fichier3.txt destination/` copiera les fichiers `fichier1.txt fichier2.txt`et `fichier3.txt` dans le dossier `destination/`.
 
 
+NOTA : COMMENT FAIRE Comprendre que bash est un interpréteur ?? (i.e. que quand on tape truc machin il sépare les arguments par des espaces, etc. ???
 
->> Quelles commandes permettent de créer un répertoire /home/etudiant/Documents ?
 
-[*] mkdir /home/etudiant/Documents/
-[ ] rmdir /home/etudiant/Documents/
-[ ] mkdir ../Documents/
-[*] mkdir ../../../Documents/
-[ ] ls /home/etudiant/Documents/
+  
