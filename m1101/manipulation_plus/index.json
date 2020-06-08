@@ -1,38 +1,31 @@
 {
-  "title": "Manipuler les fichiers avec Bash",
+  "title": "Manipuler les fichiers avec Bash: compléments",
   "description": "Découverte du terminal",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "La complétion automatique",
-        "text": "/markdown/step1.md",
-        "verify": "/verify/exo1.sh"
+        "title": "./ et ../",
+        "text": "/markdown/step1.md"
       },
       {
-        "title": "Supprimer un fichier",
-        "text": "/markdown/step2.md",
-        "verify": "/verify/exo2.sh"
+        "title": "Arguments et options",
+        "text": "/markdown/step2.md"
       },
       {
-        "title": "Supprimer un dossier",
-        "text": "/markdown/step3.md",
-        "verify": "/verify/exo3.sh"
+        "title": "Quand renommer c'est déplacer",
+        "text": "/markdown/step3.md"
       },
       {
-        "title": "Créer des dossiers",
+        "title": "Jockers",
         "text": "/markdown/step4.md"
       },
       {
-        "title": "Créer des dossiers, exercice",
+        "title": "Conclusion",
         "text": "/markdown/step5.md",
         "verify": "/verify/exo5.sh"
 
-      },
-      {
-        "title": "Résumé",
-        "text": "/markdown/step6.md"
       }
     ],
     "intro": {
