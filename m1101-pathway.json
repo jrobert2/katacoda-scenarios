@@ -11,6 +11,12 @@
       "title": "Manipuler les fichiers",
       "description": "Suppression, copie, déplacement de fichiers",
       "course_id": "manipulation_fichiers"
+    },
+    {
+      "title": "Manipuler les fichiers: compléments",
+      "description": "Compléments indispensables",
+      "course_id": "manipulation_plus"
     }
+
   ]
 }
