@@ -1,1 +1,1 @@
-# On se retrouve dans le scénario suivant pour voir comment on manipule les fichiers : copier, supprimer, modifier, le tout sans cliquer ! 
+# Dans notre exploration des commandes, il y a quelques petites choses qu'on a survolées. On se retrouve dans le scénario suivant pour faire le point dessus : les chemins . et .. , les arguments et les options, renommer un fichier, les jokers.. 
