@@ -56,5 +56,6 @@
   },
   "backend": {
     "imageid": "ubuntu"
-  }
+  },
+  "files":["hello_world.sh"]
 }

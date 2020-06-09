@@ -7,7 +7,7 @@ Dans ce scénario, tu as accès à un éditeur, ce sera un peu plus pratique que
 
 Recopie le code suivant dans un fichier hello_world.sh :
 
-<pre class="file" data-filename="hellow_world.sh" data-target="replace">#!/usr/bin/bash
+<pre class="file" data-filename="hello_world.sh" data-target="replace">#!/usr/bin/bash
 echo Bonjour
 </pre>
 
@@ -43,4 +43,40 @@ Par exemple :
 </bash>
 </pre>
 
-# Quiz
+# Quelques scripts
+
+Essaie le script suivant :
+
+<pre>
+<code class="bash">.
+   #!/bin/bash
+   # Auteur :  A. B.
+   ls
+   cd /tmp/
+   ls
+</bash>
+</pre>
+
+
+>> Que fait-il ? <<
+(*) il affiche la liste des fichiers du dossier courant puis ceux du dossier /tmp/,
+( ) il affiche la liste des fichiers du dossier /tmp/ puis ceux du dossier courant,
+( ) il ne fait rien,
+( ) il ne fonctionne pas
+
+
+Essaie le script suivant :
+
+<pre>
+<code class="bash">.
+   #!/bin/bash
+   # Auteur :  A. B.
+   cd /tmp/
+</bash>
+</pre>
+
+
+>> Après l'exécution du script, te trouves tu dans /tmp/ ? <<
+
+( ) oui
+(*) non
