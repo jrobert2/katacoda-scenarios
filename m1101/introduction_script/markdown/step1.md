@@ -21,7 +21,6 @@ Dans le terminal, exécute ce code en lançant l'interpréteur bash sur le fichi
 De la même manière, on t'a préparé d'autres scripts écrits dans d'autres langages, tu peux regarder et exécuter :
 
 * Un script python:  `python3 hello_world.py`{{execute}}
-* Un script perl:  `perl hello_world.pl`{{execute}}
 * Un script php:  `php hello_world.php`{{execute}}
 
 
@@ -34,7 +33,7 @@ l'usage du script et toute autre information utile.
  * Les autres lignes commençant par des ``#`` sont des *commentaires* et ne sont pas exécutées.
 
 Par exemple :
-<pre class="file">
+<pre>
 <code class="bash">.
    #!/bin/bash
    # Auteur :  A. B.

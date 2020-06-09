@@ -1,2 +1,2 @@
 #!/usr/bin/perl
-print Bonjour
+print "Bonjour\n"
