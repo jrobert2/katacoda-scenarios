@@ -16,7 +16,16 @@
       "title": "Manipuler les fichiers: compléments",
       "description": "Compléments indispensables",
       "course_id": "manipulation_plus"
+    },
+    {
+      "title": "Fichiers: Introduction aux droits",
+      "description": "Explications sur les droits des fichiers et comment les modifier",
+      "course_id": "introduction_droits"
+    },
+    {
+      "title": "Introduction aux scripts",
+      "description": "Ecriture et exécution d'un premier script",
+      "course_id": "introduction_script"
     }
-
   ]
 }
