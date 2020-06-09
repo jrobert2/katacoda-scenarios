@@ -22,6 +22,21 @@
       "id": "manipulation_plus",
       "course_id": "manipulation_plus",
       "description": "Approfondissements sur la manipulation des fichiers"
+    },
+    {
+      "pathway_id": "jrobert",
+      "title": "TP unix IUTO",
+      "id": "introduction_droits",
+      "course_id": "introduction_droits",
+      "description": "Fichiers: introduction aux droits"
+    },
+    {
+      "pathway_id": "jrobert",
+      "title": "TP unix IUTO",
+      "id": "introduction_scripts",
+      "course_id": "introduction_scripts",
+      "description": "Ecriture et exécution d'un premier script"
     }
+
   ]
 }

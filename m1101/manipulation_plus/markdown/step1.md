@@ -15,15 +15,15 @@ Essaie !
 
 # Quizz
 
->> Vous êtes dans le dossier /home/etudiant/. Où mène le chemin relatif ../././ ? (mettez un / à la fin de votre chemin) <<
+>> Tu es dans le dossier /home/etudiant/. Où mène le chemin relatif ../././ ? (veille à ce que ton chemin termine par un /) <<
 === /home/
 
->> Vous êtes dans le dossier /etc/firefox/. Où mène le chemin relatif ../../opt/ ? (mettez un / à la fin de votre chemin) <<
+>> Tu es dans le dossier /etc/firefox/. Où mène le chemin relatif ../../opt/ ? (veille à ce que ton chemin termine par un /) <<
 === /opt/
 
->> Vous êtes dans le dossier /etc/, où mène le chemin absolu /../../opt/ ? (indication: le parent de la racine est la racine elle même) <<
+>> Tu es dans le dossier /etc/, où mène le chemin absolu /../../opt/ ? (indication: le parent de la racine est la racine elle même) <<
 
 === /opt/
 
->> Vous êtes dans le dossier /etc/firefox/. Où mène le chemin /etc/../home/../etc/../ ? (mettez un / à la fin de votre chemin) <<
+>> Tu es dans le dossier /etc/firefox/. Où mène le chemin /etc/../home/../etc/../ ? (veille à ce que ton chemin termine par un /) <<
 === /
