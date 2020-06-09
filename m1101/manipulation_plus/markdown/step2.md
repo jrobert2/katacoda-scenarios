@@ -1,5 +1,7 @@
 # Argument et options
 
+=> PARLER de echo 
+
 # Des options utiles pour ls
 
 ## Les fichiers et dossiers cachés
