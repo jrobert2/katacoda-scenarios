@@ -8,7 +8,7 @@ Dans ce dossier, tu dois voir qu'il y a 4 dossiers.
 Fais maintenant exactement ce que je te dis :
 
 * tape `cd S`
-* appuie avec ton auriculaire de la main gauche (oui oui) sur la touche tabulation de ton clavier (la touche  ![touche tabulation](./images/tab.png))
+* appuie avec ton auriculaire de la main gauche (oui oui) sur la touche tabulation de ton clavier (la touche  ![touche tabulation](./assets/tab.png))
 
 Tu devrais maintenant voir que bash a trouvé *tout seul* la suite du mot que tu voulais taper. C'est ça *la complétion automatique* .
 
