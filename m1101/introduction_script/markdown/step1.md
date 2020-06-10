@@ -34,7 +34,7 @@ l'usage du script et toute autre information utile.
 
 Par exemple :
 <pre>
-<code class="bash">.
+<code class="bash">
    #!/bin/bash
    # Auteur :  A. B.
    # Ce script liste le contenu de ton home
@@ -48,7 +48,7 @@ Par exemple :
 Essaie le script suivant :
 
 <pre>
-<code class="bash">.
+<code class="bash">
    #!/bin/bash
    # Auteur :  A. B.
    ls
@@ -72,7 +72,7 @@ Essaie le script suivant :
    #!/bin/bash
    # Auteur :  A. B.
    cd /tmp/
-</bash>
+</code>
 </pre>
 
 
