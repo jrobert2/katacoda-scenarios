@@ -2,7 +2,9 @@
 # Exercice
 
 Écris un script `arborescence.sh` qui crée l'arborescence suivante dans le répertoire courant :
+
 ![arborescence](./assets/Pour_ranger.png)
+
 
 [//] TODO : Ajouter des exercices pour faire faire des scripts simples
 [//] Peut être faire lire des scripts avec des commandes pas encore vues

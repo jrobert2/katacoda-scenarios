@@ -3,7 +3,7 @@
 Reprenons le script suivant, hello_world.sh :
 
 <pre class="file" data-filename="hello_world.sh" data-target="replace">
-#!/usr/bin/bash
+#!/bin/bash
 echo Bonjour
 </pre>
 
@@ -26,10 +26,9 @@ Lorsque tu exécutes le fichier hello_world.sh, c'est comme si tu exécutais `/u
 
 # Expérimentations
 
-Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ?
-Essaie avec :
+Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu peux essayer !
 
->> Que fait l'exécution du script si tu choisis `/usr/bin/cat` comme interpréteur ? <<
+>> Que fait l'exécution du script si tu choisis /usr/bin/cat comme interpréteur ? <<
 
 ( ) rien
 ( ) il afficher Bonjour
@@ -38,7 +37,7 @@ Essaie avec :
 ( ) il affiche hello_world.sh
 ( ) il plante en disant que cet interpréteur n'existe pas
 
->> Que fait l'exécution du script si tu choisis `/bin/echo` comme interpréteur ? <<
+>> Que fait l'exécution du script si tu choisis /bin/echo comme interpréteur ? <<
 
 ( ) rien
 ( ) il afficher Bonjour

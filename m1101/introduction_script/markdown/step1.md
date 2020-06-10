@@ -21,7 +21,7 @@ Dans le terminal, exécute ce code en lançant l'interpréteur bash sur le fichi
 De la même manière, on t'a préparé d'autres scripts écrits dans d'autres langages, tu peux regarder et exécuter :
 
 * Un script python:  `python3 hello_world.py`{{execute}}
-* Un script php:  `php hello_world.php`{{execute}}
+* Un script perl:  `perl hello_world.pl`{{execute}}
 
 
 # Composition d'un script bash
@@ -40,7 +40,7 @@ Par exemple :
    # Ce script liste le contenu de ton home
    ls ~
    # Ceci est un commentaire et ne sera pas exécuté
-</bash>
+</code>
 </pre>
 
 # Quelques scripts
@@ -54,7 +54,7 @@ Essaie le script suivant :
    ls
    cd /tmp/
    ls
-</bash>
+</code>
 </pre>
 
 
