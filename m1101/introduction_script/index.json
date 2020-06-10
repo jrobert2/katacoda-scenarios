@@ -1,16 +1,16 @@
 {
   "title": "Manipuler les fichiers avec Bash: compléments",
-  "description": "Découverte du terminal",
+  "description": "Introduction aux scripts",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Script bash",
         "text": "/markdown/step1.md"
       },
       {
-        "title": "",
+        "title": "Interpréteur et exécution de script",
         "text": "/markdown/step2.md"
       },
       {

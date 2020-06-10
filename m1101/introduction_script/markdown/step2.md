@@ -1,23 +1,86 @@
 # Interpréteur
 
-TODO : ici on montre qu'on peut aussi lancer le script en utilisant un interpréteur .
+Reprenons le script suivant, hello_world.sh :
+
+<pre class="file" data-filename="hello_world.sh" data-target="replace">
+#!/usr/bin/bash
+echo Bonjour
+</pre>
+
+La première ligne, `#!/usr/bin/bash` est composée de deux choses:
+* `/usr/bin/bash` : le chemin vers l'interpréteur bash
+* `#!` : un truc qu'il faut mettre pour dire qu'on est en train de donner le chemin vers l'interpréteur.
+
+Jusqu'à présent, si tu n'as pas mis cette ligne, ça ne change rien.
+Tu vas voir ici à quoi ça sert.
+
+Commence par donner les droits d'exécution à ton fichier :
+`chmod u+x hello_world.sh`{{execute}}
+
+En faisant ça, tu permets *d'exécuter* ton script directement en faisant :
+
+`./hello_world.sh`{{execute}}
+
+Et peut être comprends tu maintenant à quoi sert la ligne définissant l'interpréteur ?
+Lorsque tu exécutes le fichier hello_world.sh, c'est comme si tu exécutais `/usr/bin/bash hello_world.sh` !
+
+# Expérimentations
+
+Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ?
+Essaie avec :
+
+>> Que fait l'exécution du script si tu choisis `/usr/bin/cat` comme interpréteur ? <<
+
+( ) rien
+( ) il afficher Bonjour
+(*) il affiche le contenu du script
+( ) il supprime le script
+( ) il affiche hello_world.sh
+( ) il plante en disant que cet interpréteur n'existe pas
+
+>> Que fait l'exécution du script si tu choisis `/bin/echo` comme interpréteur ? <<
+
+( ) rien
+( ) il afficher Bonjour
+( ) il affiche le contenu du script
+( ) il supprime le script
+(*) il affiche hello_world.sh
+( ) il plante en disant que cet interpréteur n'existe pas
+
+>> Que fait l'exécution du script si tu choisis `/usr/bin/toto` comme interpréteur ? <<
+
+( ) rien
+( ) il afficher Bonjour
+( ) il affiche le contenu du script
+( ) il supprime le script
+( ) il affiche hello_world.sh
+(*) il plante en disant que cet interpréteur n'existe pas
+
+>> Que fait l'exécution du script si tu choisis `/usr/bin/rm` comme interpréteur ? <<
+
+( ) rien
+( ) il afficher Bonjour
+( ) il affiche le contenu du script
+(*) il supprime le script
+( ) il affiche hello_world.sh
+( ) il plante en disant que cet interpréteur n'existe pas
 
 
+# Python
 
-#. Quel est l'interpréteur utilisé par ce script ?
-#. Recopiez ce script. Quels droits faut il lui donner pour pouvoir l'exécuter ? Exécutez le.
-#. Modifiez le script pour qu'il liste le contenu de votre répertoire :file:`Documents`
-#. Que se passe-t-il si vous utilisez un autre interpréteur que celui précisé ?
+Écris un script python qui affiche Bonjour :
 
-   Essayez avec :
+<pre class="python">
+#!/usr/bin/python3
+print("Bonjour")
+</pre>
 
-    a) ``/bin/sh``
-    #) ``/bin/toto``
-    #) ``/usr/bin/python``
-    #) ``/bin/echo``
-    #) ``/bin/rm``
+Donnes lui les droits d'exécution (`chmod u+x tonscript.py`)
 
-#. Expliquez les affichages obtenus avec les interpréteurs précédents.
-#. Quel "interpréteur" ferait s'afficher le contenu du fichier ?
-#. Quel "interpréteur" ferait s'autodétruire le fichier ?
-#.  Quel interpréteur est utilisé lorsqu'on oublie de le spécifier ?
+Exécutes le !
+
+>> Que se passe-t-il si tu changes l'interpréteur pour /bin/bash ? <<
+
+(*) ça signale qu'il y a une erreur de syntaxe, car la syntaxe de bash n'est pas la même que celle de python.
+( ) ça ne fait rien, car le bash et le python ne sont pas compatibles,
+( ) ça affiche Bonjour, car il y a un peu de magie quand même.
