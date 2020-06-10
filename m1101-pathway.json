@@ -26,6 +26,11 @@
       "title": "Introduction aux scripts",
       "description": "Ecriture et exécution d'un premier script",
       "course_id": "introduction_script"
+    },
+    {
+      "title": "Le man",
+      "description": "Familiarisation avec le man",
+      "course_id": "introduction_man"
     }
   ]
 }
