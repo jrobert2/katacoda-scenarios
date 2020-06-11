@@ -1,21 +1,11 @@
+# Lecture de variable demandée à l'utilisateur
+
+Dans le terminal, exécute : `read maVariable`{{execute}}.
+Le terminal attend que tu tape du texte, on dit que read lit son *entrée standard* ; met par exemple « Bonjour ».
+>> Que contient maintenant la variable $maVariable ? <<
+=== Bonjour
 
 
-[//] TODO : Ajouter des exercices pour faire faire des scripts simples
-[//] Peut être faire lire des scripts avec des commandes pas encore vues
-[//] comme : date, pwd, cut, wc, basename, du, df, touch, md5sum (pourquoi pas), uptime, whoami, who, time, sleep,
+# A toi !
 
-
-[//] Avec sleep :
-[//] heure=$(date)
-[//] echo "John > Salut !" $heure
-[//] sleep 1
-[//] echo "Ringo > Yo, ça va?"
-[//] ..
-
-
-[//] Globalement toutes mes idées nécessitent au moins la notion de variable.
-[//] Ne serait-ce pas l'occasion d'introduire : variable=$()  et echo $variable ?
-
-[//] avec uptime, whoami, who,
-[//] echo "Ta machine est allumée depuis" $(uptime -s)
-[//]..
+Écris un script qui affiche « Quel est ton nom ? », puis lit l’entrée standard et la stocke dans une variable $nom, et enfin affiche Bonjour suivi de la variable $nom.

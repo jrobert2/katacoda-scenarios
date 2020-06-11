@@ -1,40 +1,79 @@
 
-Crée le script suivant jockers.sh :
+Crée le script suivant jokers.sh :
 
-<pre class="file" data-filename="jockers.sh" data-target="replace">
+<pre class="file" data-filename="jokers.sh" data-target="replace">
 #!/bin/bash
-# Ce script affiche le nombre d'arguments et les premiers.
+# Ce script affiche le nombre d'arguments et les premiers arguments
 echo Le nombre d\'arguments est $#
-echo Premier argument : $1, deuxieme : $2, et ensuite : $3 $4 $5 $6 $7 $8 $9
+echo argument1: $1
+
 </pre>
 
 * Exécute ce script de manière à voir s’afficher : Premier argument : Bonjour, deuxieme : tout, et ensuite : le monde !!!
 
 
+>> Si tu exécutes `./jokers.sh *`, que vois tu s'afficher ? <<
 
-TODO TODO
+(*) argument1: premier fichier affiché par ls
+( ) argument1: tous les fichiers affichés par ls
+( ) argument1: *
+
+>> Pourquoi ? <<
+
+(*) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+( ) car le script a été exécuté avec comme argument *
+( ) car le script a été exécuté avec comme premier argument "fichier1 fichier2 ..."
+
+>> Si tu exécutes `./jokers.sh \*`, que vois tu s'afficher ? <<
+
+() argument1: premier fichier affiché par ls
+(*) argument1: tous les fichiers affichés par ls
+( ) argument1: *
+
+>> Pourquoi ? <<
+
+( ) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+(*) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+( ) car le script a été exécuté avec comme premier argument "fichier1 fichier2 ..."
+
+
+Modifiez le script pour qu'il contienne :
+
+<pre class="file" data-filename="jokers.sh" data-target="replace">
+#!/bin/bash
+# Ce script affiche le nombre d'arguments et les premiers arguments
+echo Le nombre d\'arguments est $#
+echo argument1: "$1"
+</pre>
+
+
+Tu as vu la différence ? Les guillemets autour de $1 !
+
+
+>> Si tu exécutes `./jokers.sh *`, que vois tu s'afficher ? <<
+
+(*) argument1: premier fichier affiché par ls
+( ) argument1: tous les fichiers affichés par ls
+( ) argument1: *
+
+
+>> Pourquoi ? <<
+
+(*) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+( ) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme unique argument la chaine "fichier1, fichier2, etc."
+( ) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
 
 
 
+>> Si tu exécutes `./jokers.sh \*`, que vois tu s'afficher ? <<
+
+( ) argument1: premier fichier affiché par ls
+( ) argument1: tous les fichiers affichés par ls
+(*) argument1: *
 
 
-* Exécute ce script de manière à voir s’afficher : Premier argument : \*, deuxieme : , et ensuite :
+>> Pourquoi ? <<
 
-* Que se pase il passé lorsque vous avez essayé ./jocker.sh * ?
-    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo * ? Vérifiez le.
-    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo *.sh ? Vérifiez le.
-    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo *trololololo ? Vérifiez le.
-    Déplacez vous dans le répertoire /bin. Essayez : echo b*, echo ??, echo l? . À quoi correspond le caractère ? ?
-    Combien de fichiers dont le nom est composé de trois caractères y a-t-il dans le dossier /bin ?
-    combien de fichiers dont le nom commence par un c et se termine par « conf » y a-t-il dans le dossier /etc ?
-    Proposez des noms de fichiers qui correspondraient à :
-        toto
-        .??
-        c*d*.conf
-    Proposez des noms de fichier correspondant à c* mais pas à c*? .
-    Déplacez vous dans le répertoire /bin. Essayez : echo [br]*, echo {ba,re}*. À quoi correspondent [] et {} ?
-    Comment afficher tous les fichiers dont le nom commence par un nombre ?
-    Comment afficher les fichiers dont le nom se termine par .sh ou par .conf ?
-    Comment supprimer les fichiers dont le nom se termine par .aux ou par .log ?
-    Comment afficher les fichiers dont le nom contient un b, un c ou un d ?
-    Comment afficher les fichiers dont le nom contient plus de deux lettres et se termine par un b, un c ou un d ?
+( ) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+(*) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme unique argument la chaîne "*"
+( ) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
