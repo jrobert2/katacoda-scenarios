@@ -41,7 +41,13 @@
       "title": "Les arguments d'un script",
       "description": "Passer des arguments à un scipt",
       "course_id": "arguments_script"
+    },
+    {
+      "title": "Les fichiers : approfondissements",
+      "description": "Approfondissements sur les permissions et les fichiers",
+      "course_id": "approfondissements_droits_fichiers"
     }
+
     
   ]
 }

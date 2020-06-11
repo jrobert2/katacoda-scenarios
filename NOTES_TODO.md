@@ -12,8 +12,11 @@ Objectif : savoir tuer un processus .. ca suffirait je pense
 ## Les jokers :
  à faire: manipulation_plus step4 , a faire
 
+## chmod
+ à faire : compléter le step 3 de introductions_droits + faire un quizz
+
 ##  Gestion des droits ++ :
-   à reprendre de l'existant
+   finaliser dans approfondissements_droits_fichiers
 
 
 ## Redirections
@@ -28,7 +31,9 @@ Objectif : savoir tuer un processus .. ca suffirait je pense
 
 ## AUTRES
 
-Parler de ~
+* Le raccourcis '~' , "mon home",
+* La sortie d'erreur (je ne suis pas sûr que ce soit bien décrit)
+
 
 # Compléter par des séquences "Fais le point" qui permettent à l'étudiant de savoir s'il peut prétendre à la compétence
 
