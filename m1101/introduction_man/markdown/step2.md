@@ -142,13 +142,15 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 [ ] Dans le man de la commande less
 
 
->>  --follow-name :
+<pre>
+--follow-name :
 
     Normally,  if  the  input  file is renamed while an F command is
     executing, less will continue to display  the  contents  of  the
     original  file  despite  its  name  change.
-<<
+</pre>
 
+>> Se trouve dans : <<
 
 [ ] NAME
 [ ] SYNOPSYS
@@ -164,12 +166,12 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 [ ] Dans le man de la commande sort
 [*] Dans le man de la commande less
 
-
->>
+<pre>
     sort [OPTION]... [FILE]...
     sort [OPTION]... --files0-from=F
-<<
+</pre>
 
+>> Se trouve dans : <<
 
 [ ] NAME
 [*] SYNOPSYS
@@ -185,10 +187,13 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 [*] Dans le man de la commande sort
 [ ] Dans le man de la commande less
 
->> Create archive.tar from files foo and bar.
+
+<pre> Create archive.tar from files foo and bar.
 
    tar -cf archive.tar foo bar
-<<
+</pre>
+
+>> Se trouve dans: <<
 
 [ ] NAME
 [ ] SYNOPSYS

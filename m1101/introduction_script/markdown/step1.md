@@ -7,7 +7,7 @@ Dans ce scénario, tu as accès à un éditeur, ce sera un peu plus pratique que
 
 Recopie le code suivant dans un fichier hello_world.sh :
 
-<pre class="file" data-filename="hello_world.sh" data-target="replace">#!/usr/bin/bash
+<pre class="file" data-filename="hello_world.sh" data-target="replace">#!/bin/bash
 echo Bonjour
 </pre>
 

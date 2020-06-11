@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Introduction aux arguments.",
         "text": "/markdown/step1.md"
       },
       {
-        "title": "",
+        "title": "Échappement",
         "text": "/markdown/step2.md"
       },
       {
@@ -23,9 +23,7 @@
       },
       {
         "title": "Conclusion",
-        "text": "/markdown/step5.md",
-        "verify": "/verify/exo5.sh"
-
+        "text": "/markdown/step5.md"
       }
     ],
     "intro": {
@@ -50,11 +48,12 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uimessage1": "Bienvenue !",
     "uieditorpath": "/home/etudiant/"
   },
   "backend": {
     "imageid": "ubuntu"
-  }
+  },
+  "files":["exArgs.sh"]
 }

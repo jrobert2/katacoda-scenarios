@@ -1,14 +1,12 @@
 Super !
 
-Il est aussi possible de mettre le résultat d'une commande dans une variable, par exemple :
-
-̀ fichiers=$(ls)`{{execute}}
+Il est aussi possible de mettre le résultat d'une commande dans une variable, par exemple : `fichiers=$(ls)`{{execute}}
 
 Tu peux ensuite constater que ça fonctionne:
 
-`echo mes fichiers sont : $fichiers`
+`echo mes fichiers sont : $fichiers`{{execute}}
 
-# A toi
+# À toi
 
 Écris un script qui affiche :
 
