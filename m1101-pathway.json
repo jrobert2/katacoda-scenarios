@@ -28,9 +28,19 @@
       "course_id": "introduction_script"
     },
     {
+      "title": "Variables",
+      "description": "Utilisation des variables",
+      "course_id": "variables"
+    },
+    {
       "title": "Le man",
       "description": "Familiarisation avec le man",
       "course_id": "introduction_man"
+    },
+    {
+      "title": "Les arguments d'un script",
+      "description": "Passer des arguments à un scipt",
+      "course_id": "arguments_script"
     }
     
   ]
