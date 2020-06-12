@@ -8,15 +8,13 @@
       {
         "title": "Bienvenue !",
         "text": "/markdown/step1.md",
-        "verify": "/verify/exo1.sh"
       },
       {
-        "title": "Se déplacer et se repérer",
+        "title": "Se repérer et voir le contenu d'un fichier",
         "text": "/markdown/step2.md",
-        "verify": "/verify/exo2.sh"
       },
       {
-        "title": "cat",
+        "title": "Se déplacer",
         "text": "/markdown/step3.md",
         "verify": "/verify/exo3.sh"
       },
