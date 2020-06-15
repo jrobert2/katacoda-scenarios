@@ -23,8 +23,7 @@
       },
       {
         "title": "Conclusion",
-        "text": "/markdown/step5.md",
-        "verify": "/verify/exo5.sh"
+        "text": "/markdown/step5.md"
 
       }
     ],

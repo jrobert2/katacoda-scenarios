@@ -1,20 +1,24 @@
-# Chmod et code hexa
+# Droits en hexa
 
-TODO : donner une explication +  créer le quizz adapté !
+Remarque que les droits d'un fichier bien qu'écrits sous la forme `rwxr-xr--` pourraient être écrits comme : `111101100` en remplaçant les lettres par des 1 et les - par des 0. On a alors un nombre écrit en binaire.
 
-Dans chaque cas, préciser les droits de fichier à l’issue des commandes suivantes :
+Comme ce n'est pas très lisible, on va l'écrire en octal : on va reprendre chaque groupe de 3 bits et écrire le chiffre correspondant.
+Par exemple : `111 101 100` s'écrit `754`, puisque `111` est 7 en binaire, `101` est 5 et ̀`100` est 4 !
 
-* chmod 734 fichier
-* chmod 022 fichier
-* chmod 601 fichier
-        chmod 754 fichier
-        chmod 776 fichier
-        chmod 555 fichier
-        chmod 777 fichier
-        chmod 500 fichier
-        chmod 550 fichier
 
-    Dans chaque cas, préciser la commande à utiliser pour attribuer à fichier les droits suivants :
-        -rwxrw-r--
-        -rwx----w-
-        -rwx------
+>> Comment s'écrit `111000101` en octal ?
+(*) 705
+( ) 765
+( ) 503
+( ) 703
+
+>> Comment s'écrit `110110110` en octal ?
+=== 666
+
+>> Comment est encodé en octal  rw-r--r-- ?
+( ) 422
+(*) 644
+( ) 666
+
+>> Comment encoder les droits rw-rw-r-- en octal ?
+=== 664
