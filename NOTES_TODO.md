@@ -12,9 +12,6 @@ Objectif : savoir tuer un processus .. ca suffirait je pense
 ## Les jokers :
  à faire: manipulation_plus step4 , a faire
 
-## Redirections
- à reprendre de l'existant
-
 
 ## Et extensions possibles :
 
