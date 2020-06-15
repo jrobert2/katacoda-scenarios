@@ -6,12 +6,8 @@
 - Extension possible : la partie dpkg et tout (mais peut être) pas utile
 - gestion des utilisateurs
 
-## Les processus
-Objectif : savoir tuer un processus .. ca suffirait je pense
-
 ## Les jokers :
  à faire: manipulation_plus step4 , a faire
-
 
 ## Et extensions possibles :
 
