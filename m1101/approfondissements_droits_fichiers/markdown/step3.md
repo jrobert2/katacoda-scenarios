@@ -14,7 +14,7 @@ Donne les droits
 
 
 
-Dans chaque cas, préciser les droits de fichier à l’issue des commandes suivantes :
+Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivantes :
 
 >> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 734 truc.txt <<
 (*) rwx-wx-r--
