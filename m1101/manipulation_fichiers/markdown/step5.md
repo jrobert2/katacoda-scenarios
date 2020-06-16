@@ -4,3 +4,5 @@ Crée les dossiers suivants :
 
 * `fichiers_txt`,
 * `fichiers_png`
+
+Il faut que tu sois très rigoureux.se et ne pas faire de fautte de frappe : une majuscule à la place d'une minuscule, un *s* oublié ou tout autre erreur de frappe et tu ne pourras pas continuer.

@@ -31,8 +31,12 @@
 
       },
       {
-        "title": "Résumé",
+        "title": "Déplacer et copier",
         "text": "/markdown/step6.md"
+      },
+            {
+        "title": "Résumé",
+        "text": "/markdown/step7.md"
       }
     ],
     "intro": {
