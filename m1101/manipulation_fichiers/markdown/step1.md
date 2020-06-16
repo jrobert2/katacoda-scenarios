@@ -28,5 +28,5 @@ Si tu ajoutes `eb` et appuie à nouveau sur la touche tabulation, alors ça comp
 Avant de continuer, déplace toi (en profitant de la complétion automatique) dans le répertoire  :
 Oops ! Je suis maladroit ... J'ai fait des tâches sur le chemin. Tant pis, déplaces-y toi quand même et tu porras continuer ;)
 
-![touche tabulation](./assets/cheminTache.png=5em))
+![touche tabulation](./assets/cheminTache.png)
 
