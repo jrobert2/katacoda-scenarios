@@ -61,6 +61,11 @@
       "title": "Les processus",
       "description": "Les processus et les signaux",
       "course_id": "processus"
+    },
+    {
+      "title": "Installation de programmes",
+      "description": "Gestion des paquets",
+      "course_id": "administration_paquets"
     }
 
 
