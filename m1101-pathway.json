@@ -66,6 +66,16 @@
       "title": "Installation de programmes",
       "description": "Gestion des paquets",
       "course_id": "administration_paquets"
+    },
+    {
+      "title": "Bash et python",
+      "description": "Bash et python",
+      "course_id": "bash_python"
+    },
+    {
+      "title": "Grep et expressions régulières",
+      "description": "Grep et expressions régulières",
+      "course_id": "regexp"
     }
 
 

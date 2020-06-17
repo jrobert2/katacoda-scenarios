@@ -2,18 +2,22 @@
 # Compléter les 'tutos'
 
 ## Gestion du système
-- Installation de paquets : apt install
-- Extension possible : la partie dpkg et tout (mais peut être) pas utile
-- gestion des utilisateurs
+- gestion des utilisateurs <= je me demande si ça vaut la peine de le mettre..
+
+## root, sudoers, ... ???
+Ce serait intéressant mais c'est encore quelque chose supplémentaire, peut être qui doit aller dans un cours "admin système".
 
 ## Les jokers :
  à faire: manipulation_plus step4 , a faire
 
 ## Et extensions possibles :
 
-- Système et python
-- Regexp (grep, sed, ...)
+- Bash et python suite <= à faire en plus éventuellement, mais ça me semble pas nécessaire..
+- Un truc qui pourrait être sympa : utiliser la bibliothèque python "argparse" .. mais dans un autre cours je pense.
 
+
+- Regexp (grep, sed, ...)
+À continuer
 
 ## AUTRES
 
