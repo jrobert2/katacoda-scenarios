@@ -49,7 +49,7 @@ Ainsi:
 
 La construction suivante permet de spécifier une correspondance pour un motif ou un autre :
 `grep -E "on|ou" fichier1.txt`{{execute}}.
-On peut aussi parenthèser les motifs, par exemple : `grep -E "(on|en)t" fichier1.txt`{{execute}} qui correspondra à toute chaine contenant on ou en suivi de t (c'est à dire ont ou ent) .
+On peut aussi parenthèser les motifs, par exemple : `grep -E "(on|en)t" fichier1.txt`{{execute}} qui correspondra à toute chaîne contenant on ou en suivi de t (c'est à dire ont ou ent) .
 
 >> Le motif "(on|en)..(at|et)" correspond à : <<
 (*) une chaîne commençant par on ou en, suivi de deux caractères, suivi de at ou et.
