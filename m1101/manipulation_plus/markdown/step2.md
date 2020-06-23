@@ -1,26 +1,19 @@
-# Argument et options
+# Exécution d'une commande
 
-=> PARLER de echo 
+Précédemment on t'a parlé des arguments et options. Par exemple, lorsque tu exécutes `rm -r repertoire500`, il y a une option, `-r` et un argument, `repertoire500`.
 
-# Des options utiles pour ls
+Voici ce qu'il se passe lorsque tu appuie sur la touche entrée:
 
-## Les fichiers et dossiers cachés
+* bash lit la ligne que tu viens de taper `rm -r repertoire500`
+* il la découpe en plusieurs mots, ici `rm`, `-r` et `repertoire500`. Ceci est indépendant du nombre d'espaces entre les mots !
+* il cherche une commande qui correspond au premier mot (ici `rm`).
+* il exécute cette commande en lui passant comme argument les différents autres mots (ici `-r` et `repertoire500`)
 
+Je trouve que ça se voit bien avec la commande echo. Cette commande affiche ses arguments.
+Par exemple `echo bonjour     tout le      monde.`{{execute}} .
 
-# Des options "classiques"
+Lorsque tu exécutes cette commande :
+* bash découpe la ligne en `echo` , `bonjour`, `tout`, `le` et `monde.` .
+* bash exécute la commande `echo` sur les arguments `bonjour`, `tout`, `le` et `monde.` .
 
-Souvent, tu rencontreras les options -r / -R et -v, -vv, -vvv
-
-Par exemple : rm -r  
-
-# Quizz
-
-...
-cp -R
-ls -l
-ls -a
-ls --color
-rm -rf
-mv -v
-cp -v
-rm -v
+Par convention, les arguments qui commencent par un `-` sont des options et les autres sont les arguments.

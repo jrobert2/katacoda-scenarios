@@ -1,22 +1,18 @@
-# Renommer un fichier
+# Des options utiles pour ls
 
-Tu as utilisé la commande mv pour déplacer un fichier d'un répertoire à un autre. Elle permet aussi de *renommer* un fichier. Par exemple : `mv truc.txt machin.txt` renommera truc.txt en machin.txt.
+Essaie la commande suivante : `ls -l -a`{{execute}} .
+On a passé à ls deux options :
 
-ATTENTION:  `mv truc.txt chose.txt machin.txt` renommera `truc.txt` en `machin.txt` puis `chose.txt` en `machin.txt`. En clair, tu auras perdu le contenu de `truc.txt` !
+* -l qui signifie "long" pour avoir un "affichage long" et qui permet de donner plus d'informations sur les fichiers affichés
+* -a qui signifie "all" et qui permet d'afficher *tous* les fichiers.
 
-# De l'intérêt de mettre un / à la fin des noms de répertoires
-
-Ainsi, pour ne pas prendre de risque, mets toujours un / à la fin des noms de répertoire.
-
-Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`
-
->> Que fait `mv truc.txt chose.txt dossier/` ? <<
-(*) il génère une erreur car le dossier dossier/ n'existe pas.
-( ) il crée un fichier dossier contenant le fichier chose.txt
-( ) il crée un fichier dossier contenant le fichier truc.txt
+Par convention, les fichiers commençant par un `.` sont des fichiers cachés et ne sont normalement pas affichés par ls à moins de donner à ls l'option `-a` !
 
 
->> Que fait `mv truc.txt chose.txt dossier/` ? <<
-( ) il génère une erreur car le dossier dossier/ n'existe pas.
-(*) il crée un fichier dossier contenant le fichier chose.txt
-( ) il crée un fichier dossier contenant le fichier truc.txt
+# Des options "classiques"
+
+Souvent, tu rencontreras les options -r / -R et -v, -vv, -vvv .
+
+* `-r, -R` signifie "Récursif", et signifie que la commande que tu exécutes s'applique aux dossier et sous dossiers, etc. comme par exemple :`rm -r` qui supprime un dossier et ses sous dossiers.
+
+* `-v` pour "verbose" qui affichera plus d'information sur ce que la commande fait.

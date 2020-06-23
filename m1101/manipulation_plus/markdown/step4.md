@@ -1,30 +1,22 @@
-# Jokers
+# Renommer un fichier
+
+Tu as utilisé la commande mv pour déplacer un fichier d'un répertoire à un autre. Elle permet aussi de *renommer* un fichier. Par exemple : `mv truc.txt machin.txt` renommera truc.txt en machin.txt.
+
+ATTENTION:  `mv truc.txt chose.txt machin.txt` renommera `truc.txt` en `machin.txt` puis `chose.txt` en `machin.txt`. En clair, tu auras perdu le contenu de `truc.txt` !
+
+# De l'intérêt de mettre un / à la fin des noms de répertoires
+
+Ainsi, pour ne pas prendre de risque, mets toujours un / à la fin des noms de répertoire.
+
+Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`
+
+>> Que fait `mv truc.txt chose.txt dossier/` ? <<
+(*) il génère une erreur car le dossier dossier/ n'existe pas.
+( ) il crée un fichier dossier contenant le fichier chose.txt
+( ) il crée un fichier dossier contenant le fichier truc.txt
 
 
-TODO : FAIRE Comprendre que bash est un interpréteur, i.e. que quand on tape "truc machin chose" il sépare les arguments par des espaces, etc.
-
-De nombreuses commandes prennent un nombre arbitraire d'arguments.
-Par exemple, `cp fichier1.txt fichier2.txt fichier3.txt destination/` copiera les fichiers `fichier1.txt fichier2.txt`et `fichier3.txt` dans le dossier `destination/`.
-...
-
-
-
-
-* Que se pase il passé lorsque vous avez essayé ./jocker.sh * ?
-    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo * ? Vérifiez le.
-    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo *.sh ? Vérifiez le.
-    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo *trololololo ? Vérifiez le.
-    Déplacez vous dans le répertoire /bin. Essayez : echo b*, echo ??, echo l? . À quoi correspond le caractère ? ?
-    Combien de fichiers dont le nom est composé de trois caractères y a-t-il dans le dossier /bin ?
-    combien de fichiers dont le nom commence par un c et se termine par « conf » y a-t-il dans le dossier /etc ?
-    Proposez des noms de fichiers qui correspondraient à :
-        toto
-        .??
-        c*d*.conf
-    Proposez des noms de fichier correspondant à c* mais pas à c*? .
-    Déplacez vous dans le répertoire /bin. Essayez : echo [br]*, echo {ba,re}*. À quoi correspondent [] et {} ?
-    Comment afficher tous les fichiers dont le nom commence par un nombre ?
-    Comment afficher les fichiers dont le nom se termine par .sh ou par .conf ?
-    Comment supprimer les fichiers dont le nom se termine par .aux ou par .log ?
-    Comment afficher les fichiers dont le nom contient un b, un c ou un d ?
-    Comment afficher les fichiers dont le nom contient plus de deux lettres et se termine par un b, un c ou un d ?
+>> Que fait `mv truc.txt chose.txt dossier/` ? <<
+( ) il génère une erreur car le dossier dossier/ n'existe pas.
+(*) il crée un fichier dossier contenant le fichier chose.txt
+( ) il crée un fichier dossier contenant le fichier truc.txt

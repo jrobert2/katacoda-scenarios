@@ -5,7 +5,7 @@ Pour lui dire que tu sais ce que tu veux faire et que c'est bien un répertoire 
 
 Supprime tous les répertoires du dossier courant (tous ceux qui s'affichent en bleu, et qui commencent en fait par Rep). Pour cela, c'est normal que tu doives faire plusieurs fois `rm -r quelquechose` !
 
-Avant de continuer, vvérifions si tu a compris la différence entre **commande**, **argument** et **option**.
+Avant de continuer, vérifions si tu a compris la différence entre **commande**, **argument** et **option**.
 Dans la ligne de commande `rm -r Repbqyslxdtxd` :
 
 >> rm est : <<

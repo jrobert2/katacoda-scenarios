@@ -1,23 +1,42 @@
-# Quizz conclusif
+# Jokers
 
->> Mettre un / à la fin des noms de répertoires, comme par exemple dans `cd repertoire/` <<
 
-[ ] est obligatoire,
-[*] est une bonne idée
+De nombreuses commandes prennent un nombre arbitraire d'arguments. Par exemple, `cp fichier1.txt fichier2.txt fichier3.txt destination/` copiera les fichiers `fichier1.txt fichier2.txt`et `fichier3.txt` dans le dossier `destination/`.
 
->> Quelles affirmations sont correctes ? <<
+Souvent, on souhaite passer en argument à un commande un ensemble de fichiers. Par exemple : tous les fichiers terminant par ".txt".
 
-[*] La commande `mv *.txt Documents/` déplace tous les fichiers du répertoire courant se terminant par txt dans le dossier Documents/
-[ ] La commande `mv *.txt Documents/` déplace tous les fichiers du répertoire courant commençant par txt dans le dossier Documents/
-[*] La commande `mv *a* Documents/` déplace tous les fichiers du répertoire courant se contenant la lettre a dans le dossier Documents/
-[*] La commande `mv *a* Documents/` déplace tous les fichiers du répertoire courant terminant par a dans le dossier Documents/
-[ ] La commande `rm R*` supprimera tous les fichiers et répertoires commençant par R.
-[*] La commande `rm -r R*` supprimera tous les fichiers et répertoires commençant par R.
+Bash permet de faire ça simplement :
 
->> Quelle option de ls permet d'afficher plus d'informations sur les fichiers et répertoires ? <<
+Ainsi, si tu exécutes :
 
-( ) -v
-( ) -r
-( ) -l
-( ) -a
-( ) -f
+̀`cp *.txt destination/`, voici ce que fait bash :
+
+* il découpe la ligne en mots: `cp` `*.txt` et `destination/`.
+* il transforme `*.txt` en la liste des fichiers du répertoire courant terminant par txt, par exemple `fichier1.txt` et `fichier2.txt`
+* il exécute cp sur tous ces arguments : `fichier1.txt`, `fichier2.txt` et `destination/`.
+
+
+
+
+# Quizz
+
+N'est pas encore prêt !!
+BROUILLON : 
+* Que se pase il passé lorsque vous avez essayé ./jocker.sh * ?
+    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo * ? Vérifiez le.
+    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo *.sh ? Vérifiez le.
+    Sans essayer, que pensez vous qu’il va s’afficher si on tape echo *trololololo ? Vérifiez le.
+    Déplacez vous dans le répertoire /bin. Essayez : echo b*, echo ??, echo l? . À quoi correspond le caractère ? ?
+    Combien de fichiers dont le nom est composé de trois caractères y a-t-il dans le dossier /bin ?
+    combien de fichiers dont le nom commence par un c et se termine par « conf » y a-t-il dans le dossier /etc ?
+    Proposez des noms de fichiers qui correspondraient à :
+        toto
+        .??
+        c*d*.conf
+    Proposez des noms de fichier correspondant à c* mais pas à c*? .
+    Déplacez vous dans le répertoire /bin. Essayez : echo [br]*, echo {ba,re}*. À quoi correspondent [] et {} ?
+    Comment afficher tous les fichiers dont le nom commence par un nombre ?
+    Comment afficher les fichiers dont le nom se termine par .sh ou par .conf ?
+    Comment supprimer les fichiers dont le nom se termine par .aux ou par .log ?
+    Comment afficher les fichiers dont le nom contient un b, un c ou un d ?
+    Comment afficher les fichiers dont le nom contient plus de deux lettres et se termine par un b, un c ou un d ?
