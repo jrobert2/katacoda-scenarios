@@ -25,7 +25,7 @@ Regardons la première ligne, `-rw-rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichie
 La partie "etudiant 1A" signifie que le fichier appartient à l'utilisateur *etudiant* et est dans le groupe *1A* . Le "1" à gauche de ça est un truc plus avancé, on y reviendra.
 Le 34 est la taille en octets du fichier. `juin 9 08:57` est la date de création du fichier.
 
-Ok, et le truc important est au début, les droits.
+Et le truc important est au début, les droits.
 La partie `-rw-rw-r--` se lit en oubliant le tiret du début, puis en décomposant en trois  :
 
 * `-rw` (utilisateur)
@@ -41,13 +41,11 @@ Chaque partie est composée de trois lettres :
 Les trois parties correspondent à différents utilisateurs :
 
 * La première partie correspond aux droits du propriétaire du fichier.
-* La seconde partie correspond aux droits des utilisateurs appartenant au groupe auquel le fichier appartient (relisez cette phrase plusieurs fois... ) .
+* La seconde partie correspond aux droits des utilisateurs appartenant au groupe auquel le fichier appartient (relis cette phrase plusieurs fois jusqu'à la comprendre ! ) .
 * La dernière partie correspond aux droits des gens qui ne sont ni le propriétaire du fichier, et qui n'appartiennent pas au groupe du fichier.
 
 
-
 Seul le propriétaire  d'un fichier (ou *root* ) peut changer ses permissions d'accès.
-
 
 
 # Observez

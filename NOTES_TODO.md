@@ -7,9 +7,6 @@
 ## root, sudoers, ... ???
 Ce serait intéressant mais c'est encore quelque chose supplémentaire, peut être qui doit aller dans un cours "admin système".
 
-## Les jokers :
- à faire: manipulation_plus step4 , a faire
-
 ## Et extensions possibles :
 
 - Bash et python suite <= à faire en plus éventuellement, mais ça me semble pas nécessaire..

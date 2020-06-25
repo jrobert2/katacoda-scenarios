@@ -2,9 +2,9 @@
 
 Pour la suite, tu auras besoin de savoir modifier le contenu d'un fichier.
 
-La plupart du temps, tu le fera à l'aide d'éditeur de texte en mode graphique, comme visual studio code, atom, pycharm, etc. Mais ici, comme on n'a pas accès à l'affichage graphique (ce qui d'ailleurs arrive réellement dans certains métiers de l'informatique) tu utilisera un outil en ligne de commande.
+La plupart du temps, tu le feras à l'aide d'éditeur de texte en mode graphique, comme visual studio code, atom, pycharm, etc. Mais ici, comme on n'a pas accès à l'affichage graphique (ce qui d'ailleurs arrive réellement dans certains métiers de l'informatique) tu utiliseras un outil en ligne de commande.
 
-Il existe de nombreux éditeur de texte en mode console, parmi les plus célèbres : vim, emacs, nano .
+Il existe de nombreux éditeurs de texte en mode console, parmi les plus célèbres : vim, emacs, nano .
  ![editeurs](./assets/real_programmers.png)
 
 
