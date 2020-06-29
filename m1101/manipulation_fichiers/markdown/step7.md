@@ -1,4 +1,4 @@
-uper, tu as terminé cette étape, où tu as vu :
+Super, tu as terminé cette étape, où tu as vu :
 
 * la complétion automatique
 * la commande rm (et l'option -r)
