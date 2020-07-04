@@ -18,7 +18,7 @@ Voici un extrait du man de la commande touch :
 >> À quoi sert la commande touch ? <<
 ( ) A changer le timbre d'un fichier,
 (*) A modifier les dates d'accès et de modification de fichiers,
-( ) à changer la date.
+( ) A changer la date.
 
 >> Dans le SYNOPSIS, pourquoi OPTION est-il entre crochets alors que FILE ne l'est pas ?  <<
 

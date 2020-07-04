@@ -17,8 +17,7 @@ La commande permettant de changer les droits est ``chmod``.
 
 # Quizz
 
-
-TODO TODO TODO
+TODO TODO
 
 1. On a un fichier ``texte.txt`` avec les droits ``--wx------`` .
    Quelle commande doit on taper pour qu'il ait les droits :

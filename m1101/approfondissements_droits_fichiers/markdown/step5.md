@@ -14,7 +14,7 @@ Les données pointées par les pointeurs de blocs sont une liste de fichiers : u
 Remarque: c'est toujours le cas, c'est le point de départ pour parcourir les fichiers, il faut que le système sache par ou démarrer pour trouver les fichiers !
 
 
->> Remarque que /dev/ et / ont le même numéro d'inode. Comment cela est-il possible ?
+>> Remarque que /dev/ et / ont le même numéro d'inode. Comment cela est-il possible ? <<
 ( ) tout ce qu'on a dit jusqu'ici est très approximatif,
 (*) / et /dev/ ne sont pas le même système de fichiers, donc les deux ont un inode n°2 qui correspond à la racine de leur système.
 ( ) ce sont en fait le même répertoire,

@@ -1,7 +1,7 @@
 # Script bash
 
 Que ce soit en python, en bash, ou autre langage interprété, les commandes peuvent être exécutées dans un interpréteur (c'est ce qu'on fait depuis le début en bash).
-On peut aussi les écrire dans un fichier et lancer l'interpréteur sur le fichier pour qu'il esxécute toutes les lignes les unes après les autres.
+On peut aussi les écrire dans un fichier et lancer l'interpréteur sur le fichier pour qu'il exécute toutes les lignes les unes après les autres.
 
 Dans ce scénario, tu as accès à un éditeur, ce sera un peu plus pratique que nano.
 
@@ -68,7 +68,7 @@ Essaie le script suivant :
 Essaie le script suivant :
 
 <pre>
-<code class="bash">.
+<code class="bash">
    #!/bin/bash
    # Auteur :  A. B.
    cd /tmp/

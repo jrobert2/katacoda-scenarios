@@ -8,7 +8,7 @@ ATTENTION:  `mv truc.txt chose.txt machin.txt` renommera `truc.txt` en `machin.t
 
 Ainsi, pour ne pas prendre de risque, mets toujours un / à la fin des noms de répertoire.
 
-Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`
+Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`.
 
 >> Que fait `mv truc.txt chose.txt dossier/` ? <<
 (*) il génère une erreur car le dossier dossier/ n'existe pas.
@@ -16,7 +16,7 @@ Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`
 ( ) il crée un fichier dossier contenant le fichier truc.txt
 
 
->> Que fait `mv truc.txt chose.txt dossier/` ? <<
+>> Que fait `mv truc.txt chose.txt dossier` ? <<
 ( ) il génère une erreur car le dossier dossier/ n'existe pas.
 (*) il crée un fichier dossier contenant le fichier chose.txt
 ( ) il crée un fichier dossier contenant le fichier truc.txt

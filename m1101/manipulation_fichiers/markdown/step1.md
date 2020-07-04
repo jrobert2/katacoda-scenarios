@@ -8,7 +8,8 @@ Déplaces toi dans le répertoire `/home/etudiant/Exo1/Dir64/` (en faisant `cd /
 ( ) il n'y en a pas
 ( ) 1 dossier
 ( ) 2 dossiers
-(*) 4 dossiers
+( ) 4 dossiers
+(*) 5 dossiers
 
 Fais maintenant exactement ce que je te dis :
 
@@ -29,4 +30,3 @@ Avant de continuer, déplace toi (en profitant de la complétion automatique) da
 Oops ! Je suis maladroit ... J'ai fait des tâches sur le chemin. Tant pis, déplaces-y toi quand même et tu porras continuer ;)
 
 ![touche tabulation](./assets/cheminTache.png)
-

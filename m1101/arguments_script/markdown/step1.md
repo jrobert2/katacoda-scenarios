@@ -40,7 +40,7 @@ Ainsi, les appels suivants sont très différents :
 (*) le nombre d'arguments passés à echo n'est pas le même
 
 
->> Combien d'arguments sont passés à echo dans l'appel suivant : echo Bonjour "tout le" monde ?
+>> Combien d'arguments sont passés à echo dans l'appel suivant : echo Bonjour "tout le" monde ? <<
 === 3
 
 C'est très utile, par exemple pour afficher des espaces avec echo. Essaie par exemple d'afficher

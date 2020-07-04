@@ -5,5 +5,5 @@ bob="Bob"
 prenoms="$alice et $bob"
 </pre>
 
->> Que contient la variable prenom après son exécution ? <<
+>> Que contient la variable prenoms après son exécution ? <<
 === Alice et Bob

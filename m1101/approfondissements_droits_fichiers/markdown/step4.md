@@ -46,7 +46,7 @@ Chaque fichier est un inode. Les données du fichier sont pointées par les poin
 [ ] les données du fichier
 [ ] les premiers octets constituant le fichier,
 
->> Deux fichiers différents, stockés sur des partitions différentes, peuvent ils avoir le même numéro d'inode ?
+>> Deux fichiers différents, stockés sur des partitions différentes, peuvent ils avoir le même numéro d'inode ? <<
 (*) oui
 ( ) non
 

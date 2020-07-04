@@ -18,7 +18,7 @@ Pour copier un fichier d'un endroit à un autre, c'est `cp` . Il faut lui donner
 * le chemin du fichier qu'on veut copier (par exemple clipart-1.png ou /home/etudiant/Exo2/clipart-1.png)
 
 * et le chemin de l'endroit où on veut le copier.
-Par exemple: `mv pg1221.txt fichiers_txt/`.
+Par exemple: `cp clipart1.png fichiers_png/`.
 
 Essaie !
 

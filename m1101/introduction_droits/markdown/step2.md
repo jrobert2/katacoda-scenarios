@@ -9,16 +9,16 @@ Avec nano, modifie le fichier `fichier1.txt` pour qu'il contienne le texte `Bonj
 
 Lorsque tu tape `ls -l` tu obtiens quelque chose comme :
 
-  -rw-rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier1.txt
-  -rw-rw---- 1 etudiant 1A 34 juin   9 08:57 fichier2.txt
-  -r--r--r-- 1 etudiant 1A 34 juin   9 08:57 fichier3.txt
-  ---------- 1 etudiant 1A 34 juin   9 08:57 fichier4.txt
-  -r--rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier5.txt
-  -rw------- 1 etudiant 1A 34 juin   9 08:57 fichier6.txt
-  -r--r--r-- 1 etudiant 1A 34 juin   9 08:57 fichier7.txt
-  -r--r----- 1 etudiant 1A 34 juin   9 08:57 fichier8.txt
-  -rw-rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier9.txt
-  -rwxrwxr-x 1 etudiant 1A 26 juin   9 09:33 script.sh
+    -rw-rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier1.txt
+    -rw-rw---- 1 etudiant 1A 34 juin   9 08:57 fichier2.txt
+    -r--r--r-- 1 etudiant 1A 34 juin   9 08:57 fichier3.txt
+    ---------- 1 etudiant 1A 34 juin   9 08:57 fichier4.txt
+    -r--rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier5.txt
+    -rw------- 1 etudiant 1A 34 juin   9 08:57 fichier6.txt
+    -r--r--r-- 1 etudiant 1A 34 juin   9 08:57 fichier7.txt
+    -r--r----- 1 etudiant 1A 34 juin   9 08:57 fichier8.txt
+    -rw-rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier9.txt
+    -rwxrwxr-x 1 etudiant 1A 26 juin   9 09:33 script.sh
 
 Regardons la première ligne, `-rw-rw-r-- 1 etudiant 1A 34 juin   9 08:57 fichier1.txt`
 
@@ -71,8 +71,6 @@ Seul le propriétaire  d'un fichier (ou *root* ) peut changer ses permissions d'
 
 
 # Quizz
-
-++++++++++++++
 
 Sur mon système, il y a trois utilisateurs :
 

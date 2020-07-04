@@ -13,7 +13,7 @@ cat $1/$nomFichier
 >> Que fait il ? <<
 (*) il prend en argument un dossier puis lit sur son entrée standard un nom de fichier, et affiche le contenu du fichier situé dans le dossier passé en argument.
 ( ) il prend en argument un dossier et un fichier et affiche le contenu du fichier situé dans le dossier.
-( ) il prend en argument un nom de fichier et list sur son entrée standard un nom de dossier et affiche le contenue du fichier situé dans le dossier passé sur l'entrée standard.
+( ) il prend en argument un nom de fichier et lit sur son entrée standard un nom de dossier et affiche le contenue du fichier situé dans le dossier passé sur l'entrée standard.
 
 
 

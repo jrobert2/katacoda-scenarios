@@ -3,7 +3,7 @@
 
 De nombreuses commandes prennent un nombre arbitraire d'arguments. Par exemple, `cp fichier1.txt fichier2.txt fichier3.txt destination/` copiera les fichiers `fichier1.txt fichier2.txt`et `fichier3.txt` dans le dossier `destination/`.
 
-Souvent, on souhaite passer en argument à un commande un ensemble de fichiers. Par exemple : tous les fichiers terminant par ".txt".
+Souvent, on souhaite passer en argument à une commande un ensemble de fichiers. Par exemple : tous les fichiers terminant par ".txt".
 
 Bash permet de faire ça simplement :
 
@@ -81,7 +81,7 @@ D'autres motifs que `*` existent pour enrichir les possibilités:
 ( ) echo *.conf,.sh
 ( ) echo *[.conf,.sh]
 
->> Comment afficher les fichiers dont le nom se termine par .sh ou par .conf ? <<
+>> Comment supprimer les fichiers dont le nom se termine par .sh ou par .conf ? <<
 ( ) rm .conf,.sh
 (*) rm *.{conf,sh}
 ( ) rm *.conf,.sh

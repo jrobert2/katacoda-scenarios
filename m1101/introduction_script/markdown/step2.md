@@ -7,8 +7,8 @@ Reprenons le script suivant, hello_world.sh :
 echo Bonjour
 </pre>
 
-La première ligne, `#!/usr/bin/bash` est composée de deux choses:
-* `/usr/bin/bash` : le chemin vers l'interpréteur bash
+La première ligne, `#!/bin/bash` est composée de deux choses:
+* `/bin/bash` : le chemin vers l'interpréteur bash
 * `#!` : un truc qu'il faut mettre pour dire qu'on est en train de donner le chemin vers l'interpréteur.
 
 Jusqu'à présent, si tu n'as pas mis cette ligne, ça ne change rien.
@@ -22,13 +22,13 @@ En faisant ça, tu permets *d'exécuter* ton script directement en faisant :
 `./hello_world.sh`{{execute}}
 
 Et peut être comprends tu maintenant à quoi sert la ligne définissant l'interpréteur ?
-Lorsque tu exécutes le fichier hello_world.sh, c'est comme si tu exécutais `/usr/bin/bash hello_world.sh` !
+Lorsque tu exécutes le fichier hello_world.sh, c'est comme si tu exécutais `/bin/bash hello_world.sh` !
 
 # Expérimentations
 
 Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu peux essayer !
 
->> Que fait l'exécution du script si tu choisis /usr/bin/cat comme interpréteur ? <<
+>> Que fait l'exécution du script si tu choisis /bin/cat comme interpréteur ? <<
 
 ( ) rien
 ( ) il afficher Bonjour
@@ -55,7 +55,7 @@ Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu 
 ( ) il affiche hello_world.sh
 (*) il plante en disant que cet interpréteur n'existe pas
 
->> Que fait l'exécution du script si tu choisis `/usr/bin/rm` comme interpréteur ? <<
+>> Que fait l'exécution du script si tu choisis `/bin/rm` comme interpréteur ? <<
 
 ( ) rien
 ( ) il afficher Bonjour
