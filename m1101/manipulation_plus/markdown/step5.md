@@ -1,15 +1,15 @@
-# Jokers
+# Les Jokers
 
 
 De nombreuses commandes prennent un nombre arbitraire d'arguments. Par exemple, `cp fichier1.txt fichier2.txt fichier3.txt destination/` copiera les fichiers `fichier1.txt fichier2.txt`et `fichier3.txt` dans le dossier `destination/`.
 
 Souvent, on souhaite passer en argument à une commande un ensemble de fichiers. Par exemple : tous les fichiers terminant par ".txt".
 
-Bash permet de faire ça simplement :
+Bash permet de faire ça simplement 
 
 Ainsi, si tu exécutes :
 
-̀`cp *.txt destination/`, voici ce que fait bash :
+`cp *.txt destination/`, voici ce que fait bash :
 
 * il découpe la ligne en mots: `cp` `*.txt` et `destination/`.
 * il transforme `*.txt` en la liste des fichiers du répertoire courant terminant par txt, par exemple `fichier1.txt` et `fichier2.txt`
@@ -24,9 +24,9 @@ Déplace toi dans le dosier `cd /home/etudiant/Documents/`{{execute}}.
 
 >> Quels sont les arguments passés à echo si tu tapes echo *.txt ? <<
 
-( ) *
-(*) machin.txt, notes.tx et truc.txt
-( ) echo *
+( ) *.txt
+(*) machin.txt, notes.txt et truc.txt
+( ) echo *.txt
 ( ) aucun
 
 >> Quels sont les arguments passés à echo si tu tapes echo *t* ? <<
@@ -46,7 +46,7 @@ Déplace toi dans le dosier `cd /home/etudiant/Documents/`{{execute}}.
 
 
 
-Parfois tu as envie de passer "*" en argument à une commande.. Pour ce faire, il faut *échapper* l'étoile :
+Parfois tu as envie de passer "*" en argument à une commande. Pour ce faire, il faut *échapper* l'étoile :
 
 `echo \*`{{execute}} ou encore `echo '*'`{{execute}} ou encore `echo "*"`{{execute}}.
 
