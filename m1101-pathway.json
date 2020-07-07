@@ -1,6 +1,7 @@
 {
   "title": "M1101",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "icon": "test.png",
   "courses": [
     {
       "title": "Introduction à bash",
