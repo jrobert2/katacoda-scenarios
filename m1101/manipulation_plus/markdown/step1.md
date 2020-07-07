@@ -1,14 +1,40 @@
-# Les "dossiers" . et ..
+# Le *dossier*  ..
 
-tu as vu que le dosier `../` permet de parler du répertoire parent d'un répertoire.
-Par exemple `cd ..` ou `cd ../../` ou encore `mv ../truc.txt /tmp/`
+Tu as déjà vu que le dossier `..` ou `../` permet de représenter le dossier parent d'un dossier.
 
-Tu peux aussi parler du dossier lui même en utilisant '.' .
+Par exemple :
+
+* `cd ..` ou `cd ../` permet de se déplacer dans le dossier parent
+* `cd ../../` permet de se déplacer dans le dossier grand-parent
+
+**Questions**
+
+Voici le prompt et une ligne de commande dans un terminal imaginaire
+![touche tabulation](./assets/mv.png)
+
+Je te rappelle que la commande `mv` sert à déplacer un fichier.
+
+>> Avant d'avoir exécuté cette ligne de commande, où se trouve le fichier `toto.txt` ? <<
+(*) dans le dossier `/home/etudiant/Documents/`
+( ) dans le dossier `/home/etudiant/`
+( ) dans le dossier `/home/etudiant/Documents/images/`
+( ) dans le dossier `/temp/`
+
+
+>> Après avoir exécuté cette ligne de commande, où se trouvera le fichier `toto.txt` ? <<
+( ) dans le dossier `/home/etudiant/Documents/`
+( ) dans le dossier `/home/etudiant/`
+( ) dans le dossier `/home/etudiant/Documents/images/`
+(*) dans le dossier `/temp/`
+
+# Le *dossier*  .
+
+Tu peux aussi représenter le dossier lui même en utilisant '.' ou `./`
 
 Par exemple : `cd ./`{{execute}} te déplace dans le dossier où tu es déjà.
-Ou encore `cd Documents/./././` qui te mènera au même endroit que `cd Documents/`.
+Ou encore `cd Documents/./././` qui te mènera au même endroit que `cd Documents/`
 
-Mais c'est plus utile si par exemple tu veux déplacer le fichier Documents/notes.txt dans le dossier courant, tu feras:  `mv Documents/notes.txt ./` .
+Bon d'accord, vu comme ça, ça ne sert à rien ! Mais c'est plus utile si par exemple tu veux déplacer le fichier `Documents/notes.txt` dans le dossier courant. Pour ça, il suffit de faire `mv Documents/notes.txt ./` 
 
 Essaie !
 

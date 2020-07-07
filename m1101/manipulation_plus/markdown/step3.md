@@ -1,18 +1,19 @@
 # Des options utiles pour ls
 
-Essaie la commande suivante : `ls -l -a`{{execute}} .
-On a passé à ls deux options :
+Essaie la commande suivante : `ls -la`{{execute}} .
+On a passé à `ls` deux options :
 
-* -l qui signifie "long" pour avoir un "affichage long" et qui permet de donner plus d'informations sur les fichiers affichés
-* -a qui signifie "all" et qui permet d'afficher *tous* les fichiers.
+* -l qui signifie "*long*" pour avoir un "affichage long" et qui permet de donner plus d'informations sur les fichiers affichés
+* -a qui signifie "*all*" et qui permet d'afficher *tous* les fichiers.
 
-Par convention, les fichiers commençant par un `.` sont des fichiers cachés et ne sont normalement pas affichés par ls à moins de donner à ls l'option `-a` !
+Par convention, les fichiers dont le nom commence par un `.` sont des fichiers cachés et ne sont normalement pas affichés par `ls` à moins de lui donner l'option `-a` !
 
 
 # Des options "classiques"
 
-Souvent, tu rencontreras les options -r / -R et -v, -vv, -vvv .
+Souvent, tu rencontreras les options `-r`, `-R` et `-v`.
 
-* `-r, -R` signifie "Récursif", et signifie que la commande que tu exécutes s'applique aux dossier et sous dossiers, etc. comme par exemple :`rm -r` qui supprime un dossier et ses sous dossiers.
+* Les options `-r` et `-R` signifient (la plupart du temps) "Récursif". La commande que tu exécutes avec une telle option s'applique aux dossier et sous dossiers, etc. 
+   Par exemple, `rm -r /home/` supprimera le dossier `/home/` ainsi que tous ses sous dossiers. Attention quand tu utilises cette commande dans la vraie vie ! Je te rappelle qu'il n'y a pas de retour en arrière possible.
 
-* `-v` pour "verbose" qui affichera plus d'information sur ce que la commande fait.
+* L'option `-v` est en général le raccourci pour pour "verbose". La commande deviendra alors bavarde et affichera plus d'information sur ce qu'elle fait.
