@@ -1,4 +1,15 @@
-while [[ ! id alice && ! id sasha && ! id etudiant ]]
+while ! id etudiant
+do
+    sleep 1
+done
+sleep 1
+while ! id alice
+do
+    sleep 1
+done
+sleep 1
+
+while ! id sasha
 do
     sleep 1
 done
