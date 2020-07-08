@@ -1,6 +1,6 @@
 
 # Utilisateur olive
-ssh root@host01 'sudo useradd -p coursbash -s /bin/bash --create-home -U olive'
+ssh root@host01 'sudo useradd -s /bin/bash --create-home -U olive'
 ssh root@host01 'usermod -aG sudo olive'
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/etudiant/'
 # ssh root@host01 'sudo echo . /etc/profile >> /home/etudiant/.bashrc'
