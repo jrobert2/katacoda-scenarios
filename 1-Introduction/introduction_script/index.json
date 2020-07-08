@@ -1,0 +1,51 @@
+{
+  "title": "Introduction aux scripts",
+  "description": "Introduction aux scripts",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Script bash",
+        "text": "/markdown/step1.md"
+      },
+      {
+        "title": "Interpréteur et exécution de script",
+        "text": "/markdown/step2.md"
+      },
+      {
+        "title": "Application",
+        "text": "/markdown/step3.md"
+      }
+    ],
+    "intro": {
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            },
+            {
+                "file": "home.tar.bz2",
+                "target": "/tmp"
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/etudiant/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "files":["hello_world.sh"]
+}

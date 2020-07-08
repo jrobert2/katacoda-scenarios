@@ -1,0 +1,36 @@
+{
+  "title": "M1101 - ",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Variables",
+      "description": "Utilisation des variables",
+      "course_id": "variables"
+    },
+    {
+      "title": "Les arguments d'un script",
+      "description": "Passer des arguments à un scipt",
+      "course_id": "arguments_script"
+    },
+    {
+      "title": "Les fichiers : approfondissements",
+      "description": "Approfondissements sur les permissions et les fichiers",
+      "course_id": "approfondissements_droits_fichiers"
+    },
+    {
+      "title": "Redirection de l'entrée standard et de la sortie standard",
+      "description": "Redirection de l'entrée standard et de la sortie standard",
+      "course_id": "redirections"
+    },
+    {
+      "title": "Le statut de sortie",
+      "description": "Le statut de sortie, la commande test et le if",
+      "course_id": "statut_sortie"
+    },
+    {
+      "title": "Les processus",
+      "description": "Les processus et les signaux",
+      "course_id": "processus"
+    }
+  ]
+}

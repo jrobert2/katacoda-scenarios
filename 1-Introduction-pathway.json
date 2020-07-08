@@ -1,0 +1,36 @@
+{
+  "title": "M1101 - ",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Introduction à bash",
+      "description": "Introduction  au terminal.",
+      "course_id": "introduction_bash"
+    },
+    {
+      "title": "Manipuler les fichiers",
+      "description": "Suppression, copie, déplacement de fichiers",
+      "course_id": "manipulation_fichiers"
+    },
+    {
+      "title": "Manipuler les fichiers: compléments",
+      "description": "Compléments indispensables",
+      "course_id": "manipulation_plus"
+    },
+    {
+      "title": "Fichiers: Introduction aux droits",
+      "description": "Explications sur les droits des fichiers et comment les modifier",
+      "course_id": "introduction_droits"
+    },
+    {
+      "title": "Introduction aux scripts",
+      "description": "Ecriture et exécution d'un premier script",
+      "course_id": "introduction_script"
+    },
+    {
+      "title": "Le man",
+      "description": "Familiarisation avec le man",
+      "course_id": "introduction_man"
+    }
+  ]
+}
