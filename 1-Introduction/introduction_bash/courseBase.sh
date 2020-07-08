@@ -9,7 +9,7 @@ ssh root@host01 'usermod -aG sudo olive'
 # ssh root@host01 'sudo chown -R etudiant:etudiant /home/etudiant/.profile'
 ssh root@host01 'sudo echo -e "toto\ntoto" | passwd olive'
 
-ssh root@host01 'sudo useradd -p \'$6$s7b/ECky$eBcWLNluUyA693rcrURBa0vB9WJtsNbiyeTh6XsOkEjaQmlHFifJpYpruBW7gp0hbExdhYVthjQulFYzijaeZ/\' -s /bin/bash -m -U alice'
+ssh root@host01 "sudo useradd -p '$6$s7b/ECky$eBcWLNluUyA693rcrURBa0vB9WJtsNbiyeTh6XsOkEjaQmlHFifJpYpruBW7gp0hbExdhYVthjQulFYzijaeZ/' -s /bin/bash -m -U alice"
 ssh root@host01 'usermod -aG sudo alice'
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/alice/'
 # ssh root@host01 'sudo echo . /etc/profile >> /home/alice/.bashrc'
