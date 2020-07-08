@@ -4,7 +4,7 @@ do
 done
 sleep 1
 su - alice
-tar -pxjf /tmp/home.tar.bz2 ~
+tar -pxjf /tmp/home.tar.bz2
 exit
 while ! id etudiant
 do
