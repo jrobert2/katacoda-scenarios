@@ -15,4 +15,5 @@ ssh root@host01 'sudo cp /home/packer/.profile /home/sasha/'
 ssh root@host01 'sudo chown -R sasha:sasha /home/sasha/.bashrc'
 ssh root@host01 'sudo chown -R sasha:sasha /home/sasha/.profile'
 ssh root@host01 'sudo chown -R sasha:sasha /home/sasha'
+ssh root@host01 'sudo tar -pxjf /tmp/home.tar.bz2'
 
