@@ -1,3 +1,10 @@
+while ! id alice
+do
+    sleep 1
+done
+sleep 1
+su - alice
+tar -pxjf /tmp/home.tar.bz2 ~
 while ! id etudiant
 do
     sleep 1
