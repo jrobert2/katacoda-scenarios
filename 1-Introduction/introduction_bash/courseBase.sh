@@ -1,7 +1,7 @@
 
 # Utilisateur olive
 ssh root@host01 'sudo useradd olive -p coursbash --shell /bin/bash --create-home --groups apero,olive --gid olive'
-ssh root@host01 'sudo adduser --gecos "toto" olive'
+
 
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/etudiant/'
 # ssh root@host01 'sudo echo . /etc/profile >> /home/etudiant/.bashrc'
@@ -10,7 +10,7 @@ ssh root@host01 'sudo adduser --gecos "toto" olive'
 # ssh root@host01 'sudo chown -R etudiant:etudiant /home/etudiant/.profile'
 
 
-ssh root@host01 'sudo useradd -p coursbash -s /bin/bash -m -U alice'
+ssh root@host01 'sudo useradd -p co6hy0wdLN -s /bin/bash -m -U alice'
 ssh root@host01 'usermod -aG sudo alice'
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/alice/'
 # ssh root@host01 'sudo echo . /etc/profile >> /home/alice/.bashrc'
