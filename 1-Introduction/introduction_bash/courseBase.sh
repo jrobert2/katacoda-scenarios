@@ -1,5 +1,10 @@
-ssh root@host01 'sudo useradd -p coursbash -s /bin/bash -G root -m -U etudiant'
-ssh root@host01 'usermod -aG sudo etudiant'
+
+# Utilisateur olive
+ssh root@host01 'sudo useradd -p coursbash -s /bin/bash -G root -m -U olive'
+# Ajout de l'utilisateur dans le groupe 1A
+ssh root@host01 'usermod -aG sudo olive'
+
+
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/etudiant/'
 # ssh root@host01 'sudo echo . /etc/profile >> /home/etudiant/.bashrc'
 # ssh root@host01 'sudo cp /home/packer/.profile /home/etudiant/'
