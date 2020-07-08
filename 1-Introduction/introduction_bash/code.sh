@@ -1,4 +1,4 @@
-LISTE="alice sasha etu"
+LISTE="alice sasha etudiant"
 
 for USER in $LISTE
 do
