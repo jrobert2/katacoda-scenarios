@@ -1,6 +1,6 @@
 
 # Utilisateur olive
-ssh root@host01 'sudo useradd olive -p coursbash --shell /bin/bash --create-home --groups 2A,olive --gid olive'
+ssh root@host01 'sudo useradd olive -p coursbash --shell /bin/bash --create-home --groups apero,olive --gid olive'
 ssh root@host01 'sudo adduser --gecos "toto" olive'
 
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/etudiant/'
