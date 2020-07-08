@@ -1,9 +1,7 @@
 
-# Utilisateur olive 
-ssh root@host01 'sudo useradd -p coursbash -s /bin/bash -m -U olive'
-# Ajout de l'utilisateur dans le groupe 1A
-ssh root@host01 'usermod -aG sudo 2A'
-ssh root@host01 'adduser --gecos "toto" olive'
+# Utilisateur olive
+ssh root@host01 'sudo useradd olive -p coursbash --shell /bin/bash --create-home --groups 2A,olive --gid olive'
+ssh root@host01 'sudo adduser --gecos "toto" olive'
 
 # ssh root@host01 'sudo cp /home/packer/.bashrc /home/etudiant/'
 # ssh root@host01 'sudo echo . /etc/profile >> /home/etudiant/.bashrc'
