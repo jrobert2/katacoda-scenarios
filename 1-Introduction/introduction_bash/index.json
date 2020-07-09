@@ -34,7 +34,7 @@
     "intro": {
         "courseData": "courseBase.sh",
         "text": "/markdown/intro.md",
-        "code": "code.sh"
+        "code": "code.sh > /dev/null"
     },
     "finish": {
       "text": "/markdown/finish.md"
@@ -54,7 +54,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Bienvenue !",
+    "uimessage1": "Encore un peu de patience... ",
     "uieditorpath": "/home/sasha/"
   },
   "backend": {
