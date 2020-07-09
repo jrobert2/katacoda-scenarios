@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "La complétion automatique",
+        "title": "Ravi de te revoir Sacha !",
         "text": "/markdown/step1.md",
         "verify": "/verify/exo1.sh"
       },
