@@ -12,7 +12,8 @@ Juste pour être sûr que tu n'as as oublié :
 [ ] cd 
 [ ] cd Swwdfhjoillk
 
-Pour répondre aux questions suivantes, tu dois être dans `/home/sasha/Exo1/Dir64/Swwdfhjoillk/`
+
+Les questions suivantes concernent le dossier `/home/sasha/Exo1/Dir64/Swwdfhjoillk/`
 
 >> Combien y a-t il de dossiers dans ce répertoire ? <<
 ( ) il n'y en a pas
@@ -23,5 +24,5 @@ Pour répondre aux questions suivantes, tu dois être dans `/home/sasha/Exo1/Dir
 >> Combien y a-t il de fichiers dans ce répertoire ? <<
 ( ) il n'y en a pas
 ( ) 1 fichier
-(*) 6 fichiers
+(*) 9 fichiers
 ( ) 10 fichiers
