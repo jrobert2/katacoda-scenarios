@@ -1,7 +1,7 @@
 
 Le terminal, c'est la fenêtre sur la droite. Ici, c'est le terminal d'une machine virtuelle dans laquelle tout est permis. C'est une machine *bac à sable* sur laquelle tu peux faire tout ce que tu veux sans risquer de casser quoi que ce soit. N'hésite pas à y essayer tout ce qui te passe par la tête.
 
-Sur Xubuntu tu peux ouvrir un terminal en pressant simultanément les touches <kbd>U+229E Win</kbd>+<kbd>T</kbd>. Mais attention, là c'est plus sérieux : c'est à ta propre machine que tu parles : réfléchi bien avant de taper tes instructions !
+Sur Xubuntu tu peux ouvrir un terminal en pressant simultanément les touches <kbd>⊞ Win</kbd>+<kbd>T</kbd>. Mais attention, là c'est plus sérieux : c'est à ta propre machine que tu parles : réfléchi bien avant de taper tes instructions !
 
 Sur Ubuntu tu peux ouvrir un terminal en faisant <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>. 
 
