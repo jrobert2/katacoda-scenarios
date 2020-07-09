@@ -1,8 +1,8 @@
-# while [ ! -f /tmp/creationdeshome ]
-    # do
-        # sleep 1
-    # done
-# sleep 1
+while [ ! -f /tmp/creationdeshome ]
+    do
+        sleep 1
+    done
+sleep 1
 
 source /tmp/creationdeshome > /dev/null
 
