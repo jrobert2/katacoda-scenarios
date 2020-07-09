@@ -48,6 +48,10 @@
             {
                 "file": "home.tar.bz2",
                 "target": "/tmp"
+            },
+            {
+                "file": "code.sh",
+                "target": "/tmp"
             }
         ]
     }
