@@ -21,5 +21,4 @@ do
     chown -R $USER:$USER /home/$USER
 done
 
-rm /tmp/creationdeshome
 rm /tmp/home.tar.bz2
