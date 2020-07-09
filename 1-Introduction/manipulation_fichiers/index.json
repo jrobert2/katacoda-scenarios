@@ -1,6 +1,6 @@
 {
   "title": "Manipuler les fichiers avec Bash",
-  "description": "Découverte du terminal",
+  "description": "Comment créer, supprimer, déplacer, renommer des fichiers et des dossiers",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
@@ -56,6 +56,10 @@
             {
                 "file": "home.tar.bz2",
                 "target": "/tmp"
+            },
+            {
+                "file": "creationdeshome",
+                "target": "/tmp"
             }
         ]
     }
@@ -63,7 +67,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "Bienvenue !",
-    "uieditorpath": "/home/etudiant/"
+    "uieditorpath": "/home/sasha/"
   },
   "backend": {
     "imageid": "ubuntu"
