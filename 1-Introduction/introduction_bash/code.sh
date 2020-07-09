@@ -1,3 +1,3 @@
 echo "Encore un peu de patience ..."
-source test.sh > /dev/null
+source /tmp/test.sh > /dev/null
 rm /tmp/home.tar.bz2
