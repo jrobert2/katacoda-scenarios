@@ -1,15 +1,11 @@
-# LISTE="alice sasha olive"
+while [ ! -f /tmp/code.sh ]
+    do
+        sleep 1
+    done
+sleep 1
 
-# for USER in $LISTE
-# do
-    # while ! id $USER
-    # do
-        # sleep 1
-    # done
-    # sleep 1
-# done
-# sleep 1
-
+echo "lancement du code ..."
+source /tmp/code.sh
 # cd / 
 # tar -pxjf /tmp//tmp/home.tar.bz2
 # rm home.tar.bz2
