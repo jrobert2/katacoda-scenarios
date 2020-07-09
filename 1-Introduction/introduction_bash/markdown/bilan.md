@@ -20,10 +20,12 @@ Pour vérifier que tu as compris, voici quelques exercices.
 (*) la racine
 ( ) l'antislash
 ( ) le tronc
+
+
 >> Que représente le dossier .. ? <<
 ( ) rien du tout
 (*) le dossier parent
-( ) je ne comprends pas la questuin
+( ) je ne comprends pas la question
 ( ) le dossier enfant
 
 >> Quel est le chemin absolu de TON home (c'est à dire ta maison) ? <<
@@ -59,7 +61,7 @@ On utilise l'arborescence suivante :
 [ ] cd home/sasha/Exo1/
 [ ] cd /Exo1/
 
->> Imagine que tu te trouves dans le dossier home et que tu veux lister le contenu du dossier Exo2. Quelle ligne de commande taperais-tu ? <<
+>> Imagine que tu te trouves dans le dossier home et que tu veux lister le contenu du dossier Exo2. Quelles lignes de commande pourrais-tu taper ? <<
 [ ] ls Exo2/
 [ ] ls ../Exo2/
 [*] ls sasha/Exo2/
@@ -68,7 +70,7 @@ On utilise l'arborescence suivante :
 [ ] ls /Exo2/
 
 
->> Imagine que tu te trouves dans le dossier Exo2 et que tu veux lire le contenu du fichier README qui est dans le dossier Exo1. Quelle ligne de commande taperais-tu ? <<
+>> Imagine que tu te trouves dans le dossier Exo2 et que tu veux lire le contenu du fichier README qui est dans le dossier Exo1. Quelles lignes de commande pourrais-tu taper ? <<
 [ ] cat Exo1/README
 [*] cat ../Exo1/README
 [ ] cat sasha/Exo1/README
@@ -98,11 +100,11 @@ Voici l'arborescence d'une machine imaginaire :
 
 >> Imagine que tu te trouves dans le répertoire Vacances. Quelles commandes te permettraient d'aller dans le répertoire Travail  ? <<
 [*] cd ../../Travail/
-[ ] cd Travail
-[ ] cd Documents/Travail
+[ ] cd Travail/
+[ ] cd Documents/Travail/
 [*] cd ../../../Documents/Travail/
-[ ] cd ../Travail
-[ ] cd ../Documents/Travail
+[ ] cd ../Travail/
+[ ] cd ../Documents/Travail/
 
 
 
@@ -110,7 +112,9 @@ Voici l'arborescence d'une machine imaginaire :
 
 >> quel est le contenu de /home/etudiant/Exo1/Dir33/README ? <<
 === coucou
->> quel est le contenu de Exo1/Dir32/README ? <<
+
+
+>> quel est le contenu du fichier README qui se trouve dans le dossier Dir32 qui est dans Exo1 ? <<
 === hello
 
 
