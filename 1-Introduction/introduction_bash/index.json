@@ -48,10 +48,6 @@
             {
                 "file": "home.tar.bz2",
                 "target": "/tmp"
-            },
-            {
-                "file": "test.sh",
-                "target": "/tmp"
             }
         ]
     }
