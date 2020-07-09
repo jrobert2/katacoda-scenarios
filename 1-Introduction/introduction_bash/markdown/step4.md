@@ -1,9 +1,9 @@
-La notion de chemin n'est pas très compliquée, mais c'est une notion essentielle, alors soit certain.e de bien la comprendre.
+La notion de chemin (absolu ou relatif) n'est pas très compliquée, mais c'est une notion essentielle, alors soit certain.e de bien la comprendre.
 
 # La commande cd avec un chemin relatif
 
 La commande `cd` permet de traverser plusieurs répertoires d'un seul coup.
-Par exemple, voici une partie de l'aborescence du dossier dans lequel tu te trouves (qui symbolisé par un point `.`) :
+Par exemple, voici une partie de l'aborescence du dossier dans lequel tu te trouves, qui symbolisé par un point `.` :
 ```
 .
 ├── Exo1
@@ -35,7 +35,8 @@ Essaye de te déplacer d'un endroit à un autre en utilisant cette méthode.
 Retourne maintenant dans l'entrée de ta maison (tu te rappelles comment faire ?).
 
 Sans bouger, tu peux lire le contenu du fichier ringo qui se trouve dans le dossier Dir42, lui-même dans le dossier Exo1. Et oui, tu as de supers pouvoirs !
-Il suffit de taper `cat Exo1/Dir42/ringo`{{execute}}
+
+Pour lire ce fichier à partir de ton home, il suffit de taper `cat Exo1/Dir42/ringo`{{execute}}
 
 Essaye de lire *à distance* le fichier paul qui se trouve également dans Dir42, ou encore le fichier README qui se trouve dans le dossier Dir10.
 
@@ -51,10 +52,10 @@ il suffit de taper `ls Exo1/Dir42`{{execute}}
 Pour lister le contenu du dossier home, qui est le dossier parent,
 il suffit de taper `ls ..`{{execute}}
 
-Pour lister le contenu du dossier media qui se trouve à la racine, il faut revenir deux fois en arrière avant d'entrer dans bin.
+Pour lister le contenu du dossier media qui se trouve à la racine, il faut revenir deux fois en arrière avant d'entrer dans media.
 Il suffit donc de taper `ls ../../media`{{execute}}
 
-Essaye de te lister *à distance* le contenu d'autres dossiers.
+Essaye de lister *à distance* le contenu d'autres dossiers.
 
 
 Bravo ! Tu es très doué.e !

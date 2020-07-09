@@ -6,14 +6,14 @@ Dans le terminal, sur la ligne du haut, on voit un "prompt" :
 
 Tu reconnais ton prénom ?
 
-La partie verte `sasha@host01` signifie que l'utilisateur connecté (toi) s'appelle "sasha" et qu'il est actuellement sur la machine qui s'appelle "host01"
+La partie verte, `sasha@host01`, signifie que l'utilisateur connecté (toi) s'appelle "sasha" et qu'il est actuellement sur la machine qui s'appelle "host01"
 
-La partie bleue `/home/sasha/` est le chemin absolu de l'endroit où tu te trouves. Pour le moment, tu es dans le dossier `sasha` qui est dans le dossier `home` qui se trouve à la racine.
-Ce dossier est l'entrée de ta maison qu'on appelle également *ton home*.
+La partie bleue, `/home/sasha/`, est le **chemin absolu** de l'endroit où tu te trouves. Pour le moment, tu es dans le dossier `sasha` qui est dans le dossier `home` (qui se trouve à la racine).
+Ce dossier est l'entrée de ta maison qu'on appelle également ton home.
 
-Il ne faut surtout pas confondre **ton** home (**ta** maison) avec le répertoire `/home/` qui lui s'apparente plutôt à un village : c'est là que sont toutes les maisons de tous les utilisateurs.
+Il ne faut surtout pas confondre **ton** home avec le répertoire `/home/` qui lui s'apparente plutôt à un village : c'est là que sont toutes les maisons.
 
-Le `$` de la fin signifie juste que c'est la fin du prompt. Juste après ce `$`, tu peux taper des instructions sous forme de texte.
+Le `$` de la fin signifie juste que c'est la fin du **prompt**. Juste après ce `$`, tu peux taper des instructions sous forme de texte.
 
 Si tu tapes quelque chose, ça s'écrit dans le prompt.
 

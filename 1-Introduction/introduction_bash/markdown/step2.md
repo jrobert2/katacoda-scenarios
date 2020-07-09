@@ -1,7 +1,7 @@
 
 # Revenir à la maison quand on est perdu
 
-La **commande** `cd` permet changer de répertoire courant (*change directory*).
+La **commande** `cd` permet changer de dossier courant (*change directory*).
 Utilisée seule, cette commande te permet de revenir chez toi, dans l'entrée de ta maison. Mais il y a toutes les chances que tu y sois déjà.
 
 Lance la ligne de commande `cd`{{execute}} puis répond à la question :
@@ -16,7 +16,7 @@ Lance la ligne de commande `cd`{{execute}} puis répond à la question :
 # Se repérer
 
 La **commande** `ls` permet de *lister* le contenu d'un dossier.
-Utilisée seule, cette commande te permet de lister le contenu du dossier courant (le dossier dans lequel tu te trouves).
+Utilisée seule, cette commande permet de lister le contenu du **dossier courant** (le dossier dans lequel tu te trouves).
 
 Si la coloration est activée (normalement c'est le cas ici), les dossiers sont en bleu et les fichiers en blanc.
 Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :

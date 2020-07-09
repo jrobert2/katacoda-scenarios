@@ -1,6 +1,6 @@
 # Se déplacer
 
-La commande `cd` seule permet de revenir à la maison. Tu peux aussi l'utiliser avec un **argument**. La ligne de commande `cd <repertoire>` permet d'entrer dans un répertoire.
+La commande `cd` seule permet de revenir à la maison. Tu peux aussi l'utiliser avec un **argument**. La ligne de commande `cd <dossier>` permet d'entrer dans un dossier.
 Par exemple, essaye `cd Exo1`{{execute}} qui permet de te déplacer dans le dossier `Exo1`.
 
 >> Combien y a-t il de dossiers dans le dossier Exo1 ? <<

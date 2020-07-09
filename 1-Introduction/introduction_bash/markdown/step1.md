@@ -17,4 +17,4 @@ Mais tu es ici pour devenir un informaticien et non plus un simple utlisateur de
 
 
 Je suis sûr que tu es curieux d'en apprendre plus. Alors passe vite à la suite.
-Mais pour cela, il faut répondre au quizz ;)
+Mais pour cela, il te faudra (presque) à chaque fois répondre à un petit quizz ;)
