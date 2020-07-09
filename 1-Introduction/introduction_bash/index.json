@@ -33,7 +33,8 @@
     ],
     "intro": {
         "courseData": "courseBase.sh",
-        "text": "/markdown/intro.md"
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
     },
     "finish": {
       "text": "/markdown/finish.md"
