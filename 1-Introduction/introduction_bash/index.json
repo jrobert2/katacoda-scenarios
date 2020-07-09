@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Bienvenue !",
+        "title": "Bonjour Sasha !",
         "text": "/markdown/step1.md"
+      },
+      {
+        "title": "Le terminal",
+        "text": "/markdown/step1b.md"
       },
       {
         "title": "Se repérer et voir le contenu d'un fichier",

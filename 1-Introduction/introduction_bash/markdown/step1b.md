@@ -1,26 +1,9 @@
 
-Je sais... il y a peu de chance pour que tu t'appelles Sacha, mais ce sera ton prénom pour ce scénario.
+Le terminal, c'est la fenêtre sur la droite. Ici, c'est le terminal d'une machine virtuelle dans laquelle tout est permis. C'est une machine *bac à sable* sur laquelle tu peux faire tout ce que tu veux sans risquer de casser quoi que ce soit. N'hésite pas à y essayer tout ce qui te passe par la tête.
 
-# Que va-t-on faire ?
+Sur Xubuntu tu peux ouvrir un terminal en pressant simultanément les touches <kbd>U+229E Win</kbd>+<kbd>T</kbd>. Mais attention, là c'est plus sérieux : c'est à ta propre machine que tu parles : réfléchi bien avant de taper tes instructions !
 
-Dans ce module, tu vas te familiariser avec le terminal. C'est cette fenêtre noire à droite de ce texte. Elle permet de gérer tes fichiers, d'exécuter des programmes, et de gérer ton système tout entier.
-
-Bien sûr, tu sais probablement déjà faire une partie de tout ça sans utiliser le terminal. Tant mieux, ça sera plus simple pour comprendre certaines choses !
-
-Mais tu es ici pour devenir un informaticien et non plus un simple utlisateur de l'informatique. Pour cela, il est indispensable que tu saches interagir avec la machine en utilisant le terminal. Alors, même s'il te paraît plus simple de faire autrement pour le moment, force toi à l'utiliser le plus souvent possible, chez toi ainsi que dans les autres modules. Plus tu utiliseras le terminal pour tes propres besoins et plus tu progresseras. Ici, ce n'est qu'une toute petite introduction.
-
->> Quel est l'objectif de se module ?  <<
-( ) Exécuter des programmes
-(*) Se familiariser avec le terminal
-( ) Gérer des fichiers
-( ) Apprendre à utiliser des bâches
-
-
-# Le terminal
-
-Le terminal, c'est la fenêtre sur la droite. Ici, c'est le terminal d'une machine virtuelle dans laquelle tout est permis. C'est une machine *bac à sable* sur laquelle tu peux faire tout ce que tu veux sans risquer de casser quoi que ce soit. N'hésite pas à y essayer tout ce qui te passes par la tête.
-
-Sur Ubuntu tu peux ouvrir un terminal en faisant CTRL-ALT-T. Mais attention, là c'est plus sérieux : c'est à ta propre machine que tu parles : réfléchi bien avant de taper tes instructions !
+Sur Ubuntu tu peux ouvrir un terminal en faisant <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>. 
 
 Le terminal te permet de communiquer avec ta machine : tu as peut être l'habitude de cliquer pour demander une action ou d'utiliser les raccourcis clavier. Il y a une troisième manière de communiquer avec la machine : lui donner des instructions sous la forme de texte.
 

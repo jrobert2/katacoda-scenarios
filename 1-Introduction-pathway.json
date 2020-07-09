@@ -4,7 +4,7 @@
   "courses": [
     {
       "title": "Introduction à bash",
-      "description": "Introduction  au terminal.",
+      "description": "Découverte du terminal.",
       "course_id": "introduction_bash"
     },
     {
