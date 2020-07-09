@@ -11,27 +11,21 @@
         "verify": "/verify/exo1.sh"
       },
       {
-        "title": "Supprimer un fichier",
+        "title": "Echauffement",
         "text": "/markdown/step2.md",
+      },
+      {
+        "title": "Supprimer et créer des fichiers",
+        "text": "/markdown/step2b.md",
         "verify": "/verify/exo2.sh"
       },
       {
-        "title": "Supprimer un dossier",
+        "title": "Supprimer et créer des dossiers",
         "text": "/markdown/step3.md",
         "verify": "/verify/exo3.sh"
       },
       {
-        "title": "Créer des dossiers",
-        "text": "/markdown/step4.md"
-      },
-      {
-        "title": "Créer des dossiers, exercice",
-        "text": "/markdown/step5.md",
-        "verify": "/verify/exo5.sh"
-
-      },
-      {
-        "title": "Déplacer et copier",
+        "title": "Déplacer et copier des fichiers/répertoires",
         "text": "/markdown/step6.md"
       },
             {
@@ -66,7 +60,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Bienvenue !",
+    "uimessage1": "Encore un peu de patience ... je construis les home !",
     "uieditorpath": "/home/sasha/"
   },
   "backend": {

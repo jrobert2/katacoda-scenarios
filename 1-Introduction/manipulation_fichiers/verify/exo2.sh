@@ -1,5 +1,8 @@
-source /tmp/.env_etudiant
-if [ ! -e /home/etudiant/Exo1/Dir64/Swwdfhjoillk/Supprimez_moi ]
+source /tmp/.env_sasha
+if [ ! -e /home/sasha/Exo1/Dir64/Swwdfhjoillk/Supprimez_moi ]
 then
-    echo done
+    if [ -e /home/sasha/Exo1/Dir64/Swwdfhjoillk/fichier1024 ]
+    then
+        echo done
+    fi
 fi

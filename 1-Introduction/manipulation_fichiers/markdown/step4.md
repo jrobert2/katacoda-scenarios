@@ -1,24 +1,28 @@
 
-Tu dois toujours être dans le répertoire `/home/etudiant/Exo1/Dir64/Swwdfhjoillk/`. Si ce n'est pas le cas, retournes-y avec `cd /home/etudiant/Exo1/Dir64/Swwdfhjoillk/`{{execute}}
+Cela fait plusieurs fois que j'utilise les mots **commande**, **argument** et **option**.
 
-# mkdir
+Il est temps de faire un point sur ce sujet qui sera approfondi un peu plus tard.
 
-
-La commande `mkdir` permet de créer des répertoires (make directory).
-
-Par exemple, `mkdir got`{{execute}} crée le dossier got dans le répertoire courant.
-
-Autre exemple, `mkdir got/arya`{{execute}} crée le dossier arya dans le répertoire got qui se trouve dans le répertoire courant. Ici, on utilise un **chemin relatif**.
-
-Bien sûr, comme pour toutes les autres commandes on peut donner à `mkdir` un chemin absolu :
-`mkdir /home/etudiant/got/sansa`
+Dans une ligne de commande 'approfondir un peu le sujet.
 
 
+Dans la ligne de commande `rm -r Repbqyslxdtxd` :
 
->> En considérant que tu es toujours dans le répertoire Swwdfhjoillk, quelles commandes permettent de créer le répertoire /home/etudiant/Documents ? <<
+>> rm est : <<
+(*) la commande
+( ) un argument
+( ) une option
 
-[*] mkdir /home/etudiant/Documents/
-[ ] rmdir /home/etudiant/Documents/
-[ ] mkdir ../Documents/
-[*] mkdir ../../../Documents/
-[ ] ls /home/etudiant/Documents/
+>> -r  est : <<
+( ) la commande
+( ) un argument
+(*) une option
+
+>> Repbqyslxdtxd est : <<
+( ) la commande
+(*) un argument
+( ) une option
+
+
+
+
