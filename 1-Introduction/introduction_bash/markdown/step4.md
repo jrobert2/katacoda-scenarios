@@ -1,6 +1,9 @@
+La notion de chemin n'est pas très compliquée, mais c'est une notion essentielle, alors soit certain.e de bien la comprendre.
+
+# La commande cd avec un chemin relatif
 
 La commande `cd` permet de traverser plusieurs répertoires d'un seul coup.
-Par exemple, voici une partie de l'aborescence du dossier dans lequel tu te trouves (symbolisé par un point `.`) :
+Par exemple, voici une partie de l'aborescence du dossier dans lequel tu te trouves (qui symbolisé par un point `.`) :
 ```
 .
 ├── Exo1
@@ -12,85 +15,47 @@ Par exemple, voici une partie de l'aborescence du dossier dans lequel tu te trou
 └── Exo2
 ``` 
 
-Pour aller directement dans le dossier Dir45 qui se trouve dans le dossier Exo1, on utilisera l'argument `Exo1/Dir45/` avec la commance `cd`, ce qui donne `cd Exo1/Dir45/`{{execute}}
+Pour aller directement dans le dossier Dir45 sans faire d'étape dans le dossier Exo1, on utilisera l'argument `Exo1/Dir45/` avec la commance `cd`, ce qui donne `cd Exo1/Dir45/`{{execute}}
 
 Et depuis ce répertoire Dir45, pour aller dans le répertoire Dir43, il faut revenir en arrière une fois, puis entrer dans le dossier Dir43.
-On utilisera l'argument `../Dir43/` avec la commance `cd`, ce qui donne `cd ../Dir43/`
+On utilisera l'argument `../Dir43/` avec la commance `cd`, ce qui donne `cd ../Dir43/`{{execute}}
 
->> Maintenant tu dois être dans le répertoire /home/etudiant/Exo1/Dir43. Depuis cet endroit, où mène la commande ̀ cd ../..` ? <<
+>> Maintenant tu dois être dans le répertoire /home/etudiant/Exo1/Dir43. Depuis cet endroit, où mène la commande  cd ../.. ? <<
 
-(*) /home/etudiant/
-( ) /home/etudiant/Dir45
+(*) /home/sasha/
+( ) /home/sasha/Dir45
 ( ) nulle part
 
-As-tu remarqué que l'argument qu'il faut donner à `cd` dépend de l'endroit où tu te trouves ? Cet argument est un **chemin relatif**.
+As-tu remarqué que l'argument que tu donnes à `cd` dépend de l'endroit où tu te trouves ? Cet argument est un **chemin relatif**.
 
-# Exercice 1
+Essaye de te déplacer d'un endroit à un autre en utilisant cette méthode.
 
-Vérifions que tu as compris. Voici l'arborescence d'une machine imaginaire :
+# La commande cat avec un chemin relatif
 
-```
-/
-├── home
-│   └── etudiant
-│       ├── Exo1
-│       │   ├── Dir45
-│       │   ├── Dir47
-│       │   ├── Dir51
-│       │   └── Dir83
-│       └── Documents
-│   
-└── bin
-``` 
+Retourne maintenant dans l'entrée de ta maison (tu te rappelles comment faire ?).
 
->> Imagine que tu te trouves dans le dossier `/home/etudiant/` et que tu veux aller dans le dossier /home/etudiant/Exo1/. Quelle ligne de commande taperais-tu ? <<
+Sans bouger, tu peux lire le contenu du fichier ringo qui se trouve dans le dossier Dir42, lui-même dans le dossier Exo1. Et oui, tu as de supers pouvoirs !
+Il suffit de taper `cat Exo1/Dir42/ringo`{{execute}}
 
-(*) cd Exo1/
-( ) cd ../Exo1/
-( ) cd etudiant/Exo1/
+Essaye de lire *à distance* le fichier paul qui se trouve également dans Dir42, ou encore le fichier README qui se trouve dans le dossier Dir10.
 
->> Imagine que tu te trouves dans le dossier `/home/` et que tu veux aller dans le dossier /home/etudiant/Exo1/. Quelle ligne de commande taperais-tu ? <<
+# La commande ls avec un chemin relatif
 
-( ) cd Exo1/
-( ) cd ../Exo1/
-(*) cd etudiant/Exo1/
+Retourne maintenant dans l'entrée de ta maison (tu dois être au point maintenant).
 
->> Imagine que tu te trouves dans le dossier `/home/etudiant/Documents/` et que tu veux aller dans le dossier /home/etudiant/Exo1/. Quelle ligne de commande taperais-tu ? <<
-( ) cd Exo1/
-(*) cd ../Exo1/
-( ) cd etudiant/Exo1/
+Sans bouger, tu peux également lister le contenu de n'importe quel dossier du système. Quand je te dis que tu as des supers pouvoirs !
 
-# Exercice 2
+Par exemple pour lister le contenu du dossier Dir42 (oui, toujours lui !)
+il suffit de taper `ls Exo1/Dir42`{{execute}}
 
-Voici l'arborescence d'une machine imaginaire :
+Pour lister le contenu du dossier home, qui est le dossier parent,
+il suffit de taper `ls ..`{{execute}}
 
-```
-/
-├── home
-│   └── etudiant
-│       ├── Documents
-│       │   ├── Photos
-│       │   │   ├── Vacances
-│       │   │   └── Profil
-│       │   └── Travail
-│       │       ├── Algo
-│       │       └── BD
-│       └── Public
-│   
-└── bin
-``` 
+Pour lister le contenu du dossier media qui se trouve à la racine, il faut revenir deux fois en arrière avant d'entrer dans bin.
+Il suffit donc de taper `ls ../../media`{{execute}}
 
->> Imagine que tu te trouves dans le répertoire /home/etudiant/Documents/Photos/Vacances/. Quelles commandes te permettraient d'aller dans le répertoire /home/etudiant/Documents/Travail/  ? <<
-
-[*] cd ../../Travail/
-[ ] cd Travail
-[ ] cd Documents/Travail
-[*] cd ../../../Documents/Travail/
-[ ] cd ../Travail
-[ ] cd ../Documents/Travail
-
+Essaye de te lister *à distance* le contenu d'autres dossiers.
 
 
 Bravo ! Tu es très doué.e !
-
-Pour continuer, déplace toi dans le répertoire `/home/etudiant/Exo1/Dir83` .
+Tu peux passer à la suite.

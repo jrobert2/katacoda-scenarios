@@ -14,25 +14,28 @@
         "text": "/markdown/step1b.md"
       },
       {
-        "title": "Se repérer et voir le contenu d'un fichier",
+        "title": "Le prompt et les commandes",
+        "text": "/markdown/step1c.md"
+      },      
+      {
+        "title": "Mes premières commandes",
         "text": "/markdown/step2.md"
       },
       {
-        "title": "Se déplacer",
+        "title": "Les commandes cd et des chemins",
         "text": "/markdown/step3.md",
-        "verify": "/verify/exo3.sh"
       },
       {
-        "title": "Chemin relatif",
+        "title": "La notion de chemin relatif",
         "text": "/markdown/step4.md"
       },
       {
-        "title": "Chemin absolu",
+        "title": "La notion de chemin absolu",
         "text": "/markdown/step5.md"
       },
       {
-        "title": "Résumé",
-        "text": "/markdown/step6.md"
+        "title": "Bilan",
+        "text": "/markdown/bilan.md"
       }
     ],
     "intro": {

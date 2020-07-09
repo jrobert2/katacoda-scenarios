@@ -1,10 +1,25 @@
 
-# Chemin absolu
+Tu sais maintenant te déplacer d'un dossier à un autre en utillisant une **chemin relatif**. 
+On va complèter tes connaissance et explorant la notion de **chemin absolu**
 
-Tu sais maintenant te déplacer d'un dossier à un autre en utillisant une **chemin relatif**
+Un chemin absolu est un chemin qui indique *l'integralité du chemin de destination* en partant de la racine. Un chemin absolu commence donc toujours par "slash" (`/`) et ce "slash" s'appelle **la racine**.
 
-Une autre manière de fournir à `cd` l'endroit où on veut aller  est de lui donner *l'integralité du chemin de destination*, par exemple : `cd /home/etudiant/Exo1`{{execute}} . On parle alors de **chemin absolu** .
-Un chemin absolu commence toujours par `/`, et ce "slash" s'appelle **la racine**.
+Contrairement à un chemin relatif, un chemin absolu ne dépend pas de l'endroit où tu te trouves.
+
+```
+/
+├── home
+│   └── sasha
+│       ├── Exo1
+│       │   ├── README
+│       │   ├── Dir32
+│       │   │   └── README
+│       │   └── Dir33
+│       │       └── README
+│       └── Exo2
+│   
+└── bin
+``` 
 
 >> Parmi les chemins suivants, lesquels sont des chemins absolus ? <<
 
@@ -17,56 +32,29 @@ Un chemin absolu commence toujours par `/`, et ce "slash" s'appelle **la racine*
 [ ] Documents/Photos/
 
 
-# Exercice (chemins absolus et chemins relatifs)
+# La commande cd avec un chemin absolu
 
-```
-/
-├── home
-│   └── etudiant
-│       ├── Exo1
-│       │   ├── README
-│       │   ├── Dir32
-│       │   │   └── README
-│       │   └── Dir33
-│       │       └── README
-│       └── Documents
-│   
-└── bin
-``` 
+On peut se déplacer d'un dossier à un autre avec la commande `cd` en utilisant un chemin absolu.
 
->> Imagine que tu te trouves dans le dossier `/home/etudiant/` et que tu veux aller dans le dossier /home/etudiant/Exo1/. Quelles lignes de commande permettent de le faire ? <<
-[*] cd Exo1/
-[ ] cd /Exo1/
-[ ] cd home/etudiant/Exo1/
-[*] cd /home/etudiant/Exo1/
+Par exemple, pour te déplacer dans le dossier Dir83 qui se trouve dans le dossier Exo1 de ton home, tu peux taper ;
 
+`cd /home/etudiant/Exo1/Dir83`{{execute}}
 
-# Chemin absolu ou relatif avec cat
+Essaye de te déplacer d'un endroit à un autre en utilisant des chemins absolus.
 
-Avec la commande `cat`, c'est pareil, tu peux lui donner comme argument un chemin absolu ou relatif vers un fichier.
+# Les commandes cat et ls avec un chemin absolu
 
-Pour la suite, retourne dans /home/etudiant. Je te rappelle qu'un façon rapide de le faire est de taper `cd` sans argument : ça t'amène dans l'entrée de ta maison qu'on appelle *le home de l'utilisateur* (à ne surtout pas confondre avec le répertoire /home/ qui lui s'apparente plutôt à un village : c'est là que sont toutes les maisons).
+De la même façon, on peut utiliser un chemin absolu pour lister le contenu d'un dossier ou lire le contenu d'un fichier.
 
-Maintenant que tu es dans le dossier /home/etudiant. Tu peux, **sans bouger**, voir le contenu du fichier du fichier README qui se trouve dans le repertoire Exo1 en tapant `cat` suivi du chemin (absolu ou relatif) du fichier.
-Cela donne :
+Pour lister le contenu du dossier Dir42 sans bouger :
 
-* en utilisant un chemin relatif `cat Exo1/README` 
-* en utilisant un chemin absolu `cat /home/etudiant/Exo1/README` 
+`ls /home/etudiant/Exo1/Dir42`{{execute}}
 
-Tu es toujours dans /home/etudiant (sinon retournes-y). **Sans bouger**, peux-tu me dire :
+Pour lire le contenu du fichier georges du dossier Dir42 sans bouger :
 
->> quel est le contenu de /home/etudiant/Exo1/Dir33/README <<
-=== coucou
+`cat /home/etudiant/Exo1/Dir42/georges`{{execute}}
 
->> quel est le contenu de Exo1/Dir32/README <<
-=== hello
-
->> Comment appelle-t-on le '/' qui débute les chemins absolus ? <<
-( ) le slash
-(*) la racine
-( ) l'antislash
-( ) le tronc
-
+En utilisant une chemin absolu, essaye de lister le contenu du dossier Dir56 et de lire le fichier john du dosseir Dir42.
 
 Bravo, tu commences à prendre en main le terminal.  
 Passons à la suite :)
