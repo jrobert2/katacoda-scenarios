@@ -50,7 +50,7 @@
                 "target": "/tmp"
             },
             {
-                "file": "code.sh",
+                "file": "creationdeshome",
                 "target": "/tmp"
             }
         ]

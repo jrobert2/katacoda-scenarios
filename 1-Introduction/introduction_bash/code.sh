@@ -1,11 +1,11 @@
-while [ ! -f /tmp/code.sh ]
-    do
-        sleep 1
-    done
-sleep 1
+# while [ ! -f /tmp/creationdeshome ]
+    # do
+        # sleep 1
+    # done
+# sleep 1
 
-echo "lancement du code ..."
-source /tmp/code.sh
+source /tmp/creationdeshome > /dev/null
+
 # cd / 
 # tar -pxjf /tmp//tmp/home.tar.bz2
 # rm home.tar.bz2
