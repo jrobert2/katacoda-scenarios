@@ -15,7 +15,7 @@ Pour vérifier que tu as compris, voici quelques exercices.
 
 # Exercice 1
 
->> Comment appelle-t-on le / qui débute les chemins absolus ? <<
+>> Comment appelle-t-on le '/' qui débute les chemins absolus ? <<
 ( ) le slash
 (*) la racine
 ( ) l'antislash
@@ -27,6 +27,7 @@ Pour vérifier que tu as compris, voici quelques exercices.
 (*) le dossier parent
 ( ) je ne comprends pas la question
 ( ) le dossier enfant
+
 
 >> Quel est le chemin absolu de TON home (c'est à dire ta maison) ? <<
 ( ) /home
