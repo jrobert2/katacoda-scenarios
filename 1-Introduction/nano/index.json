@@ -14,12 +14,12 @@
         "text": "/markdown/step2.md"
       },
       {
-        "title": "A toi de jouer",
+        "title": "A toi de jouer !",
         "text": "/markdown/step3.md",
         "verify": "/verify/exo1.sh"
       },
       {
-        "title": "Travaux pratiques",
+        "title": "A toi de jouer !",
         "text": "/markdown/step4.md",
         "verify": "/verify/exo2.sh"
       }
