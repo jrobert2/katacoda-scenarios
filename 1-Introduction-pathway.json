@@ -9,8 +9,13 @@
     },
     {
       "title": "Manipuler les fichiers",
-      "description": "Suppression, copie, déplacement de fichiers",
+      "description": "Comment créer, supprimer, déplacer, renommer des fichiers et des dossiers",
       "course_id": "manipulation_fichiers"
+    },
+    {
+      "title": "Découvrir de nano",
+      "description": "Utiliser un éditeur de fichiers",
+      "course_id": "nano"
     },
     {
       "title": "Manipuler les fichiers: compléments",
