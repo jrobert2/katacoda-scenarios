@@ -7,7 +7,12 @@ ssh root@host01  'sudo echo -e "sasha\nsasha" | passwd sasha'
 ssh root@host01 'sudo cp /home/packer/.bashrc /home/sasha/'
 ssh root@host01 'sudo echo . /etc/profile >> /home/sasha/.bashrc'
 ssh root@host01 'sudo cp /home/packer/.profile /home/sasha/'
+# remplissage des homes
+ssh root@host01 'tar -pxjf /tmp/home.tar.bz2'
 # transfert des droits
 # ssh root@host01 'sudo chown -R sasha:sasha /home/sasha/.bashrc'
 # ssh root@host01 'sudo chown -R sasha:sasha /home/sasha/.profile'
-# ssh root@host01 'sudo chown -R sasha:sasha /home/sasha'
+ssh root@host01 'sudo chown -R sasha:sasha /home/sasha'
+ 
+
+sudo useradd -s /bin/bash -G root -m -U toto
