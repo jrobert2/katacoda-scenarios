@@ -1,6 +1,7 @@
 echo -n "Configuration de l'exercice "
 while [ ! -e /tmp/.fini ]
 do
+    sleep 1
     echo -n "."
 done
 
