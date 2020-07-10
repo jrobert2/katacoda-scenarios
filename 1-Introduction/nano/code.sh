@@ -1,7 +1,9 @@
+#! /bin/bash
+
 echo -n "Configuration de l'exercice "
 while [ ! -e /tmp/.fini ]
 do
-    sleep 1
+    sleep 1s
     echo -n "."
 done
 
