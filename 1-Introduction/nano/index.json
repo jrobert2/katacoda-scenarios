@@ -1,8 +1,8 @@
 {
-  "title": "Manipuler les fichiers avec Bash: compléments",
+  "title": "Manipuler les fichiers avec Bash : à la découverte de nano",
   "description": "Découverte du terminal",
   "difficulty": "Beginner",
-  "time": "30 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
