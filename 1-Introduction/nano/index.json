@@ -22,6 +22,10 @@
         "title": "A toi de jouer !",
         "text": "/markdown/step4.md",
         "verify": "/verify/exo2.sh"
+      },
+      {
+        "title": "Bilan",
+        "text": "/markdown/bilan.md",
       }
     ],
     "intro": {

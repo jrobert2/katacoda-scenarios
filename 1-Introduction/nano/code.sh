@@ -5,7 +5,7 @@
 bash << 'EOF'
 
     clear
-    echo -n "Configuration de l'exercice "
+    echo -n "Un peu de patiece : je configure l'exercice "
     while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
     do
         sleep 1s
