@@ -1,4 +1,4 @@
-while [ ! id sasha ] && [ ! -f /tmp/home.tar.bz2 ]
+while [ ! id sasha ] || [ ! -f /tmp/home.tar.bz2 ]
 do
     sleep 1
 done
