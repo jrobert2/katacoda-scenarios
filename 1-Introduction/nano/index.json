@@ -34,7 +34,6 @@
         "code": "code.sh"
     },
     "finish": {
-      "title": "Bravo !",
       "text": "/markdown/finish.md"
     },
     "assets": {
