@@ -13,7 +13,8 @@ Tu vois alors s'afficher quelque chose comme ça :
 * En bas, c'est un rappel des raccourcis clavier. Par exemple : <kbd>Ctrl</kbd>+<kbd>G</kbd> pour obtenir de l'aide, <kbd>Ctrl</kbd>+<kbd>X</kbd> pour quitter, etc. Oui oui, j'ai bien dit <kbd>Ctrl</kbd> alors que c'est symbolisé par le caractère <kbd>^</kbd> !
 
 
-Ajoute du texte et sauvegarde en appuyant sur <kbd>Ctrl</kbd>+<kbd>O</kbd>,tu va voir apparaître :
+Ajoute du texte et sauvegarde en appuyant sur <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+Tu va voir apparaître :
  ![nano](./assets/nano_machin_enregistrer.png)
 
 

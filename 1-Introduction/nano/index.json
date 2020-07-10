@@ -14,7 +14,7 @@
         "text": "/markdown/step2.md"
       },
       {
-        "title": "Travaux pratiques",
+        "title": "A toi de jouer",
         "text": "/markdown/step3.md",
         "verify": "/verify/exo1.sh"
       },
