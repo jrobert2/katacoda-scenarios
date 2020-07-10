@@ -22,7 +22,7 @@
         "title": "Travaux pratiques",
         "text": "/markdown/step4.md",
         "verify": "/verify/exo2.sh"
-      },
+      }
     ],
     "intro": {
         "courseData": "courseBase.sh",
