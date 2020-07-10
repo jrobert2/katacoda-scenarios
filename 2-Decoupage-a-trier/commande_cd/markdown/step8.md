@@ -1,18 +1,13 @@
+Trop fort.e !
 
-Et comment on bouge ?
+Est ce que tu peux te déplacer dans le dossier Desktop rapidement ?
 
-La **commande** `cd` permet changer de dossier courant (*change directory*).
+N'oublie pas le raccourci que je t'ai montré ;)
 
-Mais pour se déplacer dans un dossier, il faut le voir !
-Par exemple, si tu es toujours dans TON home, `cd Perso`{{execute}} te permet de te déplacer dans le répertoire `Perso`.
-
-Essaye !
-
-Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `/home/sasha/Perso`
 
 ```
 /
-├── bin
+├── bin 
 ├── dev
 │   ├── disk
 │   │   ├── by-id
@@ -30,14 +25,14 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  
-│   │   ├── Desktop
-│   │   ├── Perso <------------- maintenant tu es  ICI !
-│   │   │   └── Images
-│   │   │       ├── photos
+│   ├── sasha
+│   │   ├── Desktop <------------- je veux que tu ailles LA !
+│   │   ├── Perso 
+│   │   │   └── Images 
+│   │   │       ├── photos 
 │   │   │       └── vacances
 │   │   └── Travail
-│   │       ├── BD
+│   │       ├── BD 
 │   │       │   ├── cours
 │   │       │   ├── TD
 │   │       │   └── TP
@@ -59,9 +54,3 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
     ├── games
     └── share
 ``` 
-
-Pour passer à la suite, déplaces-toi dans le dossier `Images`
-
-
-
-

@@ -1,5 +1,5 @@
 {
-  "title": "La commande cd pour se déplacer",
+  "title": "Se repérer et se déplacer",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -9,20 +9,39 @@
         "text": "/markdown/step1.md"
       },
       {
-        "title": "Lire une arborescence",
+        "title": "La commande ls",
         "text": "/markdown/step2.md"
       },
       {
-        "title": "La commande ls",
-        "text": "/markdown/step3.md"
+        "title": "La commande cd",
+        "text": "/markdown/step3.md",
+        "verify":"/verify/cdimages.sh"
       },
       {
         "title": "La commande cd",
-        "text": "/markdown/step3.md"
+        "text": "/markdown/step4.md"
       },
       {
-        "title": "On fait le bilan",
-        "text": "/markdown/bilan.md"
+        "title": "La commande cd",
+        "text": "/markdown/step5.md",
+        "verify":"/verify/cd.sh"
+      },
+      },
+      {
+        "title": "La commande cd",
+        "text": "/markdown/step6.md",
+        "verify":"/verify/bd.sh"
+      },
+      },
+      {
+        "title": "La commande cd",
+        "text": "/markdown/step7.md",
+        "verify":"/verify/dev.sh"
+      },
+      {
+        "title": "La commande cd",
+        "text": "/markdown/step8.md",
+        "verify":"/verify/desktop.sh"
       }
     ],
     "intro": {

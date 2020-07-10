@@ -11,8 +11,9 @@ Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
 >> Combien y a-t il de dossiers dans ta maison ? <<
 ( ) il n'y en a pas
 ( ) 1 dossier
+( ) 2 dossiers
 (*) 3 dossiers
-( ) 125 dossiers
+( ) 4 dossiers ou plus
 
 
 ```
@@ -35,7 +36,7 @@ Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  <------------- tu es  ICI !
+│   ├── sasha  <------------- tu es toujours ICI !
 │   │   ├── Desktop
 │   │   ├── Perso
 │   │   │   └── Images

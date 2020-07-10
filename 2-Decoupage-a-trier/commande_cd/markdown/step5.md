@@ -1,14 +1,4 @@
-
-Et comment on bouge ?
-
-La **commande** `cd` permet changer de dossier courant (*change directory*).
-
-Mais pour se déplacer dans un dossier, il faut le voir !
-Par exemple, si tu es toujours dans TON home, `cd Perso`{{execute}} te permet de te déplacer dans le répertoire `Perso`.
-
-Essaye !
-
-Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `/home/sasha/Perso`
+C'est très bien !
 
 ```
 /
@@ -32,9 +22,9 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
 │   ├── packer
 │   ├── sasha  
 │   │   ├── Desktop
-│   │   ├── Perso <------------- maintenant tu es  ICI !
-│   │   │   └── Images
-│   │   │       ├── photos
+│   │   ├── Perso 
+│   │   │   └── Images 
+│   │   │       ├── photos <------------- maintenant tu es  ICI !
 │   │   │       └── vacances
 │   │   └── Travail
 │   │       ├── BD
@@ -60,7 +50,25 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
     └── share
 ``` 
 
-Pour passer à la suite, déplaces-toi dans le dossier `Images`
+Et maintenant ? Le dossier `photos` est un cul-de-sac. Comment sortir d'ici ?
+
+
+# Revenir en arrière
+
+Pour revenir en arrière, il suffit d'utiliser la commande `cd` avec l'argument `..` qui correspond au **dossier parent**
+ 
+Utilise la ligne de commande `cd ..`{{execute}} plusieurs fois pour voir jusqu'où tu peux aller.
+
+
+# Revenir à la maison quand on est perdu
+
+Si tu es perdu ou si tu veux rentrer à la maison rapidement, il existe un raccourci : il suffit d'utiliser la commande `cd` sans aucun argument.
+ 
+La ligne de commande `cd`{{execute}} t'emmène directement dans le répertoire `/home/sasha`.
+
+
+Promène-toi un peu et quand tu penses bien maitriser la commande cd, retourne dans TON home pour passer à la suite.
+
 
 
 

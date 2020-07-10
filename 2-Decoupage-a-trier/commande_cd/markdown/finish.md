@@ -1,5 +1,5 @@
 # Bravo !!
 
-Tu es maintenant capable de distinguer une commande de ses options et de ses arguments.
+Tu es maintenant capable de te déplacer dans une arborescence !
 
 On passe à la suite ?
