@@ -1,8 +1,10 @@
 #! /bin/bash
 
 # Pour rendre le code "transparent"
+
 bash << 'EOF'
 
+    clear
     echo -n "Configuration de l'exercice "
     while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
     do
