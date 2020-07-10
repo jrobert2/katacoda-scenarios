@@ -1,3 +1,5 @@
-Tu es maintenant capable d'utiliser un éditeur en ligne pour créer ou modifier des fichiers textes.
+# Bravo !!
 
-Tu es prêt à passer à la suite ?
+Tu es maintenant capable d'utiliser un éditeur en ligne pour créer ou modifier des fichiers texte.
+
+On passe à la suite ?
