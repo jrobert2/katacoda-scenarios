@@ -1,11 +1,11 @@
 {
-  "title": "M1101 - Focus sur quelques commandes",
+  "title": "M1101 - Des séquences decoupées non encore triées",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
     {
       "title": "Commandes, options et arguments",
       "description": "Apprendre à distinguer les commandes, les options et les arguments.",
-      "course_id": "commandes_options_arguments"
+      "course_id": "commande_options_arguments"
     }
   ]
 }
