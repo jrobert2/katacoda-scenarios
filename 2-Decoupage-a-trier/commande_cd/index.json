@@ -26,12 +26,10 @@
         "text": "/markdown/step5.md",
         "verify":"/verify/cd.sh"
       },
-      },
       {
         "title": "La commande cd",
         "text": "/markdown/step6.md",
         "verify":"/verify/bd.sh"
-      },
       },
       {
         "title": "La commande cd",
