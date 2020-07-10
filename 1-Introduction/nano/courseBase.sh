@@ -1,3 +1,5 @@
+#! /bin/bash
+
 USER=sacha
 #création de l'utilisateur
 ssh root@host01 'sudo useradd -s /bin/bash -G root -m -U sasha'
@@ -16,3 +18,6 @@ ssh root@host01 'sudo chown -R sasha:sasha /home/sasha'
  
 
 sudo useradd -s /bin/bash -G root -m -U toto
+
+echo done > /tmp/.fini
+echo "courseBase terminé !!"
