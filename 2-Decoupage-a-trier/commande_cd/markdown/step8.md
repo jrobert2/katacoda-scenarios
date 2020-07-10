@@ -2,7 +2,7 @@ Trop fort.e !
 
 Est ce que tu peux te déplacer dans le dossier Desktop rapidement ?
 
-N'oublie pas le raccourci que je t'ai montré ;)
+N'oublie pas le raccourci que je t'ai montré à l'étape 5 ;)
 
 
 ```

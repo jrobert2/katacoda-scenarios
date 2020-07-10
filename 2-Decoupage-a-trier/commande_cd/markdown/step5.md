@@ -67,7 +67,7 @@ Si tu es perdu ou si tu veux rentrer à la maison rapidement, il existe un racco
 La ligne de commande `cd`{{execute}} t'emmène directement dans le répertoire `/home/sasha`.
 
 
-Promène-toi un peu et quand tu penses bien maitriser la commande cd, retourne dans TON home pour passer à la suite.
+Promène-toi un peu et quand tu penses bien maitriser la commande `cd`, retourne dans TON home pour passer à la suite.
 
 
 

@@ -4,8 +4,8 @@ Maintenant, je veux que tu te déplaces dans le dossier dev
 
 ```
 /
-├── bin <------------- je veux que tu ailles LA !
-├── dev
+├── bin 
+├── dev <------------- je veux que tu ailles LA !
 │   ├── disk
 │   │   ├── by-id
 │   │   ├── by-path
