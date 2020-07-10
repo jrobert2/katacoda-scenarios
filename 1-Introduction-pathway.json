@@ -1,9 +1,9 @@
 {
-  "title": "M1101 - Notions de base",
+  "title": "M1101 - Un courte introduction à bash",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
     {
-      "title": "Introduction à bash",
+      "title": "Une courte introduction à bash",
       "description": "Découverte du terminal.",
       "course_id": "introduction_bash"
     },
