@@ -7,7 +7,7 @@ GROUP=sasha
 #création de l'utilisateur
 ssh root@host01 "sudo useradd -s /bin/bash -G root -m -U $USER"
 # Ajout au groupe
-#sh root@host01 "sudo usermod -aG root $USER"
+sh root@host01 "sudo usermod -aG root $USER"
 # attribution du mdp
 ssh root@host01  "sudo echo -e '$MDP\n$MDP' | passwd $USER"
 # config du profile
