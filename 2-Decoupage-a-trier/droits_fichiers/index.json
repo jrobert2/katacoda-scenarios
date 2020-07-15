@@ -1,0 +1,54 @@
+{
+  "title": "Droits 1 : droits des fichiers",
+  "description": "Introduction aux droits des fichiers",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Les fichiers ont des droits ?",
+        "text": "/markdown/step1.md"
+      },
+      {
+        "title": "Introduction aux droits",
+        "text": "/markdown/step2.md"
+      },
+      {
+        "title": "Quels sont les droits d'un fichier ?",
+        "text": "/markdown/step3.md"
+      },
+      {
+        "title": "Conclusion",
+        "text": "/markdown/step4.md"
+      }
+    ],
+    "intro": {
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            },
+            {
+                "file": "home.tar.bz2",
+                "target": "/tmp"
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/etudiant/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

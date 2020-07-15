@@ -15,7 +15,32 @@
     {
       "title": "Installation de programmes",
       "description": "Gestion des paquets",
-      "course_id": "administration_paquets"
+      "course_id": "gestion_paquets"
+    },
+    {
+      "title": "Droits 1 : droits des fichiers",
+      "description": "Introduction aux droits des fichiers",
+      "course_id": "droits_fichiers"
+    },
+    {
+      "title": "Droits 2 : droits des dossiers ",
+      "description": "Introduction aux droits des dossiers",
+      "course_id": "droits_dossiers"
+    },
+    {
+      "title": "Droits 3 : droits et octal",
+      "description": "Pour comprendre l'octal",
+      "course_id": "droits_octal"
+    },
+    {
+      "title": "Droits 5 : une synthèse sur les droits",
+      "description": "une synthèse sur les droits",
+      "course_id": "droits_bilan"
+    },
+    {
+      "title": "Droits 4 : les Inode",
+      "description": " ...",
+      "course_id": "inodes"
     }
   ]
 }
