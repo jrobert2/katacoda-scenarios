@@ -1,3 +1,8 @@
+Seul le propriétaire  d'un fichier (ou *root* ) peut changer ses permissions d'accès.
+
+
+
+
 Pour les répertoires comme pour les fichiers, lorsqu'on fait ls -l on voit apparaitre quelque chose comme :
 
 `drwxrwxr-x   5 john etu  4096 mars  16 13:32 Bureau`

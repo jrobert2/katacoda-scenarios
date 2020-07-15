@@ -1,124 +1,62 @@
 Lorsque tu tape `ls -l` tu obtiens quelque chose comme :
 
-    -rw-rw-r-- 1 etudiant etu 34 juin   9 08:57 fichier1.txt
-    -rw-rw---- 1 etudiant etu 34 juin   9 08:57 fichier2.txt
-    -r--r--r-- 1 etudiant etu 34 juin   9 08:57 fichier3.txt
-    ---------- 1 etudiant etu 34 juin   9 08:57 fichier4.txt
-    -r--rw-r-- 1 etudiant etu 34 juin   9 08:57 fichier5.txt
-    -rw------- 1 etudiant etu 34 juin   9 08:57 fichier6.txt
-    -r--r--r-- 1 etudiant etu 34 juin   9 08:57 fichier7.txt
-    -r--r----- 1 etudiant etu 34 juin   9 08:57 fichier8.txt
-    -rw-rw-r-- 1 etudiant etu 34 juin   9 08:57 fichier9.txt
-    -rwxrwxr-x 1 etudiant etu 26 juin   9 09:33 script.sh
+```
+-rw-r----- 1 sasha  etu    495 juil. 15 14:27 fichier1.txt
+-rw-rw-r-- 1 sasha  etu    265 juil. 15 14:59 fichier2.txt
+-rw-rw-r-- 1 sasha  etu    406 juil. 15 14:31 fichier3.txt
+-rw-rw-r-- 1 sasha  sasha  520 juil. 15 14:35 fichier4.txt
+-rw-rw-r-- 1 sasha  etu    468 juil. 15 14:37 fichier5.txt
+-rw-rw-r-- 1 sasha  etu    485 juil. 15 14:42 fichier6.txt
+-rw-r--r-- 1 willow etu    512 juil. 15 14:48 fichier7.txt
+-rw-rw-r-- 1 ariel  prof   682 juil. 15 14:50 fichier8.txt
+-rw-rw-r-- 1 sasha  etu    796 juil. 15 14:59 fichier9.txt
+-rwxrwxr-x 1 sasha  etu     26 juil. 15 11:07 script.sh
+```
 
+Regardons la première ligne, `-rw-r----- 1 sasha  etu  495 juil. 15 14:27 fichier1.txt` 
 
-Regardons la première ligne, `-rw-rw-r-- 1 etudiant etu 34 juin   9 08:57 fichier1.txt` 
-Je t'explique (presque) tout petit à petit :
+Elle donne beaucoup d'informations sur le fichier et il est important de les comprendre.
 
-* La partie "etudiant etu" signifie que le fichier appartient à l'utilisateur *etudiant* et est dans le groupe *etu*.
-* Le "1" à gauche de ça est un truc plus avancé, on y reviendra plus tard.
-* Le 34 est la taille en octets du fichier.
-* `juin 9 08:57` est la date de dernière modification du fichier.
+Je la décortique, en la lisant de la droite vers la gauche (de la fin vers le début) :
 
-Et le truc important est au début, les droits.
+* Tout à droite, il y a le nom du fichier : `fichier1.txt`
+* `juil. 15 14:27` est la date et l'heure de la dernière modification du fichier.
+* Le `495` est la taille en octets du fichier.
+* La partie `sasha etu` signifie que le fichier appartient à l'utilisateur *sasha* et est dans le groupe *etu*.
+* Le `1` qui vient ensuite est un truc plus avancé, on y reviendra plus tard.
+* Je t'explique la signification de la partie tout à gauche à l'étape suivante.
 
-La partie `-rw-rw-r--` se lit en oubliant le tiret du début, puis en décomposant en trois  :
+>> A qui appartient le fichier7.txt ? <<
+( ) sasha
+( ) ariel
+(*) willow
+( ) etu
+( ) prof
 
-* `-rw` (utilisateur)
-* `-rw` (groupe)
-* `r--` (autres)
+>> Dans quel groupe est le fichier9.txt ? <<
+( ) sasha
+( ) ariel
+( ) willow
+(*) etu
+( ) prof
 
-Chaque partie est composée de trois lettres :
+>> Quel est la taille de fichier6.txt ? <<
+( ) 15 bits
+( ) 485 bits
+( ) 15 octets
+(*) 485 octets
+( ) 14:42
 
-* Droits de lecture (r) : on peut par exemple lire le fichier avec un logiciel.
-* Droits d'écriture (w) : on peut modifier le fichier et le vider de son contenu.
-* Droits d'exécution (x) : on peut exécuter le fichier s'il est prévu pour, c'est-à-dire si c'est un fichier exécutable.
+>> Dans quel groupe est le fichier4.txt ? <<
+(*) sasha
+( ) ariel
+( ) willow
+( ) etu
+( ) prof
 
-Les trois parties correspondent à différents utilisateurs :
-
-* La première partie correspond aux droits du propriétaire du fichier.
-* La seconde partie correspond aux droits des utilisateurs appartenant au groupe auquel le fichier appartient (relis cette phrase plusieurs fois jusqu'à la comprendre ! ) .
-* La dernière partie correspond aux droits des gens qui ne sont ni le propriétaire du fichier, et qui n'appartiennent pas au groupe du fichier.
-
-
-Seul le propriétaire  d'un fichier (ou *root* ) peut changer ses permissions d'accès.
-
-
-# Observez
-
->> Essaie de lire le contenu du fichier2.txt (avec cat), peux tu le faire ? <<
-(*) oui
-( ) non
-
->> Essaie de lire le contenu du fichier4.txt (avec cat), peux tu le faire ? <<
-( ) oui
-(*) non
-
-
->> Essaie de modifier fichier2.txt (avec nano), peux tu le faire ? <<
-(*) oui
-( ) non
-
-
->> Essaie de modifier le contenu du fichier7.txt (avec nano), peux tu le faire ? <<
-( ) oui
-(*) non
-
-
-
-# Quizz
-
-Sur mon système, il y a trois utilisateurs :
-
-* alice, qui appartient aux groupes etu et admin
-* bob, qui appartient aux groupes etu et bob
-* candy, qui appartient aux groupes etu et admin
-
-
-Lorsque je fais ls -l, j'obtiens :
-
-  -rwxr-x---    1 alice etu   43B 14 jui 11:55 fichier1
-  -rwxr-x---    1 candy bob   54K 14 jui 11:56 fichier2
-  -rwxr-x---    1 alice admin 3M  14 jui 11:57 fichier3
-  -rwxr-x---    1 bob bob     1B  14 jui 11:58 fichier4
-
-
-
->> Pour le fichier1 <<
-
-[*] alice a le droit de lire le fichier
-[*] alice a le droit de modifier le fichier
-[*] bob a le droit de lire le fichier
-[ ] bob a le droit de modifier le fichier
-[ ] candy a le droit de lire le fichier
-[ ] candy a le droit de modifier le fichier
-
-
->> Pour le fichier2 <<
-
-[ ] alice a le droit de lire le fichier
-[ ] alice a le droit de modifier le fichier
-[*] bob a le droit de lire le fichier
-[ ] bob a le droit de modifier le fichier
-[*] candy a le droit de lire le fichier
-[*] candy a le droit de modifier le fichier
-
-
->> Pour le fichier3 <<
-
-[*] alice a le droit de lire le fichier
-[*] alice a le droit de modifier le fichier
-[ ] bob a le droit de lire le fichier
-[ ] bob a le droit de modifier le fichier
-[*] candy a le droit de lire le fichier
-[ ] candy a le droit de modifier le fichier
-
-
->> Pour le fichier4 <<
-
-[ ] alice a le droit de lire le fichier
-[ ] alice a le droit de modifier le fichier
-[*] bob a le droit de lire le fichier
-[*] bob a le droit de modifier le fichier
-[ ] candy a le droit de lire le fichier
-[ ] candy a le droit de modifier le fichier
+>> A qui appartient le fichier8.txt ? <<
+( ) sasha
+(*) ariel
+( ) willow
+( ) etu
+( ) prof
