@@ -8,6 +8,11 @@
       "course_id": "commande_options_arguments"
     },
     {
+      "title": "La commande cd (début)",
+      "description": "Se repérer et se déplacer.\nFocus sur la commande cd",
+      "course_id": "commande_cd"
+    },
+    {
       "title": "Installation de programmes",
       "description": "Gestion des paquets",
       "course_id": "administration_paquets"
