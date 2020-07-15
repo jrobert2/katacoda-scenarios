@@ -43,7 +43,7 @@ Si tu veux forcer la mise à jour, il te suffit de taper `sudo apt upgrade` . **
 
 # Dépendances
 
-Peut être as tu remarqué que lorsque tu demandes d'installer un paquet, le système te propose d'en installer beaucoup d'autres ? 
+Peut être as-tu remarqué que lorsque tu demandes d'installer un paquet, le système te propose d'en installer beaucoup d'autres ? 
 C'est simplement dû au fait que souvent, un paquet dépend d'autres paquets (bibliothèques, pilotes, etc...) qui eux même dépendent d'autres paquets, etc.
 
-Ubuntu gère tout seul ces dépendances et installe (ou désinstalle) les paquets nécessaires.
+Ubuntu t'avertit sur les dépendances. Par défaut, il installe en général tous les paquets nécessaires. Lors de la désinstallation d'un programme, soit attentif aux messages dans le terminal.

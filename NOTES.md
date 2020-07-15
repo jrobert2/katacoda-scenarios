@@ -5,9 +5,11 @@ Dans chaque repertoire assets :
 
 `tar pcjf home.tar.bz2 home`
 
-# A FAIRE 
+# TODO dans 'gestion_paquets' 
 
-* Dans le scenario 'gestion_paquets' on utilise la commande sudo. Il faudrai :
+* Vérifier le quizz de la fin (ajouter des sudo)
 
-  - soit en parler avant dans un scenario `droit_utilisateurs`
-  - soit ajouter un peu de bla bla pour expliquer 
+On utilise la commande sudo. Il faudrait :
+
+* soit en parler avant dans un scenario `droit_utilisateurs`
+* soit ajouter un peu de bla bla pour expliquer 
