@@ -5,9 +5,10 @@ La commande `sl`{{execute}} n'est pas installée.
 Si tu essayes de la lancer (ce que tu as déjà fait bien sûr !), le terminal affiche un message d'erreur :
 
 ```
-The program  'sl' is currently not installed. You can install it by typing:
-sudo apt install sl
+The program  'sl' is currently not installed. To run 'sl' please ask your administrator to install the package 'sl'
 ```
+
+Ca tombe bien : sasha (toi !) est un des administrateurs du système. Tu vas donc pouvoir installer ce programme.
 
 
 # Installer un paquet
@@ -37,7 +38,7 @@ Par exemple, pour désinstaller le paquet `sl` que tu viens d'intaller, il suffi
 
 Essaye ! Puis vérifie que tu n'as plus accès à la commande `sl`
 
-# Root
+# Sudo
 
 Tu as remarqué que chaque commande est précédée du mot clef `sudo` ?
 
