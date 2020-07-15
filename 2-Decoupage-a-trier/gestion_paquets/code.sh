@@ -14,6 +14,9 @@ bash << 'EOF'
     
     # nettoyage
     rm /tmp/.fini
+    
+    # On ajoute sasha aux admin    
+    adduser sacha sudo
 
 EOF
 

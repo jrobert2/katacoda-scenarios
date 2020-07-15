@@ -24,7 +24,3 @@ Pour pouvoir ajouter d'autres logiciel, on peut ajouter d'autres dépots (d'autr
 
 Par exemple tu peux regarder ce fichier `cat /etc/apt/sources.list.d/yarn.list`{{execute}} qui contient un lien vers un dépôt qui contient des logiciels supplémentaires.
 
-Pour mettre à jour localement (dans ton système) la liste des logiciels installables, il faut mettre à jour la liste des paquets.
-Utilise par exemple la commande `apt update`{{execute}}
-
-Cette commande va aller regarder tous les dépôts, et télécharger sur les sites correspondant la liste des paquets disponibles.

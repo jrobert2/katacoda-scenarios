@@ -9,11 +9,12 @@ The program  'sl' is currently not installed. You can install it by typing:
 sudo apt install sl
 ```
 
+
 # Installer un paquet
 
-Une fois que la liste locale des paquets est à jour, il est très facile d'en installer un.
+Quand tu connais le nom du paquet que tu veux installer, il est très facile de l'installer.
 
-Ensuite, par exemple pour installer le paquet `sl`, il suffit de taper `apt install sl`
+Par exemple pour installer le paquet `sl`, il suffit de taper `sudo apt install sl`
 
 Essaie !
 
@@ -30,17 +31,14 @@ Tu as maintenant installé la commande `sl`. Tu peux la tester en faisant : `sl`
 # Désinstaller un paquet
 
 Il est également très facile de désintaller un paquet.
-Par exemple, pour désinstaller le paquet `sl` que tu viens d'intaller, il suffiet de taper :
+Par exemple, pour désinstaller le paquet `sl` que tu viens d'intaller, il suffit de taper :
 
-`apt purge sl`{{execute}}
+`sudo apt purge sl`{{execute}}
 
 Essaye ! Puis vérifie que tu n'as plus accès à la commande `sl`
 
 # Root
 
-Tu as remarqué 
+Tu as remarqué que chaque commande est précédée du mot clef `sudo` ?
 
-```
-Le programme « sl » n'est pas encore installé. Vous pouvez l'installer en tapant :
-sudo apt install sl
-```
+Pourquoi d'après toi ?
