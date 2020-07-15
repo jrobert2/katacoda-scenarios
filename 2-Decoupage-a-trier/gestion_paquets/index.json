@@ -39,10 +39,6 @@
             {
                 "file": "tpunixauto.sh",
                 "target": "/etc/profile.d/"
-            },
-            {
-                "file": "home.tar.bz2",
-                "target": "/tmp"
             }
         ]
     }

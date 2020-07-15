@@ -1,3 +1,14 @@
+Tu vas t'entraîner sur un exemple simple pour commencer.
+
+La commande `sl`{{execute}} n'est pas installée.
+
+Si tu essayes de la lancer (ce que tu as déjà fait bien sûr !), le terminal affiche un message d'erreur :
+
+```
+The program  'sl' is currently not installed. You can install it by typing:
+sudo apt install sl
+```
+
 # Installer un paquet
 
 Une fois que la liste locale des paquets est à jour, il est très facile d'en installer un.
@@ -25,3 +36,11 @@ Par exemple, pour désinstaller le paquet `sl` que tu viens d'intaller, il suffi
 
 Essaye ! Puis vérifie que tu n'as plus accès à la commande `sl`
 
+# Root
+
+Tu as remarqué 
+
+```
+Le programme « sl » n'est pas encore installé. Vous pouvez l'installer en tapant :
+sudo apt install sl
+```
