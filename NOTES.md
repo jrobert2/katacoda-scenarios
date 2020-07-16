@@ -75,4 +75,6 @@ On utilise la commande sudo. Il faudrait :
 * conclusion etape 5
 * relire/compléter le quizz de l'étape 6
 
+# TODO dans 'droits_chmod'
+* correger le verify2. Je comprends pas pourquoi ça marche pas !!!! 
 

@@ -24,7 +24,7 @@
       {
         "title": "La commande chmod et l'octal",
         "text": "/markdown/step5.md",
-        "verify":"/verify/chmod.sh"
+        "verify":"/verify/chmod2.sh"
       },
       {
         "title": "Quizz",
