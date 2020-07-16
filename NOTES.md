@@ -28,7 +28,7 @@ Dans chaque repertoire assets :
 ## Administer son système
 * droits des fichiers -> à relire
 * droits des dossiers - > à compléter
-* modifier les droits -> à faire
+* modifier les droits -> à relire/compléter
 * gestion des paquets -> à relire
 * Les inodes -> à relire
 * commandes chown et chgroup ?
@@ -76,5 +76,5 @@ On utilise la commande sudo. Il faudrait :
 * relire/compléter le quizz de l'étape 6
 
 # TODO dans 'droits_chmod'
-* correger le verify2. Je comprends pas pourquoi ça marche pas !!!! 
+* ~faire un quizz
 
