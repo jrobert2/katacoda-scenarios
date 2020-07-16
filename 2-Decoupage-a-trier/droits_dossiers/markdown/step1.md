@@ -1,4 +1,11 @@
-Pour les répertoires comme pour les fichiers, lorsqu'on fait ls -l on voit apparaitre quelque chose comme :
+Et oui ! Les répertoires, comme les fichiers, ont des droits.
+Et comprendre ce qu'il se passe quand on combine les droits des dossiers et des fichiers n'est pas si facile !
+
+Mais n'allons pas trop vite et commençons par le début.
+
+# Propriétaires, groupes et droits
+
+Si tu tapes `ls -l` alors que tu es dans *ton home*, tu dois voir apparaitre quelque chose comme :
 
 `drwxrwxr-x   5 john etu  4096 mars  16 13:32 Bureau`
 

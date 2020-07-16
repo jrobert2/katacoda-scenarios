@@ -1,12 +1,12 @@
 {
-  "title": "Manipuler les fichiers avec Bash: compléments",
-  "description": "Découverte du terminal",
+  "title": "Droits - épisode 2\nDroits des dossiers",
+  "description": "Pour tout savoir sur les droits des dossiers",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Les dossiers ont des droits ?",
         "text": "/markdown/step1.md"
       },
       {
@@ -51,7 +51,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "Bienvenue !",
-    "uieditorpath": "/home/etudiant/"
+    "uieditorpath": "/home/sasha/"
   },
   "backend": {
     "imageid": "ubuntu"

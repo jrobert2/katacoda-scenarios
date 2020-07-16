@@ -18,27 +18,27 @@
       "course_id": "gestion_paquets"
     },
     {
-      "title": "Droits 1 : droits des fichiers",
+      "title": "Droits - épisode 1\nDroits des fichiers",
       "description": "Introduction aux droits des fichiers",
       "course_id": "droits_fichiers"
     },
     {
-      "title": "Droits 2 : droits des dossiers ",
+      "title": "Droits - épisode 2\nDroits des dossiers ",
       "description": "Introduction aux droits des dossiers",
       "course_id": "droits_dossiers"
     },
     {
-      "title": "Droits 3 : droits et octal",
-      "description": "Pour comprendre l'octal",
+      "title": "Droits - épisode 3\nModifier les droits",
+      "description": "Focus sur les commandes chmod, chown\net accessoirement comprendre l'octal",
       "course_id": "droits_octal"
     },
     {
-      "title": "Droits 5 : une synthèse sur les droits",
+      "title": "Droits - épisode 5\nUne synthèse",
       "description": "une synthèse sur les droits",
       "course_id": "droits_bilan"
     },
     {
-      "title": "Droits 4 : les Inode",
+      "title": "Droits - épisode 4\nLes Inode",
       "description": " ...",
       "course_id": "inodes"
     }
