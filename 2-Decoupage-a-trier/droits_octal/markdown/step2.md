@@ -1,8 +1,8 @@
 Si tu tapes `ls -l`{{execute}}, tu peux remarquer que tu n'as aucun droit sur le fichier `exemple1` 
 
-Comme ce fichier t'appartient, tu peux modifier ses droits.
+Comme ce fichier t'appartient, tu va pouvoir modifier ses droits.
 
-Comment utiliser la commande `chmod` ?
+# Comment utiliser la commande `chmod` ?
 
 La syntaxe est la suivante `chmod <ugoa><+|-><rwx> FILE...`
 
@@ -46,5 +46,5 @@ Avec quelques exemples, tu devrais comprendre plus facilement ;)
 Essaye !
 
 Pour passer à la suite, fais en sorte que le fichier `exemple2` ait les droits
-`-rw-r-----`
+`rw-r-----`
 
