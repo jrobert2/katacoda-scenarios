@@ -8,7 +8,13 @@ Ce scénario complète les notions abordées dans les scénarios :
 
 Tu vas enfin apprendre comment protéger tes fichiers !
 
-![chmod 777](./assets/chmod777.png =233x337)
+essai1
+
+<img src="./assets/chmod777.png" alt="chmod 777" width="233"/>
+
+essai 2
+
+![chmod 777](./assets/chmod777.png)
 
 ## Pré-requis :
 
