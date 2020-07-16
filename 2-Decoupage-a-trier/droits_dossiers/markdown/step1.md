@@ -7,43 +7,34 @@ Mais n'allons pas trop vite et commençons par le début.
 
 Si tu tapes `ls -l` alors que tu es dans *ton home*, tu dois voir apparaitre quelque chose comme :
 
-`drwxrwxr-x   5 john etu  4096 mars  16 13:32 Bureau`
+```
+drwxrwxr-x 2 sasha etu 4096 juil. 16 13:31 Bureau
+drwxrwxr-x 2 sasha etu 4096 juil. 16 13:31 Documents
+-rw-rw-r-- 1 sasha etu   31 juil. 16 13:35 exemple1
+-rw-rw-r-- 1 sasha etu   31 juil. 16 13:34 exemple2
+d--x--x--x 2 sasha etu 4096 juil. 16 13:35 exemple3
+-rw-rw-r-- 1 sasha etu   31 juil. 16 13:34 exemple4
+```
 
+Examinons avec attention la première ligne : `drwxrwxr-x 2 sasha etu 4096 juil. 16 13:31 Bureau`
 
-Remarquez le d du début qui pour un fichier était un -.
- Pour le reste on retrouve les même lettres mais avec des significations différentes :
+Tu as remarqué le `d` qui est au début de la ligne ? Cela signifie que `Bureau` est un dossier.
 
-* Droits de lecture (r) : l'affichage du contenu du répertoire est autorisé (ls)
-* Droits d'écriture (w) : on peut créer, supprimer ou modifier le nom des fichiers qu'il contient, quels que soient les droits d'accès des fichiers de ce répertoire (même s'ils ne possèdent pas eux-mêmes le droit en écriture). (touch, rm, mv)
-* Droits d'exécution (x) : l'accès (ou ouverture) du répertoire est autorisé (cd).
+Pour le reste, normalement, tu sais déjà lire les autres informations.
 
-Globalement, en considérant qu'un répertoire est un fichier contenant la liste des noms des fichiers, on comprend bien le comportement de r et w. Pour x, il faut l'apprendre !
+>> Concernant le dossier Bureau <<
+[*] a pour propriétaire sasha
+[ ] a pour propriétaire etu
+[ ] a été créé le 16 juillet
+[*] a été modifié pour la dernière fois le 16 juillet
+[*] a été modifié pour la dernière fois le 16 juillet
+[ ] sasha a les droits d'écriture sur ce dossier
+[ ] ariel (qui n'est pas dans le groupe etu) a les droits d'écriture sur ce dossier
 
-
->> Le répertoire /opt/ a les droits suivants : drwxr-xr-x  root root . Dans ce répertoire, il y a un fichier truc qui a les droits -rw-rw-rw- root root. Que peut faire l'utilisateur john qui n'appartient pas au groupe root ? <<
-
-[*] lister les fichiers du répertoire,
-[*] modifier le contenu du fichier truc,
-[ ] supprimer le fichier truc,
-[ ] renommer le fichier truc?
-[ ]  Créer un fichier dans le répertoire /opt.
-
-
->> Pour que personne à part vous puissent lister les fichiers que vous avez dans votre home,  il faut : <<
-(*) supprimer les droits de lecture à mon home (/home/MONNOM) aux autres et au groupe (chmod og-r ~)
-( ) supprimer les droits d'exécution à mon home aux autres et au groupe (chmod og-x ~)
-( ) supprimer les droits d'écriture à mon home aux autres et au groupe (chmod og-w ~)
-
->> Pour que d'autres étudiants de votre groupe puissent lire un fichier README.txt dans votre home il faut : <<
-
-[*] Donner les droits de lecture au groupe à README.txt
-[ ] Donner les droits d'exécution au groupe à README.txt,
-[ ] Donner les droits d'écriture au groupe à README.txt
-[*] Donner les droits d'exécution de mon dossier personnel au groupe,
-[ ] Donner les droits de lecture de mon dossier personnel au groupe,
-[ ] Donner les droits d'écriture de mon dossier personnel au groupe,
-
-
->> Cela vous expose-t-il à ce qu'on puisse accéder à vos données ? <<
-(*) oui d'une certaine manière, car on peut traverser mon home. Cependant, mes fichiers restent protégés individuellement par les droits qui leurs sont associés.
-( ) non, car personne ne peut lister mes fichiers.
+>> Sélectionne les dossiers <<
+[*] Bureau
+[*] Documents
+[ ] exemple1
+[ ] exemple2
+[*] exemple3
+[ ] exemple4

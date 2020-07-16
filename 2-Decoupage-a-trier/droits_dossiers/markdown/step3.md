@@ -1,67 +1,29 @@
 
+Avoir les droits de lecture sur un dossier signifie que, si tu y as accès, tu peux lire son contenu. 
 
-La commande chmod accepte de l'octal pour changer les droits d'un fichier.
-Par exemple, pour donner les droits `rw-------` au fichier exemple1.txt on fera :
-`chmod 600 exemple1.txt`{{execute}} .
+Concrêtement, tu peux utiliser la commande `ls` par exemple pour lister le contenu de ce dossier.
 
-Essaie :
+>> La commande ls Bureau ? <<
+(*) s'exécute sans erreur
+( ) provoque une erreur parce que je n'ai pas le droit de lire ce dossier (r)
+( ) provoque une erreur parce que je n'ai pas le droit d'accéder à ce dossier (x)
 
-Donne les droits
+>> La commande ls Documents ? <<
+( ) s'exécute sans erreur
+(*) provoque une erreur parce que je n'ai pas le droit de lire ce dossier (r)
+( ) provoque une erreur parce que je n'ai pas le droit d'accéder à ce dossier (x)
 
-* rwxrw-r-- au fichier exemple2.txt
-* rwx----w- au fichier exemple3.txt
-* rwx------ au fichier exemple4.txt
-
-
-
-Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivantes :
-
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 734 truc.txt <<
-(*) rwx-wx-r--
-( ) ----w--w-
-( ) rw------x
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-( ) -wx------  
-
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 022 truc.txt <<
-(*) ----w--w-
-( ) rwx-wx-r--
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-( ) rw------x
-( ) -wx------  
-
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 601 truc.txt <<
-( ) ----w--w-
-( ) rwx-wx-r--
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-(*) rw------x
-( ) -wx------  
+>> La commande ls exemple3 ? <<
+( ) s'exécute sans erreur
+( ) provoque une erreur parce que je n'ai pas le droit de lire ce dossier (r)
+(*) provoque une erreur parce que je n'ai pas le droit d'accéder à ce dossier (x)
 
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 754 truc.txt <<
-( ) ----w--w-
-(*) rwx-wx-r--
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-( ) rw------x
-( ) -wx------  
+# Doits de lecture et commandes
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 776 truc.txt <<
-( ) ----w--w-
-( ) rwx-wx-r--
-(*) rwxrwxrw-
-( ) -wx-wx-wx
-( ) rw------x
-( ) -wx------  
+Tu auras besoin des droits de lecture sur un dossier pour :
 
+* lister le contenu du dossier avec la commande `ls`
+* rechercher des fichiers dans ce dossier avec la commande `find`
+* ...
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 500 truc.txt <<
-( ) ----w--w-
-( ) rwx-wx-r--
-() rwxrwxrw-
-( ) r-xr-xr-x
-( ) rw------x
-(*) r-x------  

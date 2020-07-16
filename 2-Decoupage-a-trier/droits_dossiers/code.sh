@@ -21,6 +21,10 @@ bash << 'EOF'
     chown -R willow:etu /home/willow
     chown -R olympe:olympe /home/olympe
     
+    chmod 444 /home/sasha/Bureau
+    chmod 000 /home/sasha/exemple1
+    chmod 222 /home/sasha/exemple1
+    chmod 111 /home/sasha/exemple3
     
     # chmod 640 /home/sasha/Documents/fichier1.txt
     # chmod 664 /home/sasha/Documents/fichier2.txt

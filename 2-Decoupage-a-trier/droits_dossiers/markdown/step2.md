@@ -1,24 +1,23 @@
-# Droits en hexa
 
-Remarque que les droits d'un fichier bien qu'écrits sous la forme `rwxr-xr--` pourraient être écrits comme : `111101100` en remplaçant les lettres par des 1 et les - par des 0. On a alors un nombre écrit en binaire.
+Globalement, en considérant de façon simpliste qu'un dossier est un fichier contenant la liste des noms des fichiers, on devine bien le comportement des droits `r` et `w`.
 
-Comme ce n'est pas très lisible, on va l'écrire en octal : on va reprendre chaque groupe de 3 bits et écrire le chiffre correspondant.
-Par exemple : `111 101 100` s'écrit `754`, puisque `111` est 7 en binaire, `101` est 5 et ̀`100` est 4 !
+Mais le droit **le plus important** pour un dossier est le droit `x`.
 
+Avoir les droits d'exécution sur un dossier signifie que tu y as accès, que tu peux l'ouvrir et le traverser (mais pas forcément regarder son contenu ni y faire quoi que ce soit d'autre).
 
->> Comment s'écrit `111000101` en octal ? <<
-(*) 705
-( ) 765
-( ) 503
-( ) 703
+Concrêtement, ce droit te permet d'utiliser la commande `cd`. 
 
->> Comment s'écrit `110110110` en octal ? <<
-=== 666
+Mais ce n'est pas tout ! Sans le droit `x` sur un dossier, il te sera impossible d'y faire quoi que ce soit. En effet, pour *lire* ou *écrire* dans un dossier, il faut déjà y avoir accès.
 
->> Comment est encodé en octal  rw-r--r-- ? <<
-( ) 422
-(*) 644
-( ) 666
+>> As-tu accès au dossier Bureau ? <<
+(*) oui
+( ) non
 
->> Comment encoder les droits rw-rw-r-- en octal ? <<
-=== 664
+>> As-tu accès au dossier Documents ? <<
+( ) oui
+(*) non
+
+>> As-tu accès au dossier exemple3 ? <<
+(*) oui
+( ) non
+
