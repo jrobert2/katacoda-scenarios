@@ -1,4 +1,3 @@
-source /tmp/.env_sasha
 if [ "$(ls -l /home/sasha | grep exemple2 | cut -d' ' -f1)" == "-rwxrw-r--" ]
 then
     if [ "$(ls -l /home/sasha | grep exemple3 | cut -d' ' -f1)" == "drwx----w-" ]
