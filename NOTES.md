@@ -5,6 +5,12 @@ Dans chaque repertoire assets :
 
 `tar pcjf home.tar.bz2 home`
 
+
+# TODO dans chaque scénario ?
+* Dans intro, ajouter les pré-requis
+* dans finish, proposer les noms/liens ? des scénarios suivants
+
+
 # TODO dans 'gestion_paquets' 
 
 * Vérifier le quizz de la fin (ajouter des sudo)

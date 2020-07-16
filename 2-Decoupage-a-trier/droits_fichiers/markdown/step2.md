@@ -13,7 +13,9 @@ Lorsque tu tape `ls -l` tu obtiens quelque chose comme :
 -rwxrwxr-x 1 sasha  etu     26 juil. 15 11:07 script.sh
 ```
 
-Regardons la première ligne, `-rw-r----- 1 sasha  etu  495 juil. 15 14:27 fichier1.txt` 
+Regardons la première ligne :
+
+`-rw-r----- 1 sasha  etu  495 juil. 15 14:27 fichier1.txt` 
 
 Elle donne beaucoup d'informations sur le fichier et il est important de les comprendre.
 
@@ -25,6 +27,8 @@ Je la décortique, en la lisant de la droite vers la gauche (de la fin vers le d
 * La partie `sasha etu` signifie que le fichier appartient à l'utilisateur *sasha* et est dans le groupe *etu*.
 * Le `1` qui vient ensuite est un truc plus avancé, on y reviendra plus tard.
 * Je t'explique la signification de la partie tout à gauche à l'étape suivante.
+
+Mais avant de continuer, peux-tu répondre à ce quizz ?
 
 >> A qui appartient le fichier7.txt ? <<
 ( ) sasha

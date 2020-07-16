@@ -18,8 +18,20 @@
         "text": "/markdown/step3.md"
       },
       {
-        "title": "Conclusion",
+        "title": "Droits de lecture",
         "text": "/markdown/step4.md"
+      },
+      {
+        "title": "Droits d'écriture",
+        "text": "/markdown/step5.md"
+      },
+      {
+        "title": "Droits d'exécution",
+        "text": "/markdown/step6.md"
+      },            
+      {
+        "title": "Une conclusion très temporaire",
+        "text": "/markdown/quizz.md"
       }
     ],
     "intro": {
@@ -28,6 +40,7 @@
         "code": "code.sh"
     },
     "finish": {
+      "title": "Bravo !",
       "text": "/markdown/finish.md"
     },
     "assets": {
