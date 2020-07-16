@@ -1,4 +1,4 @@
-Lorsque tu tape `ls -l` tu obtiens quelque chose comme :
+Lorsque tu tapes `ls -l`{{execute}} tu obtiens quelque chose comme :
 
 ```
 -rw-r----- 1 sasha  etu    495 juil. 15 14:27 fichier1.txt

@@ -1,9 +1,9 @@
 Tu penses tout savoir sur les droits ? 
 
-Sache qu'il n'en est rien encore jeune padawan : en réalité, c'est un peu plus compliqué que ça.
+Sache qu'il n'en est rien encore jeune padawan ! En réalité, c'est un peu plus compliqué que ça.
 Nous y reviendrons dans un prochain scénario.
 
-En attendant, tu as un petit quizz à faire pour vérifier que tu as bien compris ce scénario :
+En attendant, tu as un petit quizz à faire pour vérifier que tu as bien compris ce scénario.
 
 # Quizz
 

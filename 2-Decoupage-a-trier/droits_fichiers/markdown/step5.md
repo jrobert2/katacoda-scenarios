@@ -9,7 +9,10 @@ Tu auras besoin des droits d'écriture sur un fichier pour :
 
 **Curiosité**
 Le `fichierbizarre.txt` est un fichier que tu ne peux pas lire, mais que tu peux modifier.
-Si tu tapes `nano fichierbizarre.txt`{{execute}}, tu ne vois pas le contenu du fichier (si, si, je t'assure, il n'est pas vide !) mais tu peux le vider de son contenu et/ou écrire du texte à la place, texte que tu ne pourras pas lire puisque tu n'as pas les droits de lecture.  La commande `cat fichierbizarre.txt`{{execute}} affiche un message d'erreur.
+
+Si tu tapes `nano fichierbizarre.txt`{{execute}} tu ne vois pas le contenu du fichier (si, si, je t'assure, il n'est pas vide !) mais tu peux le vider de son contenu et/ou écrire du texte à la place, texte que tu ne pourras pas lire puisque tu n'as pas les droits de lecture.
+
+La commande `cat fichierbizarre.txt`{{execute}} affiche un message d'erreur.
 
 Essaye !
 
