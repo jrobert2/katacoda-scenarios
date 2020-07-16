@@ -76,5 +76,6 @@ On utilise la commande sudo. Il faudrait :
 * relire/compléter le quizz de l'étape 6
 
 # TODO dans 'droits_chmod'
-* ~faire un quizz
+
+* Regerder les verify !! je comprends pas pourquoi ça ne fonctionne pas !!!!!
 
