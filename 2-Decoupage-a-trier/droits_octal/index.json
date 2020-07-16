@@ -54,7 +54,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "Bienvenue !",
-    "uieditorpath": "/home/etudiant/"
+    "uieditorpath": "/home/sasha/"
   },
   "backend": {
     "imageid": "ubuntu"
