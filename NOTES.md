@@ -5,6 +5,56 @@ Dans chaque repertoire assets :
 
 `tar pcjf home.tar.bz2 home`
 
+# Les idées/propositions de scénarios
+
+## le b.a.ba
+
+* Introduction -> à relire
+* commande, arguments et options -> à relire
+* Les commandes cd et ls -> à relire
+* La commande cat -> à faire
+* les chemins -> à faire en cassant la commande cd (alias)
+* A la découverte de nano -> à relire. Ajouter la commande touch ici ?
+* la commande mkdir -> à faire
+
+## Les bases
+
+* la commande cp -> à faire
+* la commande mv -> à faire
+* la commande rm -> à faire
+* Le man 
+* La notion de variable
+
+## Administer son système
+* droits des fichiers -> à relire
+* droits des dossiers - > à compléter
+* modifier les droits -> à faire
+* gestion des paquets -> à relire
+* Les inodes -> à relire
+* commandes chown et chgroup ?
+
+
+## Notions plus avancées ?
+* Sortie standart, sortie d'erreur et redirection dans un fichier -> à faire
+* Entrée standart et redirection à partir d'un fichier -> à faire
+* Différence entre entrée standart et argument -> à faire
+* Les pipeline -> à faire
+* La commande grep -> à faire
+* Un fichier csv c'est quoi ? -> à faire
+* La commande cut -> à faire
+
+## Les scripts
+
+* Introduction aux scripts
+* arguments d'un script
+* Transformer un script en commande -> à faire
+* Comprendre/modifier mon bashrc -> ??
+* Les tests
+* Les boucles for
+* Les boucles while ??
+
+
+
 
 # TODO dans chaque scénario ?
 * Dans intro, ajouter les pré-requis
@@ -24,3 +74,5 @@ On utilise la commande sudo. Il faudrait :
 * quizz à l'étape 4
 * conclusion etape 5
 * relire/compléter le quizz de l'étape 6
+
+

@@ -1,24 +1,50 @@
-# Droits en hexa
+Si tu tapes `ls -l`{{execute}}, tu peux remarquer que tu n'as aucun droit sur le fichier `exemple1` 
 
-Remarque que les droits d'un fichier bien qu'écrits sous la forme `rwxr-xr--` pourraient être écrits comme : `111101100` en remplaçant les lettres par des 1 et les - par des 0. On a alors un nombre écrit en binaire.
+Comme ce fichier t'appartient, tu peux modifier ses droits.
 
-Comme ce n'est pas très lisible, on va l'écrire en octal : on va reprendre chaque groupe de 3 bits et écrire le chiffre correspondant.
-Par exemple : `111 101 100` s'écrit `754`, puisque `111` est 7 en binaire, `101` est 5 et ̀`100` est 4 !
+Comment utiliser la commande `chmod` ?
+
+La syntaxe est la suivante `chmod <ugoa><+|-><rwx> FILE...`
+
+Avec quelques exemples, tu devrais comprendre plus facilement ;)
+
+* Pour donner les droits de lecture aux membres du groupe `etu`, tu taperas `chmod g+r exemple1`{{execute}}
+
+  Remarque qu'il n'y a pas d'espace entre le g, le + et le r. Je détaille leur signification :
+  
+  **g** pour groupe
+  
+  **+** pour ajouter
+  
+  **r** droits de lecture
+ 
+* Pour donner les droits d'écriture au propriétaire (toi donc), tu taperas `chmod u+w exemple1`
+
+  Je détaille encore une fois :
+  
+  **u** pour user
+  
+  **+** pour ajouter (mais tu le sais déjà !)
+  
+  **w** droits d'écriture
+
+* Pour donner les droits d'exécution pour tous (all)  tu taperas `chmod a+x exemple1`
+
+  **a** pour all
+  
+  **x** droits d'exécution
+  
+* Pour enlever les droits d'exécution pour les autres (others) tu taperas `chmod o-x exemple1`
+
+  **o** pour other
+
+  **-** pour enlever
+  
+  **x** droits d'exécution
 
 
->> Comment s'écrit `111000101` en octal ? <<
-(*) 705
-( ) 765
-( ) 503
-( ) 703
+Essaye !
 
->> Comment s'écrit `110110110` en octal ? <<
-=== 666
+Pour passer à la suite, fais en sorte que le fichier `exemple2` ait les droits
+`-rw-r-----`
 
->> Comment est encodé en octal  rw-r--r-- ? <<
-( ) 422
-(*) 644
-( ) 666
-
->> Comment encoder les droits rw-rw-r-- en octal ? <<
-=== 664

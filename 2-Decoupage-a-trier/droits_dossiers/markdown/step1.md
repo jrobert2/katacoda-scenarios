@@ -27,8 +27,7 @@ Pour le reste, normalement, tu sais déjà lire les autres informations.
 [ ] a pour propriétaire etu
 [ ] a été créé le 16 juillet
 [*] a été modifié pour la dernière fois le 16 juillet
-[*] a été modifié pour la dernière fois le 16 juillet
-[ ] sasha a les droits d'écriture sur ce dossier
+[*] sasha a les droits d'écriture sur ce dossier
 [ ] ariel (qui n'est pas dans le groupe etu) a les droits d'écriture sur ce dossier
 
 >> Documents <<

@@ -3,6 +3,11 @@
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
     {
+      "title": "Une courte introduction à bash",
+      "description": "Découverte du terminal.",
+      "course_id": "introduction_bash"
+    },
+    {
       "title": "Commandes, options et arguments",
       "description": "Apprendre à distinguer les commandes, les options et les arguments.",
       "course_id": "commande_options_arguments"
@@ -29,7 +34,7 @@
     },
     {
       "title": "Droits - épisode 3\nModifier les droits",
-      "description": "Focus sur les commandes chmod, chown\net accessoirement comprendre l'octal",
+      "description": "Focus sur la commande chmod\net accessoirement comprendre l'octal",
       "course_id": "droits_octal"
     },
     {
