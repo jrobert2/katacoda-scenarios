@@ -19,3 +19,8 @@ On utilise la commande sudo. Il faudrait :
 
 * soit en parler avant dans un scenario `droit_utilisateurs`
 * soit ajouter un peu de bla bla pour expliquer 
+
+# TODO dans 'droits_dossiers' 
+* quizz à l'étape 4
+* conclusion etape 5
+* relire/compléter le quizz de l'étape 6

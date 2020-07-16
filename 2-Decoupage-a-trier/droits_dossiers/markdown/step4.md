@@ -5,15 +5,15 @@ Mais ça veut dire quoi écrire dans un dossier ?
 
 Cela signifie, entre autres choses que  :
 
-* tu peux y créer un nouveau fichier ou un nouveau dossier
-* tu peux y modifier le nom d'un fichier ou d'un dossier qui s'y trouve
-* tu peux modifier la date de dernière modification d'un fichier ou d'un dossier qui s'y trouve
+* tu peux y créer un nouveau fichier/dossier
+* tu peux y modifier le nom d'un fichier/dossier qui s'y trouve
+* tu peux modifier la date de dernière modification d'un fichier/dossier qui s'y trouve
 * tu peux supprimer un fichier/dossier qui s'y trouve
 * ...
 
 # Doits d'écriture et commandes
 
-Concrêtement, voici les commandes que tu peux utiliser dans un dossier sur lequel tu as les droits d'écriture :
+Concrêtement, voici des commandes que tu peux utiliser dans un dossier sur lequel tu as les droits d'écriture (à condition d'y avoir accès bien sûr !) :
 
 * tu peux y créer un nouveau dossier avec la commande `mkdir`
 * tu peux y créer un nouveau fichier avec un éditeur (comme `nano`) avec la commande `cp` (à condition d'avoir les droits nécessaires sur la source), avec la commande `touch` ... etc
@@ -24,4 +24,7 @@ Concrêtement, voici les commandes que tu peux utiliser dans un dossier sur lequ
 
 
 # Quizz
+
+TODO
+
 

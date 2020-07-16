@@ -10,7 +10,7 @@ Si tu tapes `ls -l` alors que tu es dans *ton home*, tu dois voir apparaitre que
 ```
 drwxrwxr-x 2 sasha etu 4096 juil. 16 13:31 Bureau
 drwxrwxr-x 2 sasha etu 4096 juil. 16 13:31 Documents
--rw-rw-r-- 1 sasha etu   31 juil. 16 13:35 exemple1
+---------- 1 sasha etu   31 juil. 16 13:35 exemple1
 -rw-rw-r-- 1 sasha etu   31 juil. 16 13:34 exemple2
 d--x--x--x 2 sasha etu 4096 juil. 16 13:35 exemple3
 -rw-rw-r-- 1 sasha etu   31 juil. 16 13:34 exemple4
@@ -31,10 +31,14 @@ Pour le reste, normalement, tu sais déjà lire les autres informations.
 [ ] sasha a les droits d'écriture sur ce dossier
 [ ] ariel (qui n'est pas dans le groupe etu) a les droits d'écriture sur ce dossier
 
->> Sélectionne les dossiers <<
-[*] Bureau
-[*] Documents
-[ ] exemple1
-[ ] exemple2
-[*] exemple3
-[ ] exemple4
+>> Documents <<
+(*) est un dossier
+( ) est un fichier
+
+>> exemple2 <<
+( ) est un dossier
+(*) est un fichier
+
+>> exemple3 <<
+(*) est un dossier
+( ) est un fichier
