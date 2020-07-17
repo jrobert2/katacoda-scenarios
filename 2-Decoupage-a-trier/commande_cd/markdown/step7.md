@@ -1,11 +1,13 @@
-Parfait ! Tu es très doué.e !
+# Se déplacer avec la commande cd
 
-Maintenant, je veux que tu te déplaces dans le dossier dev
+Normalement, tu es maintenant dans *ton home*. Si ce n'est pas le cas, vas-y vite (en utilisant le raccourci que je t'ai montré !)
+
+Maintenant, je veux que tu te déplaces dans le dossier `BD`
 
 ```
 /
-├── bin 
-├── dev <------------- je veux que tu ailles LA !
+├── bin
+├── dev
 │   ├── disk
 │   │   ├── by-id
 │   │   ├── by-path
@@ -22,14 +24,14 @@ Maintenant, je veux que tu te déplaces dans le dossier dev
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha
+│   ├── sasha  <------------- tu es  ICI !
 │   │   ├── Desktop
 │   │   ├── Perso 
 │   │   │   └── Images 
 │   │   │       ├── photos 
 │   │   │       └── vacances
 │   │   └── Travail
-│   │       ├── BD 
+│   │       ├── BD <------------- je veux que tu ailles LA !
 │   │       │   ├── cours
 │   │       │   ├── TD
 │   │       │   └── TP
@@ -51,3 +53,10 @@ Maintenant, je veux que tu te déplaces dans le dossier dev
     ├── games
     └── share
 ``` 
+
+>> Une fois que tu es dans le dossier BD, quel est le chemin indiqué par le prompt ? <<
+( ) /home/sasha/Perso/BD
+( ) /home/sasha/BD
+(*) /home/sasha/Travail/BD
+( ) /home/sasha/Perso/Travail/BD
+

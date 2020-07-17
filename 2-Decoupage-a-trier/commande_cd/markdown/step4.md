@@ -1,16 +1,20 @@
+# Se déplacer avec la commande cd
 
-Bravo !
+Et comment on bouge ?
+
+La **commande** `cd` permet changer de dossier courant (*change directory*).
+
+Mais pour se déplacer dans un dossier, il faut le voir !
+Par exemple, si tu es toujours dans *ton home*, `cd Perso`{{execute}} te permet de te déplacer dans le répertoire `Perso`.
+
+Essaye !
+
+Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `/home/sasha/Perso`
 
 ```
 /
 ├── bin
 ├── dev
-│   ├── disk
-│   │   ├── by-id
-│   │   ├── by-path
-│   │   └── by-uuid
-│   ├── net
-│   └── snd
 ├── etc
 │   ├── calendar
 │   ├── dconf
@@ -21,10 +25,10 @@ Bravo !
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  
+│   ├── sasha
 │   │   ├── Desktop
-│   │   ├── Perso 
-│   │   │   └── Images <------------- maintenant tu es  ICI !
+│   │   ├── Perso <------------- maintenant tu es  ICI !
+│   │   │   └── Images
 │   │   │       ├── photos
 │   │   │       └── vacances
 │   │   └── Travail
@@ -43,22 +47,18 @@ Bravo !
 │   │           └── Notes
 │   ├── olympe
 │   └── willow
-├── media
-│   └─── cdrom
 └── usr
     ├── bin
     ├── games
     └── share
 ``` 
 
-Maintenant, déplaces-toi dans le dossier `photos` et réponds à la question :
+## Exercice 
 
+Déplaces-toi maintenant dans le dossier `Images`
 
->> Combien y a-t il de fichiers dans le dossier photos ? <<
-( ) il n'y en a pas
-( ) 1 fichier
-( ) 2 fichiers
-(*) 3 fichiers ou plus
+Passe à la suite lorsque le prompt t'indique que tu es dans le répertoire `/home/sasha/Perso/Images`
+
 
 
 

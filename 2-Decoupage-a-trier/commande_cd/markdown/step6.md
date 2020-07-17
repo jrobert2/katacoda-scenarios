@@ -1,6 +1,6 @@
-C'est très bien !
+# Se déplacer avec la commande cd
 
-Maintenant, je veux que tu te déplaces dans le dossier BD
+C'est très bien !
 
 ```
 /
@@ -22,14 +22,14 @@ Maintenant, je veux que tu te déplaces dans le dossier BD
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  <------------- maintenant tu es  ICI !
+│   ├── sasha  
 │   │   ├── Desktop
 │   │   ├── Perso 
 │   │   │   └── Images 
-│   │   │       ├── photos 
+│   │   │       ├── photos <------------- maintenant tu es  ICI !
 │   │   │       └── vacances
 │   │   └── Travail
-│   │       ├── BD <------------- je veux que tu ailles LA !
+│   │       ├── BD
 │   │       │   ├── cours
 │   │       │   ├── TD
 │   │       │   └── TP
@@ -51,3 +51,23 @@ Maintenant, je veux que tu te déplaces dans le dossier BD
     ├── games
     └── share
 ``` 
+
+Et maintenant ? Le dossier `photos` est un cul-de-sac. Comment sortir d'ici ?
+
+
+# Revenir en arrière
+
+Pour revenir en arrière, il suffit d'utiliser la commande `cd` avec l'argument `..` qui correspond au **dossier parent**
+ 
+Utilise la ligne de commande `cd ..`{{execute}} plusieurs fois pour voir jusqu'où tu peux aller.
+
+
+# Revenir à la maison quand on est perdu
+
+Si tu es perdu ou si tu veux rentrer à la maison rapidement, il existe un raccourci : il suffit d'utiliser la commande `cd` sans aucun argument.
+ 
+La ligne de commande `cd`{{execute}} t'emmène directement dans le répertoire `/home/sasha`.
+
+
+Promène-toi un peu et quand tu penses bien maitriser la commande `cd`, retourne dans TON home pour passer à la suite.
+

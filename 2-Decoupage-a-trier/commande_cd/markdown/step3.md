@@ -1,25 +1,25 @@
+# Se repérer avec la commande ls
 
-Et comment on bouge ?
+C'est bien beau tout ça, mais dans le terminal, on ne voit pas grand chose !
 
-La **commande** `cd` permet changer de dossier courant (*change directory*).
+La commande qui permet de "voir", ou plus exactement de lister le contenu d'un dossier est la commande `ls`.
 
-Mais pour se déplacer dans un dossier, il faut le voir !
-Par exemple, si tu es toujours dans TON home, `cd Perso`{{execute}} te permet de te déplacer dans le répertoire `Perso`.
+Utilisée seule, cette commande permet de lister le contenu du **dossier courant** (le dossier dans lequel tu te trouves).
 
-Essaye !
+Si la coloration est activée (normalement c'est le cas ici), les dossiers sont en bleu et les fichiers en une autre couleur (souvent en blanc).
+Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
 
-Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `/home/sasha/Perso`
+>> Combien y a-t il de dossiers dans ton home (ta maison) ? <<
+( ) il n'y en a pas
+( ) 1 dossier
+( ) 2 dossiers
+(*) 3 dossiers
+( ) 4 dossiers ou plus
 
 ```
 /
 ├── bin
 ├── dev
-│   ├── disk
-│   │   ├── by-id
-│   │   ├── by-path
-│   │   └── by-uuid
-│   ├── net
-│   └── snd
 ├── etc
 │   ├── calendar
 │   ├── dconf
@@ -30,9 +30,9 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  
+│   ├── sasha  <------------- tu es toujours ICI !
 │   │   ├── Desktop
-│   │   ├── Perso <------------- maintenant tu es  ICI !
+│   │   ├── Perso
 │   │   │   └── Images
 │   │   │       ├── photos
 │   │   │       └── vacances
@@ -52,15 +52,11 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
 │   │           └── Notes
 │   ├── olympe
 │   └── willow
-├── media
-│   └─── cdrom
 └── usr
     ├── bin
     ├── games
     └── share
 ``` 
-
-Pour passer à la suite, déplaces-toi dans le dossier `Images`
 
 
 

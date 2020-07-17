@@ -1,14 +1,13 @@
-Trop fort.e !
+# Se déplacer avec la commande cd
 
-Est ce que tu peux te déplacer dans le dossier Desktop rapidement ?
+Parfait ! Tu es très doué.e !
 
-N'oublie pas le raccourci que je t'ai montré à l'étape 5 ;)
-
+Maintenant, je veux que tu te déplaces dans le dossier `dev`
 
 ```
 /
 ├── bin 
-├── dev
+├── dev <------------- je veux que tu ailles LA !
 │   ├── disk
 │   │   ├── by-id
 │   │   ├── by-path
@@ -26,7 +25,7 @@ N'oublie pas le raccourci que je t'ai montré à l'étape 5 ;)
 │   ├── ariel
 │   ├── packer
 │   ├── sasha
-│   │   ├── Desktop <------------- je veux que tu ailles LA !
+│   │   ├── Desktop
 │   │   ├── Perso 
 │   │   │   └── Images 
 │   │   │       ├── photos 
@@ -54,3 +53,9 @@ N'oublie pas le raccourci que je t'ai montré à l'étape 5 ;)
     ├── games
     └── share
 ``` 
+
+>> Une fois que tu es dans le dossier dev, quel est le chemin indiqué par le prompt ? <<
+(*) /dev
+( ) dev
+( ) /disk/dev
+( ) /

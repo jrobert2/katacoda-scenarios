@@ -1,31 +1,15 @@
 
-C'est bien beau tout ça, mais dans le terminal, on ne voit pas grand chose !
+# Attention : TON home n'est la LE home
 
-La commande qui permet de "voir", ou plus exactement de lister le contenu d'un dossier est la commande `ls`.
+Le dossier `/home/sasha/` est l'entrée de TA maison qu'on appelle également *ton home*.
 
-Utilisée seule, cette commande permet de lister le contenu du **dossier courant** (le dossier dans lequel tu te trouves).
-
-Si la coloration est activée (normalement c'est le cas ici), les dossiers sont en bleu et les fichiers en blanc.
-Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
-
->> Combien y a-t il de dossiers dans ta maison ? <<
-( ) il n'y en a pas
-( ) 1 dossier
-( ) 2 dossiers
-(*) 3 dossiers
-( ) 4 dossiers ou plus
+Il ne faut surtout pas confondre TON home (TA maison) avec le répertoire `/home/` qui lui, s'apparente plutôt à un village : c'est là que sont toutes les maisons de tous les utilisateurs.
 
 
 ```
 /
 ├── bin
 ├── dev
-│   ├── disk
-│   │   ├── by-id
-│   │   ├── by-path
-│   │   └── by-uuid
-│   ├── net
-│   └── snd
 ├── etc
 │   ├── calendar
 │   ├── dconf
@@ -36,7 +20,7 @@ Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  <------------- tu es toujours ICI !
+│   ├── sasha  <------------- tu es  ICI !
 │   │   ├── Desktop
 │   │   ├── Perso
 │   │   │   └── Images
@@ -58,10 +42,18 @@ Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
 │   │           └── Notes
 │   ├── olympe
 │   └── willow
-├── media
-│   └─── cdrom
 └── usr
     ├── bin
     ├── games
     └── share
 ``` 
+
+D'ailleurs, dans l'arborescence, tu peux voir d'autres maisons que la tienne : il y a celle d'ariel, de packer et de willow.
+
+>> Mais quel est le nom de l'utilisateur que j'ai oublié ?<<
+( ) buffy
+(*) olympe
+( ) pikachu
+( ) toto
+
+

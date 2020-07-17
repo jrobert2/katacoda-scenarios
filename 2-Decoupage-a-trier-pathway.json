@@ -13,6 +13,16 @@
       "course_id": "commande_cd"
     },
     {
+      "title": "La commande cat et la touche TAB",
+      "description": "Focus sur la commande cat",
+      "course_id": "commande_cat"
+    },
+    {
+      "title": "Chemins absolus et chemins relatifs",
+      "description": "Pour comprendre une notion fondamentale",
+      "course_id": "chemins"
+    },
+    {
       "title": "Commandes, options et arguments",
       "description": "Apprendre à distinguer les commandes, les options et les arguments.",
       "course_id": "commande_options_arguments"

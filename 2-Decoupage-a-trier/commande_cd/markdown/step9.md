@@ -1,11 +1,22 @@
 # Se déplacer avec la commande cd
 
-Bravo !
+Trop fort.e !
+
+Est ce que tu peux te déplacer dans le dossier Desktop rapidement ?
+
+N'oublie pas le raccourci que je t'ai montré ;)
+
 
 ```
 /
-├── bin
+├── bin 
 ├── dev
+│   ├── disk
+│   │   ├── by-id
+│   │   ├── by-path
+│   │   └── by-uuid
+│   ├── net
+│   └── snd
 ├── etc
 │   ├── calendar
 │   ├── dconf
@@ -17,13 +28,13 @@ Bravo !
 │   ├── ariel
 │   ├── packer
 │   ├── sasha
-│   │   ├── Desktop
+│   │   ├── Desktop <------------- je veux que tu ailles LA !
 │   │   ├── Perso 
-│   │   │   └── Images <------------- maintenant tu es  ICI !
-│   │   │       ├── photos
+│   │   │   └── Images 
+│   │   │       ├── photos 
 │   │   │       └── vacances
 │   │   └── Travail
-│   │       ├── BD
+│   │       ├── BD 
 │   │       │   ├── cours
 │   │       │   ├── TD
 │   │       │   └── TP
@@ -38,26 +49,17 @@ Bravo !
 │   │           └── Notes
 │   ├── olympe
 │   └── willow
+├── media
+│   └─── cdrom
 └── usr
     ├── bin
     ├── games
     └── share
 ``` 
 
-## Exercice
 
-Maintenant, déplaces-toi dans le dossier `photos`.
-
-Le prompt t'indique maintenant que tu es dans le répertoire `/home/sasha/Perso/Images/photos`
-
-
->> Combien y a-t il de fichiers dans le dossier photos ? <<
-( ) il n'y en a pas
-( ) 1 fichier
-( ) 2 fichiers
-(*) 3 fichiers ou plus
-
-
-
-
-
+>> Une fois que tu es dans le dossier Desktop, quel est le chemin indiqué par le prompt ? <<
+( ) /sasha/Desktop
+(*) /home/sasha/Desktop
+( ) /home/Desktop
+( ) /dev/sasha/Desktop

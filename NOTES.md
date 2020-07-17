@@ -5,22 +5,37 @@ Dans chaque repertoire assets :
 
 `tar pcjf home.tar.bz2 home`
 
-# Les idées/propositions de scénarios
+# Les idées/propositions de scénarios (dans l'ordre)
 
 ## le b.a.ba
 
 * Un très courte introduction à bash -> à compléter
+  
+  Terminal, prompt, home, touches haut/bas
+  
+* Se repérer et se déplacer (cd et ls) -> à relire
 
+  arborescence, cd et ls sans option, `..`
 
+* La commande cat et TAB -> à faire
 
+  surtout pour manipuler ls, cd et cat
 
+* les chemins -> à faire en cassant la commande cd (alias) dans le .bashrc ?
 
 * commande, arguments et options -> à relire
-* Les commandes cd et ls -> à relire
+
 * La commande cat -> à faire
-* les chemins -> à faire en cassant la commande cd (alias)
+
 * A la découverte de nano -> à relire. Ajouter la commande touch ici ?
+
 * la commande mkdir -> à faire
+
+* Focus sur la commande ls -> à faire
+
+  Quelques options utiles. Commencer à parler des métadonnées
+  
+
 
 ## Les bases
 
