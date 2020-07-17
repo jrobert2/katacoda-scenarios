@@ -9,7 +9,12 @@ Dans chaque repertoire assets :
 
 ## le b.a.ba
 
-* Introduction -> à relire
+* Un très courte introduction à bash -> à compléter
+
+
+
+
+
 * commande, arguments et options -> à relire
 * Les commandes cd et ls -> à relire
 * La commande cat -> à faire

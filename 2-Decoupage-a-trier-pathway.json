@@ -8,14 +8,14 @@
       "course_id": "introduction_bash"
     },
     {
+      "title": "Se repérer et se déplacer dans l'arboresence",
+      "description": "Pour commencer à apprivoiser les commandes cd et ls",
+      "course_id": "commande_cd"
+    },
+    {
       "title": "Commandes, options et arguments",
       "description": "Apprendre à distinguer les commandes, les options et les arguments.",
       "course_id": "commande_options_arguments"
-    },
-    {
-      "title": "La commande cd (début)",
-      "description": "Se repérer et se déplacer.\nFocus sur la commande cd",
-      "course_id": "commande_cd"
     },
     {
       "title": "Installation de programmes",
