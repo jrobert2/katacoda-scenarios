@@ -1,24 +1,46 @@
-# Droits en hexa
+# Données et métadonnées
 
-Remarque que les droits d'un fichier bien qu'écrits sous la forme `rwxr-xr--` pourraient être écrits comme : `111101100` en remplaçant les lettres par des 1 et les - par des 0. On a alors un nombre écrit en binaire.
+Tu as vu précédemment qu'un fichier est un peu plus que des données : il a des droits associés, un propriétaire, une date de dernière modification, etc.
 
-Comme ce n'est pas très lisible, on va l'écrire en octal : on va reprendre chaque groupe de 3 bits et écrire le chiffre correspondant.
-Par exemple : `111 101 100` s'écrit `754`, puisque `111` est 7 en binaire, `101` est 5 et ̀`100` est 4 !
+Pour vérifier que tu as compris :
+
+* la commande `ls -l exemple1.txt`{{execute}} affiche dans le terminal quelque chose comme :
+```
+-rw-rw-r-- 1 sasha sasha 35 Jun 15 07:29 exemple1.txt
+```
+
+* la commande `cat exemple1.txt`{{execute}} affiche dans le terminal :
+```
+ceci est le contenu du fichier
+```
+
+**Attention** Curieusement, le nom d'un fichier ne fait pas partie des méta-données du fichier. Il n'est pas non plus dans les données de fichier. Mais où est donc stocké ce nom ?
+Réponse dans la suite du scénario. Mais avant, un petit quizz :
+
+## Quizz
+
+>> '-rw-rw-r--' <<
+( ) fait partie des données du fichier exemple1.txt
+(*) fait partie des métadonnées du fichier exemple1.txt
+( ) n'appartient ni aux données, ni aux métadonnées du fichier exemple1.txt
+
+>> 'sasha' <<
+( ) fait partie des données du fichier exemple1.txt
+(*) fait partie des métadonnées du fichier exemple1.txt
+( ) n'appartient ni aux données, ni aux métadonnées du fichier exemple1.txt
+
+>> '35' <<
+( ) fait partie des données du fichier exemple1.txt
+(*) fait partie des métadonnées du fichier exemple1.txt
+( ) n'appartient ni aux données, ni aux métadonnées du fichier exemple1.txt
+
+>> 'ceci est le contenu du fichier' <<
+(*) fait partie des données du fichier exemple1.txt
+( ) fait partie des métadonnées du fichier exemple1.txt
+( ) n'appartient ni aux données, ni aux métadonnées du fichier exemple1.txt
 
 
->> Comment s'écrit `111000101` en octal ? <<
-(*) 705
-( ) 765
-( ) 503
-( ) 703
-
->> Comment s'écrit `110110110` en octal ? <<
-=== 666
-
->> Comment est encodé en octal  rw-r--r-- ? <<
-( ) 422
-(*) 644
-( ) 666
-
->> Comment encoder les droits rw-rw-r-- en octal ? <<
-=== 664
+>> 'exemple1.txt' <<
+( ) fait partie des données du fichier exemple1.txt
+( ) fait partie des métadonnées du fichier exemple1.txt
+(*) n'appartient ni aux données, ni aux métadonnées du fichier exemple1.txt

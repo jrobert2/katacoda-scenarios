@@ -1,67 +1,44 @@
+# Inodes et données
+
+Sur le schéma suivant, on représente les octets de la partition, chaque rectangle représente un groupe de 256 octets :
+![Décomposition du disque](./assets/disque.png))
 
 
-La commande chmod accepte de l'octal pour changer les droits d'un fichier.
-Par exemple, pour donner les droits `rw-------` au fichier exemple1.txt on fera :
-`chmod 600 exemple1.txt`{{execute}} .
+Cet espace est découpé en deux parties : une liste d'inodes (en bleu) et les blocs de données (en violet) :
+![Décomposition du disque](./assets/disque-separe.png))
 
-Essaie :
+* Les blocs de données contiennent les données des fichiers (ce qu'on va voir en regardant le contenu hexadécimal d'un fichier)
+* les inodes contiennent les méta-données : permissions, taille du fichier, date de dernière modification, etc. ainsi que l'indication de l'endroit où se trouvent les données associées comme le montre le zoom sur l'image suivante :
+![Décomposition du disque](./assets/disque-inodes.png))
 
-Donne les droits
-
-* rwxrw-r-- au fichier exemple2.txt
-* rwx----w- au fichier exemple3.txt
-* rwx------ au fichier exemple4.txt
+Chaque fichier est identifié par un inode. Les données du fichier sont pointées par les pointeurs de blocs. Le numéro d'inode est la position de l'inode dans la liste des inodes. Pour connaître le numéro d'inode des fichiers, tu peux faire `ls -i`.
 
 
+>> Les inodes contiennent : <<
 
-Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivantes :
+[*] les métadonnées des fichier
+[ ] le nom des fichier
+[ ] le nom de la partition où sont stockés les fichiers
+[*] des pointeurs vers les données constituant les fichiers
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 734 truc.txt <<
-(*) rwx-wx-r--
-( ) ----w--w-
-( ) rw------x
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-( ) -wx------  
+>> Parmi les méta-données d'un fichier, on trouve : <<
+[*] les permissions de ce fichier,
+[*] les dates de création/modification de ce fichier
+[ ] le nom de ce fichier,
+[*] l'identifiant du propriétaire de ce fichier,
+[ ] les données de ce fichier
+[ ] les premiers octets constituant le fichier,
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 022 truc.txt <<
-(*) ----w--w-
-( ) rwx-wx-r--
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-( ) rw------x
-( ) -wx------  
-
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 601 truc.txt <<
-( ) ----w--w-
-( ) rwx-wx-r--
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-(*) rw------x
-( ) -wx------  
+>> L'option -i de la commande ls permet <<
+(*) d'afficher les numéros d'inode de chaque fichier
+( ) d'afficher les métadonnées de chaque fichier
+( ) d'afficher le contenu de chaque inode
 
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 754 truc.txt <<
-( ) ----w--w-
-(*) rwx-wx-r--
-( ) rwxrwxrw-
-( ) -wx-wx-wx
-( ) rw------x
-( ) -wx------  
+>> Deux fichiers différents, stockés sur la même partition, peuvent ils avoir le même numéro d'inode ? <<
+( ) oui
+(*) non
 
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 776 truc.txt <<
-( ) ----w--w-
-( ) rwx-wx-r--
-(*) rwxrwxrw-
-( ) -wx-wx-wx
-( ) rw------x
-( ) -wx------  
-
-
->> (sans essayer) Quels sont les droits du fichier `truc.txt` après l'exécution de  chmod 500 truc.txt <<
-( ) ----w--w-
-( ) rwx-wx-r--
-() rwxrwxrw-
-( ) r-xr-xr-x
-( ) rw------x
-(*) r-x------  
+>> Deux fichiers différents,  stockés sur des partitions différentes, peuvent ils avoir le même numéro d'inode ? <<
+(*) oui
+( ) non
