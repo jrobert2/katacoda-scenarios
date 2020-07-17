@@ -3,7 +3,7 @@
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
     {
-      "title": "Une courte introduction à bash",
+      "title": "Une très courte introduction à bash",
       "description": "Découverte du terminal.",
       "course_id": "introduction_bash"
     },
