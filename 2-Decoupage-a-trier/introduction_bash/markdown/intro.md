@@ -6,6 +6,6 @@ C'est juste une très courte introduction.
 
 Tu verras ce qu'est le terminal et comment apprivoiser le pingouin !
 
-<img src="./images/linux_pinguin_terminal.jpg" alt="linux pingouin terminal"/>
+<img src="./assets/img/linux_pinguin_terminal.jpg" alt="linux pingouin terminal"/>
 
 J'espère que ça va te plaire !
