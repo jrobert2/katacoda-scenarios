@@ -9,3 +9,6 @@ Tu verras ce qu'est le terminal et comment apprivoiser le pingouin !
 <img src="./assets/linux_pinguin_terminal.jpg" alt="linux pingouin terminal"/>
 
 J'espère que ça va te plaire !
+
+## pré-requis
+* aucun

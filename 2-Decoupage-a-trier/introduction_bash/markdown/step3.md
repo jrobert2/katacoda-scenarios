@@ -1,4 +1,4 @@
-# Le prompt et les commandes
+# Le prompt
 
 Le terminal c'est un peu comme un navigateur de fichiers : tu te trouves à un endroit, tu peux voir les fichiers qui s'y trouvent, tu peux te déplacer, supprimer des fichiers, les renommer, etc.
 
@@ -16,26 +16,10 @@ Il ne faut surtout pas confondre **ton** home (**ta** maison) avec le répertoir
 
 Le `$` de la fin signifie juste que c'est la fin du prompt. Juste après ce `$`, tu peux taper des instructions sous forme de texte.
 
-Si tu tapes quelque chose, ça s'écrit dans le prompt.
+Nous y reviendrons à l'étape suivant.
 
-Par exemple, tu peux essayer de taper `bonjour`{{execute}}. Mais cette machine ne semble pas très polie : elle ne comprend pas ton instruction. Elle te l'indique avec le message
-`bonjour: commande not found`
-
-Note que dans katacoda, les boutons noirs ressemblant à `bonjour`{{execute}} permettent d'écrire leur contenu dans le terminal juste en cliquant dessus. Essaye, c'est très pratique.
-Mais `bonjour`{{execute}} ne fonctionne pas, inutile d'insister.
-
-Essaye maintenant de taper les commandes `cal`{{execute}}, ou bien `ls`{{execute}} ou encore `history` (et oui, pas de bouton noir ici : tu vas être obligé de taper ces quelques lettres !).
-
->> Quelles sont les commandes compréhensibles ici par cette machine ? <<
-[*] cal
-[ ] bonjour
-[*] ls
-[*] date
-[ ] au secours
-[*] help
-[ ] vinyl
-[*] cd
-[ ] musique
-
-
-Je suis sûr que tu es curieux d'en apprendre plus sur cette façon de communiquer avec l'ordinateur. Alors passe vite à la suite.
+>> Quelle est l'adresse de ton home (ta maison) ?<<
+( ) /home
+(*) /home/sasha
+( ) sasha
+( ) je ne veux pas donner mon adresse !
