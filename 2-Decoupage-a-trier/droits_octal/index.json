@@ -57,6 +57,6 @@
     "uieditorpath": "/home/sasha/"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }
