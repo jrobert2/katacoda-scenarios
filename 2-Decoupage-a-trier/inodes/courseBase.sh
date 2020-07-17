@@ -16,5 +16,9 @@ ssh root@host01 "sudo cp /home/packer/.profile /home/$USER/"
 # transfert des droits
 ssh root@host01 "sudo chown -R $USER:$USER /home/$USER"
 
+# Ajout aux groupes
+ssh root@host01 "sudo addgroup etu"
+ssh root@host01 "sudo adduser sasha etu"
+
 # fin de la config
 ssh root@host01 "echo 'done' > /tmp/.fini"
