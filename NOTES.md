@@ -36,7 +36,6 @@ Dans chaque repertoire assets :
   Quelques options utiles. Commencer à parler des métadonnées
   
 
-
 ## Les bases
 
 * la commande cp -> à faire
