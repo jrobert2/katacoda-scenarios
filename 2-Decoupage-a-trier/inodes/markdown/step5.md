@@ -8,9 +8,6 @@ Je vais donc t'en apporter la preuve.
 
 Essaye par exemple de taper `ln exemple1.txt exemple18.txt`{{execute}} puis vérifie le résultat avec `ls -li`{{execute}} 
 
-<img src="./assets/wtf.gif" alt="quelle est cette sorcellerie ?" width="233" style="float:right"/>
-
-<img src="./assets/wtf.png" alt="quelle est cette sorcellerie ?" width="233" style="float:right"/>
 
 Les fichiers `exemple1.txt` et `exemple18.txt` ont le même numéro d'inode !
 
@@ -20,6 +17,8 @@ Les fichiers `exemple1.txt` et `exemple18.txt` ont le même numéro d'inode !
 124 -rw-rw-r-- 1 jrobert jrobert 0 juin  15 11:10 fichier3
 199 -rw-rw-r-- 2 jrobert jrobert 0 juin  15 11:10 fichier4
 ```
+
+<img src="./assets/wtf.png" alt="quelle est cette sorcellerie ?" width="233" style="float:right"/>
 
 ## Quelle est cette sorcellerie ?
 
