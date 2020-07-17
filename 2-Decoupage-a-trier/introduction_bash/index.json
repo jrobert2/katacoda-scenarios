@@ -1,41 +1,21 @@
 {
-  "title": "Introduction à Bash",
-  "description": "Découverte du terminal et premières commandes",
-  "difficulty": "Beginner",
-  "time": "60 minutes",
+  "title": "Une très courte introduction à Bash",
+  "description": "A la découverte du terminal",
+  "difficulty": "grand débutant",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Bonjour Sasha !",
+        "title": "",
         "text": "/markdown/step1.md"
       },
       {
-        "title": "Le terminal",
-        "text": "/markdown/step1b.md"
-      },
-      {
-        "title": "Le prompt et les commandes",
-        "text": "/markdown/step1c.md"
-      },      
-      {
-        "title": "Mes premières commandes",
+        "title": "",
         "text": "/markdown/step2.md"
       },
       {
-        "title": "La commande cd et des chemins",
+        "title": "",
         "text": "/markdown/step3.md"
-      },
-      {
-        "title": "La notion de chemin relatif",
-        "text": "/markdown/step4.md"
-      },
-      {
-        "title": "La notion de chemin absolu",
-        "text": "/markdown/step5.md"
-      },
-      {
-        "title": "Bilan",
-        "text": "/markdown/bilan.md"
       }
     ],
     "intro": {
@@ -55,17 +35,13 @@
             {
                 "file": "home.tar.bz2",
                 "target": "/tmp"
-            },
-            {
-                "file": "creationdeshome",
-                "target": "/tmp"
             }
         ]
     }
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Encore un peu de patience... ",
+    "uimessage1": "Bienvenue !",
     "uieditorpath": "/home/sasha/"
   },
   "backend": {

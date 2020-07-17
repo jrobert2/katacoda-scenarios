@@ -2,6 +2,11 @@
   "title": "Des scénarios à relire/découper et déplacer",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
+      {
+      "title": "Introduction bash",
+      "description": "intro",
+      "course_id": "intro"
+    },
     {
       "title": "Manipuler les fichiers",
       "description": "Comment créer, supprimer, déplacer, renommer des fichiers et des dossiers",

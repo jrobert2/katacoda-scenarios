@@ -1,3 +1,8 @@
-Bravo !!
+# Bravo !!
 
-On se retrouve dans le scénario suivant pour voir comment on manipule les fichiers : copier, supprimer, modifier, le tout sans cliquer ! 
+Tu dois avoir hâte d'apprendre à dompter le pingouin.
+
+# Prochain scénario conseillé
+
+* Se repérer et se déplacer dans l'aborescence
+
