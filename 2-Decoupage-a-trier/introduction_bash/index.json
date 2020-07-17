@@ -21,7 +21,7 @@
     "intro": {
         "courseData": "courseBase.sh",
         "text": "/markdown/intro.md",
-        "code": "code.sh"
+        "code": "../../env/debutant/code.sh"
     },
     "finish": {
       "text": "/markdown/finish.md"
@@ -29,11 +29,11 @@
     "assets": {
         "client": [
             {
-                "file": "tpunixauto.sh",
+                "file": "../../env/debutant/tpunixauto.sh",
                 "target": "/etc/profile.d/"
             },
             {
-                "file": "home.tar.bz2",
+                "file": "../../env/debutant/home.tar.bz2",
                 "target": "/tmp"
             }
         ]
