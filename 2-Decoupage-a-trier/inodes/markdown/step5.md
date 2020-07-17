@@ -10,6 +10,8 @@ Essaye par exemple de taper `ln exemple1.txt exemple18.txt`{{execute}} puis vér
 
 <img src="./assets/wtf.gif" alt="quelle est cette sorcellerie ?" width="233" style="float:right"/>
 
+<img src="./assets/wtf.png" alt="quelle est cette sorcellerie ?" width="233" style="float:right"/>
+
 Les fichiers `exemple1.txt` et `exemple18.txt` ont le même numéro d'inode !
 
 ```
