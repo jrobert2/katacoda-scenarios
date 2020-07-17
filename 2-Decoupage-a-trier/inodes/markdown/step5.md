@@ -12,10 +12,11 @@ Essaye par exemple de taper `ln exemple1.txt exemple18.txt`{{execute}} puis vér
 Les fichiers `exemple1.txt` et `exemple18.txt` ont le même numéro d'inode !
 
 ```
-199 -rw-rw-r-- 2 jrobert jrobert 0 juin  15 11:10 fichier1
-123 -rw-rw-r-- 1 jrobert jrobert 0 juin  15 11:10 fichier2
-124 -rw-rw-r-- 1 jrobert jrobert 0 juin  15 11:10 fichier3
-199 -rw-rw-r-- 2 jrobert jrobert 0 juin  15 11:10 fichier4
+11541285 -rw-rw-r-- 2 sasha sasha 51232 10237 31 Jul 17 10:21 exemple1.txt
+11541287 -rw-rw-r-- 2 sasha sasha 51232 10237 35 Jul 16 08:52 exemple2.txt
+11541288 -rw-rw-r-- 2 sasha sasha 51232 10237 35 Jul 16 08:52exemple3.txt
+11541286 -rw-rw-r-- 2 sasha sasha 51232 10237 35 Jul 16 08:52 exemple4.txt
+11541285 -rw-rw-r-- 2 sasha sasha 51232 10237 31 Jul 17 10:21 exemple18.txt
 ```
 
 <img src="./assets/wtf.png" alt="quelle est cette sorcellerie ?" width="233" style="float:right"/>
