@@ -1,7 +1,9 @@
 # Voir le contenu d'un fichier avec cat
 
-Je te félicite. 
+Excellent !
+
+>> Quel est le cousin de 13 ? La réponse se trouve dans un des fichiers du dossier `Dir13` <<
+=== 17
 
 
->> Quelles sont les 4 premières lettres du fichier passwd qui se trouve dans le dossier /etc/ ? <<
-=== root
+

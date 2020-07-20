@@ -2,7 +2,7 @@
 
 La **commande** `cat` permet d'afficher le contenu d'un fichier texte.
 
-Par exemple, pour afficher le contenu d'un fichier nommé 'README', on fera `cat README`.
+Par exemple, pour afficher le contenu d'un fichier nommé README, tu taperas `cat README`.
 
 Pour passer à l'étape suivante, consulte le contenu du fichier README et suit les instructions.
 

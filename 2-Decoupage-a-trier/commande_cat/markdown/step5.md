@@ -1,8 +1,11 @@
 # Voir le contenu d'un fichier avec cat
 
-Encore bravo !
+Tu es très doué.e ! 
 
-Dans le dossier `Dir1`, il y a plusieurs fichiers.
+Tu trouveras un fichier dans le dossier `Dir10`.
+N'oublie pas d'utiliser la touche <kbd>⇥ Tab</kbd> pour gagner du temps !
 
->> Quel est le deuxième mot du fichier dont le nom se termine par un a ? <<
-=== un
+>> Quel est le sixième mot de ce fichier ? <<
+=== monde
+
+

@@ -1,6 +1,6 @@
 # Voir le contenu d'un fichier avec cat
 
-Bravo ! Normalement, tu te trouves maintenant dans le dossier `Exo1`.
+Bravo ! Normalement, tu te trouves maintenant dans le dossier `Exo1`. Sinon, il est temsp d'y aller ;)
 
 
 >> Combien y a-t il de dossiers dans le répertoire Exo1 ? <<

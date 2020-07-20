@@ -1,7 +1,10 @@
 # Voir le contenu d'un fichier avec cat
 
-Excellent !
+Encore bravo !
 
->> Quel est le cousin de 13 ? La réponse se trouve dans un des fichiers du dossier `Dir13` <<
-=== 17
+Dans le dossier `Dir1`, il y a plusieurs fichiers.
+
+>> Quel est le deuxième mot du fichier dont le nom se termine par un a ? <<
+=== un
+
 
