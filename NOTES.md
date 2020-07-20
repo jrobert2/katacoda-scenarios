@@ -7,7 +7,7 @@ Dans chaque repertoire assets :
 
 # Les idées/propositions de scénarios (dans l'ordre)
 
-## le b.a.ba
+## Partie 1 - Introduction
 
 * Un très courte introduction à bash -> à compléter
   
@@ -17,15 +17,16 @@ Dans chaque repertoire assets :
 
   arborescence, cd et ls sans option, `..`
 
-* La commande cat et TAB -> à faire
+* La commande cat et TAB -> à relire
 
   surtout pour manipuler ls, cd et cat
 
-* les chemins -> à faire en cassant la commande cd (alias) dans le .bashrc ?
+* les chemins -> à compléter avec le dossier `.`
+
+  Dans ce scénario, j'ai 'cassé' la commande cd. On manipule donc que ls et cat
 
 * commande, arguments et options -> à relire
 
-* La commande cat -> à faire
 
 * A la découverte de nano -> à relire. Ajouter la commande touch ici ?
 

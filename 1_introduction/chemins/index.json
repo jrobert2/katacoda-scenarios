@@ -60,7 +60,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "Bienvenue !",
-    "uieditorpath": "/home/sasha/"
+    "uieditorpath": "/home/sasha/Desktop"
   },
   "backend": {
     "imageid": "ubuntu"

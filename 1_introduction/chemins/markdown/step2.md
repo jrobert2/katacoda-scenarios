@@ -9,19 +9,15 @@ Mais elle permet également de lister le contenu d'autres dossiers.
 ├── bin
 ├── dev
 ├── etc
-│   ├── calendar
-│   ├── dconf
-│   │   ├── db
-│   │   └── profile
-│   ├── emacs
-│   └── snd
 ├── home
 │   ├── ariel
 │   ├── packer
-│   ├── sasha  <------------- tu es  ICI !
-│   │   ├── Desktop
+│   ├── sasha  
+│   │   ├── Desktop <------------- tu es  ICI !
+│   │   │    ├── clef
+│   │   │    └── urgent
 │   │   ├── Perso
-│   │   └── Travail
+│   │   └── Travail 
 │   ├── olympe
 │   └── willow
 └── usr
@@ -30,10 +26,10 @@ Mais elle permet également de lister le contenu d'autres dossiers.
     └── share
 ``` 
 
-Par exemple, pour lister le contenu du dossier `Perso`, il suffit de taper `ls Perso`{{execute}}
+Par exemple, pour lister le contenu du dossier `clef`, il suffit de taper `ls clef`{{execute}}
 
-Et maintenant, liste le contenu du dossier `Travail` pour répondre à la question suivante.
+Et maintenant, liste le contenu du dossier `urgent` pour répondre à la question suivante.
 Tu n'oublie pas de spammer la touche <kbd>⇥ Tab</kbd> bien sûr ?
 
->> Quel est le nom du seul fichier qui se trouve dans le dossier Travail ? <<
-=== systeme
+>> Quel est le nom du seul dossier qui se trouve dans le dossier urgent ? <<
+=== maths

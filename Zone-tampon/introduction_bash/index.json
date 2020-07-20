@@ -6,36 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "",
-        "text": "/markdown/step1.md"
-      },
-      {
-        "title": "",
-        "text": "/markdown/step1b.md"
-      },
-      {
-        "title": "",
-        "text": "/markdown/step1c.md"
-      },      
-      {
-        "title": "",
-        "text": "/markdown/step2.md"
-      },
-      {
-        "title": "La commande cd et des chemins",
-        "text": "/markdown/step3.md"
-      },
-      {
         "title": "La notion de chemin relatif",
         "text": "/markdown/step4.md"
       },
       {
         "title": "La notion de chemin absolu",
         "text": "/markdown/step5.md"
-      },
-      {
-        "title": "Bilan",
-        "text": "/markdown/bilan.md"
       }
     ],
     "intro": {

@@ -29,7 +29,7 @@ Pour vérifier que tu as compris, voici quelques exercices.
 ( ) le dossier enfant
 
 
->> Quel est le chemin absolu de TON home (c'est à dire ta maison) ? <<
+>> Quel est le chemin absolu de ton home (c'est à dire ta maison) ? <<
 ( ) /home
 ( ) home
 (*) /home/sasha
