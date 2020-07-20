@@ -2,7 +2,7 @@
 
 Tu sais déjà que la commande `ls`, utilisée sans argument, permet de lister le contenu du dossier courant.
 
-Mais elle permet de lister le contenu d'autres dossiers.
+Mais elle permet également de lister le contenu d'autres dossiers.
 
 ```
 /
@@ -30,9 +30,10 @@ Mais elle permet de lister le contenu d'autres dossiers.
     └── share
 ``` 
 
-Par exemple, pour lister le contenu du dossier `Perso`, il suffit de taper `ls Perso`{{execite}}
+Par exemple, pour lister le contenu du dossier `Perso`, il suffit de taper `ls Perso`{{execute}}
 
-Et maintenant, liste le contenu du dossier `Travail` pour répondre à la question :
+Et maintenant, liste le contenu du dossier `Travail` pour répondre à la question suivante.
+Tu n'oublie pas de spammer la touche <kbd>⇥ Tab</kbd> bien sûr ?
 
 >> Quel est le nom du seul fichier qui se trouve dans le dossier Travail ? <<
 === systeme
