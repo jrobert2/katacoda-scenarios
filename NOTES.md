@@ -5,9 +5,9 @@ Dans chaque repertoire assets :
 
 `tar pcjf home.tar.bz2 home`
 
-# Les idées/propositions de scénarios (dans l'ordre)
+# Le découpage pour le moment
 
-## Partie 1 - Introduction
+## cours 1 - Introduction
 
 * Un très courte introduction à bash -> à compléter
   
@@ -27,51 +27,64 @@ Dans chaque repertoire assets :
 
 * commande, arguments et options -> à relire
 
+* bilan -> à faire
+
+## cours 2 - les bases
 
 * A la découverte de nano -> à relire. Ajouter la commande touch ici ?
 
-* la commande mkdir -> à faire
+* droits des fichiers -> à relire
 
-* Focus sur la commande ls -> à faire
+* Installation de programmes
 
   Quelques options utiles. Commencer à parler des métadonnées
-  
 
-## Les bases
 
-* la commande cp -> à faire
-* la commande mv -> à faire
-* la commande rm -> à faire
 * Le man 
-* La notion de variable
+
+* droits des dossiers - > à compléter
+
 
 ## Administer son système
-* droits des fichiers -> à relire
-* droits des dossiers - > à compléter
+
 * modifier les droits -> à relire/compléter
 * gestion des paquets -> à relire
 * Les inodes -> à relire
 * commandes chown et chgroup ?
 
-
-## Notions plus avancées ?
-* Sortie standart, sortie d'erreur et redirection dans un fichier -> à faire
-* Entrée standart et redirection à partir d'un fichier -> à faire
-* Différence entre entrée standart et argument -> à faire
-* Les pipeline -> à faire
-* La commande grep -> à faire
-* Un fichier csv c'est quoi ? -> à faire
-* La commande cut -> à faire
-
 ## Les scripts
-
+* La notion de variable
 * Introduction aux scripts
 * arguments d'un script
+
 * Transformer un script en commande -> à faire
 * Comprendre/modifier mon bashrc -> ??
 * Les tests
 * Les boucles for
 * Les boucles while ??
+
+
+## Focus sur quelques commandes
+
+* Focus sur la commande ls -> à faire
+* la commande mkdir -> à faire
+* la commande cp -> à faire
+* la commande mv -> à faire
+* la commande rm -> à faire
+* La commande grep -> à faire
+* La commande cut -> à faire
+
+## Notions plus avancées mais néanmoins utiles
+
+* Sortie standart, sortie d'erreur et redirection dans un fichier -> à faire
+* Entrée standart et redirection à partir d'un fichier -> à faire
+* Différence entre entrée standart et argument -> à faire
+* Les pipeline -> à faire
+
+* Un fichier csv c'est quoi ? -> à faire
+
+
+
 
 
 

@@ -1,5 +1,5 @@
 {
-  "title": "Des scénarios à relire/découper et déplacer",
+  "title": "Des bouts de scénario à récupérer ?",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
       {
@@ -13,11 +13,6 @@
       "course_id": "manipulation_fichiers"
     },
     {
-      "title": "A la découverte de nano",
-      "description": "Utiliser un éditeur de fichiers",
-      "course_id": "nano"
-    },
-    {
       "title": "Manipuler les fichiers: compléments",
       "description": "Compléments indispensables",
       "course_id": "manipulation_plus"
@@ -28,29 +23,9 @@
       "course_id": "introduction_droits"
     },
     {
-      "title": "Introduction aux scripts",
-      "description": "Ecriture et exécution d'un premier script",
-      "course_id": "introduction_script"
-    },
-    {
-      "title": "Le man",
-      "description": "Familiarisation avec le man",
-      "course_id": "introduction_man"
-    },
-{
       "title": "Variables",
       "description": "Utilisation des variables",
       "course_id": "variables"
-    },
-    {
-      "title": "Les arguments d'un script",
-      "description": "Passer des arguments à un scipt",
-      "course_id": "arguments_script"
-    },
-    {
-      "title": "Les fichiers : approfondissements",
-      "description": "Approfondissements sur les permissions et les fichiers",
-      "course_id": "approfondissements_droits_fichiers"
     },
     {
       "title": "Redirection de l'entrée standard et de la sortie standard",
@@ -66,16 +41,6 @@
       "title": "Les processus",
       "description": "Les processus et les signaux",
       "course_id": "processus"
-    },
-    {
-      "title": "Installation de programmes",
-      "description": "Gestion des paquets",
-      "course_id": "administration_paquets"
-    },
-    {
-      "title": "Bash et python",
-      "description": "Bash et python",
-      "course_id": "bash_python"
     },
     {
       "title": "Grep et expressions régulières",

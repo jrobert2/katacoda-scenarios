@@ -1,5 +1,5 @@
 {
-  "title": "M1101 - Introduction à Bash",
+  "title": "M1101 - Cours n°1 - Introduction à Bash",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
     {
@@ -26,6 +26,11 @@
       "title": "Commandes, options et arguments",
       "description": "Apprendre à distinguer les commandes, les options et les arguments.",
       "course_id": "commande_options_arguments"
+    },
+    {
+      "title": "Bilan",
+      "description": "Faire un bilan sur les notiona abordées dans ce cours",
+      "course_id": "bilan"
     }
   ]
 }

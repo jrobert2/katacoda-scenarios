@@ -1,0 +1,54 @@
+{
+  "title": "Installation de programmes",
+  "description": "Gestion des paquets",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Gestion des paquets avec Ubuntu",
+        "text": "/markdown/step1.md"
+      },
+      {
+        "title": "Lister les paquets installés",
+        "text": "/markdown/step2.md"
+      },
+    {
+        "title": "Installer et désintaller un paquet",
+        "text": "/markdown/step3.md"
+      },
+    {
+        "title": "Quelques commandes utiles",
+        "text": "/markdown/step4.md"
+      },      
+      {
+        "title": "Quizz",
+        "text": "/markdown/step5.md"
+      }
+    ],
+    "intro": {
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/etudiant/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

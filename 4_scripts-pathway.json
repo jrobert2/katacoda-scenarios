@@ -1,0 +1,16 @@
+{
+  "title": "M1101 - Cours n°4 - Focus sur les scripts (tous niveaux)",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+      {
+      "title": "Introduction aux scripts",
+      "description": "Ecriture et exécution d'un premier script",
+      "course_id": "introduction_script"
+    },
+    {
+      "title": "Les arguments d'un script",
+      "description": "Passer des arguments à un scipt",
+      "course_id": "arguments_script"
+    }
+  ]
+}

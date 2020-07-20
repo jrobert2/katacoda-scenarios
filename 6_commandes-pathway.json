@@ -1,0 +1,41 @@
+{
+  "title": "M1101 - Cours n°6 - Focus sur quelques commandes (tous niveaux)",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Focus sur la commande ls -> A faire",
+      "description": "Focus sur la commande ls",
+      "course_id": "commande_ls"
+    },
+    {
+      "title": "Focus sur la commande mkdir -> A faire",
+      "description": "Focus sur la commande mkdir",
+      "course_id": "commande_mkdir"
+    },
+    {
+      "title": "Focus sur la commande cp -> A faire",
+      "description": "Focus sur la commande cp",
+      "course_id": "commande_cp"
+    },
+    {
+      "title": "Focus sur la commande mv -> A faire",
+      "description": "Focus sur la commande mv",
+      "course_id": "commande_mv"
+    },
+    {
+      "title": "Focus sur la commande rm -> A faire",
+      "description": "Focus sur la commande rm",
+      "course_id": "commande_rm"
+    },
+    {
+      "title": "Focus sur la commande grep -> A faire",
+      "description": "Focus sur la commande grep",
+      "course_id": "commande_grep"
+    },
+    {
+      "title": "Focus sur la commande cut -> A faire",
+      "description": "Focus sur la commande cut",
+      "course_id": "commande_ls"
+    }
+  ]
+}
