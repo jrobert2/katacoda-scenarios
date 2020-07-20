@@ -1,4 +1,3 @@
-La notion de chemin (absolu ou relatif) n'est pas très compliquée, mais c'est une notion essentielle, alors soit certain.e de bien la comprendre.
 
 # La commande cd avec un chemin relatif
 

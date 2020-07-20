@@ -6,7 +6,7 @@ bash << 'EOF'
 
     clear
     echo -n "Un peu de patience : je configure l'exercice "
-    while [ ! -e /tmp/.fini ] || [ ! -e /tmp/alternatif.tar.bz2 ]
+    while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
     do
         sleep 1s
         echo -n "."
@@ -14,7 +14,7 @@ bash << 'EOF'
 
     # remplissage des homes et transfert des droits
     cd /
-    tar -pxjf /tmp/alternatif.tar.bz2
+    tar -pxjf /tmp/home.tar.bz2
     
     chown -R sasha:etu /home/sasha
     chown -R ariel:prof /home/ariel
@@ -23,7 +23,7 @@ bash << 'EOF'
     
     # nettoyage
     rm /tmp/.fini
-    rm /tmp/alternatif.tar.bz2
+    rm /tmp/home.tar.bz2
 
 EOF
 
