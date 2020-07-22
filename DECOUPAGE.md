@@ -36,30 +36,30 @@ J'ai essayé pour chaque cours (sauf l'intro) de mettre 4 à 6 scénarios avec �
 * la commande rm (-r)
 * la commande du (-sh)
 * les jokers ??
-
+* les variables
 
 ## cours 3
 * droits des fichiers
 * Le man 
 * commande cp (TODO)
 * processus - introduction
-* statut des sorties
 
 ## cours 4
 * modifier les droits chmod + octal
 * commande mv (TODO)
 * redirections vers un fichier
 * les commandes grep et wc (sans pipeline, une très courte inroduction)
-* les variables
+* Redirections ES from fichier
+
 
 ## cours 5
 * droits des dossiers
 * scripts : introduction
-* Redirections ES from fichier
 * la commande cut (sans pipeline)
 * regex (à découper ?)
 
 ## cours 6
+* statut des sorties
 * inode
 * scripts : arguments
 * redirection SS -> ES (pipelines)

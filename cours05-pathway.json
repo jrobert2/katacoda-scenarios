@@ -18,11 +18,6 @@
       "course_id": "commande_cut"
     },
     {
-      "title": "Redirection à partie d'un fichier",
-      "description": "TODO",
-      "course_id": "redirections_from_file"
-    },
-    {
       "title": "Les expressions régulières",
       "description": "Introduction aux expressions régulières",
       "course_id": "regexp"

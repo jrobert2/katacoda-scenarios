@@ -13,11 +13,6 @@
       "course_id": "commande_mv"
     },
     {
-      "title": "Les variables",
-      "description": "Les variables",
-      "course_id": "variables"
-    },
-    {
       "title": "Focus sur la commande grep",
       "description": "introduction à la commande grep",
       "course_id": "commande_grep"
@@ -27,5 +22,10 @@
       "description": "TODO",
       "course_id": "redirections_to_file"
      }
+     {
+      "title": "Redirection à partie d'un fichier",
+      "description": "TODO",
+      "course_id": "redirections_from_file"
+    }
   ]
 }

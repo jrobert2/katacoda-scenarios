@@ -18,6 +18,11 @@
       "course_id": "redirections_pipeline"
     },
     {
+      "title": "Statut Sortie",
+      "description": "...",
+      "course_id": "statut_sortie"
+    },
+    {
       "title": "Compléments sur les droits des utilisateurs",
       "description": "TODO",
       "course_id": "droits_utilisateurs"
