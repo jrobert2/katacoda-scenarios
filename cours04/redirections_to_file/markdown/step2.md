@@ -1,7 +1,7 @@
 
 # Redirection vde la sortie standart vers un fichier qui n'existe pas
 
-<img src="./assets/img/commande_ss_se_to_file_terminal.png" alt="Commande sortie standard vers un fichier"/>
+<img src="./assets/commande_ss_se_to_file_terminal.png" alt="Commande sortie standard vers un fichier"/>
 
 Il est possible de rediriger la sortie standard d'une commande vers un nouveau fichier qui sera créé pour l'occasion.
 

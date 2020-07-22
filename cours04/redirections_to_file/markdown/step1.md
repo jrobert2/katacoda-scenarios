@@ -4,7 +4,7 @@ On peut voir une commande comme une sorte de *boîte noire* qui traite des infor
 
 La plupart du temps, elle délivre un message que tu vois s'afficher dans dans le terminal.
 
-<img src="./assets/img/commande_sortie_to_terminal.png" alt="Commande sortie vers le terminal"/>
+<img src="./assets/commande_sortie_to_terminal.png" alt="Commande sortie vers le terminal"/>
 
 Par exemple, si tu tapes `ls -l`{execute}}, tu vois s'afficher dans le terminal quelque chose comme :
 ```

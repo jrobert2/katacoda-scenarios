@@ -5,5 +5,5 @@ Commet ferais-tu pour :
 * envoyer sa sortie standard dans un fichier `fichier.txt`
 
 
-<img src="./assets/img/commande_ss_se_to_file_trash.png" alt="Commande sortie erreur vers un trou noir"/>
+<img src="./assets/commande_ss_se_to_file_trash.png" alt="Commande sortie erreur vers un trou noir"/>
 
