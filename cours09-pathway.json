@@ -1,0 +1,26 @@
+{
+  "title": "M1101 - Cours n°09",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [   
+    {
+      "title": "Bash et python",
+      "description": "Bash et python",
+      "course_id": "bash_python"
+    },
+    {
+      "title": "Focus sur la commande find",
+      "description": "TODO",
+      "course_id": "commande_find"
+    },
+    {
+      "title": "Scripts et fonctions",
+      "description": "TODO",
+      "course_id": "scripts_fonctions"
+    },
+    {
+      "title": "Scripts et boucle while",
+      "description": "TODO",
+      "course_id": "scripts_while"
+    }
+  ]
+}

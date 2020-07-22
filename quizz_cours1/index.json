@@ -1,0 +1,54 @@
+{
+  "title": "Quizz n°1",
+  "description": "Pour faire le bilan sur les notions vues dans le cours n°1 (TODO)",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "text": "/markdown/step1.md",
+        "verify": "/verify/exo1.sh"
+      },
+      {
+        "text": "/markdown/step2.md"
+      },
+      {
+        "text": "/markdown/step3.md"
+      },
+      {
+        "text": "/markdown/step4.md"
+      },
+     {
+        "text": "/markdown/step5.md"
+      }
+    ],
+    "intro": {
+        "courseData": "assets/courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "assets/code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            },
+            {
+                "file": "home.tar.bz2",
+                "target": "/tmp"
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bonjour !",
+    "uieditorpath": "/home/sasha/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

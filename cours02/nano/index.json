@@ -1,0 +1,56 @@
+{
+  "title": "Manipuler les fichiers avec Bash : à la découverte de nano",
+  "description": "Découverte du terminal",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Des éditeurs de fichiers",
+        "text": "/markdown/step1.md"
+      },
+      {
+        "title": "Premiers pas avec nano",
+        "text": "/markdown/step2.md"
+      },
+      {
+        "title": "A toi de jouer !",
+        "text": "/markdown/step3.md",
+        "verify": "/verify/exo1.sh"
+      },
+      {
+        "title": "A toi de jouer !",
+        "text": "/markdown/step4.md",
+        "verify": "/verify/exo2.sh"
+      }
+    ],
+    "intro": {
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            },
+            {
+                "file": "home.tar.bz2",
+                "target": "/tmp"
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/sasha/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

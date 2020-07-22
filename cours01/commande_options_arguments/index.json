@@ -1,0 +1,53 @@
+{
+  "title": "Distinguer commandes, options et arguments",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "On commence par un exemple",
+        "text": "/markdown/step1.md"
+      },
+      {
+        "title": "Les commandes",
+        "text": "/markdown/step2.md"
+      },
+      {
+        "title": "Options ou arguments",
+        "text": "/markdown/step3.md"
+      },
+      {
+        "title": "On fait le bilan",
+        "text": "/markdown/bilan.md"
+      }
+    ],
+    "intro": {
+        "courseData": "courseBase.sh",
+        "text": "/markdown/intro.md",
+        "code": "code.sh"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "tpunixauto.sh",
+                "target": "/etc/profile.d/"
+            },
+            {
+                "file": "home.tar.bz2",
+                "target": "/tmp"
+            }
+        ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/sasha/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

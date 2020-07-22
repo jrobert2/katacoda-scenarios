@@ -1,0 +1,31 @@
+{
+  "title": "M1101 - Cours n°3",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Droits des fichiers",
+      "description": "Introduction aux droits des fichiers",
+      "course_id": "droits_fichiers"
+    },
+    {
+      "title": "Le man",
+      "description": "Familiarisation avec le man",
+      "course_id": "introduction_man"
+    },
+    {
+      "title": "Focus sur la commande cp",
+      "description": "Pour découvrir la commande cp",
+      "course_id": "commande_cp"
+    },
+    {
+      "title": "Statut Sortie",
+      "description": "...",
+      "course_id": "statut_sortie"
+    },
+    {
+      "title": "Les processus",
+      "description": "Les processus",
+      "course_id": "processus"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "M1101 - Cours n°6",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Les Inode",
+      "description": "Pour comprendre un peu mieux le système de fichiers",
+      "course_id": "inodes"
+    },
+    {
+      "title": "Les arguments d'un script",
+      "description": "Passer des arguments à un script",
+      "course_id": "arguments_script"
+    },
+    {
+      "title": "Pipelines",
+      "description": "Pour jouer au plombier",
+      "course_id": "redirections_pipeline"
+    },
+    {
+      "title": "Compléments sur les droits des utilisateurs",
+      "description": "TODO",
+      "course_id": "droits_utilisateurs"
+    }
+  ]
+}
