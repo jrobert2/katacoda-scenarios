@@ -6,12 +6,12 @@ La plupart du temps, elle délivre un message que tu vois s'afficher dans dans l
 
 <img src="./assets/commande_sortie_to_terminal.png" alt="Commande sortie vers le terminal"/>
 
-Par exemple, si tu tapes `ls -l`{execute}}, tu vois s'afficher dans le terminal quelque chose comme :
+Par exemple, si tu tapes `ls -l`{{execute}}, tu vois s'afficher dans le terminal quelque chose comme :
 ```
 total 12
-drwxrwxr-x 1 sasha etu   4096 Jul 17 13:40 Exo1
-drwxrwxr-x 1 sasha etu   4096 Jul 17 13:40 Exo2
--rw-rw-r-- 1 sasha sasha   63 Jul 17 12:53 README
+drwxrwxr-x 127 sasha etu   4096 Jul 17 13:40 Exo1
+drwxrwxr-x   2 sasha etu   4096 Jul 17 13:40 Exo2
+-rw-rw-r--   1 sasha sasha   63 Jul 17 12:53 README
 ```
 
 

@@ -5,7 +5,7 @@
 
 Il est possible de rediriger la sortie standard d'une commande vers un nouveau fichier qui sera créé pour l'occasion.
 
-Par exemple, la commande  `ls -l > essai.txt`{execute}} ne génère aucun affichage à l'écran.
+Par exemple, la commande  `ls -l > essai.txt`{{execute}} ne génère aucun affichage à l'écran.
 Sa sortie a été redirigée vers le fichier `essai.txt`.
 
 Tu peux vérifier avec `ls`{{execute}} : il y a un nouveau fichier (essai.txt) dans le répertoire courant !
