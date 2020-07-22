@@ -23,7 +23,7 @@ Et bien il suffit de l'ecrire simplement :
 
 `cat README Exo1 Exo2 2> sortie_erreur.log > sortie_standard`{{execute}}.
 
-Essaye, uis vérifie que le contenu des deux fichiers générés est bien conforme à ce que tu attendais.
+Essaye, puis vérifie que le contenu des deux fichiers générés est bien conforme à ce que tu attendais.
 
 
 # Exercice

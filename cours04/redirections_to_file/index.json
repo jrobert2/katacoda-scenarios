@@ -13,7 +13,7 @@
       },
       {
         "text": "/markdown/step3.md",
-        "answer": "/markdown/sreponse3.md"
+        "answer": "/markdown/reponse3.md"
       },
       {
         "text": "/markdown/step4.md"
@@ -22,7 +22,8 @@
         "text": "/markdown/step5.md"
       },
       {
-        "text": "/markdown/step6.md"
+        "text": "/markdown/step6.md",
+        "answer": "/markdown/reponse6.md"        
       },
       {
         "text": "/markdown/step7.md"
