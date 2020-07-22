@@ -1,21 +1,39 @@
+# Qu'est ce que la sortie d'une commande ?
 
-# Redirection vers un fichier
+On peut voir une commande comme une sorte de *boîte noire* qui traite des informations.
 
-Tape la commande `echo Bonjour tout le monde`{{execute}}.
-Bravo, la phrase « Bonjour tout le monde » est affichée sur la **sortie standard**.
+La plupart du temps, elle délivre un message que tu vois s'afficher dans dans le terminal.
+
+<img src="./assets/img/commande_sortie_to_terminal.png" alt="Commande sortie vers le terminal"/>
+
+Par exemple, si tu tapes `ls -l`{execute}}, tu vois s'afficher dans le terminal quelque chose comme :
+```
+total 12
+drwxrwxr-x 1 sasha etu   4096 Jul 17 13:40 Exo1
+drwxrwxr-x 1 sasha etu   4096 Jul 17 13:40 Exo2
+-rw-rw-r-- 1 sasha sasha   63 Jul 17 12:53 README
+```
 
 
-Fais maintenant suivre la même commande de : `> salutations.txt`, c'est-à-dire tape : `echo Bonjour tout le monde > salutations.txt`{{execute}}.
 
-La phrase « Bonjour tout le monde » n'est pas affichée sur la sortie standard.
+# Sortie standard et sortie d'erreur
 
-En effet, tout ce qui aurait du s'afficher sur la sortie standard a été redirigée vers le fichier salutations.txt.
+En réalité, il existe deux types de sorties : 
 
-Vérifie le : `cat salutations.txt`{{execute}}.
+* la sortie standard, qui renvoie des messages "normaux"
+* la sortie d'erreur,  qui renvoie des messages d'erreur
 
->> Comment créer un fichier `FichierETC.txt` contenant la liste de tous les fichiers du dossier /etc/ ? <<
+Par défaut, ces deux sorties se dirigent vers le terminal
 
-( ) FichierETC.txt > ls
-(*) ls > FichierETC.txt
-( ) ls FichierETC.txt
+<img src="./assets/img/commande_ss_se_to_terminal.png" alt="Commande sorties vers le terminal"/>
+
+Par exemple :
+
+* La commande `cat README`{{execute}} affiche sa sortie standard dans le terminal (la sortie d'erreur est vide)
+
+* La commande `cat Exo1`{{execute}} affiche sa sortie d'erreur dans le terminal  (la sortie standard est vide)
+
+* La commande `cat README Exo1 Exo2`{{execute}} affiche ses deux sorties dans le terminal
+
+Pas toujours facile de distinguer ces deux sorties !
 

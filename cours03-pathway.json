@@ -21,6 +21,11 @@
       "title": "Les processus",
       "description": "Les processus",
       "course_id": "processus"
+    },
+    {
+      "title": "Les variables",
+      "description": "Les variables",
+      "course_id": "variables"
     }
   ]
 }

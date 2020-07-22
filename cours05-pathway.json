@@ -21,6 +21,11 @@
       "title": "Les expressions régulières",
       "description": "Introduction aux expressions régulières",
       "course_id": "regexp"
+    },
+    {
+      "title": "Redirection à partir d'un fichier",
+      "description": "TODO",
+      "course_id": "redirections_from_file"
     }
   ]
 }
