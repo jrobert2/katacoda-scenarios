@@ -2,84 +2,92 @@
 
 Un proposition de découpage (mais ça ne me plait pas encore ...)
 
-J'ai essayé pour chaque cours (sauf l'intro) de mettre 4 à 6 scénarios avec à chaque fois l'un des "themes" suivants :
-* 1 manipulation de fichiers
-* 1 recherche/aide
-* 1 notion sur les droits
-* 1 notion sur les scripts/processus
-* 1 notion un peu plus abstraite (inode ...)
+Au début, il faut leur montrer les commandes de base et les faire manipuler beaucoup.
 
-## Des notions pour lesquelles faire un scénario ou ajouter une étape dans un scénario existant ?
-* la commande passwd
+Ensuite, j'ai essayé pour chaque cours de mettre 4 à 6 scénarios avec à chaque fois l'un des "themes" suivants :
+
+1. notion sur les droits
+2. manipuler des fichiers et administrer son système
+3. aide, recherche, filtre, doc  ...
+4. notion pour avancer les scripts
+5. redirection (un peu plus tard)
+
+
+
+## Des notions qui sont nulle part pour le moment -> faire un scénario ou ajouter une étape dans un scénario existant ?
 * CTRL+L / CTRL+R / Click milieu de la souris
 * caractère d'échappement ?
 * scripts : arguments vs entrée standard 
-* Transformer un script en commande 
-* Comprendre/modifier mon bashrc 
 
-## cours 1 - Introduction
 
-* Un très courte introduction à bash (terminal, prompt, home, touches haut/bas)
+## cours 1 - introduction
+* Une très courte introduction à bash (terminal, prompt, home, touches haut/bas)
 * Se repérer et se déplacer (cd et ls sans option + ..)
 * La commande cat et TAB (surtout pour manipuler ls, cd et cat)
 * les chemins - Dans ce scénario, j'ai 'cassé' la commande cd. On manipule donc que ls et cat
 * commande, arguments et options 
-* les chemins suite - avec la commande cd, la commande tree, et le dossier `.` 
+* les chemins suite - avec la commande cd, la commande tree, et les dossiers `.` `..` et  `~`
 
 
-## cours 2
-
-* nano -> à relire. Ajouter la commande touch ici ?
-* la commande ls (-alh) TODO
-  Commencer à parler des métadonnées
+## cours 2 - kit de survie
+* nano (ajouter commande touch ?)
+* la commande ls (-alh) -> Commencer à parler des métadonnées
 * la commande mkdir
 * la commande rm (-r)
 * la commande du (-sh)
-* les jokers ??
-* les variables
-
-## cours 3
-* droits des fichiers
-* Le man 
-* commande cp (TODO)
 * processus - introduction
 
-## cours 4
+
+## cours 3
+* scripts : les variables
+* droits des fichiers
 * modifier les droits chmod + octal
-* commande mv (TODO)
-* redirections vers un fichier
-* les commandes grep et wc (sans pipeline, une très courte inroduction)
-* Redirections ES from fichier
+* commande cp (TODO)
+* scripts : introduction
+* Le man 
+
+
+## cours 4
+* droits des utilisateurs, super-utilisateur + passwd + sudo (à mettre assez tôt)
+* scripts : arguments
+* gestion des paquets
+* redirections : SS ou SE -> fichier
+* les jokers ??
+
 
 
 ## cours 5
 * droits des dossiers
-* scripts : introduction
+* scripts : entrée standard (TODO)
+* commande mv (TODO)
+* les commandes grep et wc (sans pipeline, une très courte inroduction)
 * la commande cut (sans pipeline)
-* regex (à découper ?)
 
 ## cours 6
-* statut des sorties
 * inode
-* scripts : arguments
-* redirection SS -> ES (pipelines)
-* droits des utilisateur (sudo) TODO
-
-## cours 7
-* compléments sur les droits chown + chgroup + adduser + addgroup (TODO ?)
-* gestion des paquets (à mettre plus tôt)
-* scripts : entrée standard (TODO)
+* scripts : statut des sorties
+* redirections : Entrée standard à partir d'un fichier
+* Comprendre/modifier mon bashrc (??)
 * scripts : conditions (TODO)
 
+## cours 7
+* compléments sur les droits chown + chgroup + adduser + addgroup (??)
+* Transformer un script en commande (??)
+* redirections : SS -> ES Pipelines
+* regex
+
 ## cours 8
-* scripts : boucles for (TODO ?)
+* scripts : boucles for
+* redirections : SS -> argument (??)
+* bash et python
+* la commande find (??)
 
 
 ## cours 9
-* bash et python
-* la commande find (TODO ?)
-* scripts : boucles while (TODO ?)
-* scripts : fonctions (TODO ?)
+* scripts : boucles while (??)
+* scripts : fonctions (??)
+
+
 
 
 

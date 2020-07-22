@@ -3,24 +3,29 @@
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
     {
-      "title": "Modifier les droits",
-      "description": "Focus sur la commande chmod\net accessoirement comprendre l'octal",
-      "course_id": "droits_octal"
-    },
-    {
-      "title": "Focus sur la commande mv",
-      "description": "Pour découvrir la commande mv",
-      "course_id": "commande_mv"
-    },
-    {
-      "title": "Focus sur la commande grep",
-      "description": "introduction à la commande grep",
-      "course_id": "commande_grep"
+      "title": "Compléments sur les droits des utilisateurs",
+      "description": "TODO",
+      "course_id": "droits_utilisateurs"
     },
     {
       "title": "Redirections vers un fichier",
       "description": "TODO",
       "course_id": "redirections_to_file"
-     }
+     },
+    {
+      "title": "Les arguments d'un script",
+      "description": "Passer des arguments à un script",
+      "course_id": "arguments_script"
+    },
+    {
+      "title": "Installation de programmes",
+      "description": "Gestion des paquets",
+      "course_id": "gestion_paquets"
+    },
+    {    
+      "title": "Les jokers",
+      "description": "Les jokers",
+      "course_id": "jokers"
+    }
   ]
 }

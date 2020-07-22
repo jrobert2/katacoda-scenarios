@@ -2,25 +2,20 @@
   "title": "M1101 - Cours n°7",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
-      {
-      "title": "Installation de programmes",
-      "description": "Gestion des paquets",
-      "course_id": "gestion_paquets"
-    },
     {
-      "title": "Scripts et Entrée Standart",
-      "description": "TODO",
-      "course_id": "scripts_ES"
-    },
-    {
-      "title": "Les conditions en bash",
-      "description": "TODO",
-      "course_id": "scripts_conditions"
+      "title": "Pipelines",
+      "description": "Pour jouer au plombier",
+      "course_id": "redirections_pipeline"
     },
     {
       "title": "Compléments sur les droits",
       "description": "TODO",
       "course_id": "droits_complements"
+    },
+    {
+      "title": "Les expressions régulières",
+      "description": "Introduction aux expressions régulières",
+      "course_id": "regexp"
     }
   ]
 }

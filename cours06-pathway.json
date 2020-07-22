@@ -8,24 +8,19 @@
       "course_id": "inodes"
     },
     {
-      "title": "Les arguments d'un script",
-      "description": "Passer des arguments à un script",
-      "course_id": "arguments_script"
-    },
-    {
-      "title": "Pipelines",
-      "description": "Pour jouer au plombier",
-      "course_id": "redirections_pipeline"
-    },
-    {
       "title": "Statut Sortie",
       "description": "...",
       "course_id": "statut_sortie"
     },
     {
-      "title": "Compléments sur les droits des utilisateurs",
+      "title": "Redirection à partir d'un fichier",
       "description": "TODO",
-      "course_id": "droits_utilisateurs"
+      "course_id": "redirections_from_file"
+    },
+    {
+      "title": "Les conditions en bash",
+      "description": "TODO",
+      "course_id": "scripts_conditions"
     }
   ]
 }

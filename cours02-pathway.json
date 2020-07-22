@@ -7,7 +7,7 @@
       "description": "Utiliser un éditeur de fichiers",
       "course_id": "nano"
     },
-   {
+    {
       "title": "Focus sur la commande mkdir",
       "description": "Pour découvrir la commande mkdir",
       "course_id": "commande_mkdir"
@@ -27,15 +27,10 @@
       "description": "Pour découvrir la commande du",
       "course_id": "commande_du"
     },
-    {    
-      "title": "Les jokers",
-      "description": "Les jokers",
-      "course_id": "jokers"
-    },
     {
-      "title": "Les variables",
-      "description": "Les variables",
-      "course_id": "variables"
+      "title": "Les processus",
+      "description": "Les processus",
+      "course_id": "processus"
     }
   ]
 }
