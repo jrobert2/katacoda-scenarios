@@ -1,3 +1,0 @@
-Comment installer les programmes dont tu as besoin ? Comment lister les programmes installés ? Comment mettre à jour sa machine ? Etc. ...
-
-Les réponses à toutes ces questions, c'est ici !
