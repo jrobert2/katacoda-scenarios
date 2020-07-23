@@ -1,16 +1,16 @@
 #  La commande mkdir pour créer des dossiers
 
+
 La commande `mkdir` permet de créer des dossiers (make directory).
 
 Par exemple, `mkdir got`{{execute}} crée le dossier got dans le répertoire courant.
 
+## Exercice
 
-Autre exemple, `mkdir got/arya`{{execute}} crée le dossier arya dans le répertoire got qui se trouve dans le répertoire courant. Ici, on utilise un chemin relatif.
+Essaye de créer un dossier `starwars`.
 
-Bien sûr, comme pour toutes les autres commandes on peut donner à `mkdir` un chemin absolu :
-`mkdir /home/etudiant/got/sansa`{{execute}}
+Pour vérifier que c'est fait, entre dans ce nouveau dossier.
 
-Vérifie et essaye à ton tour.
 
 
 

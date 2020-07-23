@@ -15,13 +15,11 @@
       },
       {
         "title": "A toi de jouer !",
-        "text": "/markdown/step3.md",
-        "verify": "/verify/exo1.sh"
+        "text": "/markdown/step3.md"
       },
       {
         "title": "A toi de jouer !",
-        "text": "/markdown/step4.md",
-        "verify": "/verify/exo2.sh"
+        "text": "/markdown/step4.md"
       }
     ],
     "intro": {

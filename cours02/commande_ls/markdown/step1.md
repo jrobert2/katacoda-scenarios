@@ -1,19 +1,15 @@
-# Des options utiles pour ls
+# Ce que tu sais déjà sur la commande ls
 
-Essaie la commande suivante : `ls -la`{{execute}} .
-On a passé à `ls` deux options :
+* la commande `ls` permet de lister le contenu des dossiers
 
-* -l qui signifie "*long*" pour avoir un "affichage long" et qui permet de donner plus d'informations sur les fichiers affichés
-* -a qui signifie "*all*" et qui permet d'afficher *tous* les fichiers.
+* la commande `ls` sans argument liste le contenu du dossier courant
 
-Par convention, les fichiers dont le nom commence par un `.` sont des fichiers cachés et ne sont normalement pas affichés par `ls` à moins de lui donner l'option `-a` !
+* la commande utilisé avec un chemin vers un dossier comme argument liste le contenu de ce dossier `ls <dossier>` sans argument liste le contenu du dossier courant
 
+# Ce que tu ne sais peut-être pas encore
 
-# Des options "classiques"
+* La commande `ls` accepte un certain nombre d'options dont certaines sont très utiles
 
-Souvent, tu rencontreras les options `-r`, `-R` et `-v`.
+* La commande `ls` peut prendre en argument un chemin vers un fichier
 
-* Les options `-r` et `-R` signifient (la plupart du temps) "Récursif". La commande que tu exécutes avec une telle option s'applique aux dossier et sous dossiers, etc. 
-   Par exemple, `rm -r /home/` supprimera le dossier `/home/` ainsi que tous ses sous dossiers. Attention quand tu utilises cette commande dans la vraie vie ! Je te rappelle qu'il n'y a pas de retour en arrière possible.
-
-* L'option `-v` est en général le raccourci pour pour "verbose". La commande deviendra alors bavarde et affichera plus d'information sur ce qu'elle fait.
+* La commande `ls` accepte de prendre plusieurs arguments

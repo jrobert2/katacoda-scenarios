@@ -1,16 +1,34 @@
+# Les unités utilisées pour la taille des fichiers
+
+* Le bit : c'est la plus petite unité (binary digit). Un bit est un élément pouvant être égal à 0 ou à 1 (deux valeurs possibles donc).
+
+* L'octet (o) : 1 o = 8 bits *
+
+* Le kilo-octet (Ko) : 1 Ko équivaut à 1000 octets.
+
+* Le méga-octet (Mo) : 1 Mo = 1000 Ko.
+
+* Le giga-octet (Go) : 1 Go = 1000 Mo.
+
+* Le téra-octet (To) : 1 To = 1000 Go.
 
 
-Pour plus de commodité, si tu ne l'as pas fait à l'étape précédente, déplace-toi dans le dossier Swwdfhjoillk : `cd /home/sasha/Exo1/Dir64/Swwdfhjoillk/`{{execute}}
-et liste le contenu `ls`{{execute}}
+**Attention**
 
-# La commande rm pour supprimer des dossiers
+*octet* se traduit par *bytes* en anglais
 
-Si tu essaies de supprimer un dossier, `rm` ne te laisse pas faire. Il faut dire que cette commande est très sensible. Tu te souviens : pas de retour en arrière possible. Elle est donc dotée de quelques sécurités et tu ne peux pas (normalement) supprimer un dossier par erreur.
-Essaie  : `rm Repbldmdkfjfryeozlsjdf`{{execute}}
+ttention à ne pas confondre *bit* et *byte* !
 
-Tu vois ? Je t'avais prévenu : cette commande n'est pas commode ...
+*1 octet = 8 bits*
 
-Pour lui dire que tu sais fais et que c'est bien un dossier que tu veux supprimer, il faut ajouter une **option**  : `rm -r Repbldmdkfjfryeozlsjdf`{{execute}}
+## Exercice : Ordre de grandeur de la taille d'un fichier
 
+Donne l'ordre de gandeur de la taille des fichiers suivants :
 
+  a) un fichier texte d'une page
+  #) un document texte d'une page (type LibreOffice)
+  #) une photo
 
+## Exercice
+
+Combien de temps met-ton pour télécharger un film de 700 Mo avec un débit de 2Mbit/s ?

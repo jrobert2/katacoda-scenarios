@@ -1,8 +1,14 @@
-# Exercice
+#  La commande mkdir pour créer des dossiers
+ 
+Bien entendu, on peut utiliser un chemin relatif.
 
-* Crée les dossiers suivants dans `/home/sasha/Exo2/` :
-   * `fichiers_txt`,
-   * `fichiers_png`
+Normalement, tu es dans le dossier `/home/etudiant/starwars` sinon vas-y.
 
-Il faut que tu sois très rigoureux.se et ne pas faire de faute de frappe : une majuscule à la place d'une minuscule, un *s* oublié ou tout autre erreur de frappe et tu ne pourras pas continuer.
+La commande `mkdir ../got/arya`{{execute}} crée le dossier arya dans le répertoire got qui se trouve dans le répertoire parent.
 
+
+## Exercice
+
+En utilisant un chemin relatif, et sans bouger de là où tu es, crée un dossier `john` dans le dossier `got`
+
+Pense à vérifier le résultat de ta commande !

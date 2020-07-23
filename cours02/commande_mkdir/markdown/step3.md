@@ -1,12 +1,13 @@
-# Exercice
+#  La commande mkdir pour créer des dossiers
+ 
+On peut également utiliser un chemin absolu.
 
-On continue dans `/home/sasha/Exo2/`. Assure toi d'y être et regarde ce qu'il s'y trouve.
+Peu importe où tu te trouves, la commande `mkdir /home/sasha/got/littlefinger`{{execute}} crée le dossier littlefinger
+dans le répertoire got qui se trouve dans lton home.
 
-Crée les dossiers suivants :
+Essaye !
 
-* `fichiers_txt`,
-* `fichiers_png`
+N'oublie pas de vérifier que le dossier a bien été créé (ne me crois pas sur parole !)
 
-Il faut que tu sois très rigoureux.se et ne pas faire de faute de frappe : une majuscule à la place d'une minuscule, un *s* oublié ou tout autre erreur de frappe et tu ne pourras pas continuer.
-
-
+## Quizz
+ TODO

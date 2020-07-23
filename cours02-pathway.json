@@ -8,15 +8,20 @@
       "course_id": "nano"
     },
     {
+      "title": "Focus sur la commande ls",
+      "description": "Pour découvrir quelques potentialités de la commande ls",
+      "course_id": "commande_ls"
+    },
+    {
       "title": "Focus sur la commande mkdir",
       "description": "Pour découvrir la commande mkdir",
       "course_id": "commande_mkdir"
     },
     {
-      "title": "Focus sur la commande ls",
-      "description": "Pour découvrir quelques potentialités de la commande ls",
-      "course_id": "commande_ls"
-    },
+      "title": "Focus sur la commande touch",
+      "description": "Pour découvrir la commande touch",
+      "course_id": "commande_touch"
+    }, 
     {
       "title": "Focus sur la commande rm",
       "description": "Pour découvrir la commande rm",

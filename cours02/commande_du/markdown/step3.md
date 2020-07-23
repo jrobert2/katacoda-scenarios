@@ -1,5 +1,11 @@
-# exercice
+# Quota sur les machines de l'iut
 
-* supprime tous les répertoires du dossier Swwdfhjoillk (tous ceux qui s'affichent en bleu, et qui commencent en fait par Rep). Pour cela, il est tout à fait normal que tu doives faire plusieurs fois `rm -r quelquechose` !
+Au département informatique, la taille de *ton home* est limité à 500 Mo.
+tu dois régulièrement surveiller que tu ne dépasses pas le maximum autorisé.
 
+
+En cas de dépassement, ton compte risque d'être gelé et tu ne pourras plus 
+l'utiliser !
+
+Vérifie la taille de ton home (le tiens dans la vraie vie, pas celui de sasha)
 
