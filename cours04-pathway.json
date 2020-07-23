@@ -4,12 +4,12 @@
   "courses": [
     {
       "title": "Compléments sur les droits des utilisateurs",
-      "description": "TODO",
+      "description": "TODO ?",
       "course_id": "droits_utilisateurs"
     },
     {
       "title": "Redirections vers un fichier",
-      "description": "TODO",
+      "description": "LA redirections des sorties vers un fichier",
       "course_id": "redirections_to_file"
      },
     {
@@ -24,7 +24,7 @@
     },
     {    
       "title": "Les jokers",
-      "description": "Les jokers",
+      "description": "TODO ??",
       "course_id": "jokers"
     }
   ]
