@@ -18,8 +18,8 @@ Globalement, en considérant qu'un répertoire est un fichier contenant la liste
 [*] lister les fichiers du répertoire,
 [*] modifier le contenu du fichier truc,
 [ ] supprimer le fichier truc,
-[ ] renommer le fichier truc?
-[ ]  Créer un fichier dans le répertoire /opt.
+[ ] renommer le fichier truc,
+[ ] créer un fichier dans le répertoire /opt.
 
 
 >> Pour que personne à part vous puissent lister les fichiers que vous avez dans votre home,  il faut : <<

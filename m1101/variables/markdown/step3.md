@@ -1,1 +1,1 @@
-Pour continuer, dans une variable exercice, met la chaîne "bonjour".
+Pour continuer, dans une variable exercice, mets la chaîne "bonjour".

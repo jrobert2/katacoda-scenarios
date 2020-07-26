@@ -157,11 +157,3 @@ lorsque tu exécutes `du -sh /opt/`,
 ( ) elle dit à la commande du de ne pas prendre en compte les dossiers dont le nom commence par un h
 
 
->> Après avoir exécuté cette ligne de commande, où se trouvera le fichier `toto.txt` ? <<
-( ) dans le dossier `/home/etudiant/Documents/`
-( ) dans le dossier `/home/etudiant/`
-( ) dans le dossier `/home/etudiant/Documents/images/`
-(*) dans le dossier `/temp/
-
-
-

@@ -35,7 +35,7 @@ echo $nom > monNom.txt
 ( ) il lit une variable nom à partir d'un fichier monNom.txt.
 
 
-Essaie maintenant d'utiliser > au lieu de >> , par exemple en faisant `echo Bonjour >> salutations.txt` .
+Essaie maintenant d'utiliser >> au lieu de > , par exemple en faisant `echo Bonjour >> salutations.txt` .
 
 >> Quelle est la différence entre > et >> ? <<
 
