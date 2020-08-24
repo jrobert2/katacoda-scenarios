@@ -1,6 +1,7 @@
  # L'option -l
 
-L'option `-l`  signifie "*long*" pour avoir un "affichage long" et qui permet de donner plus d'informations sur les fichiers/dossiers affichés
+L'option `-l`  signifie "*long*" pour avoir un "affichage long" et permet de donner plus d'informations sur les fichiers/dossiers affichés.
+
 
 Essaie la commande suivante : `ls -l`{{execute}}
 
@@ -20,10 +21,18 @@ Je te les explique en quelques mots, mais on y reviendra un peu plus en détail 
 * et enfin, ce dossier a été modifié pour la dernière fois le 17 juillet à 12h53.
 
 Je ne t'ai pas expliqué le début de la ligne. Ce n'est pas un oubli ;)
-Les explications sont d'autres scénarios. 
+Les explications sont dans d'autres scénarios. 
 
 
 ## Quizz
-TODO
+>>  Dans quel groupe est le fichier .bashrc ? <<
+=== etu
+
+>>  Dans quel groupe est le fichier .bash_history ? <<
+=== sasha
+
+>>  Qui est le propriétaire du dossier /bin/ ? <<
+=== root
+
 
 

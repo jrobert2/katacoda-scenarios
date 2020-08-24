@@ -7,7 +7,7 @@ Essaie la commande suivante : `ls -a`{{execute}}
 Tu vois apparaître de nouveaux dossiers et fichiers :
 
 * le dossier `.` que tu connais déjà : c'est le dossier courant
-* le dossier `..` que tu également : c'est le dossier parent
+* le dossier `..` que tu connais également : c'est le dossier parent
 * le fichier `.vide`
 * etc.
 
@@ -21,4 +21,8 @@ Mais tu n'es pas un utilisateur lambda !
 
 
 ## Quizz
-TODO
+>>  Parmi les fichiers suivants, lequel n'est pas dans ton home  <<
+(*) .config
+( ) .bashrc
+( ) .vide
+( ) .bash_history
