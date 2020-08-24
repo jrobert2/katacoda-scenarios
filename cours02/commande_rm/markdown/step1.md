@@ -20,6 +20,3 @@ C'est à toi de faire attention à ce que tu fais et à conserver des sauvegarde
 Ici on s'en fiche un peu, donc tu peux utiliser `rm` sans crainte.
 
 
-## Exercice
-TODO
-

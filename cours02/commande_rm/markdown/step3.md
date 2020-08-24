@@ -5,7 +5,7 @@ Essaie  : `rm Perso`{{execute}}
 
 Tu vois ? Je t'avais prévenu : cette commande n'est pas commode ...
 
-Pour lui dire que tu sais fais et que c'est bien un dossier que tu veux supprimer,
+Pour lui dire que tu sais ce que tu fais et que c'est bien un dossier que tu veux supprimer,
 il faut ajouter l'option `-r`, `-R` ou `--recursive`. 
 
 De nombreuses autres commandes possèdent les options `-r`, `-R` ou `--recursive`. 
@@ -19,7 +19,7 @@ Donc, pour supprimer le dossier `Perso`  tu taperas `rm -r Perso`{{execute}}
 tu peux tout casser si tu le veux puisque cet environnement est fait pour ça.
 Mais dans la vraie vie, prends tes précautions.
 
-# exercice
+# Exercice
 
 Supprime tous les répertoires du dossier Desktop dont le nom commencent par temp.
 Pour cela, il est tout à fait normal que tu doives faire plusieurs fois `rm -r quelquechose` !
