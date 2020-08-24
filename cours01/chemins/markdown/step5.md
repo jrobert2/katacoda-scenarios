@@ -34,7 +34,7 @@ Tu es toujours dans le dossier `/home/sasha` (et oui !)
 Toujours de la même façon : on utilise un chemin relatif en indiquant qu'on retourne en arrière. Tu te souviens qu'on en a déjà parlé ?
 Le symbole qui représente le dossier parent est `..`
 
-Donc, pour lister le contenu du dossier `home`, il  suffit donc de taper `ls  ..`{{execute}}
+Donc, pour lister le contenu du dossier `home`, il  suffit de taper `ls  ..`{{execute}}
 
 Essaye !
 

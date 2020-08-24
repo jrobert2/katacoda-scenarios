@@ -6,7 +6,7 @@ Dans ce scénario, tu vas apprendre ce que sont :
 * un chemin absolu
 * un chemin relatif
 
-La notion de chemin (absolu ou relatif) n'est pas très compliquée, mais c'est une notion essentielle, alors soit certain.e de bien la comprendre.
+La notion de chemin (absolu ou relatif) n'est pas très compliquée, mais c'est une notion essentielle, alors sois certain.e de bien la comprendre.
 
 
 ## pré-requis

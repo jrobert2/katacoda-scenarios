@@ -39,14 +39,14 @@ Très bien ! Le prompt dois t'indiquer que tu es dans le répertoire `/home/sash
 
 ## Exercice
 
-Maintenant, déplaces-toi dans le dossier `photos`.
+Maintenant, déplace toi dans le dossier `photos`.
 
 Le prompt dois t'indiquer que tu es dans le répertoire `/home/sasha/Perso/Images/photos`.
 
 Lorsque c'est le cas, répond au quizz :
 
 
->> Combien y a-t il de fichiers dans le dossier photos ? <<
+>> Combien y a-t-il de fichiers dans le dossier photos ? <<
 ( ) il n'y en a pas
 ( ) 1 fichier
 (*) 2 fichiers

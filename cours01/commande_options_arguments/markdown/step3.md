@@ -31,7 +31,7 @@ Cette distinction passe par plusieurs conventions. Voici les deux principales :
   
   L'option `-s` de la commande `du` s'écrit, en version longue, `--summarize`. Elle dit à la commande `du` de "faire la somme"
 
-  Avec cette convention, il n'est possible de regrouper plusieurs options dans un même mot.
+  Avec cette convention, il n'est pas possible de regrouper plusieurs options dans un même mot.
 
 A partir de maintenant, nous ferons donc la distinction entre un **argument** et une **option**.
 

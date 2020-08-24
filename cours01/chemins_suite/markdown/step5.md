@@ -9,7 +9,7 @@ Ou encore `cd Documents/./././` qui te mènera au même endroit que `cd Document
 
 # Quizz
 
->> Tu es dans le dossier /home/etudiant/. Où mène le chemin relatif ../././ ? (veille à ce que ton chemin termine par un /) <<
+>> Tu es dans le dossier /home/sasha/. Où mène le chemin relatif ../././ ? (veille à ce que ton chemin termine par un /) <<
 === /home/
 
 >> Tu es dans le dossier /etc/firefox/. Où mène le chemin relatif ../../opt/ ? (veille à ce que ton chemin termine par un /) <<

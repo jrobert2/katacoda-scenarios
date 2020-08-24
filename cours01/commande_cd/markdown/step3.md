@@ -9,7 +9,7 @@ Utilisée seule, cette commande permet de lister le contenu du **dossier courant
 Si la coloration est activée (normalement c'est le cas ici), les dossiers sont en bleu et les fichiers en une autre couleur (souvent en blanc).
 Lance la ligne de commande `ls`{{execute}} puis réponds à la petite question :
 
->> Combien y a-t il de dossiers dans ton home (ta maison) ? <<
+>> Combien y a-t-il de dossiers dans ton home (ta maison) ? <<
 ( ) il n'y en a pas
 ( ) 1 dossier
 ( ) 2 dossiers

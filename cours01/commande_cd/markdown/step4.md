@@ -2,7 +2,7 @@
 
 Et comment on bouge ?
 
-La **commande** `cd` permet changer de dossier courant (*change directory*).
+La **commande** `cd` permet de changer de dossier courant (*change directory*).
 
 Mais pour se déplacer dans un dossier, il faut le voir !
 Par exemple, si tu es toujours dans *ton home*, `cd Perso`{{execute}} te permet de te déplacer dans le répertoire `Perso`.
@@ -48,7 +48,7 @@ Dans le terminal, le prompt t'indique que tu es maintenant dans le répertoire `
 
 ## Exercice 
 
-Déplaces-toi maintenant dans le dossier `Images`
+Déplace-toi maintenant dans le dossier `Images`
 
 Passe à la suite lorsque le prompt t'indique que tu es dans le répertoire `/home/sasha/Perso/Images`
 

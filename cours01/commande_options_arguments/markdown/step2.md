@@ -11,12 +11,12 @@ Oui ! Enfin presque ...
 
 L'arborescence des systèmes Linux suit généralement les règles suivantes :
 
-* les commandes les plus indispensables sont dans le répertoire `/bin/`.
+* les commandes les plus indispensables sont dans le répertoire `/bin/`,
 
-* les commandes accessibles à tous les utilisateurs sont dans le répertoire `/usr/bin/`
+* les commandes accessibles à tous les utilisateurs sont dans le répertoire `/usr/bin/`,
 
 * Certaines commandes ne sont accessibles qu'aux administrateurs du système (nous en reparlerons plus tard).
-  les commandes d'administration sont dans le répertoire `/sbin/`.
+  Les commandes d'administration sont dans le répertoire `/sbin/`.
 
 Tu peux aller voir !
 

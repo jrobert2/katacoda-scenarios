@@ -11,7 +11,7 @@ Je ne crois pas t'avoir parlé de la *complétion automatique*. C'est pourtant u
 
 Vérifie qu'il y a bien 5 dossiers dans le dossier courant (le dossier `Dir64`).
 
-Maintenant, fais maintenant exactement ce que je te dis :
+Maintenant, fais exactement ce que je te dis :
 
 * tape `cd S`
 * appuie avec ton auriculaire de la main gauche (oui oui) sur la touche tabulation <kbd>⇥ Tab</kbd>  de ton clavier.

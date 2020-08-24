@@ -1,5 +1,5 @@
 
-# Attention : TON home n'est la LE home
+# Attention : TON home n'est pas LE home
 
 Le dossier `/home/sasha/` est l'entrée de TA maison qu'on appelle également *ton home*.
 

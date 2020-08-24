@@ -17,7 +17,7 @@ Ce dossier est symbolisé par un point `.` :
 │   └── Supprimez_moi
 ``` 
 
-On peut également en mettant un dossier en argument (un chemin relatif ou absolu vers un dossier).
+On peut également l'invoquer en mettant un dossier en argument (un chemin relatif ou absolu vers un dossier).
 
 Par exemple `tree /home/sasha`{{execute}} affiche l'arborescence de ton home (ce n'est pas toujours très lisible !) 
 
