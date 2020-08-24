@@ -1,5 +1,5 @@
 {
-  "title": "Focus sur la commande mkdir",
+  "title": "Focus sur la commande touch",
   "difficulty": "Débutant",
   "time": "10 minutes",
   "details": {
@@ -15,24 +15,6 @@
       {
         "title": "",
         "text": "/markdown/step3.md"
-      },
-      {
-        "text": "/markdown/step4.md"
-      },
-      {
-        "text": "/markdown/step5.md"
-      },
-      {
-        "text": "/markdown/step6.md"
-      },
-      {
-        "text": "/markdown/step7.md"
-      },
-      {
-        "text": "/markdown/step8.md"
-      },
-      {
-        "text": "/markdown/step9.md"
       }
     ],
     "intro": {
