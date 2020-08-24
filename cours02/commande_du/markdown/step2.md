@@ -17,18 +17,37 @@
 
 *octet* se traduit par *bytes* en anglais
 
-ttention à ne pas confondre *bit* et *byte* !
+Attention à ne pas confondre *bit* et *byte* !
 
 *1 octet = 8 bits*
 
 ## Exercice : Ordre de grandeur de la taille d'un fichier
 
-Donne l'ordre de gandeur de la taille des fichiers suivants :
+Donne l'ordre de grandeur de la taille des fichiers suivants :
 
-  a) un fichier texte d'une page
-  #) un document texte d'une page (type LibreOffice)
-  #) une photo
+>> Un fichier texte d'une page <<
+
+( ) Quelques octets,
+( ) Quelques centaines d'octets,
+(*) Quelques kilo-octets,
+( ) Quelques centaines de kilo-octets,
+( ) Quelques mega-octets,
+( ) Quelques centaines de mega-octets,
+
+>> Une photo <<
+
+( ) Quelques octets,
+( ) Quelques centaines d'octets,
+( ) Quelques kilo-octets,
+( ) Quelques centaines de kilo-octets,
+(*) Quelques mega-octets,
+( ) Quelques centaines de mega-octets,
 
 ## Exercice
 
-Combien de temps met-ton pour télécharger un film de 700 Mo avec un débit de 2Mbit/s ?
+>> Combien de temps met-on pour télécharger un film de 700 Mo avec un débit de 2Mbit/s ? <<
+
+(*) 700 * 8 / 2 secondes, c'est-à-dire environ 45 minutes,
+( ) 700 * 2 secondes c'est-à-dire environ 25 minutes,
+( ) 700 * 2 / 8 secondes, c'est-à-dire environ 3 minutes,
+( ) 700 * 8 * 2 secondes, c'est-à-dire environ 3 heures.

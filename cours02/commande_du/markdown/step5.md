@@ -30,4 +30,4 @@ Il y a là un ou plusieurs dossiers : ce sont les caches des profils que tu util
 
 Vérifie la taille des caches de firefox (dans la vraie vie, !)
 
-Eventuellement, vide ces caches sans utiliser le mode grahique
+Éventuellement, vide ces caches sans utiliser le mode graphique.

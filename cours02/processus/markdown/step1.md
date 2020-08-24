@@ -17,7 +17,7 @@ Il faut voir un processus commet une boite contenant  un programme en cours d'ex
 * etc.
 
 
-Pour voir quel sont les processus dont tu es le propriétaire et qui sont rattachés au terminal, la commande est `ps`{{execute}}
+Pour voir quels sont les processus dont tu es le propriétaire et qui sont rattachés au terminal, la commande est `ps`{{execute}}
 
 Essaie maintenant `ps -o pid`{{execute}}. Cette option permet d'afficher les identifiants des processus.
 

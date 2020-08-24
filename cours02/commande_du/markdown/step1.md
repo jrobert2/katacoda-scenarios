@@ -28,10 +28,3 @@ Par exemple, pour connaitre l'espace occupé par *ton home*
   `du -sh ~`{{execute}} ou bien `du -sh /home/sasha`{{execute}}
 
 
-## Exercice
-
-1. A quoi sert l'option `-s` de la commande `du`?
-2. A quoi sert l'option `-s` de la commande `du`?
-#. Quelle est la taille de *ton home* ?
-#. Quelle est la taille du répertoire ``/bin/`` ?
-
