@@ -49,7 +49,7 @@ Puis, on découpe le reste, `rw-r-----` en trois :
   
 * les trois derniers caractères `---`  indiquent les droits de tous les *autres* utilisateurs.
 
-  Dans le cas du fichier1.txt, les utilisateurs qui ne sont pas sasha, et qui n'appartiennet pas au groupe etu
+  Dans le cas du fichier1.txt, les utilisateurs qui ne sont pas sasha, et qui n'appartiennent pas au groupe etu
   n'ont aucun droit sur ce fichier.
   
   
@@ -65,36 +65,36 @@ Les groupes auxquels sasha appartient sont etu et sasha.
 >> Quels sont les droits de sasha sur le fichier fichier2.txt ?<<
 [*] droits de lecture
 [*] droits d'écriture
-[ ] droits d'exécutuion
+[ ] droits d'exécution
 [ ] Il n'a aucun droit sur ce fichier
 
 >> Quels sont les droits de sasha sur le fichier fichier3.txt ?<<
 [*] droits de lecture
 [ ] droits d'écriture
-[ ] droits d'exécutuion
+[ ] droits d'exécution
 [ ] Il n'a aucun droit sur ce fichier
 
 >> Quels sont les droits de sasha sur le fichier fichier4.txt ?<<
 [ ] droits de lecture
 [ ] droits d'écriture
-[ ] droits d'exécutuion
+[ ] droits d'exécution
 [*] Il n'a aucun droit sur ce fichier
 
 >> Quels sont les droits de sasha sur le fichier fichier7.txt ?<<
 [*] droits de lecture
 [ ] droits d'écriture
-[ ] droits d'exécutuion
+[ ] droits d'exécution
 [ ] Il n'a aucun droit sur ce fichier
 
 >> Quels sont les droits de sasha sur le fichier fichier8.txt ?<<
 [ ] droits de lecture
 [ ] droits d'écriture
-[ ] droits d'exécutuion
+[ ] droits d'exécution
 [*] Il n'a aucun droit sur ce fichier
 
 >> Quels sont les droits de sasha sur le fichier script.sh ?<<
 [*] droits de lecture
 [*] droits d'écriture
-[*] droits d'exécutuion
+[*] droits d'exécution
 [ ] Il n'a aucun droit sur ce fichier
 

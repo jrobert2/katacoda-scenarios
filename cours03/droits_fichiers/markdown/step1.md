@@ -1,4 +1,4 @@
-Alors oui, le fichiers ont des droits ! 
+Alors oui, les fichiers ont des droits ! 
 Ou plus exactement, les utilisateurs du système peuvent avoir, ou pas, certains droits sur certains fichiers.
 
 Un exemple pour commencer.
