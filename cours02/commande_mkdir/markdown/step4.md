@@ -9,5 +9,3 @@ On peut aussi taper des choses comme :
 
 `mkdir test1/autre_dossier /home/sasha/got/cersei ../encore_un_autre_dossier`{{execute}} 
 
-## Quizz
- TODO

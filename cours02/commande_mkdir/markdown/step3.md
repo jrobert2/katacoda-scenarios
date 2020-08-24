@@ -9,5 +9,3 @@ Essaye !
 
 N'oublie pas de vérifier que le dossier a bien été créé (ne me crois pas sur parole !)
 
-## Quizz
- TODO
