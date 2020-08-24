@@ -11,6 +11,3 @@ Toujours avec des exemples :
   * enlever les droits `x` aux autres
 
 
-# Quizz
-
-TODO

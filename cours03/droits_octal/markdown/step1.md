@@ -1,5 +1,5 @@
 La commande `chmod` permet de modifier les droits d'un fichier/dossier qui t'appartient et auquel tu as accès.
-Peu importe autres droits (lecture/ecriture ou exécution) que tu peux avoir sur ce fichier/dossier. 
+Peu importe les autres droits (lecture/ecriture ou exécution) que tu peux avoir sur ce fichier/dossier. 
 
 >> Pour pouvoir modifier les droits sur un fichier avec la commande chmod <<
 [*] Il faut que j'en sois le propriétaire 
