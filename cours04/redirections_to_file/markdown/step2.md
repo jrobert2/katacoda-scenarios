@@ -1,5 +1,5 @@
 
-# Redirection vde la sortie standart vers un fichier qui n'existe pas
+# Redirection de la sortie standard vers un fichier qui n'existe pas
 
 <img src="./assets/commande_ss_se_to_file_terminal.png" alt="Commande sortie standard vers un fichier"/>
 
