@@ -17,11 +17,11 @@
       "description": "Familiarisation avec le man",
       "course_id": "introduction_man"
     },
-#    {
-#      "title": "Focus sur la commande cp",
-#      "description": "Pour découvrir la commande cp",
-#      "course_id": "commande_cp"
-#    },
+    {
+      "title": "Focus sur la commande cp",
+      "description": "Pour découvrir la commande cp",
+      "course_id": "commande_cp"
+    },
     {
       "title": "Introduction aux scripts",
       "description": "Ecriture et exécution d'un premier script",
