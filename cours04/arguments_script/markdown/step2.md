@@ -1,7 +1,7 @@
 Tu viens de voir les doubles guillemets pour faire un seul argument avec plusieurs mots séparés par des espaces.
 Tu peux le faire de deux autres manières :
 
-* avec les simples guillemets : ̀`echo 'Bonjour     tout le monde'`{{execute}}
+* avec les simples guillemets : `echo 'Bonjour     tout le monde'`{{execute}}
 * avec le caractère d'échappement, '\' : `echo Bonjour\ \ \ \ tout\ le\ \monde`
 
 

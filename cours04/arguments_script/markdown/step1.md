@@ -10,7 +10,7 @@ echo le premier argument est $1
 
 Pense à le rendre exécutable (avec chmod u+x)
 
->> Qu’affiche ce script si tu l’exécute sans argument, c'est-à-dire si vous faites ./exArgs.sh ? <<
+>> Qu’affiche ce script si tu l’exécute sans argument, c'est-à-dire si tu fais ./exArgs.sh ? <<
 === le premier argument est
 
 >> Qu’affiche ce script si tu tapes :  ./exArgs.sh toto ? <<
@@ -21,7 +21,7 @@ Pense à le rendre exécutable (avec chmod u+x)
 
 Essaye de mettre des espaces entre les arguments, par exemple : `./exArgs.sh    toto titi tutu`
 
->> Est-ce que le nombre d'espaces entre les arguments ont une importance ? <<
+>> Est-ce que le nombre d'espaces entre les arguments a une importance ? <<
 ( ) oui
 (*) non
 
