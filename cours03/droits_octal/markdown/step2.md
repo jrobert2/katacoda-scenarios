@@ -1,6 +1,6 @@
 Si tu tapes `ls -l`{{execute}}, tu peux remarquer que tu n'as aucun droit sur le fichier `exemple1` 
 
-Comme ce fichier t'appartient, tu va pouvoir modifier ses droits.
+Comme ce fichier t'appartient, tu vas pouvoir modifier ses droits.
 
 # Comment utiliser la commande `chmod` ?
 

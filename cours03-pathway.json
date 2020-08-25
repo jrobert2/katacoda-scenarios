@@ -23,14 +23,14 @@
       "course_id": "commande_cp"
     },
     {
-      "title": "Les variables",
-      "description": "Les variables",
-      "course_id": "variables"
-    },
-    {
       "title": "Introduction aux scripts",
       "description": "Ecriture et exécution d'un premier script",
       "course_id": "introduction_script"
+    },
+    {
+      "title": "Les variables",
+      "description": "Les variables",
+      "course_id": "variables"
     }
   ]
 }

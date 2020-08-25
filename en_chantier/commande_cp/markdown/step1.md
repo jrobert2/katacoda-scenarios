@@ -1,4 +1,4 @@
-Pour plus de commodité, si tu n'y es pas, déplace-toi dans le dossier Exo2 : `cd /home/sasha/Exo2/`{{execute}}
+Pour plus de commodité, si tu n'y es pas, déplace toi dans le dossier Exo2 : `cd /home/sasha/Exo2/`{{execute}}
 et liste le contenu `ls`{{execute}}
 
 
