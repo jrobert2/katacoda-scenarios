@@ -1,3 +1,3 @@
 # Bonjour sasha !
 
-Je comprends ton impatience, mais ce scénario n'est pas encore écrit. 
+Dans ce scénario, tu vas voir comment faire des conditionnelles (if) en bash, indispensable dans les scripts !

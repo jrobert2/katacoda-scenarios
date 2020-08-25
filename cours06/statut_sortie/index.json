@@ -7,21 +7,6 @@
     "steps": [
       {
         "text": "/markdown/step1.md"
-      },
-      {
-        "text": "/markdown/step2.md"
-      },
-      {
-        "text": "/markdown/step3.md"
-      },
-      {
-        "text": "/markdown/step4.md"
-      },
-      {
-        "text": "/markdown/step5.md"
-      },
-      {
-        "text": "/markdown/step6.md"
       }
     ],
     "intro": {

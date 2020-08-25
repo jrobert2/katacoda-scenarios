@@ -9,17 +9,17 @@
     },
     {
       "title": "Statut Sortie",
-      "description": "...",
+      "description": "Le statut de sortie des programmes",
       "course_id": "statut_sortie"
     },
     {
       "title": "Redirection à partir d'un fichier",
-      "description": "TODO",
+      "description": "Utiliser un fichier comme entrée standard d'un programme",
       "course_id": "redirections_from_file"
     },
     {
       "title": "Les conditions en bash",
-      "description": "TODO",
+      "description": "Pour apprendre à exécuter des programmes uniquement dans certaines conditions",
       "course_id": "scripts_conditions"
     }
   ]

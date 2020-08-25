@@ -1,7 +1,7 @@
 
 # L'entrée standard
 
-Dans le home d'etudiant, il y a un fichier nommé script.sh .
+Dans le home de sasha, il y a un fichier nommé script.sh .
 
 >> Que fait il ? <<
 (*) il lit trois lignes sur son entrée standard et les affiche sur sortie standard
