@@ -2,7 +2,7 @@ Pour plus de commodité, si tu n'y es pas, déplace toi dans le dossier Exo2 : `
 et liste le contenu `ls`{{execute}}
 
 
-Maintenant que tu as créé ces dossiers, on va déplacer tous les fichiers d'extension `.txt` dans le dossier `fichiers_txt` et tous les fichiers d'extension `.png` dans le dossier `fichiers_png`.
+Maintenant que tu as créé ces dossiers, on va copier tous les fichiers d'extension `.txt` dans le dossier `fichiers_txt` et tous les fichiers d'extension `.png` dans le dossier `fichiers_png`.
 
 
 # cp
@@ -17,4 +17,6 @@ Essaie !
 
 Copie tous les fichiers png dans le dossier `fichiers_png`.
 
+# Copie de dossier
 
+Pour copier un dossier complet (et ses sous dossiers et sous dossiers des sous dossiers), il faudra penser à passer l'option '-R'.

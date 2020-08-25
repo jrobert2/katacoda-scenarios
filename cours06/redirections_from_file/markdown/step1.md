@@ -15,16 +15,13 @@ Ok, pour la suite, il faut que tu aie vu le fichier README.
 === 6
 
 
-Après l'avoir rendu exécutable (`chmod u+x ./troisLignes.sh`{{execute}}), exécute la commande troisLignes.sh suivie de < README : `./troisLignes.sh < README`{{execute}} .
+Après l'avoir rendu exécutable (`chmod u+x ./troisLignes.sh`{{execute}}), exécutes la commande troisLignes.sh suivie de < README : `./troisLignes.sh < README`{{execute}} .
 
 Cette fois, au lieu de lire son entrée standard, c'est le contenu du fichier qui a été lu. Tu as **redirigé l'entrée standard**.
 
 # À retenir
 
-On redirige l'entrée standard à partir d'un fichier avec le caractère <
-
-
-
+On redirige l'entrée standard à partir d'un fichier avec le caractère `<` .
 
 # A toi !
 

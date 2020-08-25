@@ -5,7 +5,7 @@ Mais n'allons pas trop vite et commençons par le début.
 
 # Propriétaires, groupes et droits
 
-Si tu tapes `ls -l` alors que tu es dans *ton home*, tu dois voir apparaitre quelque chose comme :
+Si tu tapes `ls -l` alors que tu es dans *ton home*, tu dois voir apparaître quelque chose comme :
 
 ```
 dr--r--x-- 2 sasha etu 4096 juil. 16 13:31 Bureau

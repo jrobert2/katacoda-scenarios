@@ -5,7 +5,7 @@ ATTENTION :
 
 La commande `mv john.snow chateau` peut avoir plusieurs comportements différents :
 
-* Si 'chateau' n'existe pas, la commande renommera `john.snow` en `chateau`
+* Si `chateau` n'existe pas, la commande renommera `john.snow` en `chateau`
 * Si `chateau` est un dossier, cette commande déplacera  `john.snow` dans le dossier `chateau/`.
 * Si `chateau` est un fichier, cette commande renommera `john.snow` en `chateau`. En clair, tu auras perdu le contenu de `chateau` !
 
@@ -25,4 +25,3 @@ Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`.
 ( ) il crée un dossier machin/ et y déplace le fichier chose.txt.
 (*) il renomme le fichier chose.txt en machin
 ( ) il crée une copie du fichier chose.txt qu'il nomme machin
-

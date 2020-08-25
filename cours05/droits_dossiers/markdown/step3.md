@@ -1,7 +1,7 @@
 
-Avoir les droits de lecture sur un dossier signifie que tu peux lire son contenu. 
+Avoir les droits de lecture sur un dossier signifie que tu peux lire son contenu.
 
-Concrêtement, tu peux utiliser la commande `ls` par exemple pour lister le contenu de ce dossier.
+Concrètement, tu peux utiliser la commande `ls` par exemple pour lister le contenu de ce dossier.
 
 
 >> La commande ls Documents ? <<
@@ -38,7 +38,6 @@ Alors, pourquoi ce message d'erreur ?
 
 Parce que la commande `ls` fait bien plus que lister les noms : elle veut connaître la taille, la date de dernière modification, le propriétaire, les droits ....
 Et pour cela, en plus de lire le contenu du dossier, elle essaye d'y accéder.
-Mais comme tu n'as pas le droit `x` sur ce dossier, ce qui provoque donc un message d'erreur.
+Mais comme tu n'as pas le droit `x` sur ce dossier, ceci provoque un message d'erreur.
 
 Pour t'en convaincre, essaye la commande `ls -l Bureau`{{execute}}
-
