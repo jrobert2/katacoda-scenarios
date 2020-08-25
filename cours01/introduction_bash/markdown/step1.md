@@ -10,7 +10,7 @@ Bien sûr, tu sais probablement déjà faire une partie de tout ça sans utilise
 
 Mais tu es ici pour devenir un informaticien et non plus un simple utlisateur de l'informatique. Pour cela, il est indispensable que tu saches interagir avec la machine en utilisant le terminal. Alors, même s'il te paraît plus simple de faire autrement pour le moment, force-toi à l'utiliser le plus souvent possible, chez toi ainsi que dans les autres modules. Plus tu utiliseras le terminal pour tes propres besoins et plus tu progresseras.
 
->> Quel est l'objectif de se module ?  <<
+>> Quel est l'objectif de ce module ?  <<
 ( ) Exécuter des programmes
 (*) Se familiariser avec le terminal
 ( ) Gérer des fichiers
