@@ -8,24 +8,19 @@
       "course_id": "droits_dossiers"
     },
     {
-      "title": "Scripts et Entrée Standart",
-      "description": "TODO",
-      "course_id": "scripts_ES"
-    },
-    {
       "title": "Focus sur la commande mv",
       "description": "Pour découvrir la commande mv",
       "course_id": "commande_mv"
     },
     {
-      "title": "Focus sur la commande grep",
-      "description": "introduction à la commande grep",
-      "course_id": "commande_grep"
-    },
-    {
       "title": "Focus sur la commande cut",
       "description": "Pour découvrir quelques potentialités de la commande cut",
       "course_id": "commande_cut"
+    },
+    {
+      "title": "Focus sur la commande grep",
+      "description": "En cours de construction",
+      "course_id": "commande_grep"
     }
   ]
 }
