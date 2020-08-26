@@ -1,7 +1,7 @@
 
 # Les arguments en python
 
-Créez et exécutez le script python suivant:
+Crée et exécutes le script python suivant:
 
 
 
