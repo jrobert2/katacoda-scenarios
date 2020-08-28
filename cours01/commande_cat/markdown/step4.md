@@ -20,7 +20,7 @@ Tu devrais maintenant voir que bash a trouvé *tout seul* la suite du mot que tu
 
 Il est même plus fort que ça : il peut t'aider lorsqu'il y a plusieurs choix. Par exemple :
 
-* va dans le dossier `/home/etudiant/Exo1/Dir64/`
+* va dans le dossier `/home/sasha/Exo1/Dir64/`
 * tape `cd p`
 * appuie avec ton auriculaire de la main gauche (oui toujours) sur la touche tabulation <kbd>⇥ Tab</kbd> de ton clavier une fois, puis une deuxième fois.
 
