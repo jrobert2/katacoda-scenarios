@@ -16,7 +16,7 @@ Cette distinction passe par plusieurs conventions. Voici les deux principales :
 
 * **Le simple tiret** : les mots qui commencent par un `-` sont des options et les autres sont les arguments.
 
-  Avec cette convention, il est possible de regrouper plusieurs options dans un même mot.
+  Avec cette convention, comme on n'utilise qu'une seule lettre, il est possible de regrouper plusieurs options dans un même mot.
   Par exemple, lorsque tu exécutes  `du -sh /opt/`{{execute}}, la commande est `du`, il y a **deux** options `-s` et `-h` et un argument, `/opt/`
 
 * **Le double tiret** : les options ainsi signalées le sont en version longue. Ainsi : 
