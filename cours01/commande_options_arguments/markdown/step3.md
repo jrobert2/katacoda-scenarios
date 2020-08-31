@@ -17,15 +17,15 @@ Cette distinction passe par plusieurs conventions. Voici les deux principales :
 * **Le simple tiret** : les mots qui commencent par un `-` sont des options et les autres sont les arguments.
 
   Avec cette convention, comme on n'utilise qu'une seule lettre, il est possible de regrouper plusieurs options dans un même mot.
-  Par exemple, lorsque tu exécutes  `du -sh /opt/`{{execute}}, la commande est `du`, il y a **deux** options `-s` et `-h` et un argument, `/opt/`
+  Par exemple, lorsque tu exécutes  `du -sh /usr/`{{execute}}, la commande est `du`, il y a **deux** options `-s` et `-h` et un argument, `/usr/`
 
 * **Le double tiret** : les options ainsi signalées le sont en version longue. Ainsi : 
   
-  `du -sh /opt/`{{execute}}
+  `du -sh /usr/`{{execute}}
   
   est équivalent à 
   
-  `du --summarize --human-readable /opt/`{{execute}}
+  `du --summarize --human-readable /usr/`{{execute}}
   
   C'est plus long à écrire, mais c'est aussi plus compréhensible, à condition de connaître quelques mots techniques en anglais.
   
@@ -39,7 +39,7 @@ A partir de maintenant, nous ferons donc la distinction entre un **argument** et
 
 # Question
 
-Lorsque tu exécutes `du -sh /opt/` 
+Lorsque tu exécutes `du -sh /usr/` 
 
 >> A quoi correspond l'option -s ? <<
 ( ) elle dit à la commande du qu'elle a le seum !
