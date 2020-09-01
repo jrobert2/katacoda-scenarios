@@ -10,7 +10,7 @@ Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivan
 
 >> (sans essayer) Quels sont les droits du fichier truc.txt après l'exécution de  chmod 022 truc.txt <<
 (*) ----w--w-
-( ) rwx-wx-r--
+( ) rwxr-xr--
 ( ) rwxrwxrw-
 ( ) -wx-wx-wx
 ( ) rw------x
@@ -18,7 +18,7 @@ Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivan
 
 >> (sans essayer) Quels sont les droits du fichier truc.txt après l'exécution de  chmod 601 truc.txt <<
 ( ) ----w--w-
-( ) rwx-wx-r--
+( ) rwxr-xr--
 ( ) rwxrwxrw-
 ( ) -wx-wx-wx
 (*) rw------x
@@ -27,7 +27,7 @@ Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivan
 
 >> (sans essayer) Quels sont les droits du fichier truc.txt après l'exécution de  chmod 754 truc.txt <<
 ( ) ----w--w-
-(*) rwx-wx-r--
+(*) rwxr-xr--
 ( ) rwxrwxrw-
 ( ) -wx-wx-wx
 ( ) rw------x
@@ -35,7 +35,7 @@ Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivan
 
 >> (sans essayer) Quels sont les droits du fichier truc.txt après l'exécution de  chmod 776 truc.txt <<
 ( ) ----w--w-
-( ) rwx-wx-r--
+( ) rwx-wxr--
 (*) rwxrwxrw-
 ( ) -wx-wx-wx
 ( ) rw------x
@@ -44,9 +44,8 @@ Dans chaque cas, préciser les droits de fichier à l'issue des commandes suivan
 
 >> (sans essayer) Quels sont les droits du fichier truc.txt après l'exécution de  chmod 500 truc.txt <<
 ( ) ----w--w-
-( ) rwx-wx-r--
-() rwxrwxrw-
+( ) rwxr-xr--
+( ) rwxrwxrw-
 ( ) r-xr-xr-x
 ( ) rw------x
 (*) r-x------  
-
