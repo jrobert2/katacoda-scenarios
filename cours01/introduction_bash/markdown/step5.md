@@ -10,7 +10,7 @@ Cette fonctionnalité est très utile quand, par exemple, on a fait une faute de
 
 Un exemple très artificiel pour te montrer : la commande `cd /home/saha/Exo1/Dir64/Swwdfhjoillk/`{{execute}} génère une erreur. Essaye.
 
-En effet, j'ai oublié un `a` du dossier `sasha` !
+En effet, j'ai oublié un `s` du dossier `sasha` !
 
 Avec la touche <kbd>↑</kbd>, tu peux retrouver la commande, puis te déplacer dans cette ligne avec les touches <kbd>←</kbd> et <kbd>→</kbd> pour corriger l'erreur.
 
