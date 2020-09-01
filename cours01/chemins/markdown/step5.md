@@ -53,7 +53,7 @@ Il suffit donc de taper `ls  ../../bin`{{execute}}
 
 
 >> Qu'y a-t-il dans le dossier animaux qui est dans le home de ariel ? <<
-( ) rien , son Bureau est vide
+( ) rien , ce dossier est vide
 ( ) des dossiers et des fichiers
 ( ) seulement des dossiers
 (*) seulement des fichiers
