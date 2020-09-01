@@ -40,4 +40,8 @@ Par exemple : ̀`kill -9 1234` pour envoyer le signal 9 (SIGKILL) au processus n
 
 * Pour reprendre la main sur la commande top, exécute `fg`{{execute}} .
 
-* Lance firefox depuis un teminal. Stoppe le à l'aide de  <kbd>ctrl</kbd>+<kbd>z</kbd>. Tape la commande ``bg``. Que se passe-t-il ?
+
+* Lance nano. Stoppe le à l'aide de  <kbd>ctrl</kbd>+<kbd>z</kbd>. Tape la commande ``fg``. Que se passe-t-il ?
+
+
+* Sur ta machine (pas dans le terminal de droite), lance firefox depuis un terminal. Stoppe le à l'aide de  <kbd>ctrl</kbd>+<kbd>z</kbd>. Tape la commande ``bg``. Que se passe-t-il ?
