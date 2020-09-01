@@ -26,7 +26,7 @@ Mais elle permet également de lister le contenu d'autres dossiers.
 Par exemple, pour lister le contenu du dossier `Desktop`, il suffit de taper `ls Desktop`{{execute}}
 
 Et maintenant, liste le contenu du dossier `Perso` pour répondre à la question suivante.
-Tu n'oublie pas de spammer la touche <kbd>⇥ Tab</kbd> bien sûr ?
+Tu n'oublies pas de spammer la touche <kbd>⇥ Tab</kbd> bien sûr ?
 
 >> Quel est le nom du seul dossier qui se trouve dans le dossier Perso ? <<
 === Images
