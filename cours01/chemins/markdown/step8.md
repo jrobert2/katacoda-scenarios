@@ -30,7 +30,7 @@ Très bien. Maintenant, un peu de mise en pratique.
 
 Par exemple, si je veux lister le contenu du dossier `bin`.
 
-Avec un chemin relatif, cela donne `ls ../../../bin`
+Avec un chemin relatif, cela donne `ls ../../bin`
 
 C'est un peu fastidieux !!
 
@@ -40,9 +40,8 @@ C'est bien plus rapide à taper !
 
 >> Quelles commandes te permettent de lister le contenu du dossier usr ? <<
 [ ] ls ../usr
-[ ] ls ../../usr
-[ ] ls ../../../usr
-[*] ls ../../../../usr
+[*] ls ../../usr
+[*] ls ../../bin/../usr
 [*] ls /usr
 [ ] ls usr
 
