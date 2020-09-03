@@ -5,7 +5,7 @@ MDP=sasha
 GROUP=sasha
 
 #création de l'utilisateur
-ssh root@host01 "sudo useradd -s /bin/bash -G root -m -U $USER"
+ssh root@host01 "sudo useradd -s /bin/bash -G sudo -m -U $USER"
 
 
 # attribution du mdp
@@ -18,9 +18,9 @@ ssh root@host01 "sudo cp /home/packer/.profile /home/$USER/"
 ssh root@host01 "sudo chown -R $USER:$USER /home/$USER"
 
 #création d'autres groupes/utilisateurs
-ssh root@host01 "sudo useradd -s /bin/bash -G root -m -U willow"
-ssh root@host01 "sudo useradd -s /bin/bash -G root -m -U ariel"
-ssh root@host01 "sudo useradd -s /bin/bash -G root -m -U olympe"
+ssh root@host01 "sudo useradd -s /bin/bash -m -U willow"
+ssh root@host01 "sudo useradd -s /bin/bash -m -U ariel"
+ssh root@host01 "sudo useradd -s /bin/bash -m -U olympe"
 
 # Ajout aux groupes
 ssh root@host01 "sudo addgroup etu"
