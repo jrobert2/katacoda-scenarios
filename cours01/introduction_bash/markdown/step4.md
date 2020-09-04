@@ -17,7 +17,7 @@ Mais `bonjour`{{execute}} ne fonctionne pas, inutile d'insister !
 
 Essaye maintenant de taper les commandes `cal`{{execute}}, ou bien `ls`{{execute}} ou encore `history` (et oui, pas de bouton noir ici : tu vas être obligé de taper ces quelques lettres !).
 
-Les commandes *compréhensibles* ont une action sur l'environnement (et souvent un affichage dans le terminal, mais pas toujour).
+Les commandes *compréhensibles* ont une action sur l'environnement (et souvent un affichage dans le terminal, mais pas toujours).
 
 Les commandes *incompréhensibles* provoquent un message d'erreur.
 
