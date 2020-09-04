@@ -3,7 +3,7 @@
 On peut également utiliser un chemin absolu.
 
 Peu importe où tu te trouves, la commande `mkdir /home/sasha/got/littlefinger`{{execute}} crée le dossier littlefinger
-dans le répertoire got qui se trouve dans lton home.
+dans le répertoire got qui se trouve dans ton home.
 
 Essaye !
 
