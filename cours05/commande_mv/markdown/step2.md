@@ -8,7 +8,7 @@ Si `leMur` n'est pas un dossier ou n'existe pas dans le dossier courant, tu obti
 
 
 
-# exerice
+# exercice
 
 Voici le prompt et une ligne de commande dans un terminal imaginaire
 ![touche tabulation](./assets/mv.png)
