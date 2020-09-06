@@ -10,7 +10,7 @@
       }
     ],
     "intro": {
-        "text": "/markdown/intro.md",
+        "text": "/markdown/intro.md"
     },
     "finish": {
       "text": "/markdown/finish.md"
