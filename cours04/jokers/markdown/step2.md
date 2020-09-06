@@ -21,7 +21,7 @@ Parfois tu as envie de passer "*" en argument à une commande. Pour ce faire, il
 
 D'autres motifs que `*` existent pour enrichir les possibilités:
 
-* echo [br]* qui corresond à tous les mots qui commencent par b ou r.
+* echo [br]* qui correspond à tous les mots qui commencent par b ou r.
 * echo {ba,re}* qui correspond à tous les mots qui commencent par "ba" ou "re".
 
 >> Comment afficher tous les fichiers dont le nom commence par un nombre ? <<

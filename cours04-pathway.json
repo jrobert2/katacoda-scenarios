@@ -4,7 +4,7 @@
   "courses": [
     {
       "title": "Compléments sur les droits des utilisateurs",
-      "description": "TODO ?",
+      "description": "Compléments sur les droits de utilisateurs",
       "course_id": "droits_utilisateurs"
     },
     {
@@ -22,9 +22,9 @@
       "description": "Gestion des paquets",
       "course_id": "gestion_paquets"
     },
-    {    
+    {
       "title": "Les jokers",
-      "description": "TODO ??",
+      "description": "Les jokers",
       "course_id": "jokers"
     }
   ]
