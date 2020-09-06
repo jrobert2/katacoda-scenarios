@@ -1,0 +1,27 @@
+{
+  "title": "9.3 Projet Ascii Banner",
+  "difficulty": "Avancé",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "/markdown/step1.md"
+      }
+    ],
+    "intro": {
+        "text": "/markdown/intro.md",
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Bienvenue !",
+    "uieditorpath": "/home/sasha/"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
