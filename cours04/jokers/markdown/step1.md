@@ -5,7 +5,7 @@ De nombreuses commandes prennent un nombre arbitraire d'arguments. Par exemple, 
 
 Souvent, on souhaite passer en argument à une commande un ensemble de fichiers. Par exemple : tous les fichiers terminant par ".txt".
 
-Bash permet de faire ça simplement
+Bash permet de faire ça simplement.
 
 Ainsi, si tu exécutes :
 
@@ -20,7 +20,7 @@ Ainsi, si tu exécutes :
 
 # Essaie
 
-Déplace toi dans le dosier `cd /home/etudiant/Documents/`{{execute}}.
+Déplace toi dans le dossier `cd /home/etudiant/Documents/`{{execute}}.
 
 >> Quels sont les arguments passés à echo si tu tapes echo *.txt ? <<
 
