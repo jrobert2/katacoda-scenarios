@@ -27,7 +27,7 @@ Cette commande fonctionne quel que soit l'endroit où tu es ! Contrairement à u
 
 
 
->> Quelle commande de se déplacer dans le répertoire Dir 42 en utilisant un chemin absolu ?<<
+>> Quelle commande permet de se déplacer dans le répertoire Dir42 en utilisant un chemin absolu ?<<
 ( ) cd Exo1/Dir42
 ( ) cd home/sasha/Exo1/Dir42
 ( ) cd /Exo1/Dir42
