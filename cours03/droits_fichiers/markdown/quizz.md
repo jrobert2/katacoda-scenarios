@@ -30,7 +30,7 @@ Lorsque je tape `ls -l`, j'obtiens :
 [*] alice a le droit de modifier le fichier
 [*] bob a le droit de lire le fichier
 [ ] bob a le droit de modifier le fichier
-[ ] candy a le droit de lire le fichier
+[*] candy a le droit de lire le fichier
 [ ] candy a le droit de modifier le fichier
 
 
