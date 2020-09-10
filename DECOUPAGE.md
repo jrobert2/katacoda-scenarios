@@ -1,6 +1,6 @@
-# Proposition de découpage
+# DECOUPAGE
 
-Un proposition de découpage (mais ça ne me plait pas encore ...)
+## Intentions
 
 Au début, il faut leur montrer les commandes de base et les faire manipuler beaucoup.
 
@@ -21,68 +21,70 @@ Ensuite, j'ai essayé pour chaque cours de mettre 4 à 6 scénarios avec à chaq
 
 
 ## cours 1 - introduction
-* Une très courte introduction à bash (terminal, prompt, home, touches haut/bas)
-* Se repérer et se déplacer (cd et ls sans option + ..)
-* La commande cat et TAB (surtout pour manipuler ls, cd et cat)
-* les chemins - Dans ce scénario, j'ai 'cassé' la commande cd. On manipule donc que ls et cat
-* commande, arguments et options
-* les chemins suite - avec la commande cd, la commande tree, et les dossiers `.` `..` et  `~`
+1.1 Une très courte introduction à bash (terminal, prompt, home, touches haut/bas)
+1.2 Se repérer et se déplacer (cd et ls sans option + ..)
+1.3 La commande cat et TAB (surtout pour manipuler ls, cd et cat)
+1.4 les chemins - Dans ce scénario, j'ai 'cassé' la commande cd. On manipule donc que ls et cat
+1.5 commande, arguments et options
+1.6 les chemins suite - avec la commande cd, la commande tree, et les dossiers `.` `..` et  `~`
 
 
 ## cours 2 - kit de survie
-* nano (ajouter commande touch ?)
-* la commande ls (-alh) -> Commencer à parler des métadonnées
-* la commande mkdir
-* la commande rm (-r)
-* la commande du (-sh)
-* processus - introduction
+2.1 nano (ajouter commande touch ?)
+2.2 la commande ls (-alh) -> Commencer à parler des métadonnées
+2.3 la commande mkdir
+2.4 la commande touch
+2.5 la commande rm (-r)
+2.6 la commande du (-sh)
+2.7 processus - introduction
 
 
 ## cours 3
-* scripts : les variables
-* droits des fichiers
-* modifier les droits chmod + octal
-* commande cp (TODO)
-* scripts : introduction
-* Le man
-
+3.1 droits des fichiers
+3.2 modifier les droits chmod + octal
+3.3 Le man
+3.4 commande cp (TODO)
+3.5 scripts : introduction
+3.6 scripts : les variables
 
 ## cours 4
-* droits des utilisateurs, super-utilisateur + passwd + sudo (à mettre assez tôt)
-* scripts : arguments
-* gestion des paquets
-* redirections : SS ou SE -> fichier
-* les jokers ??
-
-
+4.1 droits des utilisateurs, super-utilisateur + passwd + sudo (à mettre assez tôt)
+4.2 redirections : SS ou SE -> fichier
+4.3 scripts : arguments
+4.4 gestion des paquets
+4.5 les jokers
 
 ## cours 5
-* droits des dossiers
+5.1 droits des dossiers
+5.2 commande mv (TODO)
+5.3 les commandes grep et wc (sans pipeline, une très courte inroduction) [TODO]
+5.4 la commande cut (sans pipeline) [ TODO ]
+
 * scripts : entrée standard (TODO)
-* commande mv (TODO)
-* les commandes grep et wc (sans pipeline, une très courte inroduction) [TODO]
-* la commande cut (sans pipeline) [ TODO ]
 
 ## cours 6
-* inode
-* scripts : statut des sorties
-* redirections : Entrée standard à partir d'un fichier
+6.1 inode
+6.2 scripts : statut des sorties
+6.3 redirections : Entrée standard à partir d'un fichier
+6.4 scripts : conditions
+
 * Comprendre/modifier mon bashrc (??)
-* scripts : conditions (TODO)
 
 ## cours 7
-* compléments sur les droits chown + chgroup + adduser + addgroup (??)
+7.1 redirections : SS -> ES Pipelines
+7.2 compléments sur les droits chown + chgroup + adduser + addgroup
+7.3 regex
+
 * Transformer un script en commande (??)
-* redirections : SS -> ES Pipelines
-* regex
 
 ## cours 8
-* scripts : boucles for
-* redirections : SS -> argument (??)
-* bash et python
-* la commande find (??)
+8.1 scripts : boucles for
+8.2 bash et python
+8.3 la commande find (??)
 
+* redirections : SS -> argument (??)
 
 ## cours 9
-* scripts : boucles while (??)
-* scripts : fonctions (??)
+9.1 scripts : fonctions (??)
+9.2 scripts : boucles while (??)
+9.3 Projet Ascii banner
