@@ -4,7 +4,7 @@ Il est temps de parler des droits !
 ```
 -rw-r----- 1 sasha  etu    495 juil. 16 08:52 fichier1.txt
 -rw-rw-r-- 1 sasha  etu    265 juil. 16 14:59 fichier2.txt
--rw-rw-r-- 1 sasha  etu    406 juil. 16 14:31 fichier3.txt
+-r-------- 1 sasha  etu    406 juil. 16 14:31 fichier3.txt
 ---------- 1 sasha  sasha  520 juil. 16 14:35 fichier4.txt
 -rw-r----- 1 sasha  etu    468 juil. 16 14:37 fichier5.txt
 -rw------- 1 sasha  etu    485 juil. 16 14:42 fichier6.txt
