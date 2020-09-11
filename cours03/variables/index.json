@@ -15,8 +15,7 @@
       },
       {
         "title": "Pratique",
-        "text": "/markdown/step3.md",
-        "verify": "verify/step3.sh"
+        "text": "/markdown/step3.md"
       },
       {
         "title": "Pratique",
