@@ -18,7 +18,7 @@ drwxrwxr-x   2 sasha etu   4096 Jul 17 13:40 Exo2
 
 # Sortie standard et sortie d'erreur
 
-En réalité, il existe deux types de sorties : 
+En réalité, il existe plusieurs types de sorties (notions complétées au cours 6) :
 
 * la sortie standard, qui renvoie des messages "normaux"
 * la sortie d'erreur,  qui renvoie des messages d'erreur
