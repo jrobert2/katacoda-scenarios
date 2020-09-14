@@ -1,22 +1,16 @@
-# La commande cut
+# grep
 
-A l'étape précédente, tu as compté le nombre de lignes contenant "Centre", mais es tu sûr que toutes les manifestations correspondantes avaient lieu en région centre ? Peut être y a-t-il une manifestation qui a lieu au Centre national de la danse à Pantin et que tu as compté en trop ?
+Pour afficher uniquement les lignes contenant le mot 'Orléans', tu peux faire : `grep ORLEANS rencontres.csv`{{execute}}.
 
-Pour ne pas faire d'erreur, on peut extraire la deuxième colonne du fichier rencontres.csv : `cut -f 2 -d ";" rencontres.csv`{{execute}} puis compter le nombre de lignes contenant Centre.
+Grep est une commande qui affiche sur sa sortie standard toutes les lignes du fichier passé en deuxième argument contenant la chaine passée en premier argument.
 
-Essaye ! Alors, combien de lignes avais tu pris en trop ?
+À l'aide de la redirection de la sortie standard, mets dans un fichier  `centre.csv` les lignes contenant la chaine "Centre" (attention  à la majuscule) .
 
-# Les options de cut
+# La commande wc
 
-L'option "-d" suivie de l'argument ";" signifie que dans ton fichier, les colonnes sont séparées par des ";".
-L'option "-f" suivie de l'argument "2" signifie que tu veux accéder à la deuxième colonne.
+La commande wc permet de compter le nombre de lignes d'un fichier. Essaie, et trouves ainsi le nombre de festivals ayant lieu en région centre : `wc -l centre.csv`{{execute}}
 
-Si tu veux la deuxième et la troisième colonne, tu peux faire : `cut -f 2,3 -d ";" rencontres.csv`.
-
-# Autres exemples
-
-Le fichier /etc/group contient des informations sur les groupes du système, sous la forme de 4 colonnes : nom du groupe, un x, un numéro de groupe, la liste des utilisateurs appartenant au groupe, séparés par des "," .
-
-Quelle commande permet de n'afficher que les noms des groupes existants ?
-
-Comment afficher la liste des utilisateurs du groupe sudo ?
+>> Que fait l'option -l de wc ? <<
+(*) Elle permet de n'afficher que le nombre de lignes du fichier,
+( ) Elle permet de ne passer qu'un seul fichier en argument,
+( ) Elle permet de n'afficher que le nombre de mots du fichier

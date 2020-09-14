@@ -1,20 +1,22 @@
-# Les commandes grep et cut
+# La commande cut
 
-Comme tu as du t'en apercevoir, nous n'avons pas eu le temps de rédiger un scénario complet sur ces commandes.
+A l'étape précédente, tu as compté le nombre de lignes contenant "Centre", mais es tu sûr que toutes les manifestations correspondantes avaient lieu en région centre ? Peut être y a-t-il une manifestation qui a lieu au Centre national de la danse à Pantin et que tu as compté en trop ?
 
-Il faut donc que tu te formes en autonomie (comme un.e grand.e !)
+Pour ne pas faire d'erreur, on peut extraire la deuxième colonne du fichier rencontres.csv : `cut -f 2 -d ";" rencontres.csv`{{execute}} puis compter le nombre de lignes contenant Centre.
 
-Voici, par exemple, quelques sites que tu peux visiter :
+Essaye ! Alors, combien de lignes avais tu pris en trop ?
 
-**Quelques exemples d'utilisation de grep**
+# Les options de cut
 
- * [https://www.tuteurs.ens.fr/unix/chercher.html](https://www.tuteurs.ens.fr/unix/chercher.html)
+L'option "-d" suivie de l'argument ";" signifie que dans ton fichier, les colonnes sont séparées par des ";".
+L'option "-f" suivie de l'argument "2" signifie que tu veux accéder à la deuxième colonne.
 
- * [https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/40172-extraire-trier-et-filtrer-des-donnees](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/40172-extraire-trier-et-filtrer-des-donnees)
+Si tu veux la deuxième et la troisième colonne, tu peux faire : `cut -f 2,3 -d ";" rencontres.csv`.
 
+# Autres exemples
 
-**Quelques exercices sur grep**
+Le fichier /etc/group contient des informations sur les groupes du système, sous la forme de 4 colonnes : nom du groupe, un x, un numéro de groupe, la liste des utilisateurs appartenant au groupe, séparés par des "," .
 
- * [https://www.tuteurs.ens.fr/unix/exercices/grep.html](https://www.tuteurs.ens.fr/unix/exercices/grep.html)
+Quelle commande permet de n'afficher que les noms des groupes existants ?
 
-
+Comment afficher la liste des utilisateurs du groupe sudo ?
