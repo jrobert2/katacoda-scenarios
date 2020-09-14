@@ -6,4 +6,4 @@ L'entrée standard peut aussi être redirigée ! Tu vas voir ça ici.
 
 
 ## Pré-requis
-* notion d'entrée standard
+* notion d'entrée standard (voir cours 5)
