@@ -1,12 +1,9 @@
 {
-  "title": "5.3 Focus sur la commande cut",
+  "title": "Scripts et Entrée Standard",
   "difficulty": "Débutant",
   "time": "10 minutes",
   "details": {
     "steps": [
-      {
-        "text": "/markdown/step10.md"
-      },
       {
         "text": "/markdown/step1.md"
       },
@@ -18,6 +15,21 @@
       },
       {
         "text": "/markdown/step4.md"
+      },
+      {
+        "text": "/markdown/step5.md"
+      },
+      {
+        "text": "/markdown/step6.md"
+      },
+      {
+        "text": "/markdown/step7.md"
+      },
+      {
+        "text": "/markdown/step8.md"
+      },
+      {
+        "text": "/markdown/step9.md"
       }
     ],
     "intro": {

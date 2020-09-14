@@ -12,6 +12,7 @@ Nom de la manifestation;Région;Domaine;Complément domaine;Département;Périod
 FESTIVAL LES VAGAMONDES;Grand Est;Transdisciplinaire;;68;Annuelle;01 (janvier);www.lafilature.org;FA007;MULHOUSE;;6.0;2019-01-09;2019-01-19;2013-01-01;;;;;;;;;68200;68224;47.749163303,7.32570047509;MULHOUSE;68.0;Haut-Rhin;;7.0;0.0;1.0;;2019-01-09;2019-01-19;;;
 Paris des femmes;Île-de-France;Transdisciplinaire;;75;Annuelle;01 (janvier);www.parisdesfemmes.com;HA026;PARIS;;7.0;2019-01-10;2019-01-12;2012-01-01;;;;;;;;;75001;75101;48.8626304852,2.33629344655;PARIS 01;75.0;Paris;;8.0;0.0;1.0;;2019-01-10;2019-01-12;;;
 LA FONTAINE DU RIRE;Bourgogne-Franche-Comté;Divers Spectacle vivant;Humour;21;Annuelle;01 (janvier);http://www.la-tete-de-mule.fr/;BH004;DIJON;;30.0;2019-01-11;2019-04-13;1989-01-01;;;;;;;;;21000;21231;47.3229437965,5.03788805877;DIJON;21.0;Côte-d'Or;;31.0;0.0;1.0;;2019-01-11;2019-04-13;;;
+
 </pre>
 
 La première ligne indique les titres des colonnes du fichier.
