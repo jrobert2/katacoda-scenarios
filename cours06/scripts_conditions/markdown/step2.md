@@ -6,6 +6,8 @@ Tu viens de voir la commande test (dans `if test -e /home/`). Pour rendre "plus 
 * `test bonjour == bonjour`  peut être écrit `[ bonjour == bonjour ]`{{execute}}. Remarque que la commande est "[" avec comme arguments : "bonjour", "==", "bonjour" et "]" .
 * etc.
 
+Teste ces commandes un peu curieuses. Que ce passe-t-il is on omet  
+les espaces 
 Ainsi, tu pourras trouver du code comme ça :
 
 <pre>
@@ -18,3 +20,11 @@ fi
 </pre>
 
 Remarques les espaces un peu partout, (if espace crochet espace 4 espace == espace 4 espace crochet) c'est très important !!
+
+Pour t'en convaincre fais des essais:
+
+* `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi`
+*  `if [bonjour == bonjour]; then  echo AAAA; else  echo BBBB; fi`
+*  `if [ bonjour==bonjour ]; then  echo AAAA; else  echo BBBB; fi`
+*  `if [ bonjour == bonjour2 ]; then  echo AAAA; else  echo BBBB; fi`
+*  `if [ bonjour==bonjour2 ]; then  echo AAAA; else  echo BBBB; fi`
