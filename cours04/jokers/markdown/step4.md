@@ -7,7 +7,7 @@
 ( ) echo *b*c*d*
 
 
->> Quels noms correspondent au motif d*\* ? <
+>> Quels noms correspondent au motif d*\* ? <<
 [*] dromadaire*
 [ ] dromadaire
 [*] d*
@@ -15,7 +15,7 @@
 [ ] drom\
 
 
->> Quels noms correspondent au motif a[bc]* ? <
+>> Quels noms correspondent au motif a[bc]* ? <<
 [*] ab
 [ ] avion
 [*] abcd
