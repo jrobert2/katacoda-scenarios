@@ -23,8 +23,8 @@ Remarques les espaces un peu partout, (if espace crochet espace 4 espace == espa
 
 Pour t'en convaincre fais des essais:
 
-* `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi`
-*  `if [bonjour == bonjour]; then  echo AAAA; else  echo BBBB; fi`
-*  `if [ bonjour==bonjour ]; then  echo AAAA; else  echo BBBB; fi`
-*  `if [ bonjour == bonjour2 ]; then  echo AAAA; else  echo BBBB; fi`
-*  `if [ bonjour==bonjour2 ]; then  echo AAAA; else  echo BBBB; fi`
+* `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi`{{execute}}
+*  `if [bonjour == bonjour]; then  echo AAAA; else  echo BBBB; fi`{{execute}}
+*  `if [ bonjour==bonjour ]; then  echo AAAA; else  echo BBBB; fi`{{execute}}
+*  `if [ bonjour == bonjour2 ]; then  echo AAAA; else  echo BBBB; fi`{{execute}}
+*  `if [ bonjour==bonjour2 ]; then  echo AAAA; else  echo BBBB; fi`{{execute}}
