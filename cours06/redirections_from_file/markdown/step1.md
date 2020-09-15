@@ -1,18 +1,23 @@
+# Anatomie d'une commande
 
-# L'entrée standard
+On peut considérer une commande comme une  *boite noire* qui possède plusieures entrées et plusieures sorties.
 
-Dans le home de sasha, il y a un fichier nommé script.sh .
-
->> Que fait il ? <<
-(*) il lit trois lignes sur son entrée standard et les affiche sur sortie standard
-( ) il attend trois arguments et les affiche sur sa sortie standard
-( ) il crée trois variables : ligne1, ligne2 et ligne3
+<img src="./assets/commande.png" alt="schéma d'une commande"/>
 
 
-Rend ce fichier exécutable `chmod u+x ./script.sh`{{execute}} puis exécute-le pour tester.
+## les sorties et redirections
 
-Pour la suite, il faut que tu aie vu le fichier README.
+Tu connais déjà la sortie standard et la sortie d'erreur. Par défaut, ces deux sorties se font dans le terminal.
+Et normalement, tu sais comment rediriger ces sorties vers un fichier.
 
->> Combien a-t-il de lignes ? <<
-=== 6
+Si tu ne t'en souviens plus, je t'encourage à (re)faire le scénario qui en parle (dans le cours 4)
+
+
+## Entrée standard et redirection
+
+Il y a plusieures façons de donner de l'information à une commande :
+
+* soit on lui donne des informations à l'aide d'un ou plusieurs arguments ;
+* soit on lui donne des informations via son entrée standard, qui par défaut, se fait au clavier. 
+  Cette entrée peut être redirigée : il est possible d'utiliser le contenu d'un fichier pour l'envoyer sur l'entrée standard d'une commande.
 
