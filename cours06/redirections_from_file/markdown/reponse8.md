@@ -1,6 +1,6 @@
 Voici un exemple de script qui lit une seule ligne sur son entrée standard :
 
-<pre>
+<pre class="file" data-target="clipboard">
 #!/bin/bash
 # ce script prend en argument un nom de fichier
 # et écrit ce qui est tapé sur l'entrée standard (une seule ligne)
@@ -11,10 +11,10 @@ read ligne1
 tr ae @3 < $ligne1 > $1
 </pre>
 
-Mais on peut aussi utiliser l'entrée standard de `tr`. Dans ce cas, le script peut lire plusieurs lignes. 
+Mais on peut aussi utiliser l'entrée standard de tr. Dans ce cas, le script peut lire plusieurs lignes. 
 Pour fermer l'entrée standard, on tape <kbd>ctrl</kbd>+<kbd>d</kbd>.
 
-<pre>
+<pre class="file" data-target="clipboard">
 #!/bin/bash
 # ce script prend en argument un nom de fichier
 # et écrit ce qui est tapé sur l'entrée standard (indirectement l'entrée standart de tr)

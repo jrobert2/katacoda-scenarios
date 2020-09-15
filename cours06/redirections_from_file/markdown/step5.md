@@ -15,7 +15,7 @@ echo $*
 
 Rend ce script exécutable `chmod u+x ./exemple1.sh`{{execute}} puis exécute-le pour tester.
 
-Que fait la commande `./exemple1.sh README` ?
+**Que fait la commande `./exemple1.sh README` ?**
 >> <<
 ( ) elle affiche dans le terminal 'Resultat : ' + le contenu du fichier README
 ( ) elle affiche dans le terminal 'Resultat : ' + la première ligne du fichier README
@@ -23,7 +23,7 @@ Que fait la commande `./exemple1.sh README` ?
 ( ) elle affiche dans le terminal 'Resultat : ' et c'est tout
 
 
-Que fait la commande `./exemple1.sh < README` ?
+**Que fait la commande `./exemple1.sh < README` ?**
 >> <<
 ( ) elle affiche dans le terminal 'Resultat : ' + le contenu du fichier README
 ( ) elle affiche dans le terminal 'Resultat : ' + la première ligne du fichier README
@@ -43,11 +43,11 @@ echo "Résultat : " $PHRASE
 
 Rend ce script exécutable puis exécute-le pour tester.
 
-Que fait la commande `./exemple2.sh < README` ?
+**Que fait la commande `./exemple2.sh < README` ?**
 >> <<
 ( ) elle affiche dans le terminal 'Resultat : ' + le contenu du fichier README
 (*) elle affiche dans le terminal 'Resultat : ' + la première ligne du fichier README
 ( ) elle affiche dans le terminal 'Resultat : ' + la chaine de caractère '< README'
 ( ) elle affiche dans le terminal 'Resultat : ' et c'est tout
 
-Que fait la commande `./exemple2.sh README` ? Sais-tu expliquer pourquoi ?
+**Que fait la commande `./exemple2.sh README` ? Sais-tu expliquer pourquoi ?**

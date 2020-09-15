@@ -17,7 +17,7 @@ Ce n'est pas le cas de toutes les commandes.
 
 ## Exemple, avec la commande `wc`
 
-Que fait la commande `wc` ? Je te conseille d'aller voir le *manuel* si tu ne sais pas répondre à cette question.
+**Que fait la commande `wc` ? Je te conseille d'aller voir le *manuel* si tu ne sais pas répondre à cette question.**
 >> <<
 (*) elle affiche le nombre de lignes, mots et octets de chaque fichier passé en argument
 ( ) elle indique où sont les toilettes les plus proches

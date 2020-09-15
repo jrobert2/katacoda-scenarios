@@ -17,7 +17,7 @@ C'est simple :
 
 * Et maintenant, si tu essayes `rm < un_fichier.txt`{{execute}} tu vois bien que `rm` ne sait pas lire son entrée standard.
 
-  En revanche `rm < dossier_test`{{execute}} fonctionne parfaitement.
+  En revanche `rm dossier_test`{{execute}} fonctionne parfaitement.
 
 
 >> Parmi les commandes suivantes, lequelles ne savent pas lire leur entrée standard ? <<
