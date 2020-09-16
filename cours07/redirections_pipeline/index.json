@@ -8,7 +8,30 @@
         "text": "/markdown/step1.md"
       },
       {
-        "text": "/markdown/step2.md"
+        "text": "/markdown/step2.md",
+        "answer": "/markdown/reponse2.md"
+      },
+      {
+        "text": "/markdown/step3.md"
+      },
+      {
+        "text": "/markdown/step4.md",
+        "answer": "/markdown/reponse4.md"
+      },
+      {
+        "text": "/markdown/step5.md"
+      },
+      {
+        "text": "/markdown/step6.md",
+        "answer": "/markdown/reponse6.md"
+      },
+      {
+        "text": "/markdown/step7.md",
+        "answer": "/markdown/reponse7.md"
+      },
+      {
+        "text": "/markdown/step8.md",
+        "answer": "/markdown/reponse8.md"
       }
     ],
     "intro": {

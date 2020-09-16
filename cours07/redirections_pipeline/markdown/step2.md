@@ -1,11 +1,12 @@
-De la même manière `ls /etc/ | grep conf` affiche tous les fichier du dossier /etc/ contenant le mot conf dans leur nom.
+# Un petit exemple (sans pipeline pour le moment)
 
-Tu peux aussi "enchainer" les "pipes" :  `ls /etc/ | grep conf | wc -l` affiche le nombre de fichiers du dossier /etc/ contenant le mot conf dans leur nom.
+Imagine que je veuille écrire un script qui affiche le nombre de fichiers/dossiers contenus dans le dossier passé en paramètre.
+
+Pour résoudre ce petit problème, je commence par vérifier que je sais le faire dans le terminal, sans script, avec un exemple.
+Je vais essayer de compter le nombre de fichiers dans le dossier `/bin`.
+
+>> Combien y a-t-il de fichiers dans le dossier /bin ? <<
+== 155 ==
 
 
->> Quelle(s) commande(s) permet de connaître le nombre de fichiers de /etc/ contenant le mot conf dans leur nom ainsi qu'une lettre 'a' ? <<
-
-[*] ls /etc/ | grep a | grep conf | wc -l
-[*] ls /etc/ | grep conf | grep a | wc -l
-[ ] grep a | ls /etc/ | grep conf | wc -l
-[ ] grep a conf ls /etc/
+Ecris un script qui résoud ce petit problème. Un fois que c'est fait, regarde la correction.

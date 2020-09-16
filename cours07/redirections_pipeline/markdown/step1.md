@@ -1,13 +1,25 @@
-En redirigeant la sortie standard d'une commande vers un fichier, puis le contenu du fichier vers l'entrée standard d'une autre commande, tu as vu qu'il était possible de réaliser des enchainements complexes intéressants.
+# Anatomie d'une commande
 
->> Par exemple, que fait l'enchainement `grep Centre rencontres.csv > centre.csv` suivi de `wc -l < centre.csv` ? <<
+On peut considérer une commande comme une  *boite noire* qui possède plusieures entrées et plusieures sorties.
 
-(*) Il permet de compter le nombre de lignes contenant la chaine Centre dans le fichier rencontres.csv
-( ) Il permet de compter le nombre de fois que le mot Centre apparaît dans le fichier rencontre.csv
-( ) Il permet de créer un fichier centre.csv contenant les mots "grep" et "Centre"
+<img src="./assets/commande.png" alt="schéma d'une commande"/>
 
-# Pipe
+## les sorties
 
-On peut éviter de créer un fichier en utilisant le symbole "|" appellé 'pipe' (prononces "païpe") .
+Tu connais déjà la sortie standard et la sortie d'erreur. Par défaut, ces deux sorties se font dans le terminal.
+Et normalement, tu sais comment rediriger ces sorties vers un fichier.
 
-Par exemple `ls | wc -l`{{execute}} affiche le nombre de fichiers du répertoire courant.
+Si tu ne t'en souviens plus, je t'encourage à (re)faire les scénarios qui en parlent (dans le cours 4 et dans le cours 6)
+
+
+## les entrées
+
+Il y a plusieures façon de donner de l'information à une commande :
+
+* soit on lui donne des informations à l'aide d'un ou plusieurs arguments ;
+* soit on lui donne des informations via son entrée standard.
+
+Si tu ne t'en souviens plus, je t'encourage à (re)faire le scénario qui en parlent (dans le cours 6)
+
+
+
