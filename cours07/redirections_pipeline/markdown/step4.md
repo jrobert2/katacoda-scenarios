@@ -17,7 +17,6 @@ Dans la suite, on va utiliser un fichier disponible sur le site opendata et cont
    ( ) Il permet de compter le nombre de fois que le mot Centre apparaît dans le fichier rencontre.csv
    ( ) Il permet de créer un fichier centre.csv contenant les mots "grep" et "Centre"
 
-
 2. Quelle ligne de commande taperais-tu pour faire la même chose en utilisant un pipe ?
 
    Réponds à cette question tout seul avant de regarder la réponse.
