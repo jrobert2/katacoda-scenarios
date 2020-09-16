@@ -24,7 +24,7 @@ Dans cet exemple, la sortie standard de la commande `ls /bin` est envoyée sur l
 
 <img src="./assets/enchainement.png" alt="schéma d'une commande"/>
 
-** Les questions suivantes concernent le ligne de commande `ls /usr/bin | grep "file"`**
+** Les questions suivantes concernent la ligne de commande `ls /usr/bin | grep "file"`**
 
 >> Explique le branchement qui est fait <<
 ( ) La sortie standard de grep est redirigée vers l'entrée standard de ls
