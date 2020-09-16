@@ -66,3 +66,13 @@ Lorsque je tape `ls -l`, j'obtiens :
 # Quizz 2
 
 Pour un fichier texte "normal", quels sont les droits "raisonnables" à lui donner ?
+[ ] rwxrwxrwx
+[ ] rwx------
+[ ] r--------
+[*] rw-r--r--
+[*] rw-r-----
+[*] rw-------
+[ ] rwxr-----
+[ ] ---------
+[*] rw-rw-r--
+[ ] rw-rw-rw-
