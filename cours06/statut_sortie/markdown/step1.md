@@ -32,7 +32,7 @@ Il y a deux commandes qui ne font rien :
 
 # test
 
-La commande test permet de comprer des chaines de caractère ou des entiers, mais aussi de tester l'existence de fichiers, etc.
+La commande test permet de comparer des chaines de caractère ou des entiers, mais aussi de tester l'existence de fichiers, etc.
 
 Par exemple :
 

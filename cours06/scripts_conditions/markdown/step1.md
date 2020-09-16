@@ -25,7 +25,10 @@ test -e /home/
 test -e /toto/
 </pre>
 
-On ne voit pas grand chose... Mais si  **test** est une commande il est alors possible de la remplacer par une autre commande.
+On ne voit pas grand chose... Mais souvient toi de `echo $?`{{execute}}.
+
+
+Si  **test** est une commande il est alors possible de la remplacer par une autre commande.
 
 Regarde le code suivant :
 
@@ -37,6 +40,8 @@ else
  echo BBBB
 fi
 </pre>
+
+Pour quoi cela marche? Que renvoie la commande `ls /aaaaaa/` ?
 
 >> Quelle partie de ce code sera exécutée ? <<
 () echo AAAA
