@@ -1,13 +1,13 @@
-# Un petit exemple (sans pipeline pour le moment)
+## Un petit exemple (sans pipeline pour le moment)
 
 Je veux donc écrire un script qui affiche le nombre de fichiers/dossiers contenus dans le dossier passé en paramètre.
 
 Pour résoudre ce petit problème, je commence par vérifier que je sais le faire dans le terminal, sans script, avec un exemple.
-Je vais essayer de compter le nombre de fichiers dans le dossier `/bin`. Pour cela :
+Je vais essayer de compter le nombre de fichiers dans le dossier /bin. Pour cela :
 
-* j'utilise la commande  `ls` pour lister le contenu du dossier et je mets le résultat dans un fichier temporaire.
+* j'utilise la commande  ls pour lister le contenu du dossier et je mets le résultat dans un fichier temporaire.
 
-* j'utilise la commande `wc` pour compter le nombre de mots de ce fichier temporaire.
+* j'utilise la commande wc pour compter le nombre de mots de ce fichier temporaire.
 
 * Je supprime le fichier temporaire.
 
@@ -20,7 +20,7 @@ Concrètement, cela donne :
 * `rm fichiertemporaire.txt`
 
 Ca a l'air de fonctionner. Je peux donc écrire mon script.
-Je remarque que, sans l'information `/bin`, c'est à dire sans argument,
+Je remarque que, sans l'information /bin, c'est à dire sans argument,
 le script comptera le nombre de fichiers du dossier courant.
 
 Comme je veux programmer de façon propre, je n'oublie pas de documenter mon code ;)

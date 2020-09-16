@@ -6,7 +6,11 @@ Pour résoudre ce petit problème, je commence par vérifier que je sais le fair
 Je vais essayer de compter le nombre de fichiers dans le dossier `/bin`.
 
 >> Combien y a-t-il de fichiers dans le dossier /bin ? <<
-== 155 ==
+( ) moins de 10
+( ) entre 11 et 50
+( ) entre 51 et 100
+( ) entre 101 et 150
+(*) plus de 150
 
 
 Ecris un script qui résoud ce petit problème. Un fois que c'est fait, regarde la correction.
