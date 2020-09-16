@@ -1,4 +1,4 @@
-# Avec les commandes `haid` et `tail`
+# Avec les commandes haid et tail
 
 Dans le dossier `Exo2` tu trouveras le fichier `pg17989.txt`
 
@@ -8,8 +8,8 @@ Dans le dossier `Exo2` tu trouveras le fichier `pg17989.txt`
 ( ) Rien, ce fichier est vide
 ( ) Une blague idiote
 
-La commande `head` permet d'afficher les XX premières lignes d'un fichier.
-La commande `tail` permet d'afficher les XX dernières lignes d'un fichier.
+La commande `head -X FILE` permet d'afficher les X premières lignes d'un fichier FILE.
+La commande `tail -X FILE` permet d'afficher les X dernières lignes d'un fichier FILE.
 
 Par exemple, si tu es dans ton home :
 * la commande `head -15 ./Exo2/pg17989.txt`{{execute}} permet d'afficher les 15 premières lignes du fichier ;

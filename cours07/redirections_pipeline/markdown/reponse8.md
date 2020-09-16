@@ -1,7 +1,6 @@
-# Encore quelques exercices
+## Encore quelques exercices
 
 1. La commande `ls | wc -l`{{execute}} affiche le nombre de fichiers du répertoire courant.
-
 
 2. La commande  `ls /etc/ | grep conf` affiche tous les fichier du dossier `/etc/` contenant le mot *conf* dans leur nom.
 

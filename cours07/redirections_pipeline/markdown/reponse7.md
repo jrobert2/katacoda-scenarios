@@ -1,4 +1,4 @@
-# Exercice avec la commande cut
+## Exercice avec la commande cut
 
 1. Que fait la commande `cut -d " " -f 1 /etc/passwd`  ?
    
