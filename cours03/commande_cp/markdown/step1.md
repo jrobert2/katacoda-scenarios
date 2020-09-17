@@ -6,7 +6,7 @@ et liste le contenu `ls`{{execute}}
 Il s'y trouve tout un tas de fichiers. Quelle pagaille !
 Je te propose de faire un peu de tri et de les ranger dans deux dossiers : 
 * un dossier `fichiers_txt` dans lequel on rangera les fichiers textes
-* un dossier `fichiers_txt` dans lequel on rangera les fichiers png
+* un dossier `fichiers_png` dans lequel on rangera les fichiers png
 
 Crée donc ces deux dossiers (tu te souviens de la commande ? est ce que tu peux le faire en une seule ligne ?)
 
