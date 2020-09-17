@@ -1,28 +1,23 @@
 {
-  "title": "3.6 Manipuler les fichiers avec Bash: compléments",
+  "title": "3.6 Les variables",
   "description": "Découverte du terminal",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Définition et accès à une variable",
         "text": "/markdown/step1.md"
       },
       {
-        "title": "Pratique",
         "text": "/markdown/step2.md"
       },
       {
-        "title": "Pratique",
         "text": "/markdown/step3.md"
       },
       {
-        "title": "Pratique",
         "text": "/markdown/step4.md"
       },
       {
-        "title": "read",
         "text": "/markdown/step5.md"
       }
     ],
