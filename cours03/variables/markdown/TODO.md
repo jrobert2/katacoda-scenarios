@@ -1,7 +1,5 @@
 
 
-
-
 [//] TODO : Ajouter des exercices pour faire faire des scripts simples ? 
 [//] Peut être faire lire des scripts avec des commandes pas encore vues
 [//] comme : date, pwd, cut, wc, basename, du, df, touch, md5sum (pourquoi pas), uptime, whoami, who, time, sleep,

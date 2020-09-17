@@ -1,3 +1,5 @@
+# Pratique
+
 Regarde le code suivant :
 <pre class="bash">
 alice="Alice"

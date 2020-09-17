@@ -1,3 +1,5 @@
+# Pratique
+
 Super !
 
 Il est aussi possible de mettre le résultat d'une commande dans une variable, par exemple : `fichiers=$(ls -a)`{{execute}}

@@ -1,3 +1,5 @@
+# Définition et accès à une variable
+
 On va créer une variable prenom contenant un prénom :
 
 ̀`prenom="Alice"`{{execute}}
