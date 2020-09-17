@@ -28,3 +28,8 @@ Ensuite,  regarde la correction pour vérifier tes réponses.
 6. Que fait la commande `cut -d " " -f 4 /etc/passwd | sort | uniq | wc -l`  ?
 
 7. Pourquoi les commandes `cut -d " " -f 4 /etc/passwd | sort | uniq | wc -l` et `cut -d " " -f 4 /etc/passwd | uniq | wc -l` ne donnent pas le même résultat ?
+
+
+Comme tu peux le voir, on peut enchainer les pipelines !
+
+<img src="./assets/pipe2.png" alt="schéma de deux pipelines"/>
