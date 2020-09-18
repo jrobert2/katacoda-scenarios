@@ -1,5 +1,5 @@
 
-`echo 'General Kenobi ?' >> /dev/null > essai.txt`{{execute}}.
+`echo 'General Kenobi ?' >> essai.txt`{{execute}}.
 
 `ls`{{execute}}
 
