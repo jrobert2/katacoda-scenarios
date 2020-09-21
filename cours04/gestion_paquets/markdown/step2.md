@@ -13,7 +13,7 @@ La commande suivante permet de connaître les paquets installés :
 # Les dépôts
 
 Les paquets sont récupérés dans des **dépôts**.
-Initialement, lorsque ta as installé ton système, des dépôts "officiels" d'ubuntu sont configurés : ce sont des sites web les logiciels standards testés par ubuntu.
+Initialement, lorsque tu as installé ton système, des dépôts "officiels" d'ubuntu sont configurés : ce sont des sites web les logiciels standards testés par ubuntu.
 
 Ils sont présents dans le fichier `/etc/apt/sources.list`.
 
