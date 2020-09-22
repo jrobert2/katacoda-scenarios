@@ -16,6 +16,7 @@ ssh root@host01 "sudo echo . /etc/profile >> /home/$USER/.bashrc"
 ssh root@host01 "sudo cp /home/packer/.profile /home/$USER/"
 # transfert des droits
 ssh root@host01 "sudo chown -R $USER:$USER /home/$USER"
+ssh root@host01 "sudo chown -R $USER:$USER /home/$USER/exArgs.sh"
 
 #création d'autres groupes/utilisateurs
 ssh root@host01 "sudo useradd -s /bin/bash -G root -m -U willow"
