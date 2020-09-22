@@ -20,7 +20,7 @@ Ainsi, si tu exécutes :
 
 # Essaie
 
-Déplace toi dans le dossier `cd /home/etudiant/Documents/`{{execute}}.
+Déplace toi dans le dossier `cd /home/sasha/Documents/`{{execute}}.
 
 >> Quels sont les arguments passés à echo si tu tapes echo *.txt ? <<
 
