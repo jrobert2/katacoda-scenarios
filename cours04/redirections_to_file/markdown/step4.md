@@ -28,7 +28,7 @@ Essaye, puis vérifie que le contenu des deux fichiers générés est bien confo
 
 # Exercice
 
-1. Que se passe-t-il avec la commande `cat README Exo1 Exo2 2> fichier.txt > fichier.txt` ?
-2. Y a-t-il une différence avec `cat README Exo1 Exo2 2> fichier.txt >> fichier.txt ` ?
+1. Que se passe-t-il avec la commande `cat README Exo1 Exo2 2> error.txt > fichier.txt` ?
+2. Y a-t-il une différence avec `cat README Exo1 Exo2 2> error.txt >> fichier.txt ` ?
 
 
