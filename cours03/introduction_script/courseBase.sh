@@ -6,4 +6,4 @@ ssh root@host01 'sudo cp /home/packer/.profile /home/etudiant/'
 ssh root@host01 'sudo chown -R etudiant:etudiant /home/etudiant/.bashrc'
 ssh root@host01 'sudo chown -R etudiant:etudiant /home/etudiant/.profile'
 ssh root@host01 'sudo chown -R etudiant:etudiant /home/etudiant'
-
+ssh root@host01 'sudo chown -R etudiant:etudiant /home/etudiant/hello_world.sh'
