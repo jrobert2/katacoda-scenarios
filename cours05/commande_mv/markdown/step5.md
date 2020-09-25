@@ -11,7 +11,14 @@ La commande `mv john.snow chateau` peut avoir plusieurs comportements différent
 
 Ainsi, pour ne pas prendre de risque, mets toujours un `/` à la fin des noms de répertoire.
 
-Essaie: rends toi dans le dossier `cd /home/etudiant/Documents/`.
+Essaie :
+* Crée un dossier `dossier_txt` dans ton home. Puis déplaces-y tous les fichiers texte qui sont dans le dossier `Exo2`
+* Peux-tu, en une seule commande, déplacer le fichier `colorful_animal_bird_twitter_animal...` dans ton home et le renommer en `oizo.png` ?
+* Crée un dossier `images` dans ton home et déplaces y le fichier `oizo.png` que tu viens de déplacer/renommer.
+* Déplaces dans le dossier `images` tous les fichiers texte qui sont dans le dossier `Exo2`. Peux_tu le faire en une seule ligne de commande ?
+
+Fait d'autres tests ! Vérifie à chaque fois que le résultat est bien le résultat attendu.
+
 
 >> Que fait `mv truc.txt machin/` ? <<
 (*) il génère une erreur car le dossier machin/ n'existe pas.
