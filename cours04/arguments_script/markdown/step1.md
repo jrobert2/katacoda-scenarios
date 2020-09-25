@@ -1,6 +1,6 @@
 # Introduction aux arguments
 
-Crée le script exArgs.sh suivant :
+Crée le script `exArgs.sh` suivant :
 
 <pre class="file" data-filename="exArgs.sh" data-target="replace">
 #!/bin/bash
@@ -9,6 +9,15 @@ echo le premier argument est $1
 </pre>
 
 Pense à le rendre exécutable (avec chmod u+x)
+
+Si tu as utilisé le petit éditeur intégré pour créer ce script, tu risques d'avoir quelques difficultés à le rendre exécutable.
+En effet, ce fichier est la propriété d'un certain `root`... un cousin de groot sans doute ...
+
+Je te donne une solution pour résoudre ce petit problème : Ouvre un nouveau terminal (le + à droite de Terminal)
+
+Dans ce terminal, le prompt est un peu minimaliste... Tu es connecté en tant que root. Tape `whoami`{{execute}} pour t'en assurer. Tu peux également taper `pwd`{{execute}} pour voir où tu es.
+
+
 
 >> Qu’affiche ce script si tu l’exécute sans argument, c'est-à-dire si tu fais ./exArgs.sh ? <<
 === le premier argument est
