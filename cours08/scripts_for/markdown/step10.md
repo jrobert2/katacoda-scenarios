@@ -69,12 +69,11 @@ image_10.jpg             image_14.jpg  image_5.jpg   image_9.jpg  image_soleil_2
 
 
 
-Imagine que tu souhaites transformer tous ces fichier jpg en fichiers png. Dans une interface graphique il faut ouvrir  un à un les fichiers puisles sauver sous un autre format. 
+Imagine que tu souhaites transformer tous ces fichier jpg en fichiers png. Dans une interface graphique il faut ouvrir  un à un les fichiers puis les sauver sous un autre format! C'est long si il y en a 1000! 
 
+ Maintenant pour toi qui sait utiliser bash, il te suffit d'utiliser dans un script la commande suivante : `convert`
 
-Plus maintenant pour toi. il te suffit d'utiliser dans un script la commande suivante : `convert`
-
-exemple:
+exemple:  (la commande `file` donne des infos sur un fichier quelconque)
 
 <pre>
 
@@ -91,7 +90,7 @@ $$ file  ./new/alberta-2297204__1.png
  </pre>
 
 
-Utilise `convert` pour copier/convertir les fichiers images de notre exemple:
+Utilise `convert` pour copier/convertir les fichiers image de notre exemple:
 
  <pre>
 
@@ -134,12 +133,12 @@ newPNG/image_14.png: PNG image data, 1500 x 2000, 8-bit/color RGB, non-interlace
 
 
 
-Au passge vous pouvez tres bien modifier les images. Que fait cette commande? 
+Au passage tu  peux tres bien modifier les images. Que fait cette commande? 
 
 `convert truc.jpg    -geometry 200x260^  -gravity center -crop 200x260+0+0 truc.png`
 
 
-Appliquez-là sur tous vos fichiers et observez les effets de vos modifications automatiques.
+Applique-là sur tous tes fichiers et observe les effets de tes modifications automatiques.
 
 
 
