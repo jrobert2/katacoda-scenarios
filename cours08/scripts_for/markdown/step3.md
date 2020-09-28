@@ -26,4 +26,21 @@ fichier: vide.txt
 
 
 
+Essaye d'appliquer cela sur d'autres répertoires:
+
+Exemple: 
+
+<pre>
+sasha@host01:/home/sasha$ ./my_for_test2.bash Exo1
+fichier: Dir1
+fichier: Dir10
+fichier: Dir100
+fichier: Dir101
+fichier: Dir102
+fichier: Dir103
+fichier: Dir104
+.....
+
+</pre>
+
 
