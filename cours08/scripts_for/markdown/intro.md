@@ -1,3 +1,3 @@
 # Bonjour sasha !
 
-Je comprends ton impatience, mais ce scénario n'est pas encore écrit. 
+Ici tu vas apprendre à créer des boucles `for` en BASH.
