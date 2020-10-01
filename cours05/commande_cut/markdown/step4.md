@@ -15,7 +15,7 @@ Si tu veux la deuxième et la troisième colonne, tu peux faire : `cut -f 2,3 -d
 
 # Autres exemples
 
-Le fichier /etc/group contient des informations sur les groupes du système, sous la forme de 4 colonnes : nom du groupe, un x, un numéro de groupe, la liste des utilisateurs appartenant au groupe, séparés par des "," .
+Le fichier /etc/group contient des informations sur les groupes du système, sous la forme de 4 colonnes : nom du groupe, un x, un numéro de groupe, la liste des utilisateurs appartenant au groupe, séparés par des `:`.
 
 Quelle commande permet de n'afficher que les noms des groupes existants ?
 
