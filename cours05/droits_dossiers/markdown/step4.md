@@ -11,7 +11,7 @@ Cela signifie, entre autres choses que  :
 * tu peux supprimer un fichier/dossier qui s'y trouve
 * ...
 
-# Doits d'écriture et commandes
+# Droits d'écriture et commandes
 
 Concrètement, voici des commandes que tu peux utiliser dans un dossier sur lequel tu as les droits d'écriture (à condition d'y avoir accès bien sûr !) :
 
