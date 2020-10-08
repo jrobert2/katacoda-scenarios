@@ -1,4 +1,4 @@
-# Avec les commandes haid et tail
+# Avec les commandes head et tail
 
 Dans le dossier `Exo2` tu trouveras le fichier `pg17989.txt`
 
