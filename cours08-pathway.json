@@ -4,7 +4,7 @@
   "courses": [
     {
       "title": "Scripts et boucle for",
-      "description": "TODO",
+      "description": "Comment faire des boucles en BASH!",
       "course_id": "scripts_for"
     },
     {
