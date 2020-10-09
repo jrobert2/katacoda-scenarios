@@ -35,8 +35,8 @@ Lorsque tu exécutes la commande `grep -E .n fichier1.txt`{{execute}}, remarque 
 ^ correspond au début de ligne et $ à la fin de ligne.
 
 Ainsi:
-* `grep -E "^B" fichier1.txt`{{execute}} affiche toutes les lignes de fichier1.txt commançant par un 'B' .
-* `grep -E "r !$" fichier1.txt`{{execute}} affiche toutes les lignes de fichier1.txt terminant par "r !"
+* `grep -E '^B' fichier1.txt`{{execute}} affiche toutes les lignes de fichier1.txt commançant par un 'B' .
+* `grep -E 'r !$' fichier1.txt`{{execute}} affiche toutes les lignes de fichier1.txt terminant par "r !"
 
 
 >> Quel motif permet de sélectionner toutes les lignes contenant exactement 3 caractères ? <<
