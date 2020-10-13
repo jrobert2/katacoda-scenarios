@@ -20,7 +20,7 @@ bash << 'EOF'
     chown -R ariel:prof /home/ariel
     chown -R willow:etu /home/willow
     chown -R olympe:olympe /home/olympe
-    chmod 500 /home/sasha/Exo1
+    chmod 400 /home/sasha/Exo1
     # nettoyage
     rm /tmp/.fini
     rm /tmp/home.tar.bz2
