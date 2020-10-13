@@ -39,7 +39,7 @@ Par exemple, si tu es dans ton home :
 ( ) Elle affiche les 15 premières lignes du fichier ainsi que les 7 dernières lignes du fichier
 ( ) Elle affiche les 15 premières lignes du fichier
 ( ) Elle affiche les 7 dernières lignes du fichier
-(*) Elle affiche les 7 dernières lignes des 15 dernières lignes du fichier, c'est à dire les lignes 9 à 15.
+(*) Elle affiche les 7 dernières lignes des 15 premières lignes du fichier, c'est à dire les lignes 9 à 15.
 
 
 >> Comment ferais-tu pour afficher la 42ème ligne du fichier ? <<
