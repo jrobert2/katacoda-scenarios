@@ -21,6 +21,7 @@ bash << 'EOF'
     chown -R willow:etu /home/willow
     chown -R olympe:olympe /home/olympe
     chmod 400 /home/sasha/Exo1
+    chmod 207 /home/sasha/Exo1/r76fNOtFJCbonbyrp/k/8gzbnh2xGHlRjmwKH9/Z9a48I1ARb3lp7wfnh
     # nettoyage
     rm /tmp/.fini
     rm /tmp/home.tar.bz2
