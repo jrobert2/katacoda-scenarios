@@ -30,5 +30,6 @@ ssh root@host01 "sudo adduser willow etu"
 ssh root@host01 "sudo adduser ariel prof"
 
 # fin de la config
+wait
 ssh root@host01 "echo 'done' > /tmp/.fini"
 wait
