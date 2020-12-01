@@ -31,3 +31,4 @@ ssh root@host01 "sudo adduser ariel prof"
 
 # fin de la config
 ssh root@host01 "echo 'done' > /tmp/.fini"
+wait
