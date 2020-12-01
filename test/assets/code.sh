@@ -7,16 +7,17 @@
 clear
 echo -n "Un peu de patience : je configure l'exercice "
 
-while ! id ariel
-do
-    sleep 1
-done
 
 while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
     do
         sleep 1s
         echo -n "."
     done
+
+while ! id ariel
+do
+    sleep 1
+done
 
     # remplissage des homes et transfert des droits
 cd /
