@@ -32,7 +32,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Bienvenue !",
+    "uimessage1": "Bienvenue ! (Soyez patients le cours arrive...)",
     "uieditorpath": "/home/sasha/"
   },
   "backend": {
