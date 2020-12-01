@@ -4,27 +4,27 @@
 
 #bash << "EOF"
 
-    clear
-    echo -n "Un peu de patience : je configure l'exercice "
-    while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
+clear
+echo -n "Un peu de patience : je configure l'exercice "
+while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
     do
         sleep 1s
         echo -n "."
     done
 
     # remplissage des homes et transfert des droits
-    cd /
-    tar -pxjf /tmp/home.tar.bz2
+cd /
+tar -pxjf /tmp/home.tar.bz2
     
-    chown -R sasha:etu /home/sasha
-    chown -R ariel:prof /home/ariel
-    chown -R willow:etu /home/willow
-    chown -R olympe:olympe /home/olympe
-    chmod 400 /home/sasha/Exo1
-    chmod 207 /home/sasha/Exo1/r76fNOtFJCbonbyrp/k/8gzbnh2xGHlRjmwKH9/Z9a48I1ARb3lp7wfnh
+chown -R sasha:etu /home/sasha
+chown -R ariel:prof /home/ariel
+chown -R willow:etu /home/willow
+chown -R olympe:olympe /home/olympe
+chmod 400 /home/sasha/Exo1
+chmod 207 /home/sasha/Exo1/r76fNOtFJCbonbyrp/k/8gzbnh2xGHlRjmwKH9/Z9a48I1ARb3lp7wfnh
     # nettoyage
-    rm /tmp/.fini
-    rm /tmp/home.tar.bz2
+rm /tmp/.fini
+rm /tmp/home.tar.bz2
 
 
 #EOF
