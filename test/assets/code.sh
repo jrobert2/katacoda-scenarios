@@ -14,10 +14,6 @@ while [ ! -e /tmp/.fini ] || [ ! -e /tmp/home.tar.bz2 ]
         echo -n "."
     done
 
-while ! id ariel
-do
-    sleep 1
-done
 
     # remplissage des homes et transfert des droits
 cd /
