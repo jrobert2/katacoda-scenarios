@@ -26,7 +26,10 @@ bash << "EOF"
     rm /tmp/.fini
     rm /tmp/home.tar.bz2
 
+
 EOF
+
+
 
 # Transformation en sacha
 su - sasha
