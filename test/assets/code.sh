@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 # Pour rendre le code "transparent"
 
