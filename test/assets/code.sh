@@ -2,7 +2,7 @@
 
 # Pour rendre le code "transparent"
 
-#bash << "EOF"
+bash <<- "EOF"
 
 clear
 echo -n "Un peu de patience : je configure l'exercice "
@@ -30,7 +30,7 @@ rm /tmp/.fini
 rm /tmp/home.tar.bz2
 
 
-#EOF
+EOF
 
 
 
