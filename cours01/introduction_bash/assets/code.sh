@@ -2,7 +2,7 @@
 
 # Pour rendre le code "transparent"
 
-/bin/bash << 'EOF'
+bash << EOF
 
     clear
     echo -n "Un peu de patience : je configure l'exercice "
