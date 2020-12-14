@@ -2,7 +2,7 @@
 
 # Pour rendre le code "transparent"
 
-bash << 'EOF'
+function hidden(){
 
     clear
     echo -n "Un peu de patience : je configure l'exercice "
@@ -30,7 +30,8 @@ bash << 'EOF'
     rm /tmp/.fini
     rm /tmp/home.tar.bz2
 
-EOF
+} 
+hidden
 
 # Transformation en sacha
 su - sasha
