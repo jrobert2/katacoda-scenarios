@@ -51,7 +51,7 @@ Dans la ligne de commande `cd Documents/`{{execute}}
 
 >> Combien y a-t-il d'arguments ?<<
 ( ) 0
-(1) 1
+(*) 1
 ( ) 2
 ( ) 3 ou plus
 
