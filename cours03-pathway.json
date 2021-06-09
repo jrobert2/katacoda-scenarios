@@ -23,6 +23,11 @@
       "course_id": "commande_cp"
     },
     {
+      "title": "Focus sur la commande mv",
+      "description": "Pour découvrir la commande mv",
+      "course_id": "commande_mv"
+    },
+    {
       "title": "Introduction aux scripts",
       "description": "Ecriture et exécution d'un premier script",
       "course_id": "introduction_script"
