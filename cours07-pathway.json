@@ -8,11 +8,6 @@
       "course_id": "redirections_pipeline"
     },
     {
-      "title": "Compléments sur les droits",
-      "description": "TODO",
-      "course_id": "droits_complements"
-    },
-    {
       "title": "Les expressions régulières",
       "description": "Introduction aux expressions régulières",
       "course_id": "regexp"

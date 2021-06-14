@@ -2,11 +2,7 @@
   "title": "M1101 - Cours n°6",
   "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
   "courses": [
-    {
-      "title": "Les Inode",
-      "description": "Pour comprendre un peu mieux le système de fichiers",
-      "course_id": "inodes"
-    },
+
     {
       "title": "Statut Sortie",
       "description": "Le statut de sortie des programmes",
