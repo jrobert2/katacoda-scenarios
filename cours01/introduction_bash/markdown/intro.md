@@ -1,6 +1,6 @@
 # Bienvenue !
 
-Bienvenue dans ce premier scénario du premier cours de M1101 (Init Système)
+Bienvenue dans ce premier scénario du premier cours de R1.04 (Init Système)
 
 C'est juste une très courte introduction.
 

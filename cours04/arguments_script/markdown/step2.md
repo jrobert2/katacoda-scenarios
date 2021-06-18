@@ -38,7 +38,7 @@ Comme ceci :
 
 * Écris une commande qui affiche "j'ai 18 ans."
 
-* Écris une commande qui affiche "le module m1101, c'est vraiment sympa !"
+* Écris une commande qui affiche "le module R1.04, c'est vraiment sympa !"
 
 * Écris un script qui affiche : "$1 est le premier argument". (Indice, tu peux aussi échapper le $ en faisant par exemple `echo \$1` )
 
