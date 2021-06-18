@@ -1,0 +1,16 @@
+{
+  "title": "M1101",
+  "description": "Cours M1101 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Manipuler les fichiers",
+      "description": "Manipuler les fichiers.",
+      "course_id": "manipuler"
+    },
+    {
+      "title": "Sécuriser",
+      "description": "Sécuriser ses fichiers",
+      "course_id": "securiser"
+    }
+  ]
+}
