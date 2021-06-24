@@ -4,6 +4,11 @@
   "courses": [
 
     {
+      "title": "Focus sur la commande cut",
+      "description": "Pour découvrir quelques potentialités de la commande cut",
+      "course_id": "commande_cut"
+    },
+    {
       "title": "Statut Sortie",
       "description": "Le statut de sortie des programmes",
       "course_id": "statut_sortie"
