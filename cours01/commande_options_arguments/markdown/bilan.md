@@ -3,7 +3,7 @@
 Dans la ligne de commande `cd`{{execute}}
 
 >> Quelle est la commande ?<<
-== cd ==
+=== cd
 
 >> Combien y a-t-il d'options ?<<
 (*) 0
@@ -22,7 +22,7 @@ Dans la ligne de commande `cd`{{execute}}
 Dans la ligne de commande `ls -a`{{execute}}
 
 >> Quelle est la commande ?<<
-== ls ==
+=== ls
 
 >> Combien y a-t-il d'options ?<<
 ( ) 0
@@ -41,7 +41,7 @@ Dans la ligne de commande `ls -a`{{execute}}
 Dans la ligne de commande `cd Documents/`{{execute}}
 
 >> Quelle est la commande ?<<
-== cd ==
+=== cd
 
 >> Combien y a-t-il d'options ?<<
 (*) 0
@@ -60,7 +60,7 @@ Dans la ligne de commande `cd Documents/`{{execute}}
 Dans la ligne de commande `ls   -l   /home/ /bin/`{{execute}}
 
 >> Quelle est la commande ?<<
-== ls ==
+=== ls
 
 >> Combien y a-t-il d'options ?<<
 ( ) 0
@@ -80,7 +80,7 @@ Dans la ligne de commande `du -sh  /opt/`{{execute}}
 
 
 >> Quelle est la commande ?<<
-== du ==
+=== du
 
 >> Combien y a-t-il d'options ?<<
 ( ) 0
