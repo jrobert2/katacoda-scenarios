@@ -20,9 +20,9 @@ où CODE est le code du signal et PID l'identifiant du processus auquel on veut 
 
 Par exemple : ̀`kill -9 1234` pour envoyer le signal 9 (SIGKILL) au processus numéro 1234.
 
-* Essaie sur ta machine : lance firefox si ce n'est pas déjà fait. Demande l'arrêt de firefox à l'aide du signal 9. Pour cela, commence par trouver le PID du processus correspondant à firefox. (Attention : ça va stopper firefox !)
+* Essaie sur ta machine : lance libreoffice si ce n'est pas déjà fait. Demande l'arrêt de firefox à l'aide du signal 9. Pour cela, commence par trouver le PID du processus correspondant à firefox. (Attention : ça va stopper firefox !)
 
-* Relance firefox. Demande au processus de se mettre en pause (SIGSTOP). Observe. Demande lui de reprendre son exécution (SIGCONT).
+* Relance libreoffice. Demande au processus de se mettre en pause (SIGSTOP). Observe. Demande lui de reprendre son exécution (SIGCONT).
 
 
 

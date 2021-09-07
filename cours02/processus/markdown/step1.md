@@ -6,7 +6,7 @@ Sur ta machine, différents processus sont exécutés au même moment.
  En réalité, chaque programme utilise le processeur à tour de rôle, mais tellement rapidement que ça donne l'impression que chaque programme tourne en simultané avec les autres.
 
 
-Il faut voir un processus commet une boite contenant  un programme en cours d'exécution mais aussi des méta-données :
+Il faut voir un processus comme une boite contenant  un programme en cours d'exécution mais aussi des méta-données :
 
 * un id
 * un propriétaire,
@@ -32,4 +32,4 @@ L'option  ``-o`` de ps permet d'afficher certaines métadonnées des processus :
 * TTY : le terminal correspondant au processus
 
 
-En cherchant dans le manuel, trouve quelle(s) option(s) de ps permettent d'afficher les informations de tous les processus.
+Pour lister tous les processus de la machine, on exécutera : `ps -aux`{{execute}}
