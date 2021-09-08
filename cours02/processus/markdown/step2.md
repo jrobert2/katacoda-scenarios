@@ -20,7 +20,7 @@ où CODE est le code du signal et PID l'identifiant du processus auquel on veut 
 
 Par exemple : ̀`kill -9 1234` pour envoyer le signal 9 (SIGKILL) au processus numéro 1234.
 
-* Essaie sur ta machine : lance libreoffice si ce n'est pas déjà fait. Demande l'arrêt de firefox à l'aide du signal 9. Pour cela, commence par trouver le PID du processus correspondant à firefox. (Attention : ça va stopper firefox !)
+* Essaie sur ta machine : lance libreoffice si ce n'est pas déjà fait. Demande l'arrêt de libreoffice à l'aide du signal 9. Pour cela, commence par trouver le PID du processus correspondant à libreoffice. (Attention : ça va stopper libreoffice !)
 
 * Relance libreoffice. Demande au processus de se mettre en pause (SIGSTOP). Observe. Demande lui de reprendre son exécution (SIGCONT).
 
@@ -44,4 +44,4 @@ Par exemple : ̀`kill -9 1234` pour envoyer le signal 9 (SIGKILL) au processus n
 * Lance nano. Stoppe le à l'aide de  <kbd>ctrl</kbd>+<kbd>z</kbd>. Tape la commande ``fg``. Que se passe-t-il ?
 
 
-* Sur ta machine (pas dans le terminal de droite), lance firefox depuis un terminal. Stoppe le à l'aide de  <kbd>ctrl</kbd>+<kbd>z</kbd>. Tape la commande ``bg``. Que se passe-t-il ?
+* Sur ta machine (pas dans le terminal de droite), lance libreoffice depuis un terminal. Stoppe le à l'aide de  <kbd>ctrl</kbd>+<kbd>z</kbd>. Tape la commande ``bg``. Que se passe-t-il ?
