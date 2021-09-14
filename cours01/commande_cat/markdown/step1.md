@@ -6,7 +6,7 @@ Par exemple, pour afficher le contenu d'un fichier nommé README, tu taperas `ca
 
 Pour passer à l'étape suivante, consulte le contenu du fichier README et suis les instructions.
 
->>> Quelle instruction contient le fichier README qui est dans ton home ? <<
+>> Quelle instruction contient le fichier README qui est dans ton home ? <<
 ( ) Il ne contient aucune instruction
 (*) Déplace-toi dans le répertoire Exo1.
 ( ) Déplace-toi dans le répertoire Exo2.
