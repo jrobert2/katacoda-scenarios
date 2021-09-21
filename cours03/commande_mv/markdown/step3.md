@@ -7,4 +7,4 @@ Ou encore `cd Documents/./././` qui te mènera au même endroit que `cd Document
 
 Bon d'accord, vu comme ça, ça ne sert à rien ! Mais c'est plus utile si par exemple tu veux déplacer le fichier `Documents/notes.txt` dans le dossier courant. Pour ça, il suffit de faire `mv Documents/notes.txt ./`
 
-Essaie !
+En  étant dans le dossier `/home/sasha/Exo2`, déplace les fichiers `pg1221.txt` et `pg29842.txt` dans le dossier courant (en une seule commande).
