@@ -36,6 +36,6 @@ On va jouer avec la commande `cat README Exo1`{{execute}}.
 2. Que se passe-t-il ?
 >> <<
 ( ) rien du tout
-(*) Le contenu du fichier essai.txt a été remplacé par le contenu du fichier README. Il y a un message d'erreur dans le terminale.
+(*) Le contenu du fichier essai.txt a été remplacé par le contenu du fichier README. Il y a un message d'erreur dans le terminal.
 ( ) Le contenu du fichier essai.txt a été remplacé par le contenu du fichier README + la ligne cat: Exo1: Is a directory. Il n'y a aucun message dans le terminal
 ( ) Le contenu du fichier essai.txt a été remplacé par le contenu du fichier README. Il y a un nouveau fichier qui contient la ligne cat: Exo1: Is a directory.
