@@ -1,6 +1,6 @@
 # Pour allez  plus loin
 
-Souviens-toi que nous avoins dit qu'un certain nombre de commandes ne savent pas lire leur entrée standard.
+Souviens-toi que nous avions dit qu'un certain nombre de commandes ne savent pas lire leur entrée standard.
 
 Par exemple, la commande `rm` ne sait pas lire son entrée standard. Nous l'avions prouvé !
 
