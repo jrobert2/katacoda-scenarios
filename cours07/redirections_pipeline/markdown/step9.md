@@ -19,7 +19,7 @@ Par exemple, la commande `rm` ne sait pas lire son entrée standard. Nous l'avio
 
 * Cela nous l'avions constaté mais maintenant nous savons faire des pipelines, si tu essayes `cat un_fichier.txt | rm `{{execute}} tu vois bien que c'est le même constat `rm` ne sait toujours pas lire son entrée standard, c'est exactement la même chose biensûr.
 
-* Maintenant découvrons une astuce pour transformer une entrée standard en argument, la commande xarg: `cat un_fichier.txt | xargs rm`. Cette fois-ci cela marche. L'entrée standard est utilisée en tant qu'arguments. Nontons qu'ici il y a un message d'erreur relatif au fait que rm n'efface pas des répertoires mais il suffit d'ajouter l'option -r et cela marche très bien.  
+* Maintenant découvrons une astuce pour transformer une entrée standard en argument, la commande xarg: `cat un_fichier.txt | xargs rm`. Cette fois-ci cela marche. L'entrée standard est utilisée en tant qu'arguments. Notons qu'ici il y a un message d'erreur relatif au fait que rm n'efface pas des répertoires mais il suffit d'ajouter l'option -r et cela marche très bien.  
 
 
 
