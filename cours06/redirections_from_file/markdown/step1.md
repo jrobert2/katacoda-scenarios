@@ -15,7 +15,7 @@ Si tu ne t'en souviens plus, je t'encourage à (re)faire le scénario qui en par
 
 ## Entrée standard et redirection
 
-Il y a plusieures façons de donner de l'information à une commande :
+Il y a plusieurs façons de donner de l'information à une commande :
 
 * soit on lui donne des informations à l'aide d'un ou plusieurs arguments ;
 * soit on lui donne des informations via son entrée standard, qui par défaut, se fait au clavier. 
