@@ -1,7 +1,7 @@
 # Exercice avec la commande cut
 
 Le fichier `/etc/passwd` contient des informations relatives aux utilisateurs. 
-Il possède une ligne par utilisateur divisée en sept champs délimités par le caractère `'`. 
+Il possède une ligne par utilisateur divisée en sept champs délimités par le caractère `:`. 
 Le premier champ représente le nom du compte de l'utilisateur.
 Le quatrième champ correspond au numéro d'identifiant du groupe (GID = Group ID)
 
