@@ -52,7 +52,7 @@ A toi d'écrire le script plus haut!
 
 
 
-NB: Il est piossible d'utiliser cette syntaxe `$((...))` avancée en bash pour faire des boucles `for` tres similaires à celle que l'on trouve dans les langages de programmation non système.  
+NB: Il est possible d'utiliser cette syntaxe `$((...))` avancée en bash pour faire des boucles `for` tres similaires à celle que l'on trouve dans les langages de programmation non système.  
 
 Par exemple:
 
