@@ -1,6 +1,6 @@
 # Se déplacer avec la commande cd
 
-Très bien ! Le prompt dois t'indiquer que tu es dans le répertoire `/home/sasha/Perso/Images`
+Très bien ! Le prompt doit t'indiquer que tu es dans le répertoire `/home/sasha/Perso/Images`
 
 ```
 /
@@ -41,7 +41,7 @@ Très bien ! Le prompt dois t'indiquer que tu es dans le répertoire `/home/sash
 
 Maintenant, déplace toi dans le dossier `photos`.
 
-Le prompt dois t'indiquer que tu es dans le répertoire `/home/sasha/Perso/Images/photos`.
+Le prompt doit t'indiquer que tu es dans le répertoire `/home/sasha/Perso/Images/photos`.
 
 Lorsque c'est le cas, répond au quizz :
 
