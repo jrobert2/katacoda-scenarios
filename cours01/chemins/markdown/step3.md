@@ -30,7 +30,7 @@ La commande `ls Desktop/urgent/maths`{{execute}} permet de liste le contenu du d
 
 Essaye !
 
-**Remarque** le chemin est dit relatif parcequ'il dépend de l'endroit où tu te trouves.
+**Remarque** le chemin est dit relatif parce qu'il dépend de l'endroit où tu te trouves.
 
 >> Le dossier iut contient deux fichiers : dossier_inscription et un autre. Quel est le nom de l'autre fichier ? <<
 === photo
