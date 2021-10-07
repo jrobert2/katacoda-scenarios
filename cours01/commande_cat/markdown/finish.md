@@ -1,6 +1,6 @@
 # Bravo !!
 
-Tu commence à te débrouiller avec un terminal.
+Tu commences à te débrouiller avec un terminal.
 
 On va pouvoir passer aux choses sérieuses
 
