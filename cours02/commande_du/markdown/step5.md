@@ -28,6 +28,6 @@ Il y a là un ou plusieurs dossiers : ce sont les caches des profils que tu util
 
 ## Exercice
 
-Vérifie la taille des caches de firefox (dans la vraie vie, !)
+Vérifie la taille des caches de firefox (dans la vraie vie !)
 
 Éventuellement, vide ces caches sans utiliser le mode graphique.
