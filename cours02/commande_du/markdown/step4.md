@@ -1,6 +1,6 @@
 # Que faire en cas de dépassement de quota ?
 
-Il faut faire le ménage ! Commence par supprimer les fichiers inutiles, les fichiers que tu as téléchargé mais que tu n'utilises plus, etc.
+Il faut faire le ménage ! Commence par supprimer les fichiers inutiles, les fichiers que tu as téléchargés mais que tu n'utilises plus, etc.
 
 Mais tu vas voir que, bien souvent, ça ne suffit pas.
 
