@@ -1,7 +1,7 @@
 
 # Quizz
 
-Dans chaque cas, répondre aux questions suivantes SANS UTILISER L’ORDINATEUR !
+Dans chaque cas, répondez aux questions suivantes SANS UTILISER L’ORDINATEUR !
 
 Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on retrouver les extraits suivants ? Toujours sans ordinateur, trouvez (si possible) à quelle commande chaque extrait correspond.
 
