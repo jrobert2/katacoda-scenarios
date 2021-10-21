@@ -4,7 +4,7 @@ La commande man permet de consulter les manuels de référence en mode texte. Pa
 
 
 Si tu as l'impression que ce n'est pas l'informatique du 21ème siècle je te comprends : ce manuel est un truc tout noir, sans images, et parfois même écrit en anglais !
-Ceci dit, c'est ça la documentation en bash ! Ce qui ne doit pas t'empêcher d'aller chercher sur internet..
+Ceci dit, c'est ça la documentation en bash ! Ce qui ne doit pas t'empêcher d'aller chercher sur internet.
 Le man, c'est plutôt un outil qui te servira lorsque tu auras un trou ou que tu voudras être sûr de ce que fait une commande.
 Et pour pouvoir l'utiliser, il faut d'abord y être familier.
 
