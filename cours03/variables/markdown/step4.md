@@ -12,7 +12,7 @@ Tu peux ensuite constater que ça fonctionne:
 
 Écris un script qui affiche :
 
-Bonjour etudiant, nous somme le mercredi 20 septembre
+Bonjour etudiant, nous sommes le mercredi 20 septembre
 
 où:
 * "etudiant" est obtenu avec la commande `whoami`,
