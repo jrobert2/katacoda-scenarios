@@ -19,7 +19,7 @@ Encore des recherches dans le man
    * ``python3``
 
 
-2. Lister le contenu du répertoire ``/bin/``. Vérifiez que les fichiers que vous y voyez sont des commandes existantes.
+2. Listez le contenu du répertoire ``/bin/``. Vérifiez que les fichiers que vous y voyez sont des commandes existantes.
 
 
 
