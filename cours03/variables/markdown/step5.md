@@ -1,7 +1,7 @@
 # Lecture de variable demandée à l'utilisateur
 
 Dans le terminal, exécute : `read maVariable`{{execute}}.
-Le terminal attend que tu tape du texte, on dit que read lit son *entrée standard* ; met par exemple « Bonjour ».
+Le terminal attend que tu tapes du texte, on dit que read lit son *entrée standard* ; mets par exemple « Bonjour ».
 >> Que contient maintenant la variable $maVariable ? <<
 === Bonjour
 
