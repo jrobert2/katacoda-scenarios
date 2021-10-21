@@ -3,7 +3,7 @@
 Tu as déjà utilisé la commande `mv` pour *déplacer* un fichier ou plusieurs fichiers d'un répertoire à un autre.
 Pour rappel, `mv john.snow mellissandre leMur/` permet de déplacer les fichiers `john.snow` et `mellissandre` dans le dossier `leMur/`.
 
-Si `leMur` n'est pas un dossier ou n'existe pas dans le dossier courant, tu obtiendra un message d'erreur :
+Si `leMur` n'est pas un dossier ou n'existe pas dans le dossier courant, tu obtiendras un message d'erreur :
 `mv: target 'leMur/' is not a directory`
 
 
