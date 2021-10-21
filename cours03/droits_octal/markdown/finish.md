@@ -8,6 +8,6 @@ Et surtout, j'espère que tu as compris pourquoi le `777` n'est, en général, p
 
 ![chmod 777](./assets/chmod777.png)
 
-Maintenant vérifier la validité des réponses que tu as données lors des différentes étapes.
+Maintenant vérifie la validité des réponses que tu as données lors des différentes étapes.
 
 Ensuite, on pourra continuer.
