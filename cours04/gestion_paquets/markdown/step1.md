@@ -10,7 +10,7 @@ Quelques exemples de paquets :
 
 Dans Ubuntu, le gestionnaire de paquets s'appelle `apt` (pour Advanced Package Tool). Il permet d'installer des paquets, d'en supprimer, d'en mettre à jour, etc.
 
-**IMPORTANT** : Lorsque sur ta machine tu seras amené.e à installer un logiciel, même si tu trouves des solutions sur internet qui te proposent une façon de l'installer via un script
+**IMPORTANT** : Lorsque sur ta machine tu seras amené à installer un logiciel, même si tu trouves des solutions sur internet qui te proposent une façon de l'installer via un script
 ou via l'exécution d'un programme d'installation, cherche bien s'il n'y a pas une solution **propre** passant par **apt**.
 
 >> Sous Linux, comment faire pour installer un logiciel ? <<
