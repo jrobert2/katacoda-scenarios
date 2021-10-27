@@ -4,7 +4,7 @@
 Tu as vu précédemment qu'il est possible de donner des droits ou non sur les fichiers en fonction des utilisateurs.
 
 Mais il n'y a pas uniquement pour les fichiers que tes droits sont "limités".
-Penses aux fonctionnalité suivantes :
+Pense aux fonctionnalités suivantes :
 
 * ouvrir le lecteur CD,
 * éteindre la machine,
