@@ -15,7 +15,7 @@ Sur les machines du département, tu auras plus probablement un message de la fo
 The program  'sl' is currently not installed. To run 'sl' please ask your administrator to install the package 'sl'
 ```
 
-En effet, il faut être administrateur pour installer un programme, et tu n'es pas administrateur sur le machines de l'IUT ;).
+En effet, il faut être administrateur pour installer un programme, et tu n'es pas administrateur sur les machines de l'IUT ;).
 
 Mais sur TA propre machine, tu l'es. Et ça tombe bien : sasha (toi !) est un des administrateurs du système ici. Tu vas donc pouvoir installer ce programme.
 
