@@ -19,7 +19,7 @@ Dans ce terminal, le prompt est un peu minimaliste... Tu es connecté en tant qu
 
 
 
->> Qu’affiche ce script si tu l’exécute sans argument, c'est-à-dire si tu fais ./exArgs.sh ? <<
+>> Qu’affiche ce script si tu l’exécutes sans argument, c'est-à-dire si tu fais ./exArgs.sh ? <<
 === le premier argument est
 
 >> Qu’affiche ce script si tu tapes :  ./exArgs.sh toto ? <<
