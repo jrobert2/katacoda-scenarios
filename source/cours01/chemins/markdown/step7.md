@@ -11,11 +11,11 @@ Contrairement à un chemin relatif, un chemin absolu ne dépend pas de l'endroit
 
 ```{quizdown} 
   ##  Parmi les chemins suivants, lesquels sont des chemins absolus ? 
-[*] /home/sasha/
-[ ] ../sasha/
-[*] /etc/
-[*] /home/sasha/Desktop/urgent/
-[ ] ../home/sasha/
-[*] /home/sasha/../sasha/
-[ ] clef/series/
+  - [x] /home/sasha/
+  - [ ] ../sasha/
+  - [x] /etc/
+  - [x] /home/sasha/Desktop/urgent/
+  - [ ] ../home/sasha/
+  - [x] /home/sasha/../sasha/
+  - [ ] clef/series/
 ```

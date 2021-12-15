@@ -24,12 +24,12 @@ Normalement, tu sais déjà lire le reste des autres informations.
 
 ```{quizdown} 
   ##  Concernant le dossier Documents 
-[*] a pour propriétaire sasha
-[ ] a pour propriétaire etu
-[ ] a été créé le 16 juillet
-[*] a été modifié pour la dernière fois le 16 juillet
-[*] sasha a les droits d'écriture sur ce dossier
-[ ] ariel (qui n'est pas dans le groupe etu) a les droits d'écriture sur ce dossier
+  - [x] a pour propriétaire sasha
+  - [ ] a pour propriétaire etu
+  - [ ] a été créé le 16 juillet
+  - [x] a été modifié pour la dernière fois le 16 juillet
+  - [x] sasha a les droits d'écriture sur ce dossier
+  - [ ] ariel (qui n'est pas dans le groupe etu) a les droits d'écriture sur ce dossier
 ```
 ```{quizdown} 
   ##  Bureau 

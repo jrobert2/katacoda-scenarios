@@ -26,7 +26,6 @@ Attention à ne pas confondre *bit* et *byte* !
 Donne l'ordre de grandeur de la taille des fichiers suivants :
 
 >> Un fichier texte d'une page <<
-
 ( ) Quelques octets,
 ( ) Quelques centaines d'octets,
 (*) Quelques kilo-octets,
@@ -35,7 +34,6 @@ Donne l'ordre de grandeur de la taille des fichiers suivants :
 ( ) Quelques centaines de mega-octets,
 
 >> Une photo <<
-
 ( ) Quelques octets,
 ( ) Quelques centaines d'octets,
 ( ) Quelques kilo-octets,
@@ -46,7 +44,6 @@ Donne l'ordre de grandeur de la taille des fichiers suivants :
 ## Exercice
 
 >> Combien de temps met-on pour télécharger un film de 700 Mo avec un débit de 2Mbit/s ? <<
-
 (*) 700 * 8 / 2 secondes, c'est-à-dire environ 45 minutes,
 ( ) 700 * 2 secondes c'est-à-dire environ 25 minutes,
 ( ) 700 * 2 / 8 secondes, c'est-à-dire environ 3 minutes,

@@ -47,7 +47,6 @@ Ouvre la page man de la commande `cp`. Essaie de naviguer dedans et de retrouver
 [ ] -v
 
 >> Quelle option de cp n'existe pas ? <<
-
 ( ) -p
 ( ) -n
 (*) -c
@@ -55,7 +54,6 @@ Ouvre la page man de la commande `cp`. Essaie de naviguer dedans et de retrouver
 ( ) --version
 
 >> L'option -u ou --update de cp permet : <<
-
 (*) de ne faire la copie que si le fichier destination n'existe pas ou est plus ancien que le fichier source.
 ( ) de faire la copie en accélérant la copie dans le cas d'une mise à jour,
 ( ) de supprimer le fichier source.

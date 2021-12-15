@@ -1,7 +1,6 @@
 
 
 >> Le répertoire /opt/ a les droits suivants : drwxr-xr-x  root root . Dans ce répertoire, il y a un fichier truc qui a les droits -rw-rw-rw- root root. Que peut faire l'utilisateur john qui n'appartient pas au groupe root ? <<
-
 [*] lister les fichiers du répertoire,
 [*] modifier le contenu du fichier truc,
 [ ] supprimer le fichier truc,
@@ -15,7 +14,6 @@
 ( ) supprimer les droits d'écriture de mon home aux autres et au groupe (chmod og-w ~)
 
 >> Pour que d'autres étudiants de ton groupe puissent lire un fichier README.txt dans ton home il faut : <<
-
 [*] Donner les droits de lecture au groupe à README.txt
 [ ] Donner les droits d'exécution au groupe à README.txt,
 [ ] Donner les droits d'écriture au groupe à README.txt

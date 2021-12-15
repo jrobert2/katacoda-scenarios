@@ -24,12 +24,12 @@ Chaque fichier est identifié par un inode. Les données du fichier sont pointé
 
 ```{quizdown} 
   ##  Parmi les méta-données d'un fichier, on trouve : 
-[*] les permissions de ce fichier,
-[*] les dates de création/modification de ce fichier
-[ ] le nom de ce fichier,
-[*] l'identifiant du propriétaire de ce fichier,
-[ ] les données de ce fichier
-[ ] les premiers octets constituant le fichier,
+  - [x] les permissions de ce fichier,
+  - [x] les dates de création/modification de ce fichier
+  - [ ] le nom de ce fichier,
+  - [x] l'identifiant du propriétaire de ce fichier,
+  - [ ] les données de ce fichier
+  - [ ] les premiers octets constituant le fichier,
 ```
 ```{quizdown} 
   ##  L'option -i de la commande ls permet 

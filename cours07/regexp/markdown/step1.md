@@ -13,7 +13,6 @@ Par exemple, `grep -E Bonjour fichier1.txt`{{execute}} affichera toutes les lign
 
 
 >> Quelle commande affichera toutes les lignes de fichier1.txt contenant la chaine Bonjour tout ? <<
-
 (*) grep -E "Bonjour tout" fichier1.txt
 ( ) grep -E  Bonjour tout fichier1.txt
 ( ) grep -E  "fichier1.txt" Bonjour tout

@@ -42,11 +42,11 @@ Ouvre la page man de la commande `cp`. Essaie de naviguer dedans et de retrouver
 ```
 ```{quizdown} 
   ##  Quelles options ont le même effet que l'option -R ? 
-[*] -r
-[*] --recursive
-[ ] --recure
-[ ] --sparse
-[ ] -v
+  - [x] -r
+  - [x] --recursive
+  - [ ] --recure
+  - [ ] --sparse
+  - [ ] -v
 ```
 ```{quizdown} 
   ##  Quelle option de cp n'existe pas ? 

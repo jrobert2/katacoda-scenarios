@@ -10,7 +10,6 @@ Essaye !
 
 
 >> Que se passe-t-il si tu tapes la commande 'touch aya sansa littlefinger' dans ton home ? <<
-
 ( ) rien du tout ;
 ( ) un message d'erreur s'affiche dans le terminal ;
 (*) trois fichiers vides sont créés ;

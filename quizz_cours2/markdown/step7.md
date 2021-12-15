@@ -3,7 +3,6 @@
 
 
 >> Parmi les assertions suivantes, lesquelles sont correctes ? <<
-
 [*] la commande `rm -r /home/sasha/` supprime le dossier /home/etudiant/ et tous les sous-dossiers.
 [*] la commande `rm /home/sasha/` refuse de supprimer le dossier /home/etudiant/ et tous les sous-dossiers.
 [*] la commande cp /home/sasha/truc.txt /tmp/ copie le fichier truc.txt dans le dossier /tmp/
@@ -20,7 +19,6 @@
 [ ] avec bash il est impossible de déplacer un répertoire,
 
 >> En considérant que tu es dans le répertoire /home/sasha/Exo1/Dir64/Swwdfhjoillk, quelles commandes permettent de créer le répertoire /home/etudiant/Documents ? <<
-
 [*] mkdir /home/sasha/Documents/
 [ ] rmdir /home/sasha/Documents/
 [ ] mkdir ../Documents/

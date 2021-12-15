@@ -24,14 +24,14 @@ Les commandes *incompréhensibles* provoquent un message d'erreur.
 
 ```{quizdown} 
   ##  Quelles sont les commandes compréhensibles ici par cette machine ? 
-[*] cal
-[ ] goodbye
-[*] ls
-[*] date
-[*] help
-[ ] sos
-[ ] vinyl
-[*] cd
+  - [x] cal
+  - [ ] goodbye
+  - [x] ls
+  - [x] date
+  - [x] help
+  - [ ] sos
+  - [ ] vinyl
+  - [x] cd
 ```
 
 Je suis sûr que tu es curieux d'en apprendre plus sur cette façon de communiquer avec l'ordinateur. Alors passe vite à la suite.

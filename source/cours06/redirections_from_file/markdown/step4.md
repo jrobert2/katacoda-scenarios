@@ -22,12 +22,12 @@ C'est simple :
 
 ```{quizdown} 
   ##  Parmi les commandes suivantes, lequelles ne savent pas lire leur entrée standard ? 
-[ ] la commande cat
-[*] la commande cp
-[ ] la commande echo
-[ ] la commande grep
-[*] la commande ls
-[*] la commande mv
-[*] la commande rm
-[ ] la commande wc
+  - [ ] la commande cat
+  - [x] la commande cp
+  - [ ] la commande echo
+  - [ ] la commande grep
+  - [x] la commande ls
+  - [x] la commande mv
+  - [x] la commande rm
+  - [ ] la commande wc
 ```

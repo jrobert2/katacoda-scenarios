@@ -20,7 +20,6 @@ Parfois tu as envie de passer "*" en argument à une commande. Pour ce faire, il
 [ ] arbitre
 
 >> Si on fait echo "b*", quels noms de fichier correspondent ? <<
-
 [*] b*
 [ ] bonjour
 [ ] dromadaire

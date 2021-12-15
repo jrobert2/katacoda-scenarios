@@ -10,7 +10,6 @@ echo $nom > monNom.txt
 </pre>
 
 >> Que fait il ? <<
-
 ( ) il prend un nom en argument et l'écrit dans monNom.txt
 (*) il lit un nom sur son entrée standard, et l'écrit dans le fichier monNom.txt .
 ( ) il lit un nom sur l'entrée standard et l'affiche sur la sortie standard,

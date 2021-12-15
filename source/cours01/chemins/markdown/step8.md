@@ -40,11 +40,11 @@ C'est bien plus rapide à taper !
 
 ```{quizdown} 
   ##  Quelles commandes te permettent de lister le contenu du dossier usr ? 
-[ ] ls ../usr
-[*] ls ../../usr
-[*] ls ../../bin/../usr
-[*] ls /usr
-[ ] ls usr
+  - [ ] ls ../usr
+  - [x] ls ../../usr
+  - [x] ls ../../bin/../usr
+  - [x] ls /usr
+  - [ ] ls usr
 ```
 
 

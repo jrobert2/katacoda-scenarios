@@ -5,8 +5,8 @@ La commande suivante permet de connaître les paquets installés :
 
 ```{quizdown} 
   ##  Parmi les paquets suivants, lesquels sont installés ? 
-[ ] firefox
-[*] lynx
+  - [ ] firefox
+  - [x] lynx
 [ ] leagueoflegend
 [ ] zenity
 ```

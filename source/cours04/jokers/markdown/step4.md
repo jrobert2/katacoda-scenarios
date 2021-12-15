@@ -10,17 +10,17 @@
 
 ```{quizdown} 
   ##  Quels noms correspondent au motif d*\* ? 
-[*] dromadaire*
-[ ] dromadaire
-[*] d*
-[ ] echo
-[ ] drom\
+  - [x] dromadaire*
+  - [ ] dromadaire
+  - [x] d*
+  - [ ] echo
+  - [ ] drom\
 ```
 
 ```{quizdown} 
   ##  Quels noms correspondent au motif a[bc]* ? 
-[*] ab
-[ ] avion
-[*] abcd
-[*] acbd
-[ ] dromadaire
+  - [x] ab
+  - [ ] avion
+  - [x] abcd
+  - [x] acbd
+  - [ ] dromadaire

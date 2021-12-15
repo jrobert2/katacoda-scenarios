@@ -6,7 +6,6 @@ Dans chaque cas, répondre aux questions suivantes SANS UTILISER L’ORDINATEUR 
 Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on retrouver les extraits suivants ? Toujours sans ordinateur, trouvez (si possible) à quelle commande chaque extrait correspond.
 
 >> -a, --all <<
-
 [ ] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION
@@ -40,7 +39,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 
 >> whoami - print effective userid <<
-
 [*] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION
@@ -56,8 +54,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 [ ] Dans le man de la commande less
 
 >> Display the current time in the given FORMAT, or set the system date <<
-
-
 [ ] NAME
 [ ] SYNOPSYS
 [*] DESCRIPTION
@@ -74,7 +70,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 
 >> -r, -R, --recursive remove directories and their contents recursively <<
-
 [ ] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION
@@ -90,7 +85,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 [ ] Dans le man de la commande less
 
 >> sort - sort lines of text files <<
-
 [*] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION
@@ -107,8 +101,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 
 >> Print the full filename of the current working directory. <<
-
-
 [ ] NAME
 [ ] SYNOPSYS
 [*] DESCRIPTION
@@ -125,8 +117,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 
 >> To run the command ``wc /etc/hosts`` and show the default information: time wc /etc/hosts <<
-
-
 [ ] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION
@@ -151,7 +141,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 </pre>
 
 >> Se trouve dans : <<
-
 [ ] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION
@@ -172,7 +161,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 </pre>
 
 >> Se trouve dans : <<
-
 [ ] NAME
 [*] SYNOPSYS
 [ ] DESCRIPTION
@@ -194,7 +182,6 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 </pre>
 
 >> Se trouve dans: <<
-
 [ ] NAME
 [ ] SYNOPSYS
 [ ] DESCRIPTION

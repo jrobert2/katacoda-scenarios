@@ -64,43 +64,43 @@ Les groupes auxquels sasha appartient sont etu et sasha.
 
 ```{quizdown} 
   ##  Quels sont les droits de sasha sur le fichier fichier2.txt ?
-[*] droits de lecture
-[*] droits d'écriture
-[ ] droits d'exécution
-[ ] Il n'a aucun droit sur ce fichier
+  - [x] droits de lecture
+  - [x] droits d'écriture
+  - [ ] droits d'exécution
+  - [ ] Il n'a aucun droit sur ce fichier
 ```
 ```{quizdown} 
   ##  Quels sont les droits de sasha sur le fichier fichier3.txt ?
-[*] droits de lecture
-[ ] droits d'écriture
-[ ] droits d'exécution
-[ ] Il n'a aucun droit sur ce fichier
+  - [x] droits de lecture
+  - [ ] droits d'écriture
+  - [ ] droits d'exécution
+  - [ ] Il n'a aucun droit sur ce fichier
 ```
 ```{quizdown} 
   ##  Quels sont les droits de sasha sur le fichier fichier4.txt ?
-[ ] droits de lecture
-[ ] droits d'écriture
-[ ] droits d'exécution
-[*] Il n'a aucun droit sur ce fichier
+  - [ ] droits de lecture
+  - [ ] droits d'écriture
+  - [ ] droits d'exécution
+  - [x] Il n'a aucun droit sur ce fichier
 ```
 ```{quizdown} 
   ##  Quels sont les droits de sasha sur le fichier fichier7.txt ?
-[*] droits de lecture
-[ ] droits d'écriture
-[ ] droits d'exécution
-[ ] Il n'a aucun droit sur ce fichier
+  - [x] droits de lecture
+  - [ ] droits d'écriture
+  - [ ] droits d'exécution
+  - [ ] Il n'a aucun droit sur ce fichier
 ```
 ```{quizdown} 
   ##  Quels sont les droits de sasha sur le fichier fichier8.txt ?
-[ ] droits de lecture
-[ ] droits d'écriture
-[ ] droits d'exécution
-[*] Il n'a aucun droit sur ce fichier
+  - [ ] droits de lecture
+  - [ ] droits d'écriture
+  - [ ] droits d'exécution
+  - [x] Il n'a aucun droit sur ce fichier
 ```
 ```{quizdown} 
   ##  Quels sont les droits de sasha sur le fichier script.sh ?
-[*] droits de lecture
-[*] droits d'écriture
-[*] droits d'exécution
-[ ] Il n'a aucun droit sur ce fichier
+  - [x] droits de lecture
+  - [x] droits d'écriture
+  - [x] droits d'exécution
+  - [ ] Il n'a aucun droit sur ce fichier
 ```

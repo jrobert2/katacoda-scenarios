@@ -26,7 +26,6 @@ Et depuis ce répertoire Dir45, pour aller dans le répertoire Dir43, il faut re
 On utilisera l'argument `../Dir43/` avec la commance `cd`, ce qui donne `cd ../Dir43/`{{execute}}
 
 >> Maintenant tu dois être dans le répertoire /home/sasha/Exo1/Dir43. Depuis cet endroit, où mène la commande  cd ../.. ? <<
-
 (*) /home/sasha/
 ( ) /home/sasha/Dir45
 ( ) nulle part

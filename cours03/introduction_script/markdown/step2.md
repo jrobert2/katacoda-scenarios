@@ -29,7 +29,6 @@ Lorsque tu exécutes le fichier hello_world.sh, c'est comme si tu exécutais `/b
 Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu peux essayer !
 
 >> Que fait l'exécution du script si tu choisis /bin/cat comme interpréteur ? <<
-
 ( ) rien
 ( ) il afficher Bonjour
 (*) il affiche le contenu du script
@@ -38,7 +37,6 @@ Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu 
 ( ) il plante en disant que cet interpréteur n'existe pas
 
 >> Que fait l'exécution du script si tu choisis /bin/echo comme interpréteur ? <<
-
 ( ) rien
 ( ) il afficher Bonjour
 ( ) il affiche le contenu du script
@@ -47,7 +45,6 @@ Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu 
 ( ) il plante en disant que cet interpréteur n'existe pas
 
 >> Que fait l'exécution du script si tu choisis `/usr/bin/toto` comme interpréteur ? <<
-
 ( ) rien
 ( ) il afficher Bonjour
 ( ) il affiche le contenu du script
@@ -56,7 +53,6 @@ Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu 
 (*) il plante en disant que cet interpréteur n'existe pas
 
 >> Que fait l'exécution du script si tu choisis `/bin/rm` comme interpréteur ? <<
-
 ( ) rien
 ( ) il afficher Bonjour
 ( ) il affiche le contenu du script
@@ -79,7 +75,6 @@ Donnes lui les droits d'exécution (`chmod u+x tonscript.py`)
 Exécutes le !
 
 >> Que se passe-t-il si tu changes l'interpréteur pour /bin/bash ? <<
-
 (*) ça signale qu'il y a une erreur de syntaxe, car la syntaxe de bash n'est pas la même que celle de python.
 ( ) ça ne fait rien, car le bash et le python ne sont pas compatibles,
 ( ) ça affiche Bonjour, car il y a un peu de magie quand même.

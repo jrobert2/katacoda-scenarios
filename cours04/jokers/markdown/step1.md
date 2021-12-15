@@ -23,21 +23,18 @@ Ainsi, si tu exécutes :
 Déplace toi dans le dossier `cd /home/sasha/Documents/`{{execute}}.
 
 >> Quels sont les arguments passés à echo si tu tapes echo *.txt ? <<
-
 ( ) *.txt
 (*) machin.txt, notes.txt et truc.txt
 ( ) echo *.txt
 ( ) aucun
 
 >> Quels sont les arguments passés à echo si tu tapes echo *t* ? <<
-
 ( ) *t*
 (*) machin.txt, notes.txt et truc.txt
 ( ) echo *t*
 ( ) aucun
 
 >> Quels sont les arguments passés à echo si tu tapes echo *m* ? <<
-
 ( ) *m*
 ( ) machin.txt, notes.txt et truc.txt
 (*) machin.txt

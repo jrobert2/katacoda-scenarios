@@ -15,7 +15,6 @@ Chaque fichier est identifié par un inode. Les données du fichier sont pointé
 
 
 >> Les inodes contiennent : <<
-
 [*] les métadonnées des fichier
 [ ] le nom des fichier
 [ ] le nom de la partition où sont stockés les fichiers

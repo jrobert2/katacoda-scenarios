@@ -20,14 +20,14 @@ Maintenant que tu as suivi tes nouvelles instructions, tu peux répondre aux deu
 
 ```{quizdown} 
   ##  Quels sont les fichiers présents dans le répertoire dans lequel tu te trouves ? 
-[ ] README
-[*] george
-[ ] brian
-[*] john
-[ ] ian
-[*] paul
-[ ] mick
-[*] ringo
+  - [ ] README
+  - [x] george
+  - [ ] brian
+  - [x] john
+  - [ ] ian
+  - [x] paul
+  - [ ] mick
+  - [x] ringo
 ```
 
 ```{quizdown} 

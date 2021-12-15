@@ -59,31 +59,31 @@ On utilise l'arborescence suivante :
 
 ```{quizdown} 
   ##  Imagine que tu te trouves dans le dossier sasha et que tu veux aller dans le dossier Exo1. Quelles lignes de commande pourrais-tu taper ? 
-[*] cd Exo1/
-[ ] cd ../Exo1/
-[ ] cd sasha/Exo1/
-[*] cd /home/sasha/Exo1/
-[ ] cd home/sasha/Exo1/
-[ ] cd /Exo1/
+  - [x] cd Exo1/
+  - [ ] cd ../Exo1/
+  - [ ] cd sasha/Exo1/
+  - [x] cd /home/sasha/Exo1/
+  - [ ] cd home/sasha/Exo1/
+  - [ ] cd /Exo1/
 ```
 ```{quizdown} 
   ##  Imagine que tu te trouves dans le dossier home et que tu veux lister le contenu du dossier Exo2. Quelles lignes de commande pourrais-tu taper ? 
-[ ] ls Exo2/
-[ ] ls ../Exo2/
-[*] ls sasha/Exo2/
-[*] ls /home/sasha/Exo2/
-[ ] ls home/sasha/Exo2/
-[ ] ls /Exo2/
+  - [ ] ls Exo2/
+  - [ ] ls ../Exo2/
+  - [x] ls sasha/Exo2/
+  - [x] ls /home/sasha/Exo2/
+  - [ ] ls home/sasha/Exo2/
+  - [ ] ls /Exo2/
 ```
 
 ```{quizdown} 
   ##  Imagine que tu te trouves dans le dossier Exo2 et que tu veux lire le contenu du fichier README qui est dans le dossier Exo1. Quelles lignes de commande pourrais-tu taper ? 
-[ ] cat Exo1/README
-[*] cat ../Exo1/README
-[ ] cat sasha/Exo1/README
-[*] cat /home/sasha/Exo1/README
-[ ] cat home/sasha/Exo1/README
-[ ] cat /Exo1/README
+  - [ ] cat Exo1/README
+  - [x] cat ../Exo1/README
+  - [ ] cat sasha/Exo1/README
+  - [x] cat /home/sasha/Exo1/README
+  - [ ] cat home/sasha/Exo1/README
+  - [ ] cat /Exo1/README
 ```
 # Exercice 3
 
@@ -107,12 +107,12 @@ Voici l'arborescence d'une machine imaginaire :
 
 ```{quizdown} 
   ##  Imagine que tu te trouves dans le répertoire Vacances. Quelles commandes te permettraient d'aller dans le répertoire Travail  ? 
-[*] cd ../../Travail/
-[ ] cd Travail/
-[ ] cd Documents/Travail/
-[*] cd ../../../Documents/Travail/
-[ ] cd ../Travail/
-[ ] cd ../Documents/Travail/
+  - [x] cd ../../Travail/
+  - [ ] cd Travail/
+  - [ ] cd Documents/Travail/
+  - [x] cd ../../../Documents/Travail/
+  - [ ] cd ../Travail/
+  - [ ] cd ../Documents/Travail/
 ```
 
 

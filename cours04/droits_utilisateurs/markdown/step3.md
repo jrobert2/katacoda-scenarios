@@ -6,6 +6,5 @@ Pour un hacker, l'objectif suprême est de "devenir root". C'est donc un rôle �
 
 
 >> J'ai choisi "toto" comme mot de passe pour le compte root, est-ce une bonne idée ? <<
-
 ( ) oui bien sûr !
 (*) non, pas vraiment. 

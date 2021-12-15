@@ -2,7 +2,6 @@
 
 
 >> Sous linux, pour installer un programme, <<
-
 (*) il faut utiliser le gestionnaire de paquets,
 ( ) il faut télécharger manuellement un programme d'installation,
 
@@ -27,7 +26,6 @@
 
 
 >> Pour mettre à jour la liste des paquets disponibles, la commande est <<
-
 (*) apt update
 ( ) apt upgrade
 ( ) apt install update

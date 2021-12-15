@@ -25,7 +25,6 @@ Lorsque je tape `ls -l`, j'obtiens :
 
 
 >> Pour le fichier1 <<
-
 [*] alice a le droit de lire le fichier
 [*] alice a le droit de modifier le fichier
 [*] bob a le droit de lire le fichier
@@ -35,7 +34,6 @@ Lorsque je tape `ls -l`, j'obtiens :
 
 
 >> Pour le fichier2 <<
-
 [ ] alice a le droit de lire le fichier
 [ ] alice a le droit de modifier le fichier
 [*] bob a le droit de lire le fichier
@@ -45,7 +43,6 @@ Lorsque je tape `ls -l`, j'obtiens :
 
 
 >> Pour le fichier3 <<
-
 [*] alice a le droit de lire le fichier
 [*] alice a le droit de modifier le fichier
 [ ] bob a le droit de lire le fichier
@@ -55,7 +52,6 @@ Lorsque je tape `ls -l`, j'obtiens :
 
 
 >> Pour le fichier4 <<
-
 [ ] alice a le droit de lire le fichier
 [ ] alice a le droit de modifier le fichier
 [*] bob a le droit de lire le fichier

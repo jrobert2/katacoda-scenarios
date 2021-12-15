@@ -77,6 +77,5 @@ Essaie le script suivant :
 
 
 >> Après l'exécution du script, te trouves tu dans /tmp/ ? <<
-
 ( ) oui
 (*) non

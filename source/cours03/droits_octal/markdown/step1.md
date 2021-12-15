@@ -3,10 +3,10 @@ Peu importe les autres droits (lecture/ecriture ou exécution) que tu peux avoir
 
 ```{quizdown} 
   ##  Pour pouvoir modifier les droits sur un fichier avec la commande chmod 
-[*] Il faut que j'en sois le propriétaire 
-[ ] Il faut que j'ai les droits de lecture sur le fichier 
-[ ] Il faut que j'ai les droits d'écriture sur le fichier 
-[ ] Il faut que j'ai les droits d'exécuter le fichier 
-[*] Il faut que j'y ai accès
-[ ] Il faut que j'ai les droits de lecture sur le dossier qui le contient. 
-[ ] Il faut que j'ai les droits d'écriture sur le dossier qui le contient.
+  - [x] Il faut que j'en sois le propriétaire 
+  - [ ] Il faut que j'ai les droits de lecture sur le fichier 
+  - [ ] Il faut que j'ai les droits d'écriture sur le fichier 
+  - [ ] Il faut que j'ai les droits d'exécuter le fichier 
+  - [x] Il faut que j'y ai accès
+  - [ ] Il faut que j'ai les droits de lecture sur le dossier qui le contient. 
+  - [ ] Il faut que j'ai les droits d'écriture sur le dossier qui le contient.

@@ -26,19 +26,19 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 ```{quizdown} 
   ##  write counts for all files, not just directories 
-[ ] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[*] OPTIONS
-[ ] EXEMPLES
-[*] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[ ] Dans le man de la commande ls
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [x] OPTIONS
+  - [ ] EXEMPLES
+  - [x] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [ ] Dans le man de la commande ls
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
 
 ```{quizdown} 
