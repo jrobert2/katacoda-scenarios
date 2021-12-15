@@ -1,0 +1,21 @@
+{
+  "title": "R1.04 - Cours n°09",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Scripts et fonctions",
+      "description": "TODO",
+      "course_id": "scripts_fonctions"
+    },
+    {
+      "title": "Scripts et boucle while",
+      "description": "TODO",
+      "course_id": "scripts_while"
+    },
+    {
+      "title": "Projet ascii banner",
+      "description": "ASCII Banner",
+      "course_id": "ascii_banner"
+    }
+  ]
+}

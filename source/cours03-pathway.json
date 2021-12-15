@@ -1,0 +1,41 @@
+{
+  "title": "R1.04 - Cours n°3",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Droits des fichiers",
+      "description": "Introduction aux droits des fichiers",
+      "course_id": "droits_fichiers"
+    },
+    {
+      "title": "Modifier les droits",
+      "description": "Focus sur la commande chmod\net accessoirement comprendre l'octal",
+      "course_id": "droits_octal"
+    },
+    {
+      "title": "Le man",
+      "description": "Familiarisation avec le man",
+      "course_id": "introduction_man"
+    },
+    {
+      "title": "Focus sur la commande cp",
+      "description": "Pour découvrir la commande cp",
+      "course_id": "commande_cp"
+    },
+    {
+      "title": "Focus sur la commande mv",
+      "description": "Pour découvrir la commande mv",
+      "course_id": "commande_mv"
+    },
+    {
+      "title": "Introduction aux scripts",
+      "description": "Ecriture et exécution d'un premier script",
+      "course_id": "introduction_script"
+    },
+    {
+      "title": "Les variables",
+      "description": "Les variables",
+      "course_id": "variables"
+    }
+  ]
+}

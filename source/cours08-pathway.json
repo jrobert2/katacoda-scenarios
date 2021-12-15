@@ -1,0 +1,16 @@
+{
+  "title": "R1.04 - Cours n°08",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Scripts et boucle for",
+      "description": "Comment faire des boucles en BASH!",
+      "course_id": "scripts_for"
+    },
+    {
+      "title": "Bash et python",
+      "description": "Bash et python",
+      "course_id": "bash_python"
+    }
+  ]
+}

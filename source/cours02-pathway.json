@@ -1,0 +1,41 @@
+{
+  "title": "R1.04 - Cours n°2 - Les premières commandes",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "A la découverte de nano",
+      "description": "Utiliser un éditeur de fichiers",
+      "course_id": "nano"
+    },
+    {
+      "title": "Focus sur la commande ls",
+      "description": "Pour découvrir quelques potentialités de la commande ls",
+      "course_id": "commande_ls"
+    },
+    {
+      "title": "Focus sur la commande mkdir",
+      "description": "Pour découvrir la commande mkdir",
+      "course_id": "commande_mkdir"
+    },
+    {
+      "title": "Focus sur la commande touch",
+      "description": "Pour découvrir la commande touch",
+      "course_id": "commande_touch"
+    }, 
+    {
+      "title": "Focus sur la commande rm",
+      "description": "Pour découvrir la commande rm",
+      "course_id": "commande_rm"
+    },
+    {
+      "title": "Focus sur la commande du",
+      "description": "Pour découvrir la commande du",
+      "course_id": "commande_du"
+    },
+    {
+      "title": "Les processus",
+      "description": "Les processus",
+      "course_id": "processus"
+    }
+  ]
+}

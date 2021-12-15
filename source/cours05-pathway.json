@@ -1,0 +1,16 @@
+{
+  "title": "R1.04 - Cours n°5",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Droits des dossiers ",
+      "description": "Introduction aux droits des dossiers",
+      "course_id": "droits_dossiers"
+    },
+    {
+      "title": "Les Inode",
+      "description": "Pour comprendre un peu mieux le système de fichiers",
+      "course_id": "inodes"
+    }
+  ]
+}

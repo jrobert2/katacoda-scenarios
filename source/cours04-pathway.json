@@ -1,0 +1,31 @@
+{
+  "title": "R1.04 - Cours n°4",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Compléments sur les droits des utilisateurs",
+      "description": "Compléments sur les droits de utilisateurs",
+      "course_id": "droits_utilisateurs"
+    },
+    {
+      "title": "Redirections vers un fichier",
+      "description": "La redirections des sorties vers un fichier",
+      "course_id": "redirections_to_file"
+     },
+    {
+      "title": "Les arguments d'un script",
+      "description": "Passer des arguments à un script",
+      "course_id": "arguments_script"
+    },
+    {
+      "title": "Installation de programmes",
+      "description": "Gestion des paquets",
+      "course_id": "gestion_paquets"
+    },
+    {
+      "title": "Les jokers",
+      "description": "Les jokers",
+      "course_id": "jokers"
+    }
+  ]
+}

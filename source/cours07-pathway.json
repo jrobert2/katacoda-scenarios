@@ -1,0 +1,16 @@
+{
+  "title": "R1.04 - Cours n°7",
+  "description": "Cours R1.04 du département informatique de l'IUT d'Orléans",
+  "courses": [
+    {
+      "title": "Pipelines",
+      "description": "Pour jouer au plombier",
+      "course_id": "redirections_pipeline"
+    },
+    {
+      "title": "Les expressions régulières",
+      "description": "Introduction aux expressions régulières",
+      "course_id": "regexp"
+    }
+  ]
+}
