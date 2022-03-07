@@ -1,3 +1,4 @@
+#!/bin/bash 
 
 cp -R cours* source/
 

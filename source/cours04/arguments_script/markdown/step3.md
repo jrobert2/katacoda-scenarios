@@ -14,32 +14,28 @@ echo argument1: $1
 
 ```{quizdown} 
   ##  Si tu exécutes `./jokers.sh *`, que vois tu s'afficher ? 
+  - [x] argument1: premier fichier affiché par ls
+  - [ ] argument1: tous les fichiers affichés par ls
+  - [ ] argument1: *
 ```
-(*) argument1: premier fichier affiché par ls
-( ) argument1: tous les fichiers affichés par ls
-( ) argument1: *
-
 ```{quizdown} 
   ##  Pourquoi ? 
+  - [x] car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+  - [ ] car le script a été exécuté avec comme argument *
+  - [ ] car le script a été exécuté avec comme premier argument "fichier1 fichier2 ..."
 ```
-(*) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
-( ) car le script a été exécuté avec comme argument *
-( ) car le script a été exécuté avec comme premier argument "fichier1 fichier2 ..."
-
 ```{quizdown} 
   ##  Si tu exécutes `./jokers.sh \*`, que vois tu s'afficher ? 
+  - [ ] argument1: premier fichier affiché par ls
+  - [x] argument1: tous les fichiers affichés par ls
+  - [ ] argument1: *
 ```
-() argument1: premier fichier affiché par ls
-(*) argument1: tous les fichiers affichés par ls
-( ) argument1: *
-
 ```{quizdown} 
   ##  Pourquoi ? 
+  - [ ] car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+  - [x] car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+  - [ ] car le script a été exécuté avec comme premier argument "fichier1 fichier2 ..."
 ```
-( ) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
-(*) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
-( ) car le script a été exécuté avec comme premier argument "fichier1 fichier2 ..."
-
 
 Modifiez le script pour qu'il contienne :
 
@@ -56,32 +52,28 @@ Tu as vu la différence ? Les guillemets autour de $1 !
 
 ```{quizdown} 
   ##  Si tu exécutes `./jokers.sh *`, que vois tu s'afficher ? 
+  - [x] argument1: premier fichier affiché par ls
+  - [ ] argument1: tous les fichiers affichés par ls
+  - [ ] argument1: *
 ```
-(*) argument1: premier fichier affiché par ls
-( ) argument1: tous les fichiers affichés par ls
-( ) argument1: *
-
 
 ```{quizdown} 
   ##  Pourquoi ? 
+  - [x] car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+  - [ ] car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme unique argument la chaine "fichier1, fichier2, etc."
+  - [ ] car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
 ```
-(*) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
-( ) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme unique argument la chaine "fichier1, fichier2, etc."
-( ) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
-
 
 
 ```{quizdown} 
   ##  Si tu exécutes `./jokers.sh \*`, que vois tu s'afficher ? 
+  - [ ] argument1: premier fichier affiché par ls
+  - [ ] argument1: tous les fichiers affichés par ls
+  - [x] argument1: *
 ```
-( ) argument1: premier fichier affiché par ls
-( ) argument1: tous les fichiers affichés par ls
-(*) argument1: *
-
 
 ```{quizdown} 
   ##  Pourquoi ? 
-```
-( ) car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
-(*) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme unique argument la chaîne "*"
-( ) car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+  - [ ] car le script a été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]
+  - [x] car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme unique argument la chaîne "*"
+  - [ ] car le script a été exécuté avec comme argument *, puis echo a donc été exécuté avec comme arguments la liste [fichier1, fichier2, etc.]

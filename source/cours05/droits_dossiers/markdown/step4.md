@@ -27,6 +27,5 @@ Concrètement, voici des commandes que tu peux utiliser dans un dossier sur lequ
 
 ```{quizdown} 
   ##  Est-il possible de modifier le contenu d'un fichier si tu n'as pas pas les droits d'écriture sur le dossier parent ? 
-```
-(*) oui
-( ) non
+  - [x] oui
+  - [ ] non

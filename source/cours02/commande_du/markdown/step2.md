@@ -27,30 +27,27 @@ Donne l'ordre de grandeur de la taille des fichiers suivants :
 
 ```{quizdown} 
   ##  Un fichier texte d'une page 
+  - [ ] Quelques octets,
+  - [ ] Quelques centaines d'octets,
+  - [x] Quelques kilo-octets,
+  - [ ] Quelques centaines de kilo-octets,
+  - [ ] Quelques mega-octets,
+  - [ ] Quelques centaines de mega-octets,
 ```
-( ) Quelques octets,
-( ) Quelques centaines d'octets,
-(*) Quelques kilo-octets,
-( ) Quelques centaines de kilo-octets,
-( ) Quelques mega-octets,
-( ) Quelques centaines de mega-octets,
-
 ```{quizdown} 
   ##  Une photo 
+  - [ ] Quelques octets,
+  - [ ] Quelques centaines d'octets,
+  - [ ] Quelques kilo-octets,
+  - [ ] Quelques centaines de kilo-octets,
+  - [x] Quelques mega-octets,
+  - [ ] Quelques centaines de mega-octets,
 ```
-( ) Quelques octets,
-( ) Quelques centaines d'octets,
-( ) Quelques kilo-octets,
-( ) Quelques centaines de kilo-octets,
-(*) Quelques mega-octets,
-( ) Quelques centaines de mega-octets,
-
 ## Exercice
 
 ```{quizdown} 
   ##  Combien de temps met-on pour télécharger un film de 700 Mo avec un débit de 2Mbit/s ? 
-```
-(*) 700 * 8 / 2 secondes, c'est-à-dire environ 45 minutes,
-( ) 700 * 2 secondes c'est-à-dire environ 25 minutes,
-( ) 700 * 2 / 8 secondes, c'est-à-dire environ 3 minutes,
-( ) 700 * 8 * 2 secondes, c'est-à-dire environ 3 heures.
+  - [x] 700 * 8 / 2 secondes, c'est-à-dire environ 45 minutes,
+  - [ ] 700 * 2 secondes c'est-à-dire environ 25 minutes,
+  - [ ] 700 * 2 / 8 secondes, c'est-à-dire environ 3 minutes,
+  - [ ] 700 * 8 * 2 secondes, c'est-à-dire environ 3 heures.

@@ -79,6 +79,5 @@ Essaie le script suivant :
 
 ```{quizdown} 
   ##  Après l'exécution du script, te trouves tu dans /tmp/ ? 
-```
-( ) oui
-(*) non
+  - [ ] oui
+  - [x] non

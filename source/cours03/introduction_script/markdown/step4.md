@@ -11,12 +11,11 @@ echo $nom > monNom.txt
 
 ```{quizdown} 
   ##  Que fait il ? 
+  - [ ] il prend un nom en argument et l'écrit dans monNom.txt
+  - [x] il lit un nom sur son entrée standard, et l'écrit dans le fichier monNom.txt .
+  - [ ] il lit un nom sur l'entrée standard et l'affiche sur la sortie standard,
+  - [ ] il lit une variable nom à partir d'un fichier monNom.txt.
 ```
-( ) il prend un nom en argument et l'écrit dans monNom.txt
-(*) il lit un nom sur son entrée standard, et l'écrit dans le fichier monNom.txt .
-( ) il lit un nom sur l'entrée standard et l'affiche sur la sortie standard,
-( ) il lit une variable nom à partir d'un fichier monNom.txt.
-
 
 
 # À toi

@@ -26,47 +26,43 @@ Lorsque je tape `ls -l`, j'obtiens :
 
 ```{quizdown} 
   ##  Pour le fichier1 
+  - [x] alice a le droit de lire le fichier
+  - [x] alice a le droit de modifier le fichier
+  - [x] bob a le droit de lire le fichier
+  - [ ] bob a le droit de modifier le fichier
+  - [x] candy a le droit de lire le fichier
+  - [ ] candy a le droit de modifier le fichier
 ```
-[*] alice a le droit de lire le fichier
-[*] alice a le droit de modifier le fichier
-[*] bob a le droit de lire le fichier
-[ ] bob a le droit de modifier le fichier
-[*] candy a le droit de lire le fichier
-[ ] candy a le droit de modifier le fichier
-
 
 ```{quizdown} 
   ##  Pour le fichier2 
+  - [ ] alice a le droit de lire le fichier
+  - [ ] alice a le droit de modifier le fichier
+  - [x] bob a le droit de lire le fichier
+  - [ ] bob a le droit de modifier le fichier
+  - [x] candy a le droit de lire le fichier
+  - [x] candy a le droit de modifier le fichier
 ```
-[ ] alice a le droit de lire le fichier
-[ ] alice a le droit de modifier le fichier
-[*] bob a le droit de lire le fichier
-[ ] bob a le droit de modifier le fichier
-[*] candy a le droit de lire le fichier
-[*] candy a le droit de modifier le fichier
-
 
 ```{quizdown} 
   ##  Pour le fichier3 
+  - [x] alice a le droit de lire le fichier
+  - [x] alice a le droit de modifier le fichier
+  - [ ] bob a le droit de lire le fichier
+  - [ ] bob a le droit de modifier le fichier
+  - [x] candy a le droit de lire le fichier
+  - [ ] candy a le droit de modifier le fichier
 ```
-[*] alice a le droit de lire le fichier
-[*] alice a le droit de modifier le fichier
-[ ] bob a le droit de lire le fichier
-[ ] bob a le droit de modifier le fichier
-[*] candy a le droit de lire le fichier
-[ ] candy a le droit de modifier le fichier
-
 
 ```{quizdown} 
   ##  Pour le fichier4 
+  - [ ] alice a le droit de lire le fichier
+  - [ ] alice a le droit de modifier le fichier
+  - [x] bob a le droit de lire le fichier
+  - [x] bob a le droit de modifier le fichier
+  - [ ] candy a le droit de lire le fichier
+  - [ ] candy a le droit de modifier le fichier
 ```
-[ ] alice a le droit de lire le fichier
-[ ] alice a le droit de modifier le fichier
-[*] bob a le droit de lire le fichier
-[*] bob a le droit de modifier le fichier
-[ ] candy a le droit de lire le fichier
-[ ] candy a le droit de modifier le fichier
-
 # Quizz 2
 
 ```{quizdown} 

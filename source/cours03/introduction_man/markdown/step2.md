@@ -7,21 +7,20 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 ```{quizdown} 
   ##  -a, --all 
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [x] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [x] Dans le man de la commande ls
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-[ ] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[*] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[*] Dans le man de la commande ls
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 
 
 ```{quizdown} 
@@ -43,112 +42,103 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 ```{quizdown} 
   ##  whoami - print effective userid 
+  - [x] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [ ] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [ ] Dans le man de la commande ls
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [x] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-[*] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[ ] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[ ] Dans le man de la commande ls
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[*] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 ```{quizdown} 
   ##  Display the current time in the given FORMAT, or set the system date 
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [x] DESCRIPTION
+  - [ ] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [ ] Dans le man de la commande ls
+  - [x] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-
-[ ] NAME
-[ ] SYNOPSYS
-[*] DESCRIPTION
-[ ] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[ ] Dans le man de la commande ls
-[*] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 
 ```{quizdown} 
   ##  -r, -R, --recursive remove directories and their contents recursively 
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [x] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [x] Dans le man de la commande rm
+  - [ ] Dans le man de la commande ls
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-[ ] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[*] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[*] Dans le man de la commande rm
-[ ] Dans le man de la commande ls
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 ```{quizdown} 
   ##  sort - sort lines of text files 
+  - [x] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [ ] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande time
+  - [ ] Dans le man de la commande pwd
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [x] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-[*] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[ ] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande time
-[ ] Dans le man de la commande pwd
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[*] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 
 ```{quizdown} 
   ##  Print the full filename of the current working directory. 
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [x] DESCRIPTION
+  - [ ] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande time
+  - [ ] Dans le man de la commande ls
+  - [x] Dans le man de la commande pwd
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-
-[ ] NAME
-[ ] SYNOPSYS
-[*] DESCRIPTION
-[ ] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande time
-[ ] Dans le man de la commande ls
-[*] Dans le man de la commande pwd
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 
 ```{quizdown} 
   ##  To run the command ``wc /etc/hosts`` and show the default information: time wc /etc/hosts 
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [ ] OPTIONS
+  - [x] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [x] Dans le man de la commande time
+  - [ ] Dans le man de la commande ls
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-
-[ ] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[ ] OPTIONS
-[*] EXEMPLES
-[ ] Dans le man de la commande du
-[*] Dans le man de la commande time
-[ ] Dans le man de la commande ls
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 
 <pre>
 --follow-name :
@@ -160,21 +150,20 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 ```{quizdown} 
   ##  Se trouve dans : 
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [x] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [ ] Dans le man de la commande ls
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [x] Dans le man de la commande less
 ```
-[ ] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[*] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[ ] Dans le man de la commande ls
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[*] Dans le man de la commande less
-
 <pre>
     sort [OPTION]... [FILE]...
     sort [OPTION]... --files0-from=F
@@ -182,21 +171,20 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 ```{quizdown} 
   ##  Se trouve dans : 
+  - [ ] NAME
+  - [x] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [ ] OPTIONS
+  - [ ] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [ ] Dans le man de la commande tar
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [x] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less
 ```
-[ ] NAME
-[*] SYNOPSYS
-[ ] DESCRIPTION
-[ ] OPTIONS
-[ ] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[ ] Dans le man de la commande tar
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[*] Dans le man de la commande sort
-[ ] Dans le man de la commande less
-
 
 <pre> Create archive.tar from files foo and bar.
 
@@ -205,17 +193,16 @@ Dans quelle rubrique (NAME, SYNOPSYS, DESCRIPTION, OPTIONS ou EXEMPLES) peut-on 
 
 ```{quizdown} 
   ##  Se trouve dans: 
-```
-[ ] NAME
-[ ] SYNOPSYS
-[ ] DESCRIPTION
-[ ] OPTIONS
-[*] EXEMPLES
-[ ] Dans le man de la commande du
-[ ] Dans le man de la commande rm
-[*] Dans le man de la commande tar
-[ ] Dans le man de la commande date
-[ ] Dans le man de la commande wc
-[ ] Dans le man de la commande whoami
-[ ] Dans le man de la commande sort
-[ ] Dans le man de la commande less
+  - [ ] NAME
+  - [ ] SYNOPSYS
+  - [ ] DESCRIPTION
+  - [ ] OPTIONS
+  - [x] EXEMPLES
+  - [ ] Dans le man de la commande du
+  - [ ] Dans le man de la commande rm
+  - [x] Dans le man de la commande tar
+  - [ ] Dans le man de la commande date
+  - [ ] Dans le man de la commande wc
+  - [ ] Dans le man de la commande whoami
+  - [ ] Dans le man de la commande sort
+  - [ ] Dans le man de la commande less

@@ -23,15 +23,13 @@ Voici un extrait du man de la commande touch :
 ```
 ```{quizdown} 
   ##  Dans le SYNOPSIS, pourquoi OPTION est-il entre crochets alors que FILE ne l'est pas ?  
+  - [x] Car les options ne sont pas obligatoires alors qu'il faut au moins un fichier en argument
+  - [ ] Car les options peuvent être répétées alors qu'on ne doit donner q'un fichier,
+  - [ ] Car option vient avant file
 ```
-(*) Car les options ne sont pas obligatoires alors qu'il faut au moins un fichier en argument
-( ) Car les options peuvent être répétées alors qu'on ne doit donner q'un fichier,
-( ) Car option vient avant file
-
 
 ```{quizdown} 
   ##  Que signifient les trois petits points qui sont après FILE ? 
-```
-( ) Que FILE est optionnel,
-( ) Qu'il y a d'autres options possibles,
-(*) Qu'on peut mettre plusieurs FILE différents.
+  - [ ] Que FILE est optionnel,
+  - [ ] Qu'il y a d'autres options possibles,
+  - [x] Qu'on peut mettre plusieurs FILE différents.

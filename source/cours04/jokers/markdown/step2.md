@@ -23,9 +23,8 @@ Parfois tu as envie de passer "*" en argument à une commande. Pour ce faire, il
 ```
 ```{quizdown} 
   ##  Si on fait echo "b*", quels noms de fichier correspondent ? 
-```
-[*] b*
-[ ] bonjour
-[ ] dromadaire
-[ ] bash
-[ ] arbitre
+  - [x] b*
+  - [ ] bonjour
+  - [ ] dromadaire
+  - [ ] bash
+  - [ ] arbitre

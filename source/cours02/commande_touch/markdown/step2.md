@@ -11,8 +11,7 @@ Essaye !
 
 ```{quizdown} 
   ##  Que se passe-t-il si tu tapes la commande 'touch aya sansa littlefinger' dans ton home ? 
-```
-( ) rien du tout ;
-( ) un message d'erreur s'affiche dans le terminal ;
-(*) trois fichiers vides sont créés ;
-( ) trois dossiers vides sont créés.
+  - [ ] rien du tout ;
+  - [ ] un message d'erreur s'affiche dans le terminal ;
+  - [x] trois fichiers vides sont créés ;
+  - [ ] trois dossiers vides sont créés.

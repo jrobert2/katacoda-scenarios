@@ -24,25 +24,22 @@ Déplace toi dans le dossier `cd /home/sasha/Documents/`{{execute}}.
 
 ```{quizdown} 
   ##  Quels sont les arguments passés à echo si tu tapes echo *.txt ? 
+  - [ ] *.txt
+  - [x] machin.txt, notes.txt et truc.txt
+  - [ ] echo *.txt
+  - [ ] aucun
 ```
-( ) *.txt
-(*) machin.txt, notes.txt et truc.txt
-( ) echo *.txt
-( ) aucun
-
 ```{quizdown} 
   ##  Quels sont les arguments passés à echo si tu tapes echo *t* ? 
+  - [ ] *t*
+  - [x] machin.txt, notes.txt et truc.txt
+  - [ ] echo *t*
+  - [ ] aucun
 ```
-( ) *t*
-(*) machin.txt, notes.txt et truc.txt
-( ) echo *t*
-( ) aucun
-
 ```{quizdown} 
   ##  Quels sont les arguments passés à echo si tu tapes echo *m* ? 
-```
-( ) *m*
-( ) machin.txt, notes.txt et truc.txt
-(*) machin.txt
-( ) echo *m*
-( ) aucun
+  - [ ] *m*
+  - [ ] machin.txt, notes.txt et truc.txt
+  - [x] machin.txt
+  - [ ] echo *m*
+  - [ ] aucun

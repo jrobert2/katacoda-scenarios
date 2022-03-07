@@ -50,16 +50,14 @@ Ouvre la page man de la commande `cp`. Essaie de naviguer dedans et de retrouver
 ```
 ```{quizdown} 
   ##  Quelle option de cp n'existe pas ? 
+  - [ ] -p
+  - [ ] -n
+  - [x] -c
+  - [ ] -v
+  - [ ] --version
 ```
-( ) -p
-( ) -n
-(*) -c
-( ) -v
-( ) --version
-
 ```{quizdown} 
   ##  L'option -u ou --update de cp permet : 
-```
-(*) de ne faire la copie que si le fichier destination n'existe pas ou est plus ancien que le fichier source.
-( ) de faire la copie en accélérant la copie dans le cas d'une mise à jour,
-( ) de supprimer le fichier source.
+  - [x] de ne faire la copie que si le fichier destination n'existe pas ou est plus ancien que le fichier source.
+  - [ ] de faire la copie en accélérant la copie dans le cas d'une mise à jour,
+  - [ ] de supprimer le fichier source.

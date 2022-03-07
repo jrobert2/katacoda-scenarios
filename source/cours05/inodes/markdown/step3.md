@@ -16,12 +16,11 @@ Chaque fichier est identifié par un inode. Les données du fichier sont pointé
 
 ```{quizdown} 
   ##  Les inodes contiennent : 
+  - [x] les métadonnées des fichier
+  - [ ] le nom des fichier
+  - [ ] le nom de la partition où sont stockés les fichiers
+  - [x] des pointeurs vers les données constituant les fichiers
 ```
-[*] les métadonnées des fichier
-[ ] le nom des fichier
-[ ] le nom de la partition où sont stockés les fichiers
-[*] des pointeurs vers les données constituant les fichiers
-
 ```{quizdown} 
   ##  Parmi les méta-données d'un fichier, on trouve : 
   - [x] les permissions de ce fichier,

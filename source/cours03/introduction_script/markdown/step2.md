@@ -30,44 +30,40 @@ Que se passe-t-il si tu utilise un autre interpréteur que celui précisé ? Tu 
 
 ```{quizdown} 
   ##  Que fait l'exécution du script si tu choisis /bin/cat comme interpréteur ? 
+  - [ ] rien
+  - [ ] il afficher Bonjour
+  - [x] il affiche le contenu du script
+  - [ ] il supprime le script
+  - [ ] il affiche hello_world.sh
+  - [ ] il plante en disant que cet interpréteur n'existe pas
 ```
-( ) rien
-( ) il afficher Bonjour
-(*) il affiche le contenu du script
-( ) il supprime le script
-( ) il affiche hello_world.sh
-( ) il plante en disant que cet interpréteur n'existe pas
-
 ```{quizdown} 
   ##  Que fait l'exécution du script si tu choisis /bin/echo comme interpréteur ? 
+  - [ ] rien
+  - [ ] il afficher Bonjour
+  - [ ] il affiche le contenu du script
+  - [ ] il supprime le script
+  - [x] il affiche hello_world.sh
+  - [ ] il plante en disant que cet interpréteur n'existe pas
 ```
-( ) rien
-( ) il afficher Bonjour
-( ) il affiche le contenu du script
-( ) il supprime le script
-(*) il affiche hello_world.sh
-( ) il plante en disant que cet interpréteur n'existe pas
-
 ```{quizdown} 
   ##  Que fait l'exécution du script si tu choisis `/usr/bin/toto` comme interpréteur ? 
+  - [ ] rien
+  - [ ] il afficher Bonjour
+  - [ ] il affiche le contenu du script
+  - [ ] il supprime le script
+  - [ ] il affiche hello_world.sh
+  - [x] il plante en disant que cet interpréteur n'existe pas
 ```
-( ) rien
-( ) il afficher Bonjour
-( ) il affiche le contenu du script
-( ) il supprime le script
-( ) il affiche hello_world.sh
-(*) il plante en disant que cet interpréteur n'existe pas
-
 ```{quizdown} 
   ##  Que fait l'exécution du script si tu choisis `/bin/rm` comme interpréteur ? 
+  - [ ] rien
+  - [ ] il afficher Bonjour
+  - [ ] il affiche le contenu du script
+  - [x] il supprime le script
+  - [ ] il affiche hello_world.sh
+  - [ ] il plante en disant que cet interpréteur n'existe pas
 ```
-( ) rien
-( ) il afficher Bonjour
-( ) il affiche le contenu du script
-(*) il supprime le script
-( ) il affiche hello_world.sh
-( ) il plante en disant que cet interpréteur n'existe pas
-
 
 # Python
 
@@ -84,7 +80,6 @@ Exécutes le !
 
 ```{quizdown} 
   ##  Que se passe-t-il si tu changes l'interpréteur pour /bin/bash ? 
-```
-(*) ça signale qu'il y a une erreur de syntaxe, car la syntaxe de bash n'est pas la même que celle de python.
-( ) ça ne fait rien, car le bash et le python ne sont pas compatibles,
-( ) ça affiche Bonjour, car il y a un peu de magie quand même.
+  - [x] ça signale qu'il y a une erreur de syntaxe, car la syntaxe de bash n'est pas la même que celle de python.
+  - [ ] ça ne fait rien, car le bash et le python ne sont pas compatibles,
+  - [ ] ça affiche Bonjour, car il y a un peu de magie quand même.

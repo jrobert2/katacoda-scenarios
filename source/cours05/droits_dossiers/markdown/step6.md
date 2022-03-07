@@ -2,13 +2,12 @@
 
 ```{quizdown} 
   ##  Le répertoire /opt/ a les droits suivants : drwxr-xr-x  root root . Dans ce répertoire, il y a un fichier truc qui a les droits -rw-rw-rw- root root. Que peut faire l'utilisateur john qui n'appartient pas au groupe root ? 
+  - [x] lister les fichiers du répertoire,
+  - [x] modifier le contenu du fichier truc,
+  - [ ] supprimer le fichier truc,
+  - [ ] renommer le fichier truc?
+  - [ ]  Créer un fichier dans le répertoire /opt.
 ```
-[*] lister les fichiers du répertoire,
-[*] modifier le contenu du fichier truc,
-[ ] supprimer le fichier truc,
-[ ] renommer le fichier truc?
-[ ]  Créer un fichier dans le répertoire /opt.
-
 
 ```{quizdown} 
   ##  Pour que personne à part toi ne puisse lister les fichiers de ton home,  il faut : 
@@ -18,14 +17,13 @@
 ```
 ```{quizdown} 
   ##  Pour que d'autres étudiants de ton groupe puissent lire un fichier README.txt dans ton home il faut : 
-```
-[*] Donner les droits de lecture au groupe à README.txt
+  - [x] Donner les droits de lecture au groupe à README.txt
 [ ] Donner les droits d'exécution au groupe à README.txt,
-[ ] Donner les droits d'écriture au groupe à README.txt
-[*] Donner les droits d'exécution de mon dossier personnel au groupe,
-[ ] Donner les droits de lecture de mon dossier personnel au groupe,
-[ ] Donner les droits d'écriture de mon dossier personnel au groupe,
-
+  - [ ] Donner les droits d'écriture au groupe à README.txt
+  - [x] Donner les droits d'exécution de mon dossier personnel au groupe,
+  - [ ] Donner les droits de lecture de mon dossier personnel au groupe,
+  - [ ] Donner les droits d'écriture de mon dossier personnel au groupe,
+```
 
 ```{quizdown} 
   ##  Cela t'expose-t-il à ce qu'on puisse accéder à tes données ? 

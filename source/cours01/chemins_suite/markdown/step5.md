@@ -19,9 +19,8 @@ Ou encore `cd Documents/./././` qui te mènera au même endroit que `cd Document
 ```
 ```{quizdown} 
   ##  Tu es dans le dossier /etc/, où mène le chemin absolu /../../opt/ ? (indication: le parent de la racine est la racine elle même) 
-```
 === /opt/
-
+```
 ```{quizdown} 
   ##  Tu es dans le dossier /etc/firefox/. Où mène le chemin /etc/../home/../etc/../ ? (veille à ce que ton chemin termine par un /) 
 === /

@@ -27,9 +27,8 @@ On utilisera l'argument `../Dir43/` avec la commance `cd`, ce qui donne `cd ../D
 
 ```{quizdown} 
   ##  Maintenant tu dois être dans le répertoire /home/sasha/Exo1/Dir43. Depuis cet endroit, où mène la commande  cd ../.. ? 
+  - [x] /home/sasha/
+  - [ ] /home/sasha/Dir45
+  - [ ] nulle part
 ```
-(*) /home/sasha/
-( ) /home/sasha/Dir45
-( ) nulle part
-
 
