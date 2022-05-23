@@ -3,7 +3,7 @@ attrs==21.2.0
 Babel==2.9.1
 certifi==2021.10.8
 charset-normalizer==2.0.9
-docutils==0.17.1
+docutils==0.17
 idna==3.3
 imagesize==1.3.0
 Jinja2==3.0.3
@@ -26,6 +26,7 @@ sphinxcontrib-devhelp==1.0.2
 sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
-git+git://github.com/bonartm/sphinxcontrib-quizdown
+git+https://github.com/bonartm/sphinxcontrib-quizdown
 sphinxcontrib-serializinghtml==1.1.5
 urllib3==1.26.7
+
